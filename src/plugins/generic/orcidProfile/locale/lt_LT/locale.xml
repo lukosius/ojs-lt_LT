@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/orcidProfile/locale/lt_LT/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="plugins.generic.orcidProfile.displayName">ORCID profilio įskiepis</message>
+    <message key="plugins.generic.orcidProfile.description">Leidžia importuoti vartotojo profilio informaciją iš ORCID.</message>
+    <message key="plugins.generic.orcidProfile.instructions">Galite iš anksto užpildyti šią formą su informacija iš ORCID profilio.  Įveskite el. pašto adresą arba „ORCID iD“ susietą su ORCID profiliu, tuomet spustelėkite „Pateikti“.</message>
+    <message key="plugins.generic.orcidProfile.noData">Nepavyko surasti jokių duomenų iš ORCID.</message>
+    <message key="plugins.generic.orcidProfile.emailOrOrcid">El. pašto adresas arba „ORCID iD“:</message>
+    <message key="plugins.generic.orcidProfile.submitAction">Pateikti</message>
+    <message key="plugins.generic.orcidProfile.manager.orcidProfileSettings">ORCID profilio nuostatos</message>
+    <message key="plugins.generic.orcidProfile.manager.settings.description">Sukonfigūruokite ORCID API naudojimui ištraukiant ORCID profilio informaciją į vartotojo profilį.</message>
+    <message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath">ORCID API</message>
+    <message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public">Viešasis</message>
+    <message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox">Viešasis „Sandbox“</message>
+    <message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member">Narys</message>
+    <message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox">Nario „Sandbox“</message>
+    <message key="plugins.generic.orcidProfile.manager.settings.orcidClientId">Kliento ID</message>
+    <message key="plugins.generic.orcidProfile.manager.settings.orcidClientSecret">Kliento slaptasis raktas</message>
+    <message key="plugins.generic.orcidProfile.author.submission">Pateikimo ORCID</message>
+    <message key="plugins.generic.orcidProfile.author.submission.success">Pateikimas buvo sėkmingai susietas su jūsų „ORCID iD“.</message>
+    <message key="plugins.generic.orcidProfile.author.submission.failure">Nepavyko susieti pateikimo su jūsų „ORCID iD“. Susisiekite su žurnalo administratoriumi nurodydami savo vardą, ORCID ir pateikimo informaciją.</message>
+    <message key="plugins.generic.orcidProfile.authFailure">OJS nepavyko pasiekti ORCID tarnybos. Susisiekite su žurnalo administratoriumi nurodydami savo vardą, ORCID ir pateikimo informaciją.</message>
+</locale>

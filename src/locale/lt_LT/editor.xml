@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/lt_LT/editor.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="editor.home">Redaktorius</message>
+    <message key="editor.reassign">Priskirti</message>
+    <message key="editor.submissionsAndPublishing">Pateikimai ir leidyba</message>
+    <message key="editor.submissionQueue">Pateikimų eilė</message>
+    <message key="editor.submissionArchive">Pateikimų archyvas</message>
+    <message key="editor.publishing">Leidyba</message>
+    <message key="editor.publishedIssues">Išleisti numeriai</message>
+    <message key="editor.allSections">Visos skiltys</message>
+    <message key="editor.allEditors">Visi redaktoriai</message>
+    <message key="editor.me">Aš</message>
+    <message key="editor.publicIdentificationExists">Viešasis identifikatorius '{$publicIdentifier}' egzistuoja kitam objektui (numeriui, straipsniui, maketui ar failui). Pasirinkite tik unikalius identifikatorius žurnale.</message>
+    <message key="editor.submissionArchive.noSubmissions">Archyve pateikimų nėra.</message>
+    <message key="editor.submissionArchive.saveChanges">Įrašyti pakeitimus archyvuotiems pateikimams? Pateikimai pažymėti šalinimui bus visam laikui pašalinti iš sistemos.</message>
+    <message key="editor.submissionArchive.confirmDelete">Ar tikrai norite visam laikui pašalinti šį pateikimą?</message>
+    <message key="editor.submissionReview.confirmDecision">Ar tikrai norite įrašyti šį sprendimą?</message>
+    <message key="editor.submissionReview.emailWillArchive">Šis pateikimas bus suarchyvuotas po to kai informuosite autorių el. paštu arba spustelėsite mygtuką „Praleisti el. laišką“.</message>
+    <message key="editor.submissionReview.cannotSendToCopyediting">Prieš siųsdami pateikimą į rankraščio redagavimą, naudokite nuorodą „Informuoti autorių“, kad praneštumėte sprendimą ir pasirinktumėte versiją, kuri bus išsiųsta.</message>
+    <message key="editor.submissionReview.sendToCopyediting">Siųsti rankraščio redagavimui</message>
+    <message key="editor.notifyUsers">Informuoti vartotojus</message>
+    <message key="editor.notifyUsers.allUsers">Siųsti šią žinutę visiems vartotojams susijusiems su šiuo žurnalu (vartotojų: {$count})</message>
+    <message key="editor.notifyUsers.allReaders">Skaitytojai (vartotojų: {$count})</message>
+    <message key="editor.notifyUsers.allAuthors">Autoriai (vartotojų: {$count})</message>
+    <message key="editor.notifyUsers.allIndividualSubscribers">Individualūs prenumeratoriai (vartotojų: {$count})</message>
+    <message key="editor.notifyUsers.allInstitutionalSubscribers">Institucijos prenumeratoriai (vartotojų: {$count})</message>
+    <message key="editor.notifyUsers.inProgress">Informuojami vartotojai...</message>
+    <message key="editor.usersNotified">Vartotojai informuoti</message>
+    <message key="editor.notifyUsers.interestedUsers">Siųsti šią žinutę vartotojams susijusiems su šiuo žurnalu, kurie nurodė, kad nori gauti atnaujinimus (vartotojų: {$count})</message>
+    <message key="editor.notifyUsers.includeToc">Įtraukti šio numerio turinį:</message>
+    <message key="editor.editorAdministration">Redaktoriaus administravimas</message>
+    <message key="editor.issues.createIssue">Kurti numerį</message>
+    <message key="editor.issues.editIssue">Numerio tvarkymas: {$issueIdentification}</message>
+    <message key="editor.issues.currentIssue">Naujausias numeris</message>
+    <message key="editor.issues.numArticles">Straipsnių sk.</message>
+    <message key="editor.issues.noArticles">Nėra suplanuotų straipsnių šiam numeriui.</message>
+    <message key="editor.issues.confirmDelete">Ar tikrai norite pašalinti šį numerį?</message>
+    <message key="editor.issues.published">Išleistas</message>
+    <message key="editor.issues.unpublished">Neišleistas</message>
+    <message key="editor.issues.datePublished">Išleidimo data</message>
+    <message key="editor.issues.volumeRequired">Tomas yra privalomas ir turi būti teigiama, skaitinė reikšmė.</message>
+    <message key="editor.issues.numberRequired">Numeris yra privalomas ir tūri būti teigiama, skaitinė reikšmė.</message>
+    <message key="editor.issues.yearRequired">Metai yra privalomi ir turi būti teigiama, skaitinė reikšmė.</message>
+    <message key="editor.issues.titleRequired">Numerio pavadinimas yra privalomas.</message>
+    <message key="editor.issues.issueIdentificationRequired">Numerio identifikavimas yra privalomas. Pasirinkite bent vieną iš numerio identifikavimo parinkčių.</message>
+    <message key="editor.issues.issueIdentification">Numerio identifikavimas</message>
+    <message key="editor.issues.publicIssueIdentifier">Viešasis numerio identifikatorius</message>
+    <message key="editor.issues.description">Aprašymas</message>
+    <message key="editor.issues.accessStatus">Prieigos būsena</message>
+    <message key="editor.issues.accessDate">Atvirosios prieigos data</message>
+    <message key="editor.issues.enableOpenAccessDate">Įgalinti uždelstą atvirąją prieigą</message>
+    <message key="editor.issues.coverPage">Viršelio paveikslėlis</message>
+    <message key="editor.issues.coverPageInstructions">(Leistini formatai: .gif, .jpg arba .png )</message>
+    <message key="editor.issues.uploaded">Nusiųstas</message>
+    <message key="editor.issues.remove">Pašalinti</message>
+    <message key="editor.issues.proofed">Koreguotas</message>
+    <message key="editor.issues.removeCoverPage">Šalinti viršelio puslapio paveiksliuką?</message>
+    <message key="editor.issues.removeCoverImageFileNameMismatch">Nepavyko pašalinti paveiksliuko, nes neatitiko viršelio paveiksliuko šiam numeriui. Įkelkite puslapį iš naujo ir mėginkite dar kartą.</message>
+    <message key="editor.issues.removeCoverImageFileNotFound">Nepavyko pašalinti viršelio paveiksliuko, nes jis nerastas. Gali būti, kad jis jau yra pašalintas. Pamėginkite įkelti puslapį iš naujo.</message>
+    <message key="editor.issues.invalidCoverImageFormat">Netinkamas viršelio paveiksliuko formatas. Leistini formatai yra .gif, .jpg arba .png.</message>
+    <message key="editor.issues.styleFile">Pakopinis stilius</message>
+    <message key="editor.issues.invalidStyleFormat">Netinkamas pakopinio stiliaus formatas. Įsitikinkite, kad pateiktas failas yra tinkamas CSS. (Atkreipkite dėmesį į tai, kad pakopiniai stiliai, kurių pradžioje yra komentarų gali būti atmesti.)</message>
+    <message key="editor.issues.removeStyleFile">Šalinti pakopinį stilių?</message>
+    <message key="editor.issues.coverPageCaption">Viršelio antraštė</message>
+    <message key="editor.issues.showCoverPage">Sukurti viršelį šiam numeriui su šiais elementais.</message>
+    <message key="editor.issues.coverPageDisplay">Rodyti</message>
+    <message key="editor.issues.openAccess">Atvira prieiga</message>
+    <message key="editor.issues.subscription">Prenumerata</message>
+    <message key="editor.issues.identification">Identifikavimas</message>
+    <message key="editor.issues.access">Prieiga</message>
+    <message key="editor.issues.cover">Viršelis</message>
+    <message key="editor.issues.confirmIssueDelete">Visi straipsniai bus grąžinti į redagavimo eilę ir visi susieti failai bus visam laikui pašalinti. Ar tikrai norite pašalinti šį numerį?</message>
+    <message key="editor.issues.resetIssueOrder"><![CDATA[Šis žurnalas naudoja nuosavą numerių rikiavimą. <a href="{$url}" class="action">Atkurti numatytuosius</a>]]></message>
+    <message key="editor.issues.resetSectionOrder"><![CDATA[Šis numeris naudoja nuosavą skilčių rikiavimą. <a href="{$url}" class="action">Atkurti numatytuosius</a>]]></message>
+    <message key="editor.issues.issueData">Numerio duomenys</message>
+    <message key="editor.issues.saveChanges">Įrašyti turinio pakeitimus?</message>
+    <message key="editor.issues.default">Numatytasis</message>
+    <message key="editor.issues.order">Tvarka</message>
+    <message key="editor.issues.publicId">Viešas Id</message>
+    <message key="editor.issues.publishIssue">Išleisti numerį</message>
+    <message key="editor.issues.unpublishIssue">Neišleisti numerio</message>
+    <message key="editor.issues.previewIssue">Peržiūrėti numerį</message>
+    <message key="editor.issues.preview">Peržiūra</message>
+    <message key="editor.issues.confirmPublish">Ar tikrai norite išleisti naują numerį?</message>
+    <message key="editor.issues.confirmUnpublish">Ar tikrai nebenorite leisti šio numerio?</message>
+    <message key="editor.issues.publicArticleIdExists">Nepavyko įrašyti viešojo id straipsniui:</message>
+    <message key="editor.issues.noLiveIssues">Nėra numerių</message>
+    <message key="editor.issues.open">Atverti</message>
+    <message key="editor.issues.pages">Puslapiai</message>
+    <message key="editor.issues.galleys">Numerio maketai</message>
+    <message key="editor.issues.galley">Numerio maketas</message>
+    <message key="editor.issues.viewingGalley">Peržiūrimas numerio maketas</message>
+    <message key="editor.issues.issueGalleysDescription">Išleisti maketus su visu numerio turiniu.</message>
+    <message key="editor.issues.noneIssueGalleys">Nėra išleistų maketų.</message>
+    <message key="editor.issues.galleyLabelRequired">Numerio maketo etiketė yra privaloma.</message>
+    <message key="editor.issues.galleyLocaleRequired">Numerio maketo lokalė yra privaloma.</message>
+    <message key="editor.issues.galleyPublicIdentificationExists">Viešasis numerio maketo identifikatorius jau egzistuoja.</message>
+    <message key="editor.issues.backToIssueGalleys">Grįžti į numerio maketus</message>
+    <message key="editor.issues.confirmDeleteGalley">Ar tikrai norite pašalinti šį numerio maketą?</message>
+    <message key="editor.issues.identifiers">Identifikatoriai</message>
+    <message key="editor.navigation.futureIssues">Būsimi numeriai</message>
+    <message key="grid.action.addGalley">Įtraukti maketą</message>
+    <message key="grid.action.publish">Išleisti numerį</message>
+    <message key="grid.action.addIssue">Kurti numerį</message>
+    <message key="grid.action.viewIssue">Peržiūrėti</message>
+    <message key="grid.action.previewIssue">Peržiūra</message>
+    <message key="grid.action.addIssueGalley">Kurti numerio maketą</message>
+    <message key="editor.navigation.issueArchive">Išleisti numeriai</message>
+    <message key="editor.article.designateReviewVersion">Paskirti originalų failą kaip recenzavimo versiją</message>
+    <message key="editor.article.uploadReviewVersion">Nusiųsti pataisytą recenzijos versiją</message>
+    <message key="editor.article.showSuppFile">Pateikti failą recenzentams</message>
+    <message key="editor.article.layoutAndProof"><![CDATA[Maketavimas & Korektūra]]></message>
+    <message key="editor.article.clear">Išvalyti</message>
+    <message key="editor.article.clearReviewer">Išbraukti recenzentą</message>
+    <message key="editor.article.changeSection">Pakeisti skiltį</message>
+    <message key="editor.article.setDueDate">Nustatyti terminą</message>
+    <message key="editor.article.addReviewer">Įtraukti recenzentą</message>
+    <message key="editor.article.toReviewer">Recenzentui</message>
+    <message key="editor.article.notifyReviewer">Informuoti recenzentą</message>
+    <message key="editor.article.initiateReview">Pradėti recenzavimą</message>
+    <message key="editor.article.cancelReview">Atšaukti užklausą</message>
+    <message key="editor.article.clearReview">Išbraukti recenzentą</message>
+    <message key="editor.article.enterRecommendation">Įveskite rekomendaciją</message>
+    <message key="editor.article.enterReviewerRecommendation">Įveskite recenzento rekomendaciją</message>
+    <message key="editor.article.recommendation">Rekomendacija</message>
+    <message key="editor.article.selectReviewer">Pasirinkite recenzentą</message>
+    <message key="editor.article.replaceReviewer">Pakeisti recenzentą</message>
+    <message key="editor.article.editorToEnter">Redaktorius, kuris įves rekomendaciją/komentarus recenzentui</message>
+    <message key="editor.article.uploadReviewForReviewer">Nusiųsti recenziją</message>
+    <message key="editor.article.peerReviewOptions">Tarpusavio vertinimo parinktys</message>
+    <message key="editor.article.decision">Sprendimas</message>
+    <message key="editor.article.noEditorSelected">Nepasirinktas redaktorius.</message>
+    <message key="editor.article.recordDecision">Įrašyti sprendimą</message>
+    <message key="editor.article.cannotRecord">Skilties redaktorius dar neįrašė arba dar nėra recenzijos failo.</message>
+    <message key="editor.article.reviewersSeeAuthorsVersion">Recenzentai, kurie mato autoriaus versiją</message>
+    <message key="editor.article.designateDueDate">Nustatyti terminą</message>
+    <message key="editor.article.designateDueDateDescription">Įveskite datą arba savaičių skaičių naujam numeriui.</message>
+    <message key="editor.article.todaysDate">Šiandienos data</message>
+    <message key="editor.article.requestedByDate">Prašyta iki</message>
+    <message key="editor.article.dueDateFormat">Formatas: YYYY-MM-DD</message>
+    <message key="editor.article.numberOfWeeks">Savaičių skaičius</message>
+    <message key="editor.article.selectCopyeditor">Paskirti rankraščio redaktorių</message>
+    <message key="editor.article.replaceCopyeditor">Pakeisti rankraščio redaktorių</message>
+    <message key="editor.article.editorsCopyedit">Redaktoriaus rankraščio versija</message>
+    <message key="editor.article.showAuthor">Rodyti versiją autoriui</message>
+    <message key="editor.article.showCopyeditor">Rodyti versiją rankraščio redaktoriui</message>
+    <message key="editor.article.rateReviewer">Recenzento įvertinimas</message>
+    <message key="editor.article.reviewerRating.veryGood">5 Aukštas</message>
+    <message key="editor.article.reviewerRating.good">4</message>
+    <message key="editor.article.reviewerRating.average">3</message>
+    <message key="editor.article.reviewerRating.poor">2</message>
+    <message key="editor.article.reviewerRating.veryPoor">1 Žemas</message>
+    <message key="editor.article.comments">Komentarai</message>
+    <message key="editor.article.commentsRequired">Privaloma įvesti komentarus.</message>
+    <message key="editor.article.saveRating">Įrašyti įvertinimą</message>
+    <message key="editor.article.noneSelected">Nieko nepasirinkta</message>
+    <message key="editor.article.authorProofing">Autoriaus korektūra</message>
+    <message key="editor.article.archiveSubmission">Atmesti ir archyvuoti pateikimą</message>
+    <message key="editor.article.restoreToQueue">Atkurti į aktyvių sąrašą</message>
+    <message key="editor.article.assignSectionEditor">Įtraukti skilties redaktorių</message>
+    <message key="editor.article.assignEditor">Įtraukti redaktorių</message>
+    <message key="editor.article.selectEditor">Pasirinkti {$roleName}</message>
+    <message key="editor.article.selectDecision">Pasirinkti sprendimą</message>
+    <message key="editor.article.decision.accept">Priimti pateikimą</message>
+    <message key="editor.article.decision.pendingRevisions">Reikalingi pataisymai</message>
+    <message key="editor.article.decision.resubmit">Pateikti recenzavimui iš naujo</message>
+    <message key="editor.article.decision.decline">Atmesti pateikimą</message>
+    <message key="editor.article.selectLayoutEditor">Pasirinkti maketuotoją</message>
+    <message key="editor.article.replaceLayoutEditor">Pakeisti maketuotoją</message>
+    <message key="editor.article.reviewSubmission">Recenzuoti pateikimą</message>
+    <message key="editor.article.resubmitForReview">Pateikti failą recenzavimui iš naujo</message>
+    <message key="editor.article.resubmitFileForPeerReview">Pateikti pasirinktą failą iš naujo tarpusavio recenzavimui</message>
+    <message key="editor.article.sendToCopyedit">Siųsti failą į rankraščio redagavimą</message>
+    <message key="editor.article.selectProofreader">Priskirti korektorių</message>
+    <message key="editor.article.replaceProofreader">Pakeisti korektorių</message>
+    <message key="editor.article.authorComments">Autoriai komentarai</message>
+    <message key="editor.article.proofreaderComments">Korektoriaus komentarai</message>
+    <message key="editor.article.layoutEditorFinal">Galutinė maketuotojo versija</message>
+    <message key="editor.article.noDate">(data)</message>
+    <message key="editor.submissions.showBy">Rodyti pagal</message>
+    <message key="editor.submissions.submitMMDD">Pateikti MM-DD</message>
+    <message key="editor.submissions.activeAssignments">Aktyvios užduotys</message>
+    <message key="editor.submissions.invite">Pakviesti</message>
+    <message key="editor.submissions.accept">Priimti</message>
+    <message key="editor.submissions.noSubmissions">Pateikimų nėra</message>
+    <message key="editor.submissions.lastAssigned">Paskutinis priskirtas</message>
+    <message key="editor.submissions.averageTime">Savaitės</message>
+    <message key="editor.submissions.lastCompleted">Paskutinis baigtas</message>
+    <message key="editor.submissions.assignedTo">Priskirtas</message>
+    <message key="editor.submissions.inSection">Skiltyje</message>
+    <message key="editor.article.schedulePublication">Planuoti publikavimui</message>
+    <message key="editor.article.scheduleForPublication">Planuoti publikavimui</message>
+    <message key="editor.article.scheduleForPublication.toBeAssigned">Dar nepaskirta</message>
+    <message key="editor.article.payment.publicationFeeNotPaid">Išleidimo mokestis nesumokėtas. Norėdami suplanuoti elementą išleidimui, informuokite autorių, kad sumokėtų mokestį arba atleiskite nuo jo.</message>
+    <message key="editor.article.display">Rodyti</message>
+    <message key="editor.article.hideTocAuthorDescription">Nerodyti autorių numerio turinyje</message>
+    <message key="editor.article.hideTocAuthorDefault">Numatytasis</message>
+    <message key="editor.article.hideTocAuthorHide">Nerodyti</message>
+    <message key="editor.article.hideTocAuthorShow">Rodyti</message>
+    <message key="editor.article.cover">Viršelis</message>
+    <message key="editor.article.coverImage">Viršelio paveiksliukas</message>
+    <message key="editor.article.removeCoverImageFileNotFound">Nepavyko pašalinti viršelio paveiksliuko, nes jis nerastas. Gali būti, kad jis jau yra pašalintas. Pamėginkite įkelti puslapį iš naujo.</message>
+    <message key="editor.article.uploaded">Nusiųstas</message>
+    <message key="editor.article.removeCoverPage">Šalinti viršelio paveiksliuką?</message>
+    <message key="grid.action.removeArticle">Šalinti straipsnį iš numerio</message>
+    <message key="editor.article.remove">Šalinti</message>
+    <message key="editor.article.remove.confirm">Ar tikrai norite pašalinti straipsnį iš numerio? Straipsnis bus prieinamas išleidimui kitam numeriui.</message>
+    <message key="editor.issues.invalidAccessDate">Preigos data yra negaliojanti.</message>
+    <message key="editor.issues.editIssueGalley">Redaguoti numerio maketą</message>
+    <message key="editor.submission.production.productionReadyFilesDescription"><![CDATA[Maketuotojas paruošia šiuos failus kiekvienam maketui ir nusiunčia į atitinkamas <span class="pkp_help_title">korekcijas</span>.]]></message>
+    <message key="editor.submission.selectGalleyFiles">Pasirinkite maketo failus</message>
+    <message key="editor.submission.editorial.finalDraftDescription"><![CDATA[Rankraščio redaktorius paverčia galutinius juodraščių failus šiame sąraše į versijas redagavimui, nusiųstas žemiau po <span class="pkp_help_title">rankraščio redagavimu</span>.]]></message>
+    <message key="editor.submission.proof.manageProofFilesDescription">Visi failai, kurie jau buvo nusiųsti į bet kurį pateikimo etapą, gali būti įtraukti į korektūros sąrašą žemiau pažymėjus žymimąjį langelį ir spustelėjus „Ieškoti“: bus parodyti visi prieinami failai ir galimi pasirinkti įtraukimui.</message>
+</locale>

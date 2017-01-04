@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/staticPages/locale/lt_LT/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="plugins.generic.staticPages.displayName">Statinių puslapių įskiepis</message>
+    <message key="plugins.generic.staticPages.description">Įskiepis leidžia statinio turinio tvarkymą.</message>
+    <message key="plugins.generic.staticPages.staticPages">Statiniai puslapiai</message>
+    <message key="plugins.generic.staticPages.pageTitle">Pavadinimas</message>
+    <message key="plugins.generic.staticPages.content">Turinys</message>
+    <message key="plugins.generic.staticPages.path">Kelias</message>
+    <message key="plugins.generic.staticPages.requirement.tinymce"><![CDATA[<p><strong>TinyMCE įskiepis privalo būti įdiegtas ir įgalintas, kad kurtumėte/redaguotumėte turinį.</strong></p>]]></message>
+    <message key="plugins.generic.staticPages.editAddContent">Redaguoti/pridėti turinį</message>
+    <message key="plugins.generic.staticPages.addStaticPage">Kurti statinį puslapį</message>
+    <message key="plugins.generic.staticPages.addNewPage">Kurti naują puslapį</message>
+    <message key="plugins.generic.staticPages.editStaticPage">Redaguoti statinį puslapį</message>
+    <message key="plugins.generic.staticPages.noneCreated">Nėra sukurtų statinių puslapių.</message>
+    <message key="plugins.generic.staticPages.settingInstructions">Žemiau pateikta forma rodo visus jūsų sukurtus statinius puslapius.  Galite redaguoti ar šalinti puslapius naudodami nuorodas dešinėje.</message>
+    <message key="plugins.generic.staticPages.editInstructions">Naudokite formą esančią žemiau, kad kurtumėte/redaguotumėte puslapio turinį.</message>
+    <message key="plugins.generic.staticPages.pathRegEx">Kelias privalo būti sudarytas tik iš tekstinių simbolių ir '.', '/', '-', ir '_'.</message>
+    <message key="plugins.generic.staticPages.viewInstructions"><![CDATA[<p>Šis puslapis bus pasiekiamas adresu: <blockquote>{$pagesPath}</blockquote>...kur %PATH% yra aukščiau įvestas kelias. <strong>Pastaba:</strong> du puslapiai negali turėti tokio pačio kelio. Naudojant sisteminius kelius prarasite svarbias funkcijas.</p>]]></message>
+    <message key="plugins.generic.staticPages.duplicatePath">Toks kelias jau egzistuoja kitam statiniui puslapiui.</message>
+    <message key="plugins.generic.staticPages.pageSaved">Puslapis sėkmingai išsaugotas.</message>
+    <message key="plugins.generic.staticPages.pageDeleted">Puslapis sėkmingai pašalintas.</message>
+    <message key="plugins.generic.staticPages.noneExist">Nėra sukurtų puslapių</message>
+</locale>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * lib/pkp/locale/lt_LT/installer.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="installer.additionalLocales">Papildomos lokalės</message>
+    <message key="installer.administratorAccount">Administratoriaus paskyra</message>
+    <message key="installer.administratorAccountInstructions">Ši paskyra taps svetainės administratoriumi ir turės visas teises prie sistemos. Papildomos vartotojų paskyros gali būti sukurtos po diegimo.</message>
+    <message key="installer.checkNo"><![CDATA[<span class="pkp_form_error formError">NE</span>]]></message>
+    <message key="installer.checkYes">Taip</message>
+    <message key="installer.clientCharset">Kliento ženklų rinkinys</message>
+    <message key="installer.clientCharsetInstructions">Koduotė naudojama duomenų siuntimui ir gavimui iš naršyklių.</message>
+    <message key="installer.configFileError"><![CDATA[Konfigūracijos failas <tt>config.inc.php</tt> neegzistuoja arba nėra perskaitomas.]]></message>
+    <message key="installer.connectionCharset">Ryšio ženklų rinkinys</message>
+    <message key="installer.contentsOfConfigFile">Konfigūracijos failo turinys</message>
+    <message key="installer.createDatabase">Kurti naują duomenų bazę</message>
+    <message key="installer.createDatabaseInstructions">Norėdami naudoti šią parinktį, Jūsų duomenų bazės sistema privalo palaikyti nuotolinės duomenų bazės kūrimą, o vartotojo paskyra privalo turėti atitinkamas teises, kad sukurtų naujų duomenų bazių. Jei diegimas nepavyko su šia parinktimi, rankiniu būdu sukurkite duomenų bazę ir paleiskite šią diegimo programą iš naujo tik nenaudodami šio pasirinkimo.</message>
+    <message key="installer.databaseCharset">Duomenų bazės ženklų rinkinys</message>
+    <message key="installer.databaseDriver">Duomenų bazės tvarkyklė</message>
+    <message key="installer.databaseDriverInstructions"><![CDATA[<strong>Skliaustuose išvardytos duomenų bazės tvarkyklės neturi reikalingo PHP plėtinio ir diegimas greičiausiai nepavyks.</strong><br />Aukščiau išvardytos duomenų bazės tvarkyklės yra tik dėl akademinių tikslų ir greičiausiai neveiks.]]></message>
+    <message key="installer.databaseHost">Serveris</message>
+    <message key="installer.databaseHostInstructions">Palikite serverio lauką tuščią norėdami prisijungti naudodami programines jungtis (angl. sockets) vietoj TCP/IP. Tai nėra privaloma su MySQL, kuri automatiškai naudoja programines jungtis jei įvestas „localhost“, bet yra privalomas kitoms duomenų bazėms kaip PostgreSQL.</message>
+    <message key="installer.databaseName">Duomenų bazės pavadinimas</message>
+    <message key="installer.databasePassword">Slaptažodis</message>
+    <message key="installer.databaseSettings">Duomenų bazės nuostatos</message>
+    <message key="installer.databaseUsername">Vartotojo vardas</message>
+    <message key="installer.filesDir">Katalogas nusiuntimams</message>
+    <message key="installer.fileSettings">Failų nuostatos</message>
+    <message key="installer.form.clientCharsetRequired">Kliento ženklų rinkinys privalo būti pasirinktas.</message>
+    <message key="installer.form.databaseDriverRequired">Duomenų bazės tvarkyklė privalo būti pasirinkta.</message>
+    <message key="installer.form.databaseNameRequired">Duomenų bazės pavadinimas yra privalomas.</message>
+    <message key="installer.form.emailRequired">Tinkamas administratoriaus el. pašto adresas yra privalomas.</message>
+    <message key="installer.form.filesDirRequired">Failų nusiuntimų katalogas yra privalomas.</message>
+    <message key="installer.form.localeRequired">Lokalė privalo būti pasirinkta.</message>
+    <message key="installer.form.passwordRequired">Administratoriaus paskyros slaptažodis yra privalomas.</message>
+    <message key="installer.form.passwordsDoNotMatch">Nesutampa administratoriaus slaptažodžiai.</message>
+    <message key="installer.form.separateMultiple">Atskirti kelias reikšmes kableliais</message>
+    <message key="installer.form.usernameAlphaNumeric">Administratoriaus vartotojo vardas gali turėti tik tekstinius simbolius, pabraukimo brūkšnį, brūkšnelį, ir privalo prasidėti ir baigtis tekstiniu simboliu.</message>
+    <message key="installer.form.usernameRequired">Administratoriaus paskyros vartotojo vardas yra privalomas.</message>
+    <message key="installer.installationWrongPhp"><![CDATA[<br/><strong>ĮSPĖJIMAS: Dabartinė PHP versija neatitinka minimalių diegimo reikalavimų. Rekomenduojama atnaujinti PHP versiją į naujesnę.</strong>]]></message>
+    <message key="installer.installErrorsOccurred">Diegimo metu įvyko klaidų</message>
+    <message key="installer.installerSQLStatements">Diegimo SQL sakiniai</message>
+    <message key="installer.installFileError"><![CDATA[Diegimo failas <tt>dbscripts/xml/install.xml</tt> neegzistuoja arba nėra perskaitomas.]]></message>
+    <message key="installer.installFilesDirError">Nurodytas nusiuntimų katalogas neegzistuoja arba nėra įrašomas.</message>
+    <message key="installer.installParseDBFileError"><![CDATA[Įvyko klaida analizuojant duomenų bazės diegimo failą <tt>{$file}</tt>.]]></message>
+    <message key="installer.installParseEmailTemplatesFileError"><![CDATA[Įvyko klaida analizuojant el. laiškų šablonų failą <tt>{$file}</tt>.]]></message>
+    <message key="installer.installParseFilterConfigFileError"><![CDATA[Įvyko klaida analizuojant filtrų konfigūracijos failą <tt>{$file}</tt>.]]></message>
+    <message key="installer.unsupportedUpgradeError">Atnaujinimas nepalaikomas. Žiūrėti „docs/UPGRADE-UNSUPPORTED“ dėl išsamesnės informacijos.</message>
+    <message key="installer.locale">Lokalė</message>
+    <message key="installer.locale.maybeIncomplete">Pažymėtos lokalės gali būti neužbaigtos.</message>
+    <message key="installer.localeSettings">Lokalės nuostatos</message>
+    <message key="installer.oaiSettings">OAI nuostatos</message>
+    <message key="installer.oaiRepositoryIdInstructions"><![CDATA[Unikalus identifikatorius naudojamas atpažinti metaduomenų įrašus indeksuojamus su <a href="http://www.openarchives.org/" target="_blank">Open Archives Initiative</a> protokolu metaduomenų surinkimui.]]></message>
+    <message key="installer.oaiRepositoryId">Saugyklos identifikatorius</message>
+    <message key="installer.publicFilesDirError">Viešųjų failų katalogas neegzistuoja arba nėra įrašomas.</message>
+    <message key="installer.releaseNotes">Laidos informacija</message>
+    <message key="installer.preInstallationInstructionsTitle">Išankstiniai diegimo žingsniai</message>
+    <message key="installer.preInstallationInstructions"><![CDATA[
+		<p>1. Šie failai ir katalogai (ir jų turinys) privalo būti įrašytini:</p>
+		<ul>
+			<li><tt>config.inc.php</tt> yra įrašytinas (nebūtinas): {$writable_config}</li>
+			<li><tt>public/</tt> yra įrašytinas: {$writable_public}</li>
+			<li><tt>cache/</tt> yra įrašytinas: {$writable_cache}</li>
+			<li><tt>cache/t_cache/</tt> yra įrašytinas: {$writable_templates_cache}</li>
+			<li><tt>cache/t_compile/</tt> yra įrašytinas: {$writable_templates_compile}</li>
+			<li><tt>cache/_db</tt> yra įrašytinas: {$writable_db_cache}</li>
+		</ul>
+
+		<p>2. Nusiųstų failų katalogas privalo būti sukurtas ir būti įrašytinas (žr. „Failų nuostatos“).</p>
+	]]></message>
+    <message key="installer.configureXSLMessage"><![CDATA[<p>PHP diegimas neturi įgalinto XSL modulio. Įgalinkite jį arba sukonfigūruokite „xslt_command“ parametrą <tt>config.inc.php</tt> faile.</p>]]></message>
+    <message key="installer.beacon">Beacon</message>
+    <message key="installer.beacon.enable">Nurodykite unikalų svetainės ID ir OAI bazinį adresą į PKP statistikos ir saugumo įspėjimo tikslais.</message>
+</locale>

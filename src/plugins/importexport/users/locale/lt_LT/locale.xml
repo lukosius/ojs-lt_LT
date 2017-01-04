@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/importexport/users/locale/lt_LT/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="plugins.importexport.users.displayName">Vartotojų XML įskiepis</message>
+    <message key="plugins.importexport.users.description">Vartotojų importavimas ir eksportavimas</message>
+    <message key="plugins.importexport.users.cliUsage">Naudojimas: {$scriptName} {$pluginName} [command] ...
+Komandos:
+    import [xmlFileName] [press_path] [optional flags]
+    export [xmlFileName] [press_path]
+    export [xmlFileName] [press_path] [role_path1] [role_path2] ...
+
+Papildomos vėliavėlės:
+    continue_on_error: nurodžius nesustabdo vartotojų importavimo įvykus klaidai
+
+    send_notify: nurodžius, išsiunčia pranešimų el. laiškus su importuojamų
+        vartotojų vardais ir slaptažodžiais
+
+Pavyzdžiai:
+    Importuoja vartotojus į myPress iš myImportFile.xml, tęsiant įvykus klaidai:
+    {$scriptName} {$pluginName} import myImportFile.xml myPress continue_on_error
+
+    Eksportuoja visus vartotojus iš myPress:
+    {$scriptName} {$pluginName} export myExportFile.xml myPress
+
+    Eksportuoja visus registruotus recenzentus, kartu tik su jų vaidmeniu:
+    {$scriptName} {$pluginName} export myExportFile.xml myPress reviewer
+</message>
+    <message key="plugins.importexport.users.import.importUsers">Importuoti vartotojus</message>
+    <message key="plugins.importexport.users.import.instructions"><![CDATA[Pasirinkite XML duomenų failą turintį visą vartotojų informaciją, kurią importuosite į žurnalą. Peržiūrėkite žinyną dėl išsamesnės informacijos apie šio failo formatą.<br /><br />Atkreipkite dėmesį į tai, kad jei importuotinas failas turi vartotojų ar el. pašto adresų, kurie jau yra sistemoje, tų vartotojų duomenys nebus importuoti, o nauji vaidmenys pas paskirti esamiems vartotojams.]]></message>
+    <message key="plugins.importexport.users.import.dataFile">Vartotojų duomenų failas</message>
+    <message key="plugins.importexport.users.import.sendNotify">Išsiųsti pranešimą kiekvienam importuotam vartotojui su jų paskyros duomenimis.</message>
+    <message key="plugins.importexport.users.import.continueOnError">Tęsti importavimą įvykus klaidas.</message>
+    <message key="plugins.importexport.users.import.usersWereImported">Šie vartotojai buvo sėkmingai importuoti į sistemą</message>
+    <message key="plugins.importexport.users.import.errorsOccurred">Įvyko klaidos importavimo metu</message>
+    <message key="plugins.importexport.users.import.confirmUsers">Patvirtinkite, kad norite importuoti šiuos vartotojus į sistemą</message>
+    <message key="plugins.importexport.users.import.warning">Įspėjimas</message>
+    <message key="plugins.importexport.users.import.encryptionMismatch">Nepavyko panaudoti slaptažodžių su maiša {$importHash}; OJS yra sukonfigūruota naudoti {$ojsHash}. Jei tęsite, reikės atkurti importuotų vartotojų slaptažodžius iš naujo.</message>
+    <message key="plugins.importexport.users.unknownPress">Buvo nurodytas nežinomas žurnalo kelias „{$journalPath}“.</message>
+    <message key="plugins.importexport.users.export.exportUsers">Eksportuoti vartotojus</message>
+    <message key="plugins.importexport.users.export.exportByRole">Eksportuoti pagal vaidmenį</message>
+    <message key="plugins.importexport.users.export.exportAllUsers">Eksportuoti visus</message>
+    <message key="plugins.importexport.users.export.errorsOccurred">Įvyko klaidos eksportavimo metu</message>
+    <message key="plugins.importexport.users.export.couldNotWriteFile">Nepavyko įrašyti į failą „{$fileName}“.</message>
+    <message key="plugins.importexport.users.importComplete">Importavimas įvyko sėkmingai. Vartotojai, kurių vartotojų vardai ar el. paštų adresai nenaudojami, importuoti kartu su jų grupėmis.</message>
+    <message key="plugins.importexport.users.results">Rezultatai</message>
+    <message key="plugins.importexport.users.uploadFile">Nusiųskite failą skirtuke „Importuoti vartotojus“ norėdami tęsti.</message>
+</locale>

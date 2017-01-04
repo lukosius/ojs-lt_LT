@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/translator/locale/lt_LT/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="plugins.generic.translator.name">Vertyklės įskiepis</message>
+    <message key="plugins.generic.translator.description">Įskiepis leidžia prižiūrėti vertimo failus WEB aplinkoje.</message>
+    <message key="plugins.generic.translator.longdescription">Šis plotas leidžia svetainės administratoriui kurti, modifikuoti ir tikrinti vertimus. Tai yra visai svetainei skirtas ir neturėtų būti naudojamas derinti vienam žurnalui. Jei esate tikri ar kuriate vertimą, apsvarstykite pateikti jį į „Public Knowledge Project“ platinimui su būsimomis laidomis.</message>
+    <message key="plugins.generic.translator.localeDescription">Šis puslapis išvardija programinės įrangos komponentų vertimą ir leidžia vertyklei kiekvieną modifikuoti. Pilnas vertimas privalo įtraukti visus šiuos komponentus.</message>
+    <message key="plugins.generic.translator.localeFileContents">Rasti failo turinius</message>
+    <message key="plugins.generic.translator.localeName">Lokalės pavadinimas</message>
+    <message key="plugins.generic.translator.localeKey">Raktas</message>
+    <message key="plugins.generic.translator.localeKey.description">Įveskite visą ieškomos lokalės raktą.</message>
+    <message key="plugins.generic.translator.localeKeyValue">Reiškmė</message>
+    <message key="plugins.generic.translator.translate">Vertyklė</message>
+    <message key="plugins.generic.translator.availableLocales">Prieinamos lokalės</message>
+    <message key="plugins.generic.translator.check">Tikrinti</message>
+    <message key="grid.action.checkLocale">Tikrinti lokalę</message>
+    <message key="grid.action.download">Atsisiųsti</message>
+    <message key="plugins.generic.translator.localeFile.complete">Baigta ({$reference})</message>
+    <message key="plugins.generic.translator.localeFile.incompleteCount">{$complete} / {$reference} ({$percent}%)</message>
+    <message key="plugins.generic.translator.localeFile.doesNotExist">Trūksta ({$reference})</message>
+    <message key="plugins.generic.translator.miscFile.complete">Užbaigta</message>
+    <message key="plugins.generic.translator.miscFile.doesNotExist">Trūksta</message>
+    <message key="plugins.generic.translator.email.complete">Užbaigta</message>
+    <message key="plugins.generic.translator.email.doesNotExist">Trūksta</message>
+    <message key="plugins.generic.translator.errors">Lokalės klaidos</message>
+    <message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.title">Trūkstami raktai</message>
+    <message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.title">Papildomi raktai</message>
+    <message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.title">Skirtingų parametrų sąrašai</message>
+    <message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.title">Trūkstami lokalės failai</message>
+    <message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.title">Trūkstami el. laiškai</message>
+    <message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.title">Papildomi el. laiškai</message>
+    <message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.title">Skirtingų el. laiškų parametrų sąrašai</message>
+    <message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.message">Trūksta rakto „{$key}“ iš „{$filename}“. Angliška versija buvo pateikta kaip numatytoji.</message>
+    <message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.message">Raktas „{$key}“ daugiau nebenaudojamas ir gali būti pašalintas iš „{$filename}“.</message>
+    <message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.message">Lokalės raktas „{$key}“ faile „{$filename}“ skiriasi nuo šaltinio lokalės parametrais. Dar kartą patikrinkite ar panaudoti visi reikalingi parametrai. Nesutampantys parametrai yra:</message>
+    <message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.message">Lokalės failas „{$filename}“ yra trūkstamas arba neperskaitomas.</message>
+    <message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.message">Vertime trūksta el. laiško žinutės „{$key}“.</message>
+    <message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.message">El. laiško žinutė „{$key}“ daugiau nebenaudojama ir gali būti pašalinta.</message>
+    <message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.message">El. laiško žinutė „{$key}“ skiriasi nuo šaltinio lokalės parametrais. Dar kartą patikrinkite ar panaudoti visi reikalingi parametrai. Nesutampantys parametrai yra:</message>
+    <message key="plugins.generic.translator.jumpTo">Pereiti į...</message>
+    <message key="plugins.generic.translator.locale">{$locale} lokalė</message>
+    <message key="plugins.generic.translator.localeFiles">Lokalės failai</message>
+    <message key="plugins.generic.translator.miscFiles">Kiti failai</message>
+    <message key="plugins.generic.translator.emails">El. laiškų šablonai</message>
+    <message key="plugins.generic.translator.file.filename">Failo vardas</message>
+    <message key="plugins.generic.translator.file.edit">{$filename} redagavimas</message>
+    <message key="plugins.generic.translator.email.edit">{$emailKey} redagavimas</message>
+    <message key="plugins.generic.translator.file.reference">Šaltinio versija</message>
+    <message key="plugins.generic.translator.file.translation">Vertimas</message>
+    <message key="plugins.generic.translator.email.reference">Šaltinio versija</message>
+    <message key="plugins.generic.translator.email.translation">Vertimas</message>
+    <message key="plugins.generic.translator.file.reset">Atkurti</message>
+    <message key="plugins.generic.translator.file.resetToReference">Atkurti į šaltinį</message>
+    <message key="plugins.generic.translator.email.reset">Atkurti</message>
+    <message key="plugins.generic.translator.email.resetToReference">Atkurti į šaltinį</message>
+    <message key="plugins.generic.translator.file.resetConfirm">Ar tikrai norite atkurti failo turinį?</message>
+    <message key="plugins.generic.translator.email.resetConfirm">Ar tikrai norite atkurti el. laiško turinį?</message>
+    <message key="plugins.generic.translator.file.doesNotExistNote">* Failas dar nėra išverstas.</message>
+    <message key="plugins.generic.translator.email.description">Sekančiuose laukeliuose, išveskite el. laiško šablono pavadinimą, turinį ir aprašymą. Aprašymas skirtas tik kaip rodyklė administratoriams.</message>
+    <message key="plugins.generic.translator.confirmDelete">Ar tikrai norite pašalinti šį elementą? Šis veiksmas negali būti atšauktas.</message>
+    <message key="plugins.generic.translator.deleteKey">Šalinti raktą</message>
+    <message key="plugins.generic.translator.deleteEmail">Šalinti el. laišką</message>
+    <message key="plugins.generic.translator.saveBeforeContinuing">Irašykite visus pakeitimus atliktus šiame puslapyje prieš tęsdami, priešingai jie bus prarasti. Ar tikrai norite tęsti? Jei taip, visi neįrašyti pakeitimai bus prarasti.</message>
+    <message key="plugins.generic.translator.couldNotWriteFile">Nepavyko perrašyti failo „{$filename}“. Dar kartą patikrinkite, ar failo teisės buvo nustatytos tinkamai.</message>
+    <message key="plugins.generic.translator.errorEditingFile">Įvyko klaida redaguojant failą „{$filename}“. Dar kartą patikrinkite, ar failas yra numanomo formato.</message>
+</locale>

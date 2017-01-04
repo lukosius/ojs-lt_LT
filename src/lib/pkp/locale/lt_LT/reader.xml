@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * lib/pkp/locale/lt_LT/reader.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="comments.anonymous">Anoniminis vartotojas</message>
+    <message key="comments.anonymousNamed">„{$userName}“</message>
+    <message key="comments.body">Tekstas</message>
+    <message key="comments.titleRequired">Komentaro pavadinimas yra privalomas.</message>
+    <message key="comments.confirmDeleteChildren">Pašalinus šį komentarą kartu bus pašalinami yra visi atsakymai. Ar tikrai norite tęsti?</message>
+    <message key="comments.delete">Šalinti komentarą</message>
+    <message key="comments.email">El. paštas</message>
+    <message key="comments.emailReply">Siųsti atsakymą</message>
+    <message key="comments.enterComment">Įveskite komentarą</message>
+    <message key="comments.inResponseTo"><![CDATA[Atsakant į <a href="{$url}">{$title}</a>]]></message>
+    <message key="comments.name">Komentuoja</message>
+    <message key="comments.noComments">Skaitytojai neparašė jokių komentarų.</message>
+    <message key="comments.nReplies">({$num} ats.)</message>
+    <message key="comments.oneReply">(1 atsakymas)</message>
+    <message key="comments.postAnonymously">Rašyti komentarą anonimiškai</message>
+    <message key="comments.postReply">Rašyti atsakymą</message>
+    <message key="comments.readerComments">Skaitytojų komentarai</message>
+    <message key="comments.readMore">Skaityti daugiau</message>
+    <message key="comments.replies">Atsakymai</message>
+    <message key="comments.title">Pavadinimas</message>
+    <message key="comments.viewAllComments">Žiūrėti visus komentarus</message>
+    <message key="reader.fullText">Visas tekstas:</message>
+    <message key="rt.addComment">Rašyti komentarą</message>
+    <message key="rt.admin.configuration">Konfigūracija</message>
+    <message key="rt.admin.contexts.confirmDelete">Ar tikrai norite pašalinti šį kontekstą ir visas susijusias paieškas?</message>
+    <message key="rt.admin.contexts.createContext">Kurti kontekstą</message>
+    <message key="rt.admin.contexts.edit.editContext">Redaguoti kontekstą</message>
+    <message key="rt.admin.contexts.metadata">Metaduomenys</message>
+    <message key="rt.admin.contexts.options.authorTerms">Naudoti vartotojų vardus kaip numatytuosius paieškos terminus, kad leistumėte vartotojams rasti kitus autorių darbus šiam elementui (pvz. kontekstui „Kiti darbai“)</message>
+    <message key="rt.admin.contexts.options.citedBy">Naudoti autorių vardus kaip numatytuosius paieškos terminus ir aprašyti kontekstą kaip paiešką citatoms į straipsnius.</message>
+    <message key="rt.admin.contexts.options.defineTerms"><![CDATA[Naudoti skaityklės pažymėtą žodį kaip numatytąjį paieškos terminą arba palikti tuščią jei niekas nepasirinko šio elemento (pvz. kontekstui „Terminai“). Privalo būti įgalinta parinktis „Terminai“ lange <a href="{$settingsUrl}">RST nuostatos</a>, kad leistumėte dvikartį spustelėjimą ant žodžių, kuris atveria šį kontekstą.]]></message>
+    <message key="rt.admin.contexts.options.geoTerms">Naudoti geografinį duomenų indeksavimą kaip numatytąjį paieškos terminą.</message>
+    <message key="rt.admin.contexts.options">Parinktys</message>
+    <message key="rt.admin.management">Tvarkymas</message>
+    <message key="rt.admin.sharing">Bendrinimas</message>
+    <message key="rt.admin.sharing.enabled">Bendrinimas įgalintas</message>
+    <message key="rt.admin.sharing.description"><![CDATA[Tam, kad skaitytojai galėtų bendrinti turinį, užregistruokite paskyrą <a href="http://www.addthis.com">addthis.com</a> svetainėje, ir žemiau nukopijuokite/įklijuokite bendrinimo mygtuko kodą.]]></message>
+    <message key="rt.admin.sharing.basic">Pagrindinės nuostatos</message>
+    <message key="rt.admin.sharing.userNameLabel">„AddThis.com“ vartotojo vardas</message>
+    <message key="rt.admin.sharing.buttonStyleLabel">Mygtuko stilius</message>
+    <message key="rt.admin.sharing.dropDownMenuLabel">Naudoti išskleidžiamąjį meniu</message>
+    <message key="rt.admin.sharing.advanced">Išplėstinės nuostatos (papildomai)</message>
+    <message key="rt.admin.sharing.customizationLink"><![CDATA[Žiūrėti <a href="http://support.addthis.com/customer/portal/articles/381236-custom-buttons">„AddThis.com“ pritaikymo dokumentaciją</a>.]]></message>
+    <message key="rt.admin.sharing.brandLabel">Ženklas</message>
+    <message key="rt.admin.sharing.dropDownLabel"><![CDATA[Išskleidžiamos parinktys <br /> (sąrašas atskirtas kableliu)]]></message>
+    <message key="rt.admin.sharing.languageLabel">Kalba</message>
+    <message key="rt.admin.sharing.logolabel">Logotipas</message>
+    <message key="rt.admin.sharing.logoBackgroundLabel">Logotipo fonas</message>
+    <message key="rt.admin.sharing.logoColorLabel">Logotipo spalva</message>
+    <message key="rt.admin.readingToolsEnabled">Skaitymo įrankiai</message>
+    <message key="rt.admin.searches.confirmDelete">Ar tikrai norite pašalinti šią paiešką?</message>
+    <message key="rt.admin.searches.createSearch">Kurti paiešką</message>
+    <message key="rt.admin.searches.edit.editSearch">Redaguoti paiešką</message>
+    <message key="rt.admin.selectedVersion">Susiję elementai</message>
+    <message key="rt.admin.settings.abstract">Santrauka (pateikia elemento santrauką).</message>
+    <message key="rt.admin.settings.viewReviewPolicy">Peržiūrėti recenzavimo politiką</message>
+    <message key="rt.admin.settings.authorBio">Apie autorių (rodo autoriaus įvestus biografijos sakinius).</message>
+    <message key="rt.admin.settings.captureCite">Kaip cituoti (pateikia bibliografijos įrašą).</message>
+    <message key="rt.admin.settings.defineTerms">Terminų paieška (skaitytojams įgalina dvikartį spustelėjimą ant žodžio ir nusiunčią jį į žodyną).</message>
+    <message key="rt.admin.settings.disableRelatedItems">Išjungti bendrinamus elementus</message>
+    <message key="rt.admin.settings.emailAuthor">El. laiškas autoriui (parodo el. laiško šabloną su autoriaus el. paštu).</message>
+    <message key="rt.admin.settings.emailOthers">Informuoti kolegą (parodo el. laiško šabloną su nuorodą į elementą).</message>
+    <message key="rt.admin.settings.findingReferences">Ieškoti nuorodų</message>
+    <message key="rt.admin.settings.printerFriendly">Versija spausdinimui (pateikia elemento versiją parengtą spausdinimui).</message>
+    <message key="rt.admin.settings.supplementaryFiles">Papildomi failai (parodo failų sąrašą, kuriuos autorius įtraukė kartu su pateikimu).</message>
+    <message key="rt.admin.settings.viewMetadata">Indeksavimo metaduomenys (parodo elemento indeksavimo metaduomenis, kuriuos pateikė autorius ir sistema).</message>
+    <message key="rt.admin.status">Būsena</message>
+    <message key="rt.admin.configureSharing">Konfigūruoti „AddThis“</message>
+    <message key="rt.admin.validateUrls.complete">Patikrinimas baigtas.</message>
+    <message key="rt.admin.validateUrls.ok">Gerai</message>
+    <message key="rt.admin.validateUrls.urlIsInvalid">„{$url}“ nėra tinkamas.</message>
+    <message key="rt.admin.validateUrls">Tikrinti internetinius adresus</message>
+    <message key="rt.admin.validateUrls.validate">Tikrinti</message>
+    <message key="rt.admin.versions.confirmDelete">Ar tikrai norite pašalinti šią versiją ir visus su ja susijusius kontekstus ir paieškas?</message>
+    <message key="rt.admin.versions.confirmRestore">Ar tikrai norite negrįžtamai atkurti visas versijas į numatytąsias? Jei taip, tuomet reikės pasirinkti aktyvią versiją nuostatų puslapyje.</message>
+    <message key="rt.admin.versions.createVersion">Kurti versiją</message>
+    <message key="rt.admin.versions.edit.editVersion">Redaguoti</message>
+    <message key="rt.admin.versions.export">Eksportuoti</message>
+    <message key="rt.admin.versions.importVersion">Importuoti versiją</message>
+    <message key="rt.admin.versions.metadata">Metaduomenys</message>
+    <message key="rt.admin.versions.restoreVersions">Atkurti versijas į numatytąsias</message>
+    <message key="rt.authorBio">Apie autorių</message>
+    <message key="rt.captureCite.format">Citatų formatas</message>
+    <message key="rt.captureCite">Kaip cituoti</message>
+    <message key="rt.captureCite.online">Interaktyvus</message>
+    <message key="rt.captureCite.web">Internetinis</message>
+    <message key="rt.colleague">Informuoti kolegą</message>
+    <message key="rt.context.abbrev">Santr.</message>
+    <message key="rt.context.and">IR</message>
+    <message key="rt.context.citesContextDescription">Jei straipsnis yra indeksuojamas sistemoje „Google Scholar“, jį gali lydėti nuoroda „Cituoja X“, kuri parodo darbų sąrašą, kuriuose cituojamas šis straipsnis. Taip pat, „Google Scholar“ pateiks visų elementų sąrašą, kuris cituoja pavadinimą ir autorių. Norėdami pasiekti internetinius išteklius, kurie yra prieinami tik per Jūsų mokslinę biblioteką gali reikėti nueiti į „Google Scholar“ parinktis ir įgalinti bibliotekos nuorodas.</message>
+    <message key="rt.context">Kontekstas</message>
+    <message key="rt.context.defineTermsDescription">Jei elementas yra HTML failas (o ne PDF), dukart spustelėjus tekste ant žodžio atvers žodžių terminų dialogą. Priešingu atveju, dialoge žodžiai gali būti įvedami ir įklijuojami. Norėdami sužinoti apie ieškotus išteklius, spustelėkite „Apie“. Šie ištekliai gali būti pasirinkti dėl jų atitikimo ir jų atviros (nemokamos) prieigos prie visų ar dalies dokumentų.</message>
+    <message key="rt.context.description">Aprašymas</message>
+    <message key="rt.context.order">Rikiuoti</message>
+    <message key="rt.contexts">Kontekstai</message>
+    <message key="rt.context.searchDescription">Šiuos paieškos terminus pateikė autorius. Jie gali būti skaitytojo pakeisti arba pašalinti, nes du ar trys trumpi tikslūs terminai ar frazės buvo pateiktos su logine (IR) paieška. Norėdami sužinoti apie ieškotus išteklius, spustelėkite „Apie“. Šie ištekliai gali būti pasirinkti dėl jų atitikimo ir jų atviros (nemokamos) prieigos prie visų ar dalies dokumentų.</message>
+    <message key="rt.context.searchTerms">Paieškos terminai</message>
+    <message key="rt.context.termToDefine">Apibrėžtinas žodis</message>
+    <message key="rt.context.title">Pavadinimas</message>
+    <message key="rt.emailAuthor">El. laiškas autoriui</message>
+    <message key="rt.email.needLogin"><![CDATA[* Privaloma <a target="_parent" href="{$loginUrl}">registracija</a>]]></message>
+    <message key="rt.email.sent">Žinutė buvo išsiųsta.</message>
+    <message key="rt.findingReferences">Nuorodų paieška</message>
+    <message key="rt.findingReferences.googleScholar">„Google Scholar“</message>
+    <message key="rt.findingReferences.windowsLiveAcademic">„Windows Live Academic“</message>
+    <message key="rt.lookUp">Ieškoti terminų</message>
+    <message key="rt.metadata.dublinCore.contributor">Bendraautorius</message>
+    <message key="rt.metadata.dublinCore.coverage">Aprėptis</message>
+    <message key="rt.metadata.dublinCore.date">Data</message>
+    <message key="rt.metadata.dublinCore.description">Aprašymas</message>
+    <message key="rt.metadata.dublinCore">„Dublin Core“</message>
+    <message key="rt.metadata.dublinCore.format">Formatas</message>
+    <message key="rt.metadata.dublinCore.identifier">Identifikatorius</message>
+    <message key="rt.metadata.dublinCore.language">Kalba</message>
+    <message key="rt.metadata.dublinCore.publisher">Leidėjas</message>
+    <message key="rt.metadata.dublinCore.relation">Ryšiai</message>
+    <message key="rt.metadata.dublinCore.rights">Teisės</message>
+    <message key="rt.metadata.dublinCore.source">Šaltinis</message>
+    <message key="rt.metadata.dublinCore.subject">Tema</message>
+    <message key="rt.metadata.dublinCore.title">Pavadinimas</message>
+    <message key="rt.metadata.dublinCore.type">Tipas</message>
+    <message key="rt.metadata.forThisDocument">Dokumento metaduomenys</message>
+    <message key="rt.metadata.pkp.abstract">Santrauka</message>
+    <message key="rt.metadata.pkp.copyright">Autoriaus teisės ir leidimai</message>
+    <message key="rt.metadata.pkp.coverage">Geografinė sritis, chronologinis periodas, nagrinėtų duomenų imties charakteristikos (lytis, amžius ir pan.)</message>
+    <message key="rt.metadata.pkp.date">(YYYY-MM-DD)</message>
+    <message key="rt.metadata.pkp.discipline">Disciplina</message>
+    <message key="rt.metadata.pkp.format">Failo formatas</message>
+    <message key="rt.metadata.pkp.genre"><![CDATA[Būsena & žanras]]></message>
+    <message key="rt.metadata.pkpItem">PKP metaduomenys</message>
+    <message key="rt.metadata.pkp.language">English=en, lietuvių=lt</message>
+    <message key="rt.metadata.pkp.publisher">Organizuojanti agentūra, vieta</message>
+    <message key="rt.metadata.pkp.source">Pavadinimas; tomas, nr. (metai)</message>
+    <message key="rt.metadata.pkp.sponsors">Rėmėjai</message>
+    <message key="rt.metadata.pkp.subject">Prasminiai žodžiai</message>
+    <message key="rt.metadata.pkp.suppFiles">Pap. failai</message>
+    <message key="rt.metadata.pkp.title">Dokumento pavadinimas</message>
+    <message key="rt.metadata.pkp.type">Tipas</message>
+    <message key="rt.metadata.pkp.uri">Universalusis ištekliaus identifikatorius (URI)</message>
+    <message key="rt.printVersion">Versija spausdinimui</message>
+    <message key="rt.readingTools">Skaitymo įrankiai</message>
+    <message key="rt.relatedItems">Susiję elementai</message>
+    <message key="rt.reviewPolicy">Recenzavimo politika</message>
+    <message key="rt.search.description">Aprašymas</message>
+    <message key="rt.searches">Paieškos</message>
+    <message key="rt.search.order">Rikiuoti</message>
+    <message key="rt.search">Paieška</message>
+    <message key="rt.search.searchPost">Siunčiami duomenys</message>
+    <message key="rt.search.searchUrl">Paieškos URL</message>
+    <message key="rt.search.suggest">Siūlyti šaltinį</message>
+    <message key="rt.search.title">Pavadinimas</message>
+    <message key="rt.search.url">URL</message>
+    <message key="rt.suppFiles.download">Atsisiųsti</message>
+    <message key="rt.suppFiles">Papildomi failai</message>
+    <message key="rt.suppFiles.viewMetadata">Indeksavimo metaduomenys</message>
+    <message key="rt.version.description">Aprašymas</message>
+    <message key="rt.version.key">Raktas</message>
+    <message key="rt.version.locale">Lokalė</message>
+    <message key="rt.versions">Susiję elementų rinkiniai</message>
+    <message key="rt.version.title">Pavadinimas</message>
+    <message key="rt.version">Versija</message>
+    <message key="rt.viewMetadata">Indeksavimo metaduomenys</message>
+</locale>

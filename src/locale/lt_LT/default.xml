@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/lt_LT/default.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="section.default.title">Straipsniai</message>
+    <message key="section.default.abbrev">STR</message>
+    <message key="section.default.policy"></message>
+    <message key="default.genres.article">Straipsnio tekstas</message>
+    <message key="default.journalSettings.checklist.notPreviouslyPublished">Pateikimas ankščiau nebuvo išleistas ir nėra svarstomas kitame žurnale (arba pateikite paaiškinimą Komentaruose redaktoriui).</message>
+    <message key="default.journalSettings.checklist.fileFormat">Pateikimo failas yra „OpenOffice“, „Mircrosof Word“ ar „RTF“ dokumentų formatu.</message>
+    <message key="default.journalSettings.checklist.addressesLinked">Kur galima, literatūros šaltinių adresai pateikti nuorodoms.</message>
+    <message key="default.journalSettings.checklist.submissionAppearance">Tekstas yra viengubu intervalu; naudoja 12 punktų šriftą; naudoja kursyvą, vietoj pabraukimo (išskyrus URL adresus); ir visos iliustracijos, figūros ir lentelės yra padėtos tekste per atitinkamus taškus, o ne pabaigoje.</message>
+    <message key="default.journalSettings.checklist.bibliographicRequirements">Tekstas atitinka stiliaus ir bibliografinius reikalavimus nurodytus puslapyje „Nurodymai autoriui“.</message>
+    <message key="default.journalSettings.privacyStatement">Šiame žurnale pateikiami asmens duomenys ir el. pašto adresai bus naudojami tik žurnalo tikslams ir nebus prieinami kitiems ar perduoti trečiosioms šalims.</message>
+    <message key="default.journalSettings.openAccessPolicy">Šiame žurnale išleistas turinys yra pateikiamas viešajai prieigai be jokių apribojimų.</message>
+    <message key="default.journalSettings.authorSelfArchivePolicy">Šis žurnalas leidžia ir skatina autorius talpinti išleistus straipsnius asmeninėse svetainėse ar institucijos saugyklose prieš ir po išleidimo, kartu pateikiant bibliografinę informaciją apie straipsnio išleidimą šiame žurnale.</message>
+    <message key="default.journalSettings.copyeditInstructions"><![CDATA[Rankraščio redagavimo etapas yra skirtas patobulinti straipsnio teksto sklandumą, aiškumą, gramatiką, formuluotę ir formatavimą. Tai autoriui leidžia paskutinį kartą atlikti svarbius pakeitimus tekste, nes kitas etapas yra griežtai skirtas rašybos klaidų ir formatavimo korekcijoms.
+
+Rankraščio redagavimo failas yra „Word“ arba .rtf formatu, todėl gali būti lengvai redaguojamas „Word“ tipo programomis. Čia aprašytas instrukcijų rinkinys siūlo du metodus rankraščio redagavimui. Pirmasis yra paremtas „Microsoft Word“ keitimų sekimo funkcija ir reikalauja, kad rankraščio redaktorius, redaktorius ir autorius turėtų prieigą prie šios programos. Antroji sistema, kuri yra nepriklausoma nuo programinės įrangos, buvo pasiskolinta su leidimu iš „Harvard Educational Review“.
+
+<h4>Rankraščio redagavimo sistemos</h4>
+
+<strong>1. Keitimų sekimas programoje „Word“</strong>
+
+Skirtuke <strong>Peržiūra</strong>, funkcija <strong>Sekti pakeitimus</strong> redaktorių įgalina atlikti įterpimus, kurie yra pažymimi kitokia spalva, ir šalinimus (tekstas nubraukiamas atitinkama spalva ar pažymimos paraštės kaip pašalintos). Rankraščio redaktorius gali palikti komentarus tiek autoriui, tiek redaktoriui. Tuomet redaguota versija yra nusiunčiama ir informuojamas redaktorius. Pastarasis peržiūri tekstą ir informuoja autorių.
+
+Redaktorius ir autorius turėtų palikti tuos pakeitimus, su kuriais jie sutinka. Jei reikalingi tolimesni pakeitimai, abu gali atlikti pakeitimus pradiniams įterpimams ar šalinimams, taip pat atlikti naujus įterpimus ir šalinimus kitur tekste.
+
+Kai tekstas yra peržiūrimas autoriaus ir redaktoriaus, rankraščio redaktorius atliks galutinę teksto peržiūrą priimant pakeitimus, ruošiantis maketavimo etapui.
+
+<strong>2. Harvard Educational Review</strong>
+
+<strong>Instrukcijos atliekant elektroninius pakeitimus rankraščiui</strong>
+
+Sekite tolesnį protokolą atliekant elektroninius pakeitimus rankraščiui:
+
+<strong>Atsakykite į siūlomus pakeitimus.</strong>
+&nbsp; Kiekvienam pasiūlytam pakeitimui, kurį priėmėte, atšaukite teksto paryškinimą.
+&nbsp; Kiekvienam pasiūlytam pakeitimui, kurio nepriėmėte, iš naujo įveskite originalų tekstą ir <strong>paryškinkite</strong> jį.
+
+<strong>Įterpimų ir pašalinimų atlikimas.</strong>
+&nbsp; Pažymėkite įterpimus <strong>paryškindami</strong> naują tekstą.
+&nbsp; Pakeiskite pašalintus skyrius su: <strong>[pašalintas tekstas]</strong>.
+&nbsp; Jei pašalinote vieną ar daugiau sakinių, prašome pažymėkite su pastaba, pvz., <strong>[pašalinti 2 sakiniai]</strong>.
+
+<strong>Atsakas į užklausas autoriui (QA).</strong>
+&nbsp; Palikite visas užklausas nepaliestas ir paryškintas tekste. Nepašalinkite jų.
+&nbsp; Norėdami atsakyti į užklausą, pridėkite komentarą po jos. Komentarai turėtų būti apriboti naudojant:
+<strong>[Komentaras:]</strong>
+&nbsp; pvz., <strong>[Komentaras: Kaip ir pasiūlyta išplėčiau metodologijos diskusiją]</strong>.
+
+<strong>Komentavimas.</strong>
+&nbsp; Naudokite komentarus norėdami paaiškinti organizacinius ar kitus svarbius pakeitimus
+&nbsp; pvz., <strong>[Komentaras: Perkelta pastraipa iš 5 psl. į 7 psl.].</strong>
+&nbsp; Pastaba: Kai nurodomi puslapių numeriai, naudokite puslapių numerius iš atspausdintos rankraščio kopijos. Tai yra svarbu, nes puslapių numeriai gali pasikeisti atliekant elektroninius pakeitimus.
+
+<h4>Elektroninių pakeitimų pavyzdys</h4>
+
+<ol>
+<li><strong>Pradinis rankraštis.</strong> Žurnalo rankraščio redaktorius redaguoja tekstą, kad patobulintų straipsnio teksto sklandumą, aiškumą, gramatiką, formuluotę ir formatavimą, taip pat įtraukia autorius užklausas, jei reikalinga. Kai pradinis redagavimas baigtas, rankraščio redaktorius nusiunčia pataisytą dokumentą į žurnalą ir informuoją autorių, kad redaguotas rankraštis yra prieinamas peržiūrai.</li>
+<li><strong>Autoriaus rankraštis.</strong> Prieš atlikdamas dramatiškus nuklydimus nuo redaguoto rankraščio struktūros, autorius privalo pasitikslinti su redaktoriais, kurie yra atsakingi už tą dalį. Autoriai turėtų priimti/atmesti bet kokius pakeitimus atliktus per pradinį rankraščio redagavimą, ir atitinkamai atsakyti visas užklausas autoriui. Kai baigiama su pakeitimais, autorius turėtų pervadinti failą iš AutoriausVardasQA.doc į AutoriausVardasQAR.doc (pvz., JonasQA.doc į JonasQAR.doc) ir nusiųsti pataisytą dokumentą į žurnalą.</li>
+<li><strong>Galutinis rankraštis.</strong> Žurnalo rankraščio redaktorius patvirtina autoriaus atliktus pakeitimus ir įtraukia autoriaus atsakymus į galutinį rankraštį. Kai baigta, rankraščio redaktorius nusiunčia galutinį rankraštį į žurnalą ir įspėja maketuotoją, kad užbaigtų formatavimą.</li>
+</ol>]]></message>
+    <message key="default.journalSettings.refLinkInstructions"><![CDATA[<h4>Nuorodų siejimas maketavimo procese</h4>
+    <p>Kai verčiate pateikimą į HTML ar PDF, įsitikinkite, kad visos nuorodos pateikime būtų aktyvios.</p>
+    <h4>A. Kai autorius pateikia nuorodą su šaltiniu</h4>
+    <ol>
+    <li>Kol pateikimas vis dar yra teksto apdorojimo formate (pvz., Word), įtraukite frazę PERŽIŪRĖTI ELEMENTĄ šaltinio, kuri turi nuorodą, pabaigoje.</li>
+    <li>Paverskite tą frazę į nuorodą „Word“ nuorodos įterpimo įrankiu.</li>
+    </ol>
+    <h4>B. Įgalinti skaitytojus ieškoti šaltinius per „Google Scholar“</h4>
+    <ol>
+        <li>Kol pateikimas vis dar yra teksto apdorojimo formate (pvz., Word), nukopijuokite darbo pavadinimą nurodytą prie šaltinių sąrašo (jei tai dažnai pasikartojantis pavadinimas - pvz., „Taika“ - tuomet nukopijuokite autorių ir pavadinimą).</li>
+        <li>Įdėkite šaltinio pavadinimą tarp %22, įterpdami + tarp kiekvieno žodžio: http://scholar.google.com/scholar?q=%22ĮDĖKITE+PAVADINIMĄ+ČIA%22</li>
+
+    <li>Įtraukite frazę GS PAIEŠKA kiekvienos citatos pabaigoje šaltinių sąraše.</li>
+    <li>Paverskite tą frazę į nuorodą su Word nuorodos įterpimo įrankiu kai URL paruošta #2.</li>
+    </ol>
+    <h4>C. Įgalinti skaitytojus ieškoti šaltinių su DOI</h4>
+    <ol>
+    <li>Kol pateikimas vis dar yra teksto apdorojimo formate (pvz., Word), nukopijuokite šaltinius į CrossRef Text Query http://www.crossref.org/freeTextQuery/.</li>
+    <li>Įdėkite kiekvieną DOI, kurį pateikia Query, į tolesnį adresą (tarp = ir &): http://www.cmaj.ca/cgi/external_ref?access_num=ĮDĖKITE DOI#ČIA&link_type=DOI.</li>
+    <li>Įtraukite frazę CrossRef kiekvienos citatos pabaigoje šaltinių sąraše.</li>
+    <li>Paverskite tą frazę į nuorodą su Word nuorodos įterpimo įrankiu kai URL paruošta #2.</li>
+    </ol>]]></message>
+    <message key="default.journalSettings.proofingInstructions"><![CDATA[<p>Korektūros etapas yra skirtas aptikti klaidas rašyboje, gramatikoje ir formatavime. Didesni pakeitimai šiame etape negali būti atlikti, nebent padiskutavus su skilties redaktoriumi. Maketavime, spustelėkite ŽIŪRĖTI KOREKCIJĄ, kad pamatytumėte HTML, PDF ir kitus prieinamus failų formatus naudojamus išleidžiant šį straipsnį.</p>
+	<h4>Rašybos ir gramatikos klaidos</h4>
+
+	<p>Nukopijuokite klaidingą žodį ar žodžių grupę ir įdėkite į korektūros pataisymus su „KEISTI-TAISYTI Į“ instrukcijomis redaktoriui, pvz:</p>
+
+	<pre>1. KEISTI...
+	šindien lyja lietus
+	TAISYTI Į...
+	šiandien lyja lietus</pre>
+	<br />
+	<pre>2. KEISTI...
+	Jons
+	TAISYTI Į...
+	Jonas</pre>
+	<br />
+
+	<h4>Formatavimo klaidos</h4>
+
+	<p>Aprašykite vietą ir problemos pobūdį korektūros pataisymų lange po „FORMATAVIMAS“, pvz.:</p>
+	<br />
+	<pre>3. FORMATAVIMAS
+	Skaičiai 3 lentelėje nėra sulygiuoti trečiame stulpelyje.</pre>
+	<br />
+	<pre>4. FORMATAVIMAS
+	Pastraipa, kuri prasideda „Paskutinėje temoje...“ nėra atitraukta.</pre>]]></message>
+    <message key="default.journalSettings.forReaders"><![CDATA[Rekomenduojame visus skaitytojus užsiregistruoti šiame žurnale, kad gautumėte pranešimus apie naujus numerius, straipsnius ir t.t. Spustelėkite nuorodą <a href="{$indexUrl}/{$journalPath}/user/register">Registruotis</a> žurnalo titulinio puslapio viršuje. Užsiregistravę skaitytojai el. paštu gaus kiekvieno naujo numerio turinį. Peržiūrėkite žurnalo <a href="{$indexUrl}/{$journalPath}/about/submissions#privacyStatement">privatumo politiką</a>, kuri užtikrina, kad asmens duomenys ir el. pašto adresai nebus naudojami kitiems tikslams.]]></message>
+    <message key="default.journalSettings.forAuthors"><![CDATA[Norite pateikti savo straipsnį žurnale? Rekomenduojame peržiūrėti <a href="{$indexUrl}/{$journalPath}/about">Apie žurnalą</a> puslapį, kuriame pateikta skilties politika, taip pat <a href="{$indexUrl}/{$journalPath}/about/submissions#authorGuidelines">nurodymai autoriui</a>. Autoriams reikia <a href="{$indexUrl}/{$journalPath}/user/register">užsiregistruoti</a> žurnale prieš pateikiant straipsnį. Jei jau užsiregistravote, spustelėkite <a href="{$indexUrl}/index/login">prisijungti</a> ir pradėkite penkių žingsnių pateikimo procesą.]]></message>
+    <message key="default.journalSettings.forLibrarians"><![CDATA[Rekomenduojame tyrimų bibliotekininkus įtraukti šį žurnalą į elektroninių išteklių sąrašą. Taip pat, svarbu atkreipti dėmesį, kad šio žurnalo leidybai naudojama atvirojo kodo sistema (žr. <a href="http://pkp.sfu.ca/ojs">Open Journal Systems</a>).]]></message>
+    <message key="default.journalSettings.lockssLicense"><![CDATA[Šis žurnalas naudoja LOCKSS sistemą, skirtą kurti paskirstytą archyvavimo sistemą tarp dalyvaujančių bibliotekų ir leidžia joms kurti nuolatinius žurnalo turinio archyvus. <a href="http://www.lockss.org/">Plačiau...</a>]]></message>
+    <message key="default.journalSettings.clockssLicense"><![CDATA[Šis žurnalas naudoja CLOCKSS sistemą, skirtą kurti paskirstytą archyvavimo sistemą tarp dalyvaujančių bibliotekų ir leidžia joms kurti nuolatinius žurnalo turinio archyvus. <a href="http://clockss.org/">Plačiau...</a>]]></message>
+    <message key="default.journalSettings.submissionFee">Straipsnio pateikimas</message>
+    <message key="default.journalSettings.submissionFeeDescription">Autoriams reikia sumokėti straipsnio pateikimo mokestį, kuris padengia recenzavimo išlaidas.</message>
+    <message key="default.journalSettings.fastTrackFee">Skubi recenzija</message>
+    <message key="default.journalSettings.fastTrackFeeDescription">Sumokėjus šį mokestį, recenzija, redakcijos sprendimas ir pranešimas autoriui bus atlikti per 4 savaites.</message>
+    <message key="default.journalSettings.publicationFee">Straipsnio publikavimas</message>
+    <message key="default.journalSettings.publicationFeeDescription">Jei dokumentas yra priimtas publikavimui, būsite paprašyti sumokėti straipsnio publikavimo mokestį, kuris padengia publikavimo išlaidas.</message>
+    <message key="default.journalSettings.waiverPolicy">Jei neturite lėšų sumokėti tokius mokesčius, turite galimybę paprašyti atleisti nuo mokesčių. Mes nenorime mokesčių, kurie neleistų išleisti to verto darbo.</message>
+    <message key="default.journalSettings.purchaseArticleFee">Straipsnio pirkimas</message>
+    <message key="default.journalSettings.purchaseArticleFeeDescription">Sumokėjus šį mokestį galėsite peržiūrėti, atsisiųsti ir atsispausdinti šį straipsnį.</message>
+    <message key="default.journalSettings.purchaseIssueFee">Numerio pirkimas</message>
+    <message key="default.journalSettings.purchaseIssueFeeDescription">Sumokėjus šį mokestį galėsite peržiūrėti, atsisiųsti ir atsispausdinti šį numerį.</message>
+    <message key="default.journalSettings.membershipFee">Narystės mokestis</message>
+    <message key="default.journalSettings.membershipFeeDescription">Sumokėjus šį mokestį gausite narystę metams, kuri suteiks jums nemokamą prieigą prie šio žurnalo.</message>
+    <message key="default.journalSettings.donationFee">Parama žurnalui</message>
+    <message key="default.journalSettings.donationFeeDescription">Bet kokios sumos parama yra dėkingai priimama ir bus panaudota žurnalo kokybės gerinimui.</message>
+    <message key="default.groups.name.manager">Žurnalo administratorius</message>
+    <message key="default.groups.plural.manager">Žurnalo administratoriai</message>
+    <message key="default.groups.abbrev.manager">ŽA</message>
+    <message key="default.groups.name.editor">Žurnalo redaktorius</message>
+    <message key="default.groups.plural.editor">Žurnalo redaktoriai</message>
+    <message key="default.groups.abbrev.editor">ŽR</message>
+    <message key="default.groups.name.guestEditor">Kviestinis redaktorius</message>
+    <message key="default.groups.plural.guestEditor">Kviestiniai redaktoriai</message>
+    <message key="default.groups.abbrev.guestEditor">KR</message>
+    <message key="default.groups.name.sectionEditor">Skilties redaktorius</message>
+    <message key="default.groups.plural.sectionEditor">Skilties redaktoriai</message>
+    <message key="default.groups.abbrev.sectionEditor">SkE</message>
+    <message key="default.groups.name.subscriptionManager">Prenumeratos administratorius</message>
+    <message key="default.groups.plural.subscriptionManager">Prenumeratos administratoriai</message>
+    <message key="default.groups.abbrev.subscriptionManager">PA</message>
+    <message key="default.genres.researchInstrument">Tyrimo įrankis</message>
+    <message key="default.genres.researchMaterials">Tyrimo medžiagos</message>
+    <message key="default.genres.researchResults">Tyrimo rezultatai</message>
+    <message key="default.genres.transcripts">Nuorašai</message>
+    <message key="default.genres.dataAnalysis">Duomenų analizė</message>
+    <message key="default.genres.dataSet">Duomenų rinkinys</message>
+    <message key="default.genres.sourceTexts">Šaltinių tekstai</message>
+    <message key="default.groups.name.externalReviewer">Recenzentas</message>
+    <message key="default.groups.plural.externalReviewer">Recenzentai</message>
+    <message key="default.groups.abbrev.externalReviewer">I</message>
+    <message key="default.journalSettings.emailSignature"><![CDATA[<br/>
+________________________________________________________________________<br/>
+<a href="{$ldelim}$contextUrl{$rdelim}">{$ldelim}$contextName{$rdelim}</a>]]></message>
+</locale>

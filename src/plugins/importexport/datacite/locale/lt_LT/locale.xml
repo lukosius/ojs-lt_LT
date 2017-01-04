@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/importexport/datacite/locale/lt_LT/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="plugins.importexport.datacite.displayName">DataCite eksportavimo/registracijos įskiepis</message>
+    <message key="plugins.importexport.datacite.description">Įskiepis eksportuoja arba užregistruoja numerio, straipsnio, maketo ar papildomo failo metaduomenis DataCite formatu.</message>
+    <message key="plugins.importexport.datacite.settings.description">Sukonfigūruokite DataCite eksportavimo įskiepį prieš naudodami pirmąjį kartą.</message>
+    <message key="plugins.importexport.datacite.intro"><![CDATA[
+        Jei norite užregistruoti DOI su DataCite, susisiekite su vadybininku per
+        <a href="http://datacite.org/contact" target="_blank">DataCite svetainę</a>,
+        kuris nukreips jus į vietinį DataCite narį. Kai užmegsite ryšius su
+        DataCite narių organizacija, jums bus suteikta prieiga prie DataCite tarnybos.
+        Jei neturite savo vartotojo vardo ir slaptažodžio, vis tiek galite eksportuoti
+        DataCite formatu, tačiau negalėsite užregistruoti DOI DataCite tarnyboje per OJS.
+        Atkreipkite dėmesį į tai, kad slaptažodis bus išsaugotas grynuoju tekstu
+        t.y. nešifruotas, dėl DataCite registracijos tarnybos reikalavimų.
+	]]></message>
+    <message key="plugins.importexport.datacite.settings.form.username">Vartotojo vardas (simbolis)</message>
+    <message key="plugins.importexport.datacite.settings.form.usernameRequired">Įveskite vartotojo vardą, kurį gavote iš DataCite. Vartotojo varde neturėtų būti dvitaškių.</message>
+    <message key="plugins.importexport.datacite.settings.form.automaticRegistration.description">OJS automatiškai deponuos DOI į DataCite. Atkreipkite dėmesį į tai, kad šį procesas gali šiek tiek užtrukti po išleidimo. Bet kuriuo metu galite peržiūrėti visus neužregistruotus DOI.</message>
+    <message key="plugins.importexport.datacite.settings.form.testMode.description">Naudokite DataCite testavimo priešdėlį DOI registravimui. Neužmirškite pašalinti šios parinkties gamybai.</message>
+    <message key="plugins.importexport.datacite.senderTask.name">DataCite automatinio registravimo užduotis</message>
+    <message key="plugins.importexport.datacite.cliUsage">Naudojimas:
+{$scriptName} {$pluginName} export xmlFileName journal_path {issues|articles|galleys|suppfiles} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register journal_path {issues|articles|galleys|suppfiles} objectId1 [objectId2] ...
+</message>
+</locale>

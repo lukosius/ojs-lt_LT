@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/pubIds/doi/locale/lt_LT/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="plugins.pubIds.doi.displayName">DOI</message>
+    <message key="plugins.pubIds.doi.description">Įskiepis įgalina skaitmeninių objektų identifikatorius numeriams, straipsniams ir maketams OJS sistemoje.</message>
+    <message key="plugins.pubIds.doi.readerDisplayName">DOI:</message>
+    <message key="plugins.pubIds.doi.manager.settings.description">Sukonfigūruokite DOI įskiepį norėdami tvarkyti ir naudoti DOI šioje OJS:</message>
+    <message key="plugins.pubIds.doi.manager.settings.doiObjects">Žurnalo turinys</message>
+    <message key="plugins.pubIds.doi.manager.settings.doiObjectsRequired">Pasirinkite kuriems objektams norite priskirti DOI.</message>
+    <message key="plugins.pubIds.doi.manager.settings.explainDois">Pasirinkite objektus, kuriems norite priskirti DOI:</message>
+    <message key="plugins.pubIds.doi.manager.settings.enableIssueDoi">Numeriai</message>
+    <message key="plugins.pubIds.doi.manager.settings.enableSubmissionDoi">Straipsniai</message>
+    <message key="plugins.pubIds.doi.manager.settings.enableRepresentationDoi">Maketai</message>
+    <message key="plugins.pubIds.doi.manager.settings.doiPrefix">DOI priešdėlis</message>
+    <message key="plugins.pubIds.doi.manager.settings.doiPrefix.description"><![CDATA[DOI priešdėlį priskiria registravimo agentūros (pvz. <a href="http://www.crossref.org" target="_new">CrossRef</a>) ir yra formate 10.xxxx (pvz. 10.1234):]]></message>
+    <message key="plugins.pubIds.doi.manager.settings.doiPrefixPattern">DOI priešdėlis yra privalomas ir turi būti 10.xxxx formate.</message>
+    <message key="plugins.pubIds.doi.manager.settings.doiSuffix">DOI priesaga</message>
+    <message key="plugins.pubIds.doi.manager.settings.doiSuffix.description">DOI priesaga gali būti laisvoje formoje, bet unikali tarp visų leidžiamų objektų su tuo pačiu DOI priešdėliu:</message>
+    <message key="plugins.pubIds.doi.manager.settings.doiSuffixPattern">Naudoti žemiau įvestą šabloną generuoti DOI priesagoms. Naudokite %j žurnalo inicialams, %v tomo skaičiui, %i numerio skaičiui, %Y metams, %a OJS straipsnio ID, %g OJS maketo ID, %s OJS failo ID, %p puslapių numeriui ir %x tinkintiems identifikatoriams.</message>
+    <message key="plugins.pubIds.doi.manager.settings.doiSuffixPattern.example">Pavyzdžiui, vol%viss%ipp%p gali sukurti DOI tokį kaip 10.1234/vol3iss2pp230</message>
+    <message key="plugins.pubIds.doi.manager.settings.doiSuffixPattern.issues">numeriams</message>
+    <message key="plugins.pubIds.doi.manager.settings.doiSuffixPattern.submissions">straipsniams</message>
+    <message key="plugins.pubIds.doi.manager.settings.doiSuffixPattern.representations">maketams</message>
+    <message key="plugins.pubIds.doi.manager.settings.doiSuffixDefault">Naudoti numatytuosius šablonus.</message>
+    <message key="plugins.pubIds.doi.manager.settings.doiSuffixDefault.description"><![CDATA[%j.v%vi%i numeriams<br />%j.v%vi%i.%a straipsniams<br />%j.v%vi%i.%a.g%g maketams.]]></message>
+    <message key="plugins.pubIds.doi.manager.settings.doiSuffixCustomIdentifier">Įveskite individualią DOI priesagą kiekvienam išleistam objektui. Papildomą DOI tekstinį lauką rasite kiekvieno objekto metaduomenų puslapyje.</message>
+    <message key="plugins.pubIds.doi.manager.settings.doiIssueSuffixPatternRequired">Įveskite DOI priesagos šabloną numeriams.</message>
+    <message key="plugins.pubIds.doi.manager.settings.doiSubmissionSuffixPatternRequired">Įveskite DOI priesagos šabloną straipsniams.</message>
+    <message key="plugins.pubIds.doi.manager.settings.doiRepresentationSuffixPatternRequired">Įveskite DOI priesagos šabloną maketams.</message>
+    <message key="plugins.pubIds.doi.manager.settings.doiReassign">Priskirti DOI iš naujo</message>
+    <message key="plugins.pubIds.doi.manager.settings.doiReassign.description">Jei pakeisite DOI konfigūraciją, jau priskirti DOI nebus paveikti. Tik išsaugojus konfigūraciją, naudokite šį mygtuką egzistuojančių DOI išvalymui tam, kad įsigaliotų naujos nuostatos esamiems objektams.</message>
+    <message key="plugins.pubIds.doi.manager.settings.doiReassign.confirm">Ar tikrai norite pašalinti visus esamus DOI?</message>
+    <message key="plugins.pubIds.doi.editor.doi">DOI</message>
+    <message key="plugins.pubIds.doi.editor.doiObjectTypeIssue">numerio</message>
+    <message key="plugins.pubIds.doi.editor.doiObjectTypeSubmission">straipsnis</message>
+    <message key="plugins.pubIds.doi.editor.doiObjectTypeRepresentation">maketas</message>
+    <message key="plugins.pubIds.doi.editor.customSuffixMissing">Nepavyko priskirti DOI, nes trūksta tinkintos priesagos.</message>
+    <message key="plugins.pubIds.doi.editor.patternNotResolved">Nepavyko priskirti DOI, nes turi nesuprantamą šabloną.</message>
+    <message key="plugins.pubIds.doi.editor.canBeAssigned">Tai ką matote yra tik DOI peržiūra. Pažymėkite žymimąjį langelį ir įšsaugokite formą, kad priskirtumėte DOI.</message>
+    <message key="plugins.pubIds.doi.editor.assigned">DOI yra priskirtas {$pubObjectType}.</message>
+    <message key="plugins.pubIds.doi.editor.doiSuffixCustomIdentifierNotUnique">Nurodytą DOI priesagą jau naudoja kitas išleistas elementas. Įveskite unikalią DOI priesagą kiekvienam elementui.</message>
+    <message key="plugins.pubIds.doi.editor.clearObjectsDoi">Išvalyti DOI</message>
+    <message key="plugins.pubIds.doi.editor.clearObjectsDoi.confirm">Ar tikrai norite pašalinti esamą DOI?</message>
+    <message key="plugins.pubIds.doi.editor.clearIssueObjectsDoi">Išvalyti numerio objektų DOI</message>
+    <message key="plugins.pubIds.doi.editor.clearIssueObjectsDoi.confirm">Ar tikrai norite pašalinti esamo numerio objektų DOI?</message>
+    <message key="plugins.pubIds.doi.editor.clearIssueObjectsDoi.description">Naudokite šią parinktį tam, kad išvalytumėte visų objektų (straipsniai ir maketai) DOI, kurie šiuo metu yra suplanuoti šiam numeriui.</message>
+    <message key="plugins.pubIds.doi.editor.assignDoi">Priskirti DOI {$pubId} į {$pubObjectType}</message>
+    <message key="plugins.pubIds.doi.editor.assignDoi.emptySuffix">Nepavyko priskirti DOI, nes trūksta tinkintos priesagos.</message>
+    <message key="plugins.pubIds.doi.editor.assignDoi.pattern">Nepavyko priskirti DOI {$pubId}, nes turi nesuprantamą šabloną.</message>
+    <message key="plugins.pubIds.doi.editor.assignDoi.assigned">DOI {$pubId} buvo priskirta.</message>
+</locale>

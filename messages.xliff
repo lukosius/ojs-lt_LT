@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xlmns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en-US" trgLang="lt-LT">
+  <file id="8ac5c382af3c0f9b0ed4865f51404650" original="lib/pkp/locale/lt_LT/languages.xml" copy="1"/>
+  <file id="bad2151d7fff40e6408890df45f9e4d4" original="lib/pkp/locale/lt_LT/bic21qualifiers.xml" copy="1"/>
   <file id="375c281475f71db776f06b3b68b3f129" original="lib/pkp/locale/lt_LT/reviewer.xml">
     <unit id="reviewer.reviewSteps.request">
       <segment>
@@ -7928,6 +7930,7 @@
       </segment>
     </unit>
   </file>
+  <file id="bbb4d7e1122cec8c8e8bbb2343c12dc3" original="lib/pkp/locale/lt_LT/bic21subjects.xml" copy="1"/>
   <file id="f1f1621a7004da690cff123ccce19e1d" original="lib/pkp/locale/lt_LT/grid.xml">
     <unit id="grid.noItems">
       <segment>
@@ -9858,6 +9861,7 @@
       </segment>
     </unit>
   </file>
+  <file id="586df51c6d288ba3196df1ca85b9ceec" original="lib/pkp/locale/lt_LT/countries.xml" copy="1"/>
   <file id="22e7c067dff6aad56f92dae8c1feb1b3" original="lib/pkp/locale/lt_LT/user.xml">
     <unit id="user.accountInformation">
       <segment>
@@ -10688,6 +10692,7 @@
       </segment>
     </unit>
   </file>
+  <file id="1c835e8563c56aca9ce3a6b4874a70fb" original="lib/pkp/locale/lt_LT/currencies.xml" copy="1"/>
   <file id="426a6ed4a7436b128968646385a4e1ea" original="lib/pkp/locale/lt_LT/default.xml">
     <unit id="default.groups.name.siteAdmin">
       <segment>
@@ -19467,6 +19472,7 @@ Patvirtinimas gali nepasisekti paieškos adresams, kurie reikalauja įvesti form
       </segment>
     </unit>
   </file>
+  <file id="46b6642a4b161aac072c6c3c4f589d60" original="locale/lt_LT/emailTemplates.xml" copy="1"/>
   <file id="0da831a271e5cddf295a2817b9a62014" original="locale/lt_LT/submission.xml">
     <unit id="submission.submit.title">
       <segment>
@@ -19769,6 +19775,7 @@ Patvirtinimas gali nepasisekti paieškos adresams, kurie reikalauja įvesti form
       </segment>
     </unit>
   </file>
+  <file id="6d9078ee62101971097bebadd0daaa5d" original="locale/lt_LT/pubprocesslarge.png" copy="1"/>
   <file id="3672291a16c03a83b0b708cd63df1437" original="locale/lt_LT/editor.xml">
     <unit id="editor.home">
       <segment>
@@ -26333,6 +26340,7 @@ ________________________________________________________________________<br/>
       </segment>
     </unit>
   </file>
+  <file id="aa268a6bb00ae7263411f66c85603fbf" original="plugins/generic/orcidProfile/locale/lt_LT/emailTemplates.xml" copy="1"/>
   <file id="668628f72c1368389576d9b212aa0f16" original="plugins/generic/pdfJsViewer/locale/lt_LT/locale.xml">
     <unit id="plugins.generic.pdfJsViewer.name">
       <segment>
@@ -27322,7 +27330,7 @@ ________________________________________________________________________<br/>
     </unit>
     <unit id="plugins.importexport.crossref.cliUsage">
       <segment>
-        <source>Usage:
+        <source>Usage: 
 {$scriptName} {$pluginName} [xmlFileName] [journal_path] articles [articleId1] [articleId2] ...
 {$scriptName} {$pluginName} [xmlFileName] [journal_path] issue [issueId]
 </source>
@@ -27440,7 +27448,7 @@ ________________________________________________________________________<br/>
     </unit>
     <unit id="plugins.importexport.datacite.cliUsage">
       <segment>
-        <source>Usage:
+        <source>Usage: 
 {$scriptName} {$pluginName} export xmlFileName journal_path {issues|articles|galleys|suppfiles} objectId1 [objectId2] ...
 {$scriptName} {$pluginName} register journal_path {issues|articles|galleys|suppfiles} objectId1 [objectId2] ...
 </source>
@@ -27491,7 +27499,7 @@ ________________________________________________________________________<br/>
 		<a href="http://www.medra.org/en/guide.htm" target="_blank">mEDRA homepage</a>
 		to receive a username and password. If you do not have your own username and
 		password you'll still be able to export into the mEDRA XML format (Onix for DOI)
-		but you cannot register your DOIs with mEDRA from within OJS.
+		but you cannot register your DOIs with mEDRA from within OJS. 
 		Please note that the password will be saved as plain text, i.e. not encrypted, due
 		to the mEDRA registration service requirements.
 	]]></source>
@@ -27634,7 +27642,7 @@ ________________________________________________________________________<br/>
     </unit>
     <unit id="plugins.importexport.medra.cliUsage">
       <segment>
-        <source>Usage:
+        <source>Usage: 
 {$scriptName} {$pluginName} export xmlFileName journal_path {issues|articles|galleys} objectId1 [objectId2] ...
 {$scriptName} {$pluginName} register journal_path {issues|articles|galleys} objectId1 [objectId2] ...
 </source>
@@ -27988,7 +27996,7 @@ Komandos:
     </unit>
     <unit id="plugins.importexport.pubmed.cliUsage">
       <segment>
-        <source>Usage:
+        <source>Usage: 
 {$scriptName} {$pluginName} [xmlFileName] [journal_path] articles [articleId1] [articleId2] ...
 {$scriptName} {$pluginName} [xmlFileName] [journal_path] issue [issueId]
 </source>
@@ -28333,6 +28341,7 @@ Pavyzdžiai:
       </segment>
     </unit>
   </file>
+  <file id="c26f5feb52d86ab2f3b10c1e6096d987" original="plugins/paymethod/manual/locale/lt_LT/emailTemplates.xml" copy="1"/>
   <file id="684888fb5f0fad5afbd01fb686908e42" original="plugins/paymethod/paypal/locale/lt_LT/locale.xml">
     <unit id="plugins.paymethod.paypal.displayName">
       <segment>
@@ -28431,6 +28440,7 @@ Pavyzdžiai:
       </segment>
     </unit>
   </file>
+  <file id="9534ad6bb051f9bfe69aa1084211019a" original="plugins/paymethod/paypal/locale/lt_LT/emailTemplates.xml" copy="1"/>
   <file id="73fcab3ac7f2c61a99842c991659d2af" original="plugins/pubIds/doi/locale/lt_LT/locale.xml">
     <unit id="plugins.pubIds.doi.displayName">
       <segment>

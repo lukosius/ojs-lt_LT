@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/importexport/pubIds/locale/lt_LT/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="plugins.importexport.pubIds.displayName">Viešųjų identifikatorių XML įskiepis</message>
+    <message key="plugins.importexport.pubIds.description">Įskiepis importuoja ir eksportuoja viešuosius identifikatorius</message>
+    <message key="plugins.importexport.pubIds.cliUsage">Naudojimas: {$scriptName} {$pluginName} [command] ...
+Komandos:
+	import [xmlFileName] [journal_path] [user_name]
+	export [xmlFileName] [journal_path] issues [issueId1] [issueId2] ...
+	export [xmlFileName] [journal_path] issue [issueId]
+</message>
+    <message key="plugins.importexport.pubIds.export">Eksportuoti viešuosius identifikatorius</message>
+    <message key="plugins.importexport.pubIds.export.forIssues">Eksportuoti viešuosius identifikatorius</message>
+    <message key="plugins.importexport.pubIds.export.selectIssue">Pasirinkite numerį</message>
+    <message key="plugins.importexport.pubIds.export.selectIssue.description">Pasirinkite numerius, kurių objektų viešuosius identifikatorius norite eksportuoti.</message>
+    <message key="plugins.importexport.pubIds.import">Importuoti viešuosius identifikatorius</message>
+    <message key="plugins.importexport.pubIds.import.description">Įskiepis palaiko viešųjų identifikatorių importavimą paremtą „pubIds.dtd“ dokumento tipo apibrėžtimi.</message>
+    <message key="plugins.importexport.pubIds.import.results">Importuoti rezultatus</message>
+    <message key="plugins.importexport.pubIds.import.errors">Importuoti klaidas</message>
+    <message key="plugins.importexport.pubIds.import.errors.description">Įvyko viena ar daugiau klaidų importavimo metu. Patikrinkite, ar importuojamo failo formatas yra korektiškas pagal specifikaciją. Žemiau yra išvardyta importavimo klaidų informacija.</message>
+    <message key="plugins.importexport.pubIds.import.success">Importavimas sėkmingas</message>
+    <message key="plugins.importexport.pubIds.import.success.description">Sėkmingai importuoti viešieji identifikatoriai yra išvardyti žemiau.</message>
+    <message key="plugins.importexport.pubIds.cliError">KLAIDA:</message>
+    <message key="plugins.importexport.pubIds.cliError.unknownJournal">Nurodytas žurnalo kelias „{$journalPath}“ neegzistuoja.</message>
+    <message key="plugins.importexport.pubIds.cliError.unknownUser">Nurodytas vartotojas „{$userName}“ neegzistuoja.</message>
+    <message key="plugins.importexport.pubIds.cliError.issueNotFound">Nėra numerio su nurodytu ID „{$issueId}“.</message>
+    <message key="plugins.importexport.pubIds.cliError.couldNotWrite">Nepavyko įrašyti į failą „{$fileName}“.</message>
+    <message key="plugins.importexport.pubIds.import.error.uploadFailed">Nusiuntimas nepavyko; įsitikinkite, kad nusiuntimai yra leidžiami serveryje ir, kad failas nėra per didelis PHP ir serverio konfigūracijai.</message>
+    <message key="plugins.importexport.pubIds.import.error.unsupportedRoot">Įskiepis nepalaiko nurodyto šakninio mazgo „{$rootName}“. Įsitikinkite, kad failas yra korektiškai suformuotas ir mėginkite iš naujo.</message>
+    <message key="plugins.importexport.pubIds.import.error.unknownObjectType">Buvo nurodytas nežinomas objekto tipas „{$pubObjectType}“ elemento požymyje „pubObjectType“, kurio reikšmė „{$pubId}“.</message>
+    <message key="plugins.importexport.pubIds.import.error.unknownObject">Nurodytas objektas „{$pubObjectType}“ su ID = {$pubObjectId} elemente, kurio reikšmė „{$pubId}“, neegzistuoja šiame žurnale.</message>
+    <message key="plugins.importexport.pubIds.import.error.pubIdExists">Tipo „{$pubIdType}“ viešasis identifikatorius objektui {$pubObjectType} su ID = {$pubObjectId} jau egzistuoja.</message>
+    <message key="plugins.importexport.pubIds.import.error.duplicatePubId">Viešasis identifikatorius „{$pubId}“ jau yra naudojamas kito objekto.</message>
+    <message key="plugins.importexport.pubIds.import.error.unknownPubId">Importavimo failas turi viešąjį identifikatoriaus tipą „{$pubIdType}“, kurio šis įskiepis nepalaiko. Įdiekite ir/arba aktyvuokite atitinkamą pubId įskiepį prieš mėgindami importuoti šį duomenų rinkinį.</message>
+</locale>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/lt_LT/submission.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="submission.submit.title">Pateikti straipsnį</message>
+    <message key="submission.submit.userGroup">Pateikti kaip...</message>
+    <message key="submission.submit.userGroupDescription">Pasirinkite vaidmenį kuriuo pateikiate straipsnį.</message>
+    <message key="submission.upload.selectComponent">Pasirinkite straipsnio komponentą</message>
+    <message key="submission.title">Straipsnio pavadinimas</message>
+    <message key="submission.title.tip"><![CDATA[Pateikimo tipas paprastai būna vienas iš 'image', 'text', arba kiti įvairialypės terpės tipai kartu su 'software' ar 'interactive'.  Pasirinkite vieną iš labiausiai tinkančių Jūsų pateikimui.  Pavyzdžius galite rasti <a target="_blank" href="http://dublincore.org/documents/2001/04/12/usageguide/generic.shtml#type">http://dublincore.org/documents/2001/04/12/usageguide/generic.shtml#type</a>]]></message>
+    <message key="submission.submit.newSubmissionMultiple">Pradėti naują pateikimą</message>
+    <message key="submission.submit.newSubmissionSingle">Naujas pateikimas</message>
+    <message key="grid.action.workflow">Pateikimo darbo eiga</message>
+    <message key="submission.issueEntry">Metaduomenys</message>
+    <message key="submission.submit.whatNext.description">Žurnalas buvo informuotas apie jūsų pateikimą ir jums buvo nusiųstas el. laiškas su patvirtinimu.  Kai redaktorius peržiūrės pateikimą, jie susisieks su jumis.</message>
+    <message key="grid.action.galleyInIssueEntry">Maketas yra numerio įraše</message>
+    <message key="grid.action.issueEntry">Peržiūrėti pateikimo metaduomenis</message>
+    <message key="submission.issueEntry.modalTitle">Pateikimo ir publikacijos metaduomenys</message>
+    <message key="submission.issueEntry.submissionMetadata">Pateikimas</message>
+    <message key="submission.issueEntry.publicationMetadata">Publikacija</message>
+    <message key="submission.issueEntry.confirm">Kurti numerio įrašą šiam straipsniui pagal žemiau esančius metaduomenis.</message>
+    <message key="submission.event.articleGalleyMadeAvailable">Straipsnio maketas „{$galleyFormatName}“ yra prieinamas.</message>
+    <message key="submission.event.articleGalleyMadeUnavailable">Straipsnio maketas „{$galleyFormatName}“ yra neprieinamas</message>
+    <message key="submission.event.publicIdentifiers">Atnaujinti pateikimo viešieji identifikatoriai.</message>
+    <message key="grid.issueEntry.availableGalley.title">Formato patvirtinimas</message>
+    <message key="grid.issueEntry.availableGalley.removeMessage"><![CDATA[<p>Šis maketas bus <em>daugiau nebeprieinamas</em> skaitytojams.</p>]]></message>
+    <message key="grid.issueEntry.availableGalley.message"><![CDATA[<p>Šis maketas bus <em>prieinamas</em> skaitytojams.</p>]]></message>
+    <message key="grid.action.availableArticleGalley">Padaryti šį maketą prieinamu</message>
+    <message key="submission.galleyFiles">Maketo failai</message>
+    <message key="submission.proofReadingDescription"><![CDATA[Maketuotojas nusiunčia gamybai paruoštus failus, kurie buvo paruošti čia. Naudokite <em>Paskirti auditorių</em>, kad paskirtumėte autorius ir kitus koreguoti maketus su pataisytais failai nusiųstais patvirtinimui prieš publikavimą.]]></message>
+    <message key="grid.action.approveProof">Patvirtinti šią korekciją įtraukimui į maketą.</message>
+    <message key="grid.action.pageProofApproved">Ši korekcija buvo patvirtinta įtraukimui į maketą.</message>
+    <message key="submission.submit.titleAndSummary">Pavadinimas ir santrauka</message>
+    <message key="submission.submit.upload.description">Nusiųskite failus susietus su šiuo pateikimu, įtraukiant straipsnį, įvairialypę informaciją, duomenų rinkinius, iliustracija ir kt.</message>
+    <message key="submission.pageProofs">Korektūra</message>
+    <message key="submission.confirmSubmit">Ar tikrai norite pateikti šį straipsnį žurnalui?</message>
+    <message key="workflow.review.externalReview">Recenzavimas</message>
+    <message key="editor.submission.decision.sendExternalReview">Siųsti recenzavimui</message>
+    <message key="submission.event.issueMetadataUpdated">Buvo atnaujinti pateikimo numerio metaduomenys.</message>
+    <message key="submission.upload.fileContents">Straipsnio komponentas</message>
+    <message key="submission.complete">Patvirtintas</message>
+    <message key="submission.incomplete">Laukia patvirtinimo</message>
+    <message key="submission.submit.form.localeRequired">Pasirinkite pateikimo kalbą.</message>
+    <message key="submission.submit.submissionChecklist">Pateikimo kontrolinis sąrašas</message>
+    <message key="submission.submit.submissionChecklistDescription">Privalote perskaityti ir patvirtinti, kad įvykdėte reikalavimus esančius žemiau.</message>
+    <message key="submission.submit.privacyStatement">Privatumo politika</message>
+    <message key="submission.submit.contributorRole">Bendraautoriaus vaidmuo</message>
+    <message key="submission.submit.form.authorRequired">Privalomas bent vienas autorius.</message>
+    <message key="submission.submit.form.authorRequiredFields">Kiekvienam autoriui privaloma nurodyti vardą, pavardę ir el. pašto adresą.</message>
+    <message key="submission.submit.form.titleRequired">Įveskite straipsnio pavadinimą.</message>
+    <message key="submission.submit.form.abstractRequired">Įveskite straipsnio santrauką.</message>
+    <message key="submission.submit.form.contributorRoleRequired">Parinkite bendraautoriaus vaidmenį.</message>
+    <message key="submission.citationFormat.notFound">Nepavyko nuskaityti prašyto citavimo formato.</message>
+    <message key="submission.metadataDescription">Šios specifikacijos yra paremtos „Dublin Core“ metaduomenų rinkiniu, tarptautiniu standartu naudojamu aprašyti žurnalo turinį.</message>
+</locale>

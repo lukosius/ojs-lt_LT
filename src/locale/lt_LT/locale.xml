@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/lt_LT/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="context.current">Dabartinis žurnalas:</message>
+    <message key="context.select">Pereiti į kitą žurnalą:</message>
+    <message key="navigation.categories">Kategorijos</message>
+    <message key="navigation.categories.browse">Naršyti</message>
+    <message key="reviewer.article.enterReviewForm">Spustelėkite ant piktogramos, kad užpildytumėte recenzavimo formą.</message>
+    <message key="reviewer.article.reviewFormResponse.form.responseRequired">Užpildykite privalomus laukelius.</message>
+    <message key="common.openJournalSystems">„Open Journal Systems“</message>
+    <message key="common.confirmComplete">Ar tikrai norite pažymėti šią užduotį kaip baigtą? Po to pakeitimai bus negalimi.</message>
+    <message key="common.payment">Mokėjimas</message>
+    <message key="common.payments">Mokėjimai</message>
+    <message key="common.homePageHeader.altText">Pagrindinio puslapio antraštė</message>
+    <message key="common.journalHomepageImage.altText">Žurnalo pagrindinio puslapio paveiksliukas</message>
+    <message key="navigation.journalHelp">Žurnalo žinynas</message>
+    <message key="navigation.current">Naujausias Nr.</message>
+    <message key="navigation.otherJournals">Kiti žurnalai</message>
+    <message key="navigation.browseByIssue">Pagal numerį</message>
+    <message key="navigation.browseByAuthor">Pagal autorių</message>
+    <message key="navigation.infoForAuthors">Autoriams</message>
+    <message key="navigation.infoForLibrarians">Bibliotekininkams</message>
+    <message key="navigation.competingInterestGuidelines">Nurodymai interesų konfliktams</message>
+    <message key="navigation.infoForAuthors.long">Informacija autoriams</message>
+    <message key="navigation.infoForLibrarians.long">Informacija bibliotekininkams</message>
+    <message key="common.queue.long.submissionsUnassigned">Nepaskirti pateikimai</message>
+    <message key="common.queue.short.submissionsUnassigned">Nepaskirti</message>
+    <message key="common.queue.long.submissionsInEditing">Redaguojami pateikimai</message>
+    <message key="common.queue.short.submissionsInEditing">Redaguojami</message>
+    <message key="common.queue.long.submissionsInReview">Recenzuojami pateikimai</message>
+    <message key="common.queue.short.submissionsInReview">Recenzuojami</message>
+    <message key="common.queue.long.submissionsArchives">Archyvas</message>
+    <message key="common.queue.short.submissionsArchives">Archyvas</message>
+    <message key="common.queue.long.active">Aktyvūs</message>
+    <message key="common.queue.short.active">Aktyvūs</message>
+    <message key="common.queue.long.completed">Archyvas</message>
+    <message key="common.queue.short.completed">Archyvas</message>
+    <message key="section.section">Skiltis</message>
+    <message key="section.sections">Skiltys</message>
+    <message key="section.title">Skilties pavadinimas</message>
+    <message key="section.abbreviation">Santrumpa</message>
+    <message key="section.abbreviation.example">(Pavyzdžiui, Straipsniai=STR)</message>
+    <message key="article.article">Straipsnis</message>
+    <message key="article.articles">Straipsniai</message>
+    <message key="article.submissionId">Pateikimo ID</message>
+    <message key="article.title">Pavadinimas</message>
+    <message key="article.authors">Autoriai</message>
+    <message key="article.indexingInformation">Indeksuojama informacija</message>
+    <message key="article.metadata">Metaduomenys</message>
+    <message key="article.journalSection">Žurnalo skiltis</message>
+    <message key="article.file">Failas</message>
+    <message key="article.suppFile">Papildomas failas</message>
+    <message key="article.suppFiles">Papildomi failai</message>
+    <message key="article.suppFilesAbbrev">Pap. failai</message>
+    <message key="article.discipline">Akademinė disciplina ir sub-disciplinos</message>
+    <message key="article.subject">Prasminiai žodžiai</message>
+    <message key="article.coverage">Sritis</message>
+    <message key="article.type">Tipas, metodas ar būdas</message>
+    <message key="article.language">Kalba</message>
+    <message key="article.sectionEditor">SR</message>
+    <message key="article.commentsToEditor">Autoriaus komentarai</message>
+    <message key="article.submission">Pateikimas</message>
+    <message key="article.submissions">Pateikimai</message>
+    <message key="article.details">Išsami informacija</message>
+    <message key="article.abstract">Santrauka</message>
+    <message key="article.coverPage.altText">Viršelio paveiksliukas</message>
+    <message key="article.accessLogoOpen.altText">Atviroji prieiga</message>
+    <message key="article.accessLogoRestricted.altText">Ribotoji prieiga</message>
+    <message key="article.comments.sectionDefault">Numatytasis</message>
+    <message key="article.comments.disable">Išjungti</message>
+    <message key="article.comments.enable">Įgalinti</message>
+    <message key="article.fontSize">Šrifto dydis</message>
+    <message key="article.fontSize.small.altText">Smulkus</message>
+    <message key="article.fontSize.medium.altText">Vidutinis</message>
+    <message key="article.fontSize.large.altText">Stambus</message>
+    <message key="article.return">Grįžti į straipsnio informaciją</message>
+    <message key="submission.submissionEditing">Pateikimo redagavimas</message>
+    <message key="submission.changeSection">Keisti į</message>
+    <message key="submission.sent">Nusiųsta</message>
+    <message key="submission.editorDecision">Redaktoriaus sprendimas</message>
+    <message key="submission.round"><![CDATA[{$round}&nbsp;etapas]]></message>
+    <message key="submission.editorReview">Redaktoriaus recenzavimas</message>
+    <message key="submission.notifyAuthor">Informuoti autorių</message>
+    <message key="submission.notifyEditor">Informuoti redaktorių</message>
+    <message key="submission.editorAuthorRecord">Redaktoriaus/Autoriaus susirašinėjimas</message>
+    <message key="submission.reviewersVersion">Failas su recenzento komentarais</message>
+    <message key="submission.postReviewVersion">Failo versija po recenzavimo</message>
+    <message key="submission.editorVersion">Redaktoriaus versija</message>
+    <message key="submission.authorsRevisedVersion">Autoriaus pataisyta failo versija</message>
+    <message key="submission.authorVersion">Autoriaus versija</message>
+    <message key="submission.copyediting">Rankraščio redagavimas</message>
+    <message key="submission.copyedit">Rankraščio redagavimas</message>
+    <message key="submission.proofreading">Korektūra</message>
+    <message key="submission.scheduling">Planavimas</message>
+    <message key="submission.scheduledIn">Paskirti leidimui į {$issueName}.</message>
+    <message key="submission.scheduledIn.tba">(TBA)</message>
+    <message key="submissions.sec">Skiltis</message>
+    <message key="submissions.step1">1 žingsnis</message>
+    <message key="submissions.step3">3 žingsnis</message>
+    <message key="submissions.queuedReview">Laukia recenzavimo</message>
+    <message key="submissions.scheduled">Suplanuotas</message>
+    <message key="submissions.published">Paskelbtas</message>
+    <message key="submissions.initial">Pradinis</message>
+    <message key="submissions.proofread">Koregavimas</message>
+    <message key="submissions.initialProof">Pradinis koregavimas</message>
+    <message key="submissions.postAuthor">Po autoriaus pataisymų</message>
+    <message key="submissions.reviewRound">Recenzavimo etapas</message>
+    <message key="submissions.proof">Tikrinti</message>
+    <message key="submissions.editorDecision">Redaktoriaus sprendimas</message>
+    <message key="submissions.editorRuling">Redaktoriaus nutarimas</message>
+    <message key="submission.eventLog">Įvykių žurnalas</message>
+    <message key="submissions.copyeditComplete">Rankraštis redaguotas</message>
+    <message key="submissions.layoutComplete">Sumaketuotas</message>
+    <message key="submissions.proofreadingComplete">Koreguotas</message>
+    <message key="journal.currentIssue">Naujausias numeris</message>
+    <message key="journal.journals">Žurnalai</message>
+    <message key="journal.path">Kelias</message>
+    <message key="context.context">Žurnalas</message>
+    <message key="journal.issn">ISSN</message>
+    <message key="journal.viewAllIssues">Peržiūrėti visus numerius</message>
+    <message key="user.noRoles.selectUsersWithoutRoles">Įtraukti šio žurnalo vartotojus be vaidmenų.</message>
+    <message key="user.profile.profileImage">Profilio paveiksliukas</message>
+    <message key="user.showAllJournals">Rodyti mano žurnalus</message>
+    <message key="user.registerForOtherJournals">Registruotis į kitus žurnalus</message>
+    <message key="user.reviewerPrompt">Ar norėtumėte recenzuoti pateikimus šiame žurnale?</message>
+    <message key="user.reviewerPrompt.userGroup">Taip, prašyti „{$userGroup}“ vaidmens.</message>
+    <message key="user.register.contextsPrompt">Kuriuose žurnaluose norėtumėte užsiregistruoti?</message>
+    <message key="user.register.otherContextRoles">Prašyti atitinkamų vaidmenų.</message>
+    <message key="user.register.noContextReviewerInterests">Jei prašėte būti recenzentui bet kuriame žurnale, įveskite savo recenzavimo sritis.</message>
+    <message key="user.myJournals">Mano žurnalai</message>
+    <message key="user.manageMySubscriptions">Tvarkyti prenumeratas</message>
+    <message key="user.noRoles.chooseJournal">Jūsų paskyra nėra susieta su jokiu žurnalu. Pasirinkite žurnalą:</message>
+    <message key="user.noRoles.noRolesForJournal">Jūsų paskyra neturi vaidmens šiame žurnale. Pasirinkite vieną iš pateiktų veiksmų:</message>
+    <message key="user.noRoles.submitArticle">Pateikti straipsnį</message>
+    <message key="user.noRoles.submitArticleRegClosed">Pateikti straipsnį: autorių registracija šiuo metu išjungta.</message>
+    <message key="user.noRoles.regReviewer">Registruotis kaip recenzentas</message>
+    <message key="user.noRoles.regReviewerClosed">Registruotis kaip recenzentas: recenzentų registracija šiuo metu yra išjungta.</message>
+    <message key="user.role.manager">Žurnalo administratorius</message>
+    <message key="user.role.sectionEditor">Skilties redaktorius</message>
+    <message key="user.role.subscriptionManager">Prenumeratos administratorius</message>
+    <message key="user.role.managers">Žurnalo administratoriai</message>
+    <message key="user.role.subEditors">Skilties redaktoriai</message>
+    <message key="user.role.subscriptionManagers">Prenumeratos administratoriai</message>
+    <message key="user.role.journalAssistant">Žurnalo asistentas</message>
+    <message key="user.role.journalAssistants">Žurnalo asistentai</message>
+    <message key="user.role.guestEditor">Kviestinis redaktorius</message>
+    <message key="user.role.guestEditors">Kviestiniai redaktoriai</message>
+    <message key="issue.issue">Numeris</message>
+    <message key="issue.issues">Numeriai</message>
+    <message key="issue.title">Pavadinimas</message>
+    <message key="issue.volume">Tomas</message>
+    <message key="issue.number">Numeris</message>
+    <message key="issue.vol">T.</message>
+    <message key="issue.no">Nr.</message>
+    <message key="issue.year">Metai</message>
+    <message key="issue.noIssues">Nėra numerių</message>
+    <message key="issue.toc">Turinys</message>
+    <message key="issue.abstract">Santrauka</message>
+    <message key="issue.coverPage.altText">Viršelis</message>
+    <message key="issue.fullIssue">Visas numeris</message>
+    <message key="issue.nonpdf.title">Numerio atsisiuntimas</message>
+    <message key="issue.viewIssue">Peržiūrėti numerį</message>
+    <message key="issue.return">Grįžti į numerio informaciją</message>
+    <message key="subscriptionTypes.currency">Valiuta</message>
+    <message key="subscriptionTypes.year">metai</message>
+    <message key="subscriptionTypes.years">metų</message>
+    <message key="subscriptionTypes.month">mėnuo</message>
+    <message key="subscriptionTypes.months">mėnesių</message>
+    <message key="subscriptionTypes.nonExpiring">Nuolatinė</message>
+    <message key="subscriptionTypes.format">Formatas</message>
+    <message key="subscriptionTypes.format.online">Internetinis</message>
+    <message key="subscriptionTypes.format.print">Spausdintinis</message>
+    <message key="subscriptionTypes.format.printOnline">Spausdintinis ir internetinis</message>
+    <message key="subscriptions.inactive">Neaktyvi</message>
+    <message key="subscriptions.status">Būsena</message>
+    <message key="subscriptions.status.active">Aktyvi</message>
+    <message key="subscriptions.status.needsInformation">Reikia informacijos</message>
+    <message key="subscriptions.status.needsApproval">Reikia patvirtinimo</message>
+    <message key="subscriptions.status.awaitingManualPayment">Laukiama apmokėjimo</message>
+    <message key="subscriptions.status.awaitingOnlinePayment">Laukiama internetinio apmokėjimo</message>
+    <message key="subscriptions.status.other">Kita, žr. pastabas</message>
+    <message key="subscriptions.individualDescription">Prenumeratoriai privalo prisijungti, kad pasiektų šį turinį.</message>
+    <message key="subscriptions.institutionalDescription">Institucijos prenumeratoriams prisijungti nėra būtina. Prieiga suteikiama pagal prenumeratoriaus kompiuterio sritį arba IP adresą.</message>
+    <message key="subscriptions.institutionalOnlinePaymentDescription"><![CDATA[<strong>Pastaba:</strong> Prieš aktyvuojant prenumeratą, internetu užsakytoms institucinėms prenumeratoms, reikia patvirtinti sritį ir IP diapazoną.]]></message>
+    <message key="submission.event.general.defaultEvent">Pateikimo įvykis</message>
+    <message key="submission.event.submissionSubmitted">Straipsnis pateiktas</message>
+    <message key="submission.event.general.issueScheduled">Pateikimas nusiųstas į numerio planavimo eilę</message>
+    <message key="submission.event.general.issueAssigned">Pateikimas priskirtas numeriui</message>
+    <message key="submission.event.general.articlePublished">Straipsnis paskelbtas</message>
+    <message key="submission.event.author.authorRevision">Pateiktas autoriaus pataisymas</message>
+    <message key="submission.event.general.authorRevision">Atnaujintas autoriaus pataisymų failas</message>
+    <message key="submission.event.editor.editorAssigned">Redaktorius priskirtas prie pateikimo</message>
+    <message key="submission.event.editor.editorUnassigned">Redaktorius išbrauktas iš pateikimo</message>
+    <message key="submission.event.editor.editorDecision">Pateiktas redaktoriaus sprendimas</message>
+    <message key="submission.event.editor.editorFile">Atnaujintas redaktoriaus failas</message>
+    <message key="submission.event.editor.submissionArchived">Pateikimas nusiųstas į archyvą</message>
+    <message key="submission.event.editor.submissionRestored">Pateikimas atkurtas iš archyvo</message>
+    <message key="submission.event.copyedit.copyeditorAssigned">Rankraščio redaktorius paskirtas prie pateikimo</message>
+    <message key="submission.event.copyedit.copyeditorUnassigned">Rankraščio redaktorius išbrauktas iš pateikimo</message>
+    <message key="submission.event.copyedit.copyeditInitiated">Pradėtas rankraščio redagavimas</message>
+    <message key="submission.event.copyedit.copyeditRevision">Atnaujintas rankraščio redaktoriaus pataisymų failas</message>
+    <message key="submission.event.copyedit.copyeditInitialCompleted">Baigtas pradinis rankraščio redagavimas</message>
+    <message key="submission.event.copyedit.copyeditFinalCompleted">Baigtas galutinis rankraščio redagavimas</message>
+    <message key="submission.event.copyedit.copyeditSetFile">Atnaujintas rankraščio failas</message>
+    <message key="submission.event.proofread.proofreaderAssigned">Korektorius paskirtas prie pateikimo</message>
+    <message key="submission.event.proofread.proofreaderUnassigned">Korektorius išbrauktas iš pateikimo</message>
+    <message key="submission.event.proofread.proofreadInitiated">Pradėtas koregavimas</message>
+    <message key="submission.event.proofread.proofreadRevision">Atnaujintas korektoriaus pataisymų failas</message>
+    <message key="submission.event.proofread.proofreadCompleted">Baigtas koregavimas</message>
+    <message key="submission.event.layout.layoutEditorAssigned">Maketuotojas paskirtas prie pateikimo</message>
+    <message key="submission.event.layout.layoutEditorUnassigned">Maketuotojas išbrauktas iš pateikimo</message>
+    <message key="submission.event.layout.layoutInitiated">Pradėtas maketavimas</message>
+    <message key="submission.event.layout.layoutGalleyCreated">Atnaujintas maketas</message>
+    <message key="submission.event.layout.layoutComplete">Baigtas maketavimas</message>
+    <message key="reader.subscribersOnly">Tik prenumeratoriams</message>
+    <message key="reader.subscriptionRequiredLoginText">Reikalinga prenumerata, kad pasiektumėte šį elementą. Norėdami patvirtinti prenumeratą, prisijunkite prie žurnalo.</message>
+    <message key="reader.openAccess">Atviroji prieiga</message>
+    <message key="reader.subscriptionAccess">Reikia prenumeratos</message>
+    <message key="reader.subscriptionOrFeeAccess">Reikia prenumeratos ar mokesčio</message>
+    <message key="comments.commentsOnArticle">Straipsnio komentarai</message>
+    <message key="comments.authenticated"><![CDATA[by <a href="{$publicProfileUrl}" target="_parent">{$userName}</a>]]></message>
+    <message key="search.results.orderBy">Rikiuoti rezultatus pagal</message>
+    <message key="search.results.orderBy.article">Straipsnio pavadinimą</message>
+    <message key="search.results.orderBy.author">Autorių</message>
+    <message key="search.results.orderBy.date">Išleidimo datą</message>
+    <message key="search.results.orderBy.issue">Numerį</message>
+    <message key="search.results.orderBy.journal">Žurnalo pavadinimą</message>
+    <message key="search.results.orderBy.popularityAll">Populiarumą (visų laikų)</message>
+    <message key="search.results.orderBy.popularityMonth">Populiarumų (pask. mėnesio)</message>
+    <message key="search.results.orderBy.relevance">Tinkamumą</message>
+    <message key="search.results.orderDir.asc">Didėjančiai</message>
+    <message key="search.results.orderDir.desc">Mažėjančiai</message>
+    <message key="search.results.similarDocuments">panašūs dokumentai</message>
+    <message key="admin.settings.oaiRegistrationDescription"><![CDATA[Tam, kad šios svetainės žurnalų turinys būtų indeksuojamas ir patektų į išorines mokslinių tyrimų duomenų bazes, <a href="http://pkp.sfu.ca/harvester/add.php" target="_blank">užregistruokite</a> šios svetainės adresą PKP metaduomenų <a href="http://pkp.sfu.ca/harvester/" target="_blank">surinkimo sistemoje</a>. Ji kaupia metaduomenis iš kiekvieno straipsnio, įgalina tikslią ir kolektyvinę paiešką mokslinių tyrimų leidinių svetainėse, kurios palaiko <a href="http://www.openarchives.org/OAI/openarchivesprotocol.htm#Introduction" target="_blank">Open Archives Initiative Protocol for Metadata Harvesting</a>.
+<br /><br />
+<a href="http://pkp.sfu.ca/harvester/add.php" target="_blank">Spustelėkite čia</a>, įveskite adresą <span class="highlight">{$siteUrl}</span> laukelyje <strong>Site URL</strong> ir <span class="highlight">{$oaiUrl}</span> laukelyje <strong>Base URL for OAI Archive</strong>.
+<br /><br />
+Pastaba: OAI sąsaja gali būti išjungta redaguojant OJS sistemos konfigūraciją. Naujesnės OJS versijos leis įgalinti ir išjungti OAI sąsajas kiekviename žurnale atskirai.]]></message>
+    <message key="admin.auth.defaultSourceDescription"><![CDATA[<p>Pasirinkus kitą, o ne OJS tapatybės nustatymo šaltinį kaip numatytąjį, gali susidaryti šios problemos:</p>
+<ul>
+	<li>Jei vartotojas bando užregistruoti naują paskyrą šioje svetainėje ir tapatybės nustatymo šaltinyje nurodytas vardas jau egzistuoja (bet ne OJS vartotojų duomenų bazėje), registracija bus patvirtinta tik tuo atveju jei nurodytas slaptažodis sutaps su išoriniame šaltinyje įrašytu slaptažodžiu.</li>
+</ul>]]></message>
+    <message key="admin.overwriteConfigFileInstructions"><![CDATA[<h4>PASTABA!</h4>
+<p>Sistemai nepavyko automatiškai perrašyti konfigūracijos failo. Norėdami įrašyti pakeitimus, su teksto redaktoriumi turite atverti <tt>config.inc.php</tt> failą ir pakeisti jo turinį su žemiau pateiktu laukelio turiniu.</p>]]></message>
+    <message key="subscriptionManager.subscriptionManagement">Prenumeratos tvarkymas</message>
+    <message key="subscriptionManager.individualSubscriptions">Individualios prenumeratos</message>
+    <message key="subscriptionManager.institutionalSubscriptions">Institucijos prenumeratos</message>
+    <message key="subscriptionManager.subscriptionTypes">Prenumeratos tipai</message>
+    <message key="plugins.categories.viewableFiles">Straipsnio maketo įskiepiai</message>
+    <message key="plugins.categories.viewableFiles.description">Straipsnio maketo įskiepiai įtraukia skirtingų dokumentų tipų palaikymą.</message>
+    <message key="plugins.categories.auth.description">Tapatybės nustatymo įskiepiai leidžia OJS perduoti vartotojų tapatybės nustatymo užduotį kitoms sistemoms kaip LDAP serveriai.</message>
+    <message key="plugins.categories.citationFormats.description">Citatų formatavimo įskiepiai vartotojams suteikia įvairius formatus, per kuriuos galima pasiekti straipsnio citatas.</message>
+    <message key="plugins.categories.generic.description">Bendrieji įskiepiai yra naudojami norint išplėsti OJS įvairiais būdais, kurie nėra palaikomi kitose įskiepių grupėse.</message>
+    <message key="manager.setup.lockssDescription"><![CDATA[„Open Journal Systems“ palaiko <a href="http://www.lockss.org/" target="_blank">LOCKSS</a> (Lots of Copies Keep Stuff Safe) sistemą, kad užtikrintų saugų ir nuolatinį žurnalo archyvavimą. LOCKSS yra atvirojo kodo programinė įranga, kuria sukūrė Stanfordo universiteto biblioteka, kuri leidžia bibliotekoms išlaikyti pasirinktus internetinius žurnalus reguliariai peržiūrint žurnalo svetainę ir archyvuojant jų turinį. Kiekvienas archyvas yra nuolatos tikrinamas su kitais bibliotekų podėliais ir jei rasta turinys yra sugadintas ar prarastas, tuomet naudojami kiti podėliai ir žurnalas, kad atkurtų jį.
+<br /><br />
+LOCKSS palaikymo „Open Journal Systems“ konfigūravimo nereikėtų pradėti kol neprasidėjo aktyvi leidyba, tuo metu reikėtų atlikti šiuo du veiksmus:]]></message>
+    <message key="manager.setup.clockssDescription"><![CDATA[„Open Journal Systems“ taip pat palaiko <a href="http://clockss.org/" target="_blank">CLOCKSS</a> (Controlled Lots of Copies Keep Stuff Safe) sistemą, kad užtikrintų saugų ir nuolatinį žurnalo archyvavimą. CLOCKSS yra paremta LOCKSS atvirojo kodo programine įranga sukurtą Stanfordo universiteto bibliotekos, kuri leidžia bibliotekoms išlaikyti pasirinktus internetinius žurnalus reguliariai peržiūrint žurnalo svetainę ir archyvuojant jų turinį. Kiekvienas archyvas yra nuolatos tikrinamas su kitais bibliotekų podėliais ir jei rasta turinys yra sugadintas ar prarastas, tuomet naudojami kiti podėliai ir žurnalas, kad atkurtų jį.
+<br /><br />
+CLOCKSS palaikymo „Open Journal Systems“ nereikėtų pradėti kol neprasidėjo aktyvi leidyba.]]></message>
+    <message key="manager.setup.authorCopyrightNotice.sample"><![CDATA[<h3>„Creative Commons“ autorinių teisių pranešimai</h3>
+<h4>1. Siūloma politika žurnalams su atvirąja prieiga</h4>
+Autoriai, kurie nori leisti straipsnius šiame žurnale, sutinka su šiomis sąlygomis:
+<ol type="a">
+    <li>Autoriai pasilieka autorines teises ir žurnalui perleidžia teisę į pirmojo straipsnio paskelbimą, o tuo pačiu darbas yra licencijuojamas pagal <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a>, kuri trečiosioms šalims leidžia dalintis darbu, nurodant straipsnio autorystę ir nuorodą į šį žurnalą kaip pradinio paskelbimo vietą.</li>
+    <li>Autoriai gali sudaryti bet kokias, tačiau ne išimtines, sutartis, liečiančias žurnale patalpinto straipsnio platinimą ar kitokį panaudojimą (pvz. perduoti straipsnį į institucinę talpyklą ar publikuoti knygoje), pateikiant nuorodą į šį žurnalą kaip pradinio paskelbimo vietą.</li>
+    <li>Autoriams leidžiama pateikti savo darbą internete (pvz. institucinėse talpyklose ar jų svetainėse), tiek prieš straipsnio pateikimą, tiek straipsnio pateikimo metu. Tokie veiksmai yra naudingi tuo, kad gali pagreitinti informacijos mainus, paankstinti ir padidinti publikuojamo darbo cituojamumą (žr. <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">The Effect of Open Access</a>).</li>
+</ol>
+
+<h4>Žurnalams su uždelsta atvirąja prieiga</h4>
+Autoriai, kurie nori leisti straipsnius šiame žurnale, sutinka su šiomis sąlygomis:
+<ol type="a">
+    <li>Autoriai pasilieka autorines teises ir žurnalui perleidžia teisę į pirmojo straipsnio paskelbimą. Praėjus [NURODYTI LAIKOTARPĮ] po straipsnio publikavimo, darbas tuo pačiu yra licencijuojamas pagal <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a>, kuri trečiosioms šalims leidžia dalintis darbu, nurodant straipsnio autorystę ir nuorodą į šį žurnalą kaip pradinio paskelbimo vietą.</li>
+     <li>Autoriai gali sudaryti bet kokias, tačiau ne išimtines, sutartis, liečiančias žurnale patalpinto straipsnio platinimą ar kitokį panaudojimą (pvz. perduoti straipsnį į institucinę talpyklą ar publikuoti knygoje), pateikiant nuorodą į šį žurnalą kaip pradinio paskelbimo vietą.</li>
+     <li>Autoriams leidžiama pateikti savo darbą internete (pvz. institucinėse talpyklose ar jų svetainėse), tiek prieš straipsnio pateikimą, tiek straipsnio pateikimo metu. Tokie veiksmai yra naudingi tuo, kad gali pagreitinti informacijos mainus, paankstinti ir padidinti publikuojamo darbo cituojamumą (žr. <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">The Effect of Open Access</a>).</li>
+</ol>]]></message>
+    <message key="manager.setup.citations.enable">Įgalinti citatų ženklinimo pagelbiklį</message>
+    <message key="manager.setup.basicEditorialStepsDescription"><![CDATA[Žingsniai: Pateikimo eilė &gt; Pateikimo recenzavimas &gt; Pateikimo redagavimas &gt; Turinys.<br /><br />
+Pasirinkite šių žingsnių modelį. (Norėdami paskirti redaktorių ir skilties redaktorius, eikite į žurnalo tvarkymo puslapį ir pasirinkite redaktoriai.)]]></message>
+    <message key="manager.setup.referenceLinkingDescription"><![CDATA[<p>Tam, kad skaitytojai greičiau rastų cituojamus šaltinius internete. Galimos tokios parinktys:</p>
+
+<ol>
+	<li><strong>Skaitymo įrankiai</strong><p>Žurnalo tvarkyklėje galima įtraukti „Rasti citatas“ į skaitymo įrankius, kas skaitytojams įgalina citatų pavadinimų kopijavimą ir paiešką iš anksto pažymėtose paieškos sistemose.</p></li>
+	<li><strong>Tiesioginės nuorodos</strong><p>Maketuotojas gali įtraukti nuorodas į citatas, kurios gali būti rastos internete, laikantis žemiau pateiktomis instrukcijomis (jos gali būti redaguojamos).</p></li>
+</ol>]]></message>
+    <message key="manager.people.confirmDisable">Apriboti šio vartotojo veiksnumą? Tai neleis vartotojui prisijungti prie šios sistemos.
+
+Papildomai jūs galite vartotojui pateikti jų paskyros apribojimo priežastį.</message>
+    <message key="manager.people.noAdministrativeRights"><![CDATA[Atsiprašome, tačiau neturite administratoriaus teisių šiam vartotojui. Tai gali būti, nes:
+		<ul>
+			<li>Vartotojas yra svetainės administratorius</li>
+			<li>Vartotojas yra priskirtas žurnalams, kurių jūs netvarkote</li>
+		</ul>
+	Šį veiksmą gali atlikti tik svetainės administratorius.
+	]]></message>
+    <message key="editor.submissionReview.notes"><![CDATA[
+	<ol>
+	<li>Paryškinti elementai reiškia reikalingo redaktoriaus veiksmo:
+		<ul>
+			<li class="highlightReviewerNotNotified">Recenzentas buvo priskirtas, bet neinformuotas el. laišku</li>
+			<li class="highlightNoDecision">Visi recenzentai grįžo su savo komentarais, bet neužfiksuotas sprendimas</li>
+			<li class="highlightRevisedCopyUploaded">Autorius nusiuntė pataisytą rankraštį</li>
+			<li class="highlightReviewerConfirmationOverdue">Recenzentas yra pavėlavęs patvirtinti tarpusavio vertinimo kvietimą</li>
+			<li class="highlightReviewerCompletionOverdue">Recenzentas yra pavėlavęs užbaigti recenziją</li>
+		</ul>
+	</li>
+	<li>„Terminas“ yra užpildomas, kai recenzentas sutinka recenzuoti; tai rodo savaičių skaičių iki recenzavimo termino arba (-) savaičių kaip vėluojama.</li>
+</ol>]]></message>
+    <message key="editor.submissionEditing.notes"><![CDATA[
+	<ol>
+	<li>Paryškinti elementai reiškia reikalingo redaktoriaus veiksmo:
+		<ul>
+			<li class="highlightCopyediting">Reikalingas veiksmas rankraščio redagavimo etape</li>
+			<li class="highlightLayoutEditing">Reikalingas veiksmas maketavimo etape</li>
+			<li class="higlightProofreading">Reikalingas veiksmas korektūros etape</li>
+		</ul>
+	</li>
+</ol>]]></message>
+    <message key="editor.article.selectReviewerNotes"><![CDATA[Įvardinkite nuorodas į recenzentų profilius.<br/>
+Įvertinimai yra iš 5 (Puikus).<br/>
+Savaitės nurodo vidutinį laiką per kurį reikia užbaigti recenziją.<br/>
+Naujausia yra data iš neseniai priimtos recenzijos.<br/>
+Aktyvios yra recenzijų skaičius, kurios šiuo metu yra svarstomos arba yra vykdomos.]]></message>
+    <message key="sectionEditor.activeEditorialAssignments">Aktyvios užduotys</message>
+    <message key="sectionEditor.completedEditorialAssignments">Atliktos užduotys</message>
+    <message key="sectionEditor.noneAssigned">Nėra paskirtų pateikimų.</message>
+    <message key="sectionEditor.copyedit.confirmRenotify">Vėl išsiuntus šį pranešimą rankraščio redaktoriui bus iš naujo pradėta jų užduotis. Ar tikrai norite tai daryti?</message>
+    <message key="sectionEditor.author.confirmRenotify">Vėl išsiuntus šį pranešimą autoriui bus iš naujo pradėta jo užduotis. Ar tikrai norite tai daryti?</message>
+    <message key="sectionEditor.layout.confirmRenotify">Vėl išsiuntus šį pranešimą maketuotojui bus iš naujo pradėta jo užduotis. Ar tikrai norite tai daryti?</message>
+    <message key="sectionEditor.proofreader.confirmRenotify">Vėl išsiuntus šį pranešimą korektoriui bus iš naujo pradėta jo užduotis. Ar tikrai norite tai daryti?</message>
+    <message key="sectionEditor.regrets.breadcrumb">Atsisakymai</message>
+    <message key="sectionEditor.regrets.title"><![CDATA[#{$submissionId} Recenzento atsisakymai, atšaukimai & Ankstesni etapai]]></message>
+    <message key="sectionEditor.regrets">Atsisakymai</message>
+    <message key="sectionEditor.regrets.link">Žiūrėti atsisakymus, atšaukimus, ankstesnius etapus</message>
+    <message key="sectionEditor.regrets.reviewRound">Tarpusavio vertinimas, Etapas {$round}</message>
+    <message key="sectionEditor.regrets.decisionRound">Redaktoriaus sprendimas, Etapas {$round}</message>
+    <message key="sectionEditor.regrets.regretsAndCancels"><![CDATA[Recenzento atsisakymai & Atšaukimai]]></message>
+    <message key="sectionEditor.regrets.regret">Atsisakyti</message>
+    <message key="sectionEditor.regrets.result">Rezultatas</message>
+    <message key="sectionEditor.review.enrollReviewer">Paskirti egzistuojantį vartotoją kaip recenzentą</message>
+    <message key="sectionEditor.review.createReviewer">Kurti naują recenzentą</message>
+    <message key="layoutEditor.activeEditorialAssignments">Aktyvios užduotys</message>
+    <message key="layoutEditor.completedEditorialAssignments">Atliktos užduotys</message>
+    <message key="layoutEditor.noActiveAssignments">Nėra aktyvių užduočių.</message>
+    <message key="layoutEditor.layoutEditingAssignments">Maketavimo užduotys</message>
+    <message key="layoutEditor.galley.uploadGalleyFormat">Nusiųsti maketą</message>
+    <message key="layoutEditor.galley.replaceGalley">Pakeisti failą</message>
+    <message key="layoutEditor.galley.uploadSuppFile">Nusiųsti papildomą failą</message>
+    <message key="submission.layout.imageInvalid">Netinkamas paveiksliuko formatas. Leistini formatai yra .gif, .jpg, ir .png.</message>
+    <message key="submission.layout.galley.remotelyHostedContent">Maketo failas yra prieinamas kitoje svetainėje.</message>
+    <message key="submission.layout.galley.remoteURL">Nuotolinio turinio adresas</message>
+    <message key="reviewer.pendingReviews">Recenzuojami straipsniai</message>
+    <message key="reviewer.completedReviews">Baigta</message>
+    <message key="reviewer.averageQuality">Įvertinimas</message>
+    <message key="reviewer.article.fileToBeReviewed">Failais recenzavimui</message>
+    <message key="reviewer.article.notifyTheEditor">Informuoti redaktorių</message>
+    <message key="reviewer.article.canDoReview">Sutinku recenzuoti</message>
+    <message key="reviewer.article.cannotDoReview">Atsisakau recenzuoti</message>
+    <message key="reviewer.article.restrictedFileAccess">Pateikimas bus prieinamas, jei sutiksite atlikti recenziją</message>
+    <message key="reviewer.article.submissionEditor">Pateikimo redaktorius</message>
+    <message key="reviewer.article.reviewerCommentsDescription">Įveskite recenzavimo komentarus čia</message>
+    <message key="reviewer.article.editorToEnter">Įveda redaktorius</message>
+    <message key="reviewer.article.sendReminder">Siųsti priminimą</message>
+    <message key="reviewer.article.automatic">(Automatiškai)</message>
+    <message key="reviewer.article.recommendation">Rekomendacija</message>
+    <message key="reviewer.article.submitReview">Pateikti recenziją redaktoriui</message>
+    <message key="reviewer.article.reviewerComments">Komentarai</message>
+    <message key="reviewer.article.uploadedFile">Nusiųsti failai</message>
+    <message key="reviewer.article.reviewersAnnotatedVersion">Recenzento nusiųsta versija</message>
+    <message key="reviewer.article.reviewersAnnotatedVersionDescription">(Jei norite anotuoti failą, redaktoriui, įrašykite failą savo kietajame diske ir naudokite Naršyti/Nusiųsti.)</message>
+    <message key="reviewer.article.schedule.request">Redaktoriaus užklausimas</message>
+    <message key="reviewer.article.schedule.response">Jūsų atsakymas</message>
+    <message key="reviewer.article.schedule.submitted">Recenzija pateikta</message>
+    <message key="reviewer.article.schedule.due">Recenzavimo terminas</message>
+    <message key="reviewer.article.decision.accept">Priimti pateikimą</message>
+    <message key="reviewer.article.decision.pendingRevisions">Reikalingi pataisymai</message>
+    <message key="reviewer.article.decision.resubmitHere">Iš naujo pateikti recenzavimui</message>
+    <message key="reviewer.article.decision.resubmitElsewhere">Pateikti iš naujo kitur</message>
+    <message key="reviewer.article.decision.decline">Atmesti pateikimą</message>
+    <message key="reviewer.article.decision.seeComments">Žiūrėti komentarus</message>
+    <message key="reviewer.article.schedule">Tvarkaraštis</message>
+    <message key="reviewer.article.submissionToBeReviewed">Recenzuojamas pateikimas</message>
+    <message key="reviewer.article.reviewSchedule">Recenzavimo tvarkaraštis</message>
+    <message key="reviewer.article.reviewSteps">Recenzavimo žingsniai</message>
+    <message key="reviewer.article.reviewerGuidelines">Recenzavimo nurodymai</message>
+    <message key="reviewer.article.reviewGuidelinesDescription">Recenzavimo nurodymai suteiks recenzentams kriterijus sprendžiant straipsnio pateikimo tinkamumą publikavimui žurnale ir gali įtraukti bet kokias specialias instrukcijas, rengiant veiksmingą ir naudingą recenziją. Atliekant recenzavimą, recenzentams yra pateikti du atviri teksto laukeliai: pirmasis „autoriui ir redaktoriui“ ir antrasis „redaktoriui“. Be to, žurnalo administratorius gali sukurti tarpusavio vertinimo formą skiltyje Recenzavimo formos. Visais atvejais, redaktoriai turės parinktį įtraukti recenzijas su atitinkamu autoriumi.</message>
+    <message key="reviewer.article.notifyEditorA">Informuoti pateikimo redaktorių</message>
+    <message key="reviewer.article.notifyEditorB">jei sutinkate atlikti recenziją.</message>
+    <message key="reviewer.article.consultGuidelines">Jei atliksite recenzavimą, vadovaukitės žemiau pateiktais recenzavimo nurodymais.</message>
+    <message key="reviewer.article.downloadSubmission">Spustelėkite ant failo vardo, kad atsisiųstumėte ir recenzuotumėte (ekrane ar spausdindami juos) failus susietus su šiuo pateikimu.</message>
+    <message key="reviewer.article.enterCompetingInterests"><![CDATA[Paskelbti, ar turite interesų konfliktų, atsižvelgiant į šį tyrimą (žr. <a target="_new" class="action" href="{$competingInterestGuidelinesUrl}">IK&nbsp;Politika</a>).]]></message>
+    <message key="reviewer.competingInterests">Interesų konfliktas</message>
+    <message key="reviewer.article.enterReviewA">Spustelėkite ant piktogramos, kad įvestumėte savo recenziją šiam pateikimui.</message>
+    <message key="reviewer.article.uploadFile">Papildomai, jūs galite nusiųsti failus redaktoriui ir/arba autoriui konsultacijai.</message>
+    <message key="reviewer.article.selectRecommendation">Pasirinkite rekomendaciją ir pateikite recenziją norėdami užbaigti procesą. Jūs privalote įvesti recenziją arba nusiųsti failą prieš pasirenkant rekomendaciją.</message>
+    <message key="reviewer.article.selectRecommendation.byEditor">Nustatyti ar priderinti recenzento rekomendaciją.</message>
+    <message key="reviewer.article.mustSelectDecision">Nepasirinkote rekomendacijos.</message>
+    <message key="reviewer.article.confirmDecision">Kai įrašėte savo sprendimą daugiau nebegalėsite atlikti pakeitimų šiai recenzijai. Ar tikrai norite tęsti?</message>
+    <message key="reviewer.article.ensuringBlindReview">Anoniminio recenzavimo užtikrinimas</message>
+    <message key="copyeditor.article.fileToCopyedit">Failas rankraščio redagavimui</message>
+    <message key="copyeditor.article.copyeditorFile">Rankraščio redaktoriaus failas</message>
+    <message key="copyeditor.article.uploadedFile">Nusiųstas failas</message>
+    <message key="copyeditor.article.copyeditorFinalFile">Rankraščio redaktoriaus galutinis failas</message>
+    <message key="proofreader.noProofreadingAssignments">Nėra korekcijos užduočių</message>
+    <message key="author.submit.uploadInstructions"><![CDATA[
+<p>Norėdami nusiųsti rankraštį į šį žurnalą, atlikite šiuos veiksmus.</p>
+<ol>
+<li>Šiame puslapyje, spustelėkite Naršyti (ar Pasirinkti failą), kuris atvers failo pasirinkimo langą, kuriame pasirinksite failą esantį jūsų kompiuteryje.</li>
+<li>Suraskite failą, kurį norite pateikti ir pažymėkite jį.</li>
+<li>Spustelėkite Atverti failo pasirinkimo lange, kuris šiam puslapiui nurodo failo vardą.</li>
+<li>Spustelėkite Nusiųsti šiame puslapyje, kuris nusiųs failą iš jūsų kompiuterio į žurnalo svetainę ir pervadins jį pagal žurnalo taisykles.</li>
+<li>Kai pateikimas yra nusiųstas, spustelėkite mygtuką Įrašyti ir tęsti.</li>
+</ol>]]></message>
+    <message key="submission.review.mustUploadFileForReview">Užklausos el. laiškas negali būti išsiųstas kol recenzavimo versija nėra paruošta.</message>
+    <message key="submission.copyedit.mustUploadFileForInitialCopyedit">Užklausos el. laiškas negali būti išsiųstas kol nepasirinktas failas rankraščio redagavimui prie Redaktoriaus sprendimo, Recenzavimo puslapyje.</message>
+    <message key="submission.copyedit.mustUploadFileForCopyedit">Užklausos el. laiškas negali būti išsiųstas kol failas nėra nusiųstas rankraščio redagavimui.</message>
+    <message key="submission.copyedit.initialCopyedit">Pradinis rankraštis</message>
+    <message key="submission.copyedit.editorsCopyedit">Redaktoriaus rankraštis</message>
+    <message key="submission.copyedit.editorAuthorReview">Autoriaus rankraštis</message>
+    <message key="submission.copyedit.finalCopyedit">Galutinis rankraštis</message>
+    <message key="submission.copyedit.copyeditVersion">R/R versija</message>
+    <message key="submission.copyedit.selectCopyeditor">Priskirti rankraščio redaktorių</message>
+    <message key="submission.copyedit.useFile">Naudoti failą</message>
+    <message key="submission.copyedit.copyeditComments">Rankraščio redagavimo komentarai</message>
+    <message key="submission.copyedit.instructions">Rankraščio redagavimo instrukcijos</message>
+    <message key="submission.layout.noLayoutFile">Nėra (Prie siunčiant užduotį maketuotojams, reikia nusiųsti galutinę rankraščio versiją)</message>
+    <message key="submission.layout.publicGalleyId">Viešasis maketo identifikatorius</message>
+    <message key="submission.layout.galleyPublicIdentificationExists">Toks viešasis maketo identifikatoriaus jau yra.</message>
+    <message key="submission.layout.assignLayoutEditor">Paskirti maketuotoją</message>
+    <message key="submission.layout.replaceLayoutEditor">Pakeisti maketuotoją</message>
+    <message key="submission.layout.layoutComments">Maketavimo komentarai</message>
+    <message key="submission.layout.instructions">Maketavimo instrukcijos</message>
+    <message key="submission.layout.referenceLinking">Nuorodų susiejimas</message>
+    <message key="submission.proofreadingComments">Korektūros komentarai</message>
+    <message key="submission.proofread.corrections">Korektūros pataisymai</message>
+    <message key="submission.proofread.instructions">Koregavimo instrukcijos</message>
+    <message key="submission.logType.article">Straipsnis</message>
+    <message key="submission.logType.author">Autorius</message>
+    <message key="submission.logType.editor">Redaktorius</message>
+    <message key="submission.logType.review">Recenzavimas</message>
+    <message key="submission.logType.copyedit">Rankraščio redagavimas</message>
+    <message key="submission.logType.layout">Maketavimas</message>
+    <message key="submission.logType.proofread">Korektūros skaitymas</message>
+    <message key="submission.comments.editorAuthorCorrespondence">Redaktoriaus/Autoriaus susirašinėjimas</message>
+    <message key="submission.comments.copyeditComments">Rankraščio redagavimo komentarai</message>
+    <message key="submission.comments.viewableDescription"><![CDATA[Šie komentarai gali būti bendrinami su autoriumi.<br />
+(Įrašius, galima įtraukti naujus komentarus.)]]></message>
+    <message key="submission.comments.canShareWithAuthor">Autoriui ir redaktoriui</message>
+    <message key="submission.comments.cannotShareWithAuthor">Redaktoriui</message>
+    <message key="submission.comments.blindCcReviewers">Išsiuntus, pateikti redaguojamą BCC kopiją, kuri bus siunčiama recenzentams.</message>
+    <message key="submission.comments.forAuthorEditor">Autoriui ir redaktoriui</message>
+    <message key="submission.comments.forEditor">Redaktoriui</message>
+    <message key="submission.comments.saveAndEmailAuthor">Įrašyti ir siųsti el. laišką autoriui</message>
+    <message key="submission.comments.saveAndEmailEditor">Įrašyti ir siųsti el. laišką redaktoriui</message>
+    <message key="user.register.selectContext">Pasirinkite žurnalą kuriame užsiregistruosite:</message>
+    <message key="user.register.noJournals">Nėra žurnalų į kuriuos jūs galėtumėte užsiregistruoti.</message>
+    <message key="user.register.privacyStatement">Privatumo politika</message>
+    <message key="user.register.registrationDisabled">Šis žurnalas šiuo metu nepriima vartotojų registracijos.</message>
+    <message key="user.register.form.passwordLengthTooShort">Įvestas slaptažodis yra per trumpas.</message>
+    <message key="user.register.readerDescription">El. laišku pranešti apie naujai išleidžiamus žurnalo numerius.</message>
+    <message key="user.register.openAccessNotificationDescription">El. laišku pranešti kai žurnalo numeris tampa atvirai prieinamas.</message>
+    <message key="user.register.authorDescription">Gali pateikti straipsnius į šį žurnalą.</message>
+    <message key="user.register.reviewerDescriptionNoInterests">Gali recenzuoti šio žurnalo straipsnių pateikimus.</message>
+    <message key="user.register.reviewerDescription">Gali recenzuoti šioje svetainėje pateiktus straipsnius.</message>
+    <message key="user.register.reviewerInterests">Identifikuoti recenzavimo sritis (esminės sritys ir tyrimų metodai):</message>
+    <message key="user.subscriptions.mySubscriptions">Mano prenumeratos</message>
+    <message key="user.subscriptions.subscriptionStatus">Prenumeratos būsena</message>
+    <message key="user.subscriptions.statusInformation">Aktyvios ir pasibaigusios prenumeratos yra rodomos žemiau su jų galiojimo data. Be to, ši būsenos informacija gali būti įtraukta su kiekviena prenumerata.</message>
+    <message key="user.subscriptions.status">Būsena</message>
+    <message key="user.subscriptions.statusDescription">Aprašymas</message>
+    <message key="user.subscriptions.status.needsInformationDescription">Reikia papildomos informacijos, kad prenumerata būtų aktyvuota</message>
+    <message key="user.subscriptions.status.needsApprovalDescription">Reikia peržiūrėti prenumeratą, kad ji būtų aktyvuota</message>
+    <message key="user.subscriptions.status.awaitingManualPaymentDescription">Mokėjimas pradėtas, bet dar negautas</message>
+    <message key="user.subscriptions.status.awaitingOnlinePaymentDescription">Mokėjimas internetu pradėtas, bet atšauktas arba nebaigtas</message>
+    <message key="user.subscriptions.individualSubscriptions">Individuali prenumerata</message>
+    <message key="user.subscriptions.institutionalSubscriptions">Institucinė prenumerata</message>
+    <message key="user.subscriptions.renew">Atnaujinti</message>
+    <message key="user.subscriptions.purchase">Pirkti</message>
+    <message key="user.subscriptions.purchaseNewSubscription">Pirkti naują prenumeratą</message>
+    <message key="user.subscriptions.purchaseIndividualSubscription">Pirkti individualią prenumeratą</message>
+    <message key="user.subscriptions.purchaseInstitutionalSubscription">Pirkti įstaigos prenumeratą</message>
+    <message key="user.subscriptions.expires">Galioja iki</message>
+    <message key="user.subscriptions.expired">Nebegaliojantis</message>
+    <message key="user.subscriptions.viewSubscriptionTypes">Žiūrėti esamus prenumeratos tipus</message>
+    <message key="user.subscriptions.form.typeId">Prenumeratos tipas</message>
+    <message key="user.subscriptions.form.membership">Narystė</message>
+    <message key="user.subscriptions.form.membershipRequired">Pasirinktas prenumeratos tipas reikalauja narystės informacijos.</message>
+    <message key="user.subscriptions.form.typeIdValid">Prašome pasirinkti galiojantį prenumeratos tipą.</message>
+    <message key="user.subscriptions.form.subscriptionExists">Ši vartotojo paskyra jau turi individualią prenumeratą.</message>
+    <message key="user.subscriptions.form.membershipInstructions">Narystės informacija jei reikalinga pasirinktam prenumeratos tipui.</message>
+    <message key="user.subscriptions.form.institutionName">Įstaigos vardas</message>
+    <message key="user.subscriptions.form.institutionNameRequired">Įstaigos vardas yra privalomas.</message>
+    <message key="user.subscriptions.form.institutionMailingAddress">Pašto adresas</message>
+    <message key="user.subscriptions.form.domain">Domenas</message>
+    <message key="user.subscriptions.form.domainInstructions"><![CDATA[Jei čia įvestas domenas, IP diapazonai yra neprivalomi.<br />Galiojančios reikšmės yra domenų vardai (pvz. lib.sfu.ca).]]></message>
+    <message key="user.subscriptions.form.domainIPRangeRequired">Pasirinktas prenumeratos tipas reikalauja domeno ir/arba IP diapazono prenumeratos tapatybės nustatymui.</message>
+    <message key="user.subscriptions.form.domainValid">Prašome įvesti galiojantį domeną.</message>
+    <message key="user.subscriptions.form.ipRange">IP diapazonai</message>
+    <message key="user.subscriptions.form.ipRangeItem"><![CDATA[&#8226;]]></message>
+    <message key="user.subscriptions.form.ipRangeInstructions"><![CDATA[Jei čia įvesti IP diapazonai, domenas yra neprivalomas.<br />Galiojančios reikšmės yra IP adresas (pvz. 142.58.103.1), IP diapazonas (pvz. 142.58.103.1 - 142.58.103.4), IP diapazonas su pakaitos simboliu'*' (pvz. 142.58.*.*), ir IP diapazonas su CIDR (pvz. 142.58.100.0/24).]]></message>
+    <message key="user.subscriptions.form.ipRangeValid">Prašome įvesti galiojantį IP diapazoną.</message>
+    <message key="user.subscriptions.form.deleteIpRange">Šalinti</message>
+    <message key="user.subscriptions.form.addIpRange">Įtraukti</message>
+    <message key="search.browseAuthorIndex">Naršyti autorių sąrašą</message>
+    <message key="search.searchFor">Ieškoti straipsnių</message>
+    <message key="search.withinJournal">Žurnale</message>
+    <message key="search.allJournals">Visuose žurnaluose</message>
+    <message key="search.authorIndex">Autorių sąraše</message>
+    <message key="search.authorDetails">Informacijoje apie autorių</message>
+    <message key="search.syntaxInstructions"><![CDATA[Patarimai paieškai: <ul>
+<li>Neskiriamos didžiosios ir mažosios paieškos terminų raidės</li>
+<li>Ignoruojami bendriniai žodžiai</li>
+<li>Pagal nutylėjimą paieškos rezultate grąžinami tik straipsniai, kurių tekste yra <em>visi</em> terminai (pvz, numanomas <em>AND</em>)</li>
+<li>Sujungę keletą žodžių su <em>OR</em>, rasite straipsnius su bent vienu terminu; pvz., <em>ugdymas OR tyrimas</em></li>
+<li>Naudokite skliaustelius, kad sukurtumėte sudėtingesnes užklausas; pvz., <em>archyvas ((žurnalas OR konferencija) NOT rašinys)</em></li>
+<li>Ieškokite tikslios frazės su kabutėmis; pvz., <em>"atvirosios prieigos leidyba"</em></li>
+<li>Išskirkite žodį pažymėdami jį <strong>-</strong> ar <em>NOT</em>; pvz. <em>internetas -politika</em> arba <em>internetas NOT politika</em></li>
+<li>Naudokite <strong>*</strong> žodyje kaip pakaitos simbolį, kuris atitinka simbolių seką; pvz., <em>soci* dorovė</em> atitiks dokumentus turinčius „sociologinė“ ar „socialinė“</li>
+</ul>]]></message>
+    <message key="article.pageTitle">„{$title}“ peržiūra</message>
+    <message key="article.pdf.title">Portable Document Format (PDF)</message>
+    <message key="article.download">Atsisiųsti PDF failą</message>
+    <message key="article.pluginMissing"><![CDATA[<p>Pasirinktas PDF failas turėtų būti įkeltas čia, jei jūsų naršyklė turi įdiegtą PDF skaityklės įskiepį (pavyzdžiui, naujausia <a href="https://get.adobe.com/reader/">Adobe Acrobat Reader</a> versija).</p>]]></message>
+    <message key="article.nonpdf.title">Straipsnio atsisiuntimas</message>
+    <message key="article.nonpdf.note"><![CDATA[Pasirinkto failo atsisiuntimas netrukus prasidės automatiškai. Jei jis neprasideda, spustelėkite nuorodą žemiau. Atkreipkite dėmesį į tai, kad šis failas gali reikalauti specialios žiūryklės ar įskiepio.<br /><br />Jei failas nepradėjo siųstis automatiškai, <a href="{$url}">spustelėkite čia</a>.]]></message>
+    <message key="site.journalsHosted">Žurnalai šioje svetainėje</message>
+    <message key="site.journalView">Peržiūrėti žurnalą</message>
+    <message key="site.journalRegister">Registruotis</message>
+    <message key="site.journalCurrent">Naujausias numeris</message>
+    <message key="site.noJournals">Nėra prieinamų žurnalų.</message>
+    <message key="current.current">Naujausias numeris</message>
+    <message key="current.noCurrentIssue">Nėra naujausio numerio</message>
+    <message key="current.noCurrentIssueDesc">Šis žurnalas neišleido nei vieno numerio.</message>
+    <message key="archive.archives">Archyvas</message>
+    <message key="archive.archivesPageNumber">Archyvas - {$pageNumber} puslapis</message>
+    <message key="archive.browse">Peržiūrėti ankstesnius numerius</message>
+    <message key="archive.issueUnavailable">Numeris neprieinamas</message>
+    <message key="about.statistics">Statistika</message>
+    <message key="about.contact">Kontaktai</message>
+    <message key="about.aboutContext">Apie žurnalą</message>
+    <message key="about.history">Žurnalo istorija</message>
+    <message key="about.editorialTeam">Redaktorių kolegija</message>
+    <message key="about.editorialTeam.biography">Biografija</message>
+    <message key="about.editorialPolicies">Redakcijos taisyklės</message>
+    <message key="about.focusAndScope">Tematika</message>
+    <message key="about.sectionPolicies">Skilties politika</message>
+    <message key="about.submissions">Pateikimai</message>
+    <message key="about.onlineSubmissions.login">Prisijungti</message>
+    <message key="about.onlineSubmissions.register">Registruotis</message>
+    <message key="about.onlineSubmissions.registrationRequired">{$login} ar {$register}, kad pateiktumėte straipsnį.</message>
+    <message key="about.onlineSubmissions.submissionActions">{$newSubmission} arba {$viewSubmissions}.</message>
+    <message key="about.onlineSubmissions.newSubmission">Pateikti naują straipsnį</message>
+    <message key="about.onlineSubmissions.viewSubmissions">peržiūrėti laukiančius pateikimus</message>
+    <message key="about.authorGuidelines">Nurodymai autoriui</message>
+    <message key="about.submissionPreparationChecklist">Pateikimo kontrolinis sąrašas</message>
+    <message key="about.submissionPreparationChecklist.description">Pateikdami naujus straipsnius autoriai privalo patikrinti pateikimų suderinamumą su šiais elementais. Priešingu atveju pateikimai, kurie neatitinka šių nurodymų, bus grąžinti autoriams.</message>
+    <message key="about.copyrightNotice">Autorinių teisių apsaugos ženklas</message>
+    <message key="about.privacyStatement">Privatumo politika</message>
+    <message key="about.authorFees">Mokesčiai autoriams</message>
+    <message key="about.authorFeesMessage">Šiame žurnale autoriai moka už žemiau išvardytus mokesčius.</message>
+    <message key="about.peerReviewProcess">Recenzavimas</message>
+    <message key="about.publicationFrequency">Leidinių dažnumas</message>
+    <message key="about.openAccessPolicy">Atviroji prieiga</message>
+    <message key="about.delayedOpenAccess">Uždelstoji prieiga</message>
+    <message key="about.delayedOpenAccessDescription1">Šio žurnalo turinys bus prieinamas atvirai, praėjus</message>
+    <message key="about.delayedOpenAccessDescription2">mėn. po numerio išleidimo.</message>
+    <message key="about.authorSelfArchive">Autoriaus savarankiškas archyvavimas</message>
+    <message key="about.archiving">Archyvavimas</message>
+    <message key="about.subscriptions">Prenumeratos</message>
+    <message key="about.subscriptions.individual">Individualios prenumeratos</message>
+    <message key="about.subscriptions.institutional">Įstaigos prenumeratos</message>
+    <message key="about.subscriptionsContact">Prenumeratos kontaktai</message>
+    <message key="about.subscriptionTypes.name">Vardas</message>
+    <message key="about.subscriptionTypes.format">Formatas</message>
+    <message key="about.subscriptionTypes.duration">Trukmė</message>
+    <message key="about.subscriptionTypes.cost">Kaina</message>
+    <message key="about.availableSubscriptionTypes">Prenumeratos tipai</message>
+    <message key="about.memberships">Narystį</message>
+    <message key="about.aboutThisPublishingSystem">Apie šią leidybos sistemą</message>
+    <message key="about.aboutThisPublishingSystem.altText">OJS Editorial and Publishing Process</message>
+    <message key="about.aboutOJSJournal"><![CDATA[Šis žurnalas naudoja Open Journal Systems {$ojsVersion}, kuri yra atviroji žurnalų tvarkymo ir leidybos programinė įranga, kurią kuria, palaiko ir laisvai platina <a href="http://pkp.sfu.ca/">Public Knowledge Project</a> pagal GNU General Public License.]]></message>
+    <message key="about.aboutOJSSite"><![CDATA[Ši svetainė naudoja Open Journal Systems {$ojsVersion}, kuri yra atviroji žurnalų tvarkymo ir leidybos programinė įranga, kurią kuria, palaiko ir laisvai platina <a href="http://pkp.sfu.ca/">Public Knowledge Project</a> pagal GNU General Public License.]]></message>
+    <message key="help.ojsHelp">Open Journal Systems žinynas</message>
+    <message key="help.ojsHelpAbbrev">OJS žinynas</message>
+    <message key="help.searchReturnResults">Grįžti į paieškos rezultatus</message>
+    <message key="help.goToEditPage">Redaguoti {$sectionTitle}</message>
+    <message key="donations.thankYou">Ačiū</message>
+    <message key="donations.thankYouMessage">Ačiū jums už paramą, suteiktą mūsų žurnalui.</message>
+    <message key="gifts.buyer">Nuo</message>
+    <message key="gifts.buyerDescription">Nuo ko ši dovana?</message>
+    <message key="gifts.recipient">Kam</message>
+    <message key="gifts.recipientDescription">Kam ši dovana?</message>
+    <message key="gifts.thankYou">Ačiū Jums</message>
+    <message key="gifts.thankYouMessage">Jūsų dovanos pirkimas baigtas. Jūs gausite šios dovanos kopiją el. paštu, kuri buvo išsiųsta gavėjui, kai tik mokėjimas bus apdorotas.</message>
+    <message key="gifts.purchaseGiftIndividualSubscription">Dovanoti prenumeratą</message>
+    <message key="gifts.subscriptionFormIntroduction">Prašome užpildyti žemiau esančią formą. Pateikta kontaktinė informacija su jūsų dovanos rašteliu bus panaudota siunčiant el. laišką gavėjui ir informuos juos apie prenumeratos dovaną (jūs taip pat gausite šio el. laiško kopiją).</message>
+    <message key="gifts.details">Dovanos informacija</message>
+    <message key="gifts.detailsDescription">Prašome žemiau pasirinkti dovaną ir įtraukti asmeninę žinutę, kuri bus nusiųsta gavėjui (jūs taip pat gausite šio el. laiško kopiją).</message>
+    <message key="gifts.gift">Dovana</message>
+    <message key="gifts.noteTitle">Pavadinimas</message>
+    <message key="gifts.note">Dovanos žinutė</message>
+    <message key="gifts.noteTitleRequired">Prašome įvesti asmeninės žinutės pavadinimą.</message>
+    <message key="gifts.noteRequired">Prašome įvesti asmeninę žinutę.</message>
+    <message key="gifts.localeRequired">Prašome pasirinkti asmeninės žinutės kalbą.</message>
+    <message key="gifts.myGifts">Mano dovanos</message>
+    <message key="gifts.manageMyGifts">Tvarkyti mano dovanas</message>
+    <message key="gifts.redeemGift">Atsiimti dovaną</message>
+    <message key="gifts.status.notRedeemed">Galima</message>
+    <message key="gifts.status.redeemed">Atsiimta</message>
+    <message key="gifts.status.redeemGift">Atsiimti dovaną</message>
+    <message key="gifts.subscriptions">Prenumeratos</message>
+    <message key="gifts.subscriptionsDescription">Čia atsiimtos prenumeratos dovanos pakeis jūsų dabartinę prenumeratą (jei turite vieną). Prenumeratos prasidės nuo atsiėmimo datos ir galios visą prenumeratos tipo trukmę.</message>
+    <message key="gifts.purchaseGiftSubscription">Dovanoti prenumeratą</message>
+    <message key="gifts.giftSubscriptionsAvailable">Taip pat galimos ir prenumeratos dovanos. Jos gali būti gavėjo atsiimtos bet kuriuo laiku ir gali būti nuostabi parama šiam žurnalui.</message>
+    <message key="gifts.noSubscriptions">Nėra prenumeratos dovanų</message>
+    <message key="gifts.giftRedeemed">Dovana buvo sėkmingai atsiimta.</message>
+    <message key="gifts.noGiftToRedeem">Ši dovana nėra prieinama atsiėmimui.</message>
+    <message key="gifts.giftAlreadyRedeemed">Ši dovana buvo jau atsiimta.</message>
+    <message key="gifts.giftNotValid">Ši dovana yra negaliojanti arba negali būti atsiimta.</message>
+    <message key="gifts.subscriptionTypeNotValid">Šiai dovanai šis prenumeratos tipas nėra galiojantis. Prašome susisiekti su prenumeratos administratoriumi.</message>
+    <message key="gifts.subscriptionNonExpiring">Ši dovana nebuvo atsiimta, nes šiame žurnale jūs jau turite nesibaigiančią prenumeratą.</message>
+    <message key="payment.loginRequired">Jūs turite būti prisijungę, kad galėtumėte atlikti mokėjimą.</message>
+    <message key="payment.loginRequired.forArticle">Šiam elementui reikalinga prenumerata arba straipsnio pirkimas. Norint patvirtinti prenumeratą, nueikite į ankstesnį pirkimą arba įsigykite straipsnį, prisijunkite į žurnalą.</message>
+    <message key="payment.loginRequired.forIssue">Šiam elementui reikalinga prenumerata arba numerio pirkimas. Norint patvirtinti prenumeratą, nueikite į ankstesnį pirkimą arba įsigykite numerį, prisijunkite į žurnalą.</message>
+    <message key="payment.loginRequired.forDonation">Norėdami paremti jūs privalote prisijungti.</message>
+    <message key="payment.paid">Sumokėta</message>
+    <message key="payment.payNow">Mokėti dabar</message>
+    <message key="payment.waive">Atsisakyti</message>
+    <message key="payment.alreadyPaid">Jau sumokėta</message>
+    <message key="payment.alreadyPaidMessage">Pažymėkite varnelę, jei jūs jau nusiuntėte savo mokėjimą į žurnalą, norėdami užbaigti pateikimo procesą. Pateikimas nebus recenzuojamas kol nebus gautas mokėjimas. Aukščiau spustelėkite MOKĖTI DABAR, kad pamatytumėte mokėjimo nurodymus.</message>
+    <message key="payment.paymentReceived">Gautas mokėjimas</message>
+    <message key="payment.paymentSent">Mokėjimas jau buvo išsiųstas</message>
+    <message key="payment.authorFees">Autoriaus mokesčiai</message>
+    <message key="payment.type.submission">Pateikimo mokestis</message>
+    <message key="payment.type.publication">Išleidimo mokestis</message>
+    <message key="payment.type.fastTrack">Skubios recenzijos mokestis</message>
+    <message key="payment.type.membership">Individualios narystės mokestis</message>
+    <message key="payment.type.purchaseArticle">Straipsnio pirkimo mokestis</message>
+    <message key="payment.type.purchaseIssue">Numerio pirkimo mokestis</message>
+    <message key="payment.type.subscription">Prenumeratos mokestis</message>
+    <message key="payment.type.donation">Parama</message>
+    <message key="payment.type.gift">Dovana</message>
+    <message key="payment.type.gift.subscription">Prenumerata</message>
+    <message key="payment.donation.makeDonation">Paremti</message>
+    <message key="payment.submission.paySubmission">Mokėti pateikimo mokestį</message>
+    <message key="payment.fastTrack.payFastTrack">Mokėti už skubų recenzavimą</message>
+    <message key="payment.fastTrack.inFastTrack">skubiame recenzavime</message>
+    <message key="payment.publication.payPublication">Mokėti už išleidimą</message>
+    <message key="payment.publication.publicationPaid">Išleidimo mokestis sumokėtas</message>
+    <message key="payment.membership.buyMembership">Pirkti individualią narystę</message>
+    <message key="payment.membership.renewMembership">Atnaujinti individualią narystę</message>
+    <message key="payment.membership.ends">Baigiasi</message>
+    <message key="payment.subscription.purchase">Pirkti prenumeratą</message>
+    <message key="payment.subscription.renew">Atnaujinti prenumeratą</message>
+    <message key="payment.subscription.expires">Galioja iki</message>
+    <message key="installer.appInstallation">OJS diegimas</message>
+    <message key="installer.ojsUpgrade">OJS naujovinimas</message>
+    <message key="installer.installationInstructions"><![CDATA[<h4>OJS versija {$version}</h4>
+
+<p>Ačiū, kad atsisiuntėte „Public Knowledge Project“ programinę įrangą <strong>Open Journal Systems</strong>. Prieš tęsdami perskaitykite <a href="{$baseUrl}/docs/README">README</a> failą. Išsamesnės informacijos apie „Public Knowledge Project“ ir jos projektus ieškokite <a href="http://pkp.sfu.ca/" target="_blank">PKP svetainėje</a>. Jei turite pranešimų apie klaidas ar reikia techninės pagalbos su „Open Journal Systems“, apsilankykite <a href="http://forum.pkp.sfu.ca" target="_blank">pagalbos forume</a> arba nueikite į PKP <a href="https://github.com/pkp/pkp-lib#issues" target="_blank">klaidų pranešimo sistemą</a>. Nors pagalbos forumui teikiama pirmenybė, galite susisiekti su mūsų komanda el. paštu <a href="mailto:pkp.contact@gmail.com">pkp.contact@gmail.com</a>.</p>
+
+<h4>Naujovinimas</h4>
+
+<p>Jei atnaujinate egzistuojantį OJS diegimą, <a href="{$upgradeUrl}">spustelėkite čia</a>.</p>
+
+<h4>Rekomenduojami sistemos reikalavimai</h4>
+
+<ul>
+    <li><a href="http://www.php.net/" target="_blank">PHP</a> >= {$phpRequiredVersion}; šiuo metu naudojate PHP {$phpVersion}{$wrongPhpText}</li>
+    <li><a href="http://www.mysql.com/" target="_blank">MySQL</a> >= 4.1 arba <a href="http://www.postgresql.org/" target="_blank">PostgreSQL</a> >= 9.1.5</li>
+    <li><a href="http://httpd.apache.org/" target="_blank">Apache</a> >= 1.3.2x arba >= 2.0.4x arba Microsoft IIS 6</li>
+    <li>Operacinė sistema: be kuri OS, kuri palaiko aukščiau išvardytą programinę įrangą, įtraukiant ir <a href="http://www.linux.org/" target="_blank">Linux</a>, <a href="http://www.bsd.org/" target="_blank">BSD</a>, <a href="http://www.oracle.com/sun/" target="_blank">Solaris</a>, <a href="http://www.apple.com/" target="_blank">Mac OS X</a>, <a href="http://www.microsoft.com/">Windows</a></li>
+</ul>
+
+<p>Kadangi PKP neturi išteklių, kad galėtų išbandyti visas įmanomas programinės įrangos derinius, nėra garantuojamas teisingas veikimas ir numanoma pagalba.</p>
+
+<p>Pakeitimus šioms nuostatoms galėsite atlikti po diegimo redaguodami failą <tt>config.inc.php</tt> pagrindiniame OJS kataloge, arba naudojant svetainės administratoriaus WEB sąsają.</p>
+
+<h4>Palaikomos duomenų bazės</h4>
+
+<p>Šiuo metu OJS yra išbandyta su MySQL ir PostgreSQL, nors ir kitos duomenų bazių tvarkymo sistemos, kurias palaiko <a href="http://adodb.sourceforge.net/" target="_blank">ADOdb</a> gali veikti (pilnai arba iš dalies). Taip pat galite OJS komandai nusiųsti suderinamumo ataskaitas ir/arba kodo pataisymus alternatyvioms DBMS.</p>
+]]></message>
+    <message key="installer.preInstallationInstructions"><![CDATA[
+<h4>Žingsniai prieš diegimą</h4>
+
+
+<p>1. Sąraše nurodyti failai ir katalogai (su jų turiniu) turi būti įrašytini:</p>
+<ul>
+    <li><tt>config.inc.php</tt> yra įrašytinas (nebūtina): {$writable_config}</li>
+    <li><tt>public/</tt> yra įrašytinas: {$writable_public}</li>
+    <li><tt>cache/</tt> yra įrašytinas: {$writable_cache}</li>
+    <li><tt>cache/t_cache/</tt> yra įrašytinas: {$writable_templates_cache}</li>
+    <li><tt>cache/t_compile/</tt> yra įrašytinas: {$writable_templates_compile}</li>
+    <li><tt>cache/_db</tt> yra įrašytinas: {$writable_db_cache}</li>
+</ul>
+
+<p>2. Privalote sukurti katalogą įkeltiems failams ir padaryti jį įrašytinu (žr. žemiau „Failų nuostatos“).</p>]]></message>
+    <message key="installer.upgradeInstructions"><![CDATA[<h4>OJS versija {$version}</h4>
+
+<p>Ačiū, kad atsisiuntėte „Public Knowledge Project“ programinę įrangą <strong>Open Journal Systems</strong>. Prieš tęsdami perskaitykite <a href="{$baseUrl}/docs/README">README</a> and <a href="{$baseUrl}/docs/UPGRADE">UPGRADE</a> failą. Išsamesnės informacijos apie „Public Knowledge Project“ ir jos projektus ieškokite <a href="http://pkp.sfu.ca/" target="_blank">PKP svetainėje</a>. Jei turite pranešimų apie klaidas ar reikia techninės pagalbos su „Open Journal Systems“, apsilankykite <a href="http://forum.pkp.sfu.ca" target="_blank">pagalbos forume</a> arba nueikite į PKP <a href="https://github.com/pkp/pkp-lib#issues" target="_blank">klaidų pranešimo sistemą</a>. Nors pagalbos forumui teikiama pirmenybė, galite susisiekti su mūsų komanda el. paštu <a href="mailto:pkp.contact@gmail.com">pkp.contact@gmail.com</a>.</p>
+<p>It is <strong>strongly recommended</strong> that you back up your database, files directory, and OJS installation directory before proceeding.</p>
+<p>If you are running in <a href="http://www.php.net/features.safe-mode" target="_blank">PHP Safe Mode</a>, please ensure that the max_execution_time directive in your php.ini configuration file is set to a high limit. If this or any other time limit (e.g. Apache's "Timeout" directive) is reached and the upgrade process is interrupted, manual intervention will be required.</p>]]></message>
+    <message key="installer.localeSettingsInstructions"><![CDATA[Pilnam unikodo (UTF-8) palaikymui, pasirinkite UTF-8 visiems simbolių rinkiniams. Atkreipkite dėmesį į tai, kad pilnas unikodo palaikymas reikalauja, kad PHP būtų įdiegtas su <a href="http://www.php.net/mbstring" target="_blank">mbstring</a> biblioteka (pagal nutylėjimą įgalintas naujausiose PHP versijose). Jei serveris neatitinka reikalavimų galite susidurti su įvairiomis problemomis.
+<br /><br />
+Serveris šiuo metu palaiko mbstring: <strong>{$supportsMBString}</strong>]]></message>
+    <message key="installer.allowFileUploads"><![CDATA[Serveris šiuo metu leidžia failų nusiuntimus: <strong>{$allowFileUploads}</strong>]]></message>
+    <message key="installer.maxFileUploadSize"><![CDATA[Serveris šiuo metu leidžia nusiųsti didžiausią failo dydį: <strong>{$maxFileUploadSize}</strong>]]></message>
+    <message key="installer.localeInstructions">Pagrindinė kalba šiai sistemai. Perskaitykite OJS dokumentaciją, jei domina kalbos, kurios čia nėra išvardytos.</message>
+    <message key="installer.additionalLocalesInstructions">Pasirinkite papildomas kalbas, kurias norite įdiegti šioje sistemoje. Šios kalbos bus prieinamos visiems žurnalams. Papildomos kalbos taip pat gali būti įdiegtos bet kuriuo metu per svetainės administravimo sąsają.</message>
+    <message key="installer.filesDirInstructions"><![CDATA[Įveskite pilną esamo katalogo kelio vardą, kuriame turėtų būti laikomi nusiųsti failai. Šis katalogas neturėtų būti tiesiogiai prieinamas per WEB. <strong>Prieš diegimą įsitikinkite, kad šis katalogas egzistuoja ir yra įrašytinas.</strong> Windows kelio vardai turėtų būti su dešiniaisiais brūkšniais, pvz. „C:/myjournal/files“.]]></message>
+    <message key="installer.databaseSettingsInstructions">OJS reikia prieigos prie SQL duomenų bazės. Peržiūrėkite aukščiau sistemos reikalavimus, kuriame nurodytas palaikomų duomenų bazių sąrašas. Laukeliuose žemiau, pateikite nuostatas su kuriomis galima prisijungti prie duomenų bazės.</message>
+    <message key="installer.installApplication">Įdiegti „Open Journal Systems“</message>
+    <message key="installer.upgradeApplication">Atnaujinti „Open Journal Systems“</message>
+    <message key="installer.reinstallAfterDatabaseError"><![CDATA[<strong>Įspėjimas:</strong> Jei diegimas nepavyko per duomenų bazės diegimą, tikriausiai reikės iš naujo sukurti duomenų bazę ar jos lenteles prieš diegiant duomenų bazę naujo.]]></message>
+    <message key="installer.overwriteConfigFileInstructions"><![CDATA[<h4>SVARBU!</h4>
+<p>Diegimo programa negalėjo automatiškai perrašyti konfigūracijos failo. Prieš bandydami naudoti sistemą, atverkite <tt>config.inc.php</tt> teksto redaktoriumi ir pakeiskite failo turinį su žemiau laukelyje pateiktu turiniu.</p>]]></message>
+    <message key="installer.installationComplete"><![CDATA[<p>OJS diegimas įvyko sėkmingai.</p>
+<p>Norėdami pradėti naudotis sistema, <a href="{$loginUrl}">prisijunkite</a> su vartotojo vardu ir slaptažodžiu įvestais ankstesniame puslapyje.</p>
+<p>Jei norite prisidėti prie PKP bendruomenės, galite:</p>
+<ol>
+    <li>Perskaityti <a href="http://pkp.sfu.ca/blog" target="_new">PKP tinklaraštį</a> ir sekti <a href="http://pkp.sfu.ca/blog/feed" target="_new">RSS srautą</a> apie naujienas ir atnaujinimus.</li>
+    <li>Aplankyti <a href="http://forum.pkp.sfu.ca" target="_new">pagalbos forumą</a> jei turite klausimų ar komentarų.</li>
+</ol>]]></message>
+    <message key="installer.upgradeComplete"><![CDATA[<p>OJS atnaujinimas į {$version} versiją pavyko sėkmingai.</p>
+<p>Nepamirškite nustatyti „installed“ nuostatos <tt>config.inc.php</tt> faile atgal į <em>On</em>.</p>
+<p>Jei dar neužsiregstravote ir norite gauti naujienas ir atnaujinimus, <strong>užsiregistruokite <a href="http://pkp.sfu.ca/ojs/register" target="_new">http://pkp.sfu.ca/ojs/register</a>.</strong> Jei turite klausimų ar komentarų, apsilankykite <a href="http://forum.pkp.sfu.ca" target="_new">pagalbos forume</a>.</p>]]></message>
+    <message key="site.upgradeAvailable.admin"><![CDATA[Prieinama nauja OJS versija! Šiuo metu naudojate {$currentVersion} versiją. Naujausia OJS versija yra {$latestVersion}. Apsilankykite <a href="http://pkp.sfu.ca/ojs_download" target="_new">šiame puslapyje</a>, kad atsisiųstumėte naujausią versiją ir rastumėte atnaujinimo nurodymus.]]></message>
+    <message key="site.upgradeAvailable.manager"><![CDATA[Prieinama nauja OJS versija! Šiuo metu naudojate {$currentVersion} versiją. Naujausia OJS versija yra {$latestVersion}. Susisiekite su svetainės administratoriumi ({$siteAdminName}, <a href="mailto:{$siteAdminEmail}">{$siteAdminEmail}</a>) kad informuotumėte apie naują versiją. Daugiau informacijos galima rasti <a href="http://pkp.sfu.ca/ojs_download" target="_new">čia</a>.]]></message>
+    <message key="log.author.documentRevised">{$authorName} pataisė straipsnį {$submissionId}. Naujo failo ID yra {$fileId}.</message>
+    <message key="log.review.reviewerUnassigned">{$reviewerName} buvo išbrauktas iš pateikimo {$submissionId} recenzavimo {$round} etapo .</message>
+    <message key="log.review.reviewInitiated">{$round} etapo {$reviewerName} pateikimo {$submissionId} recenzija buvo pradėta.</message>
+    <message key="log.review.reviewReinitiated">{$round} etapo {$reviewerName} pateikimo {$submissionId} recenzija buvo pradėta iš naujo.</message>
+    <message key="log.review.reviewCancelled">{$round} etapo {$reviewerName} pateikimo {$submissionId} recenzija buvo atšaukta.</message>
+    <message key="log.review.reviewCleared">{$round} etapo {$reviewerName} pateikimo {$submissionId} recenzija buvo išvalyta.</message>
+    <message key="log.review.reviewerRated">{$reviewerName} buvo įvertintas už pateikimo {$submissionId} {$round} etapo recenziją.</message>
+    <message key="log.review.reviewDueDateSet">{$round} etapo {$reviewerName} pateikimo {$submissionId} recenzijos pabaigos data buvo nustatyta į {$dueDate}.</message>
+    <message key="log.review.reviewRecommendationSet">{$round} etapo {$reviewerName} pateikimo {$submissionId} recenzijos rekomendacija buvo nustatyta.</message>
+    <message key="log.review.reviewRecommendationSetByProxy">{$round} etapo {$reviewerName} pateikimo {$submissionId} recenzijos rekomendacija buvo nustatyta redaktoriaus {$editorName} recenzento vardu {$reviewerName}.</message>
+    <message key="log.review.resubmit">Pateikimas {$submissionId} buvo pateiktas iš naujo recenzavimui.</message>
+    <message key="log.review.reviewDeclined">{$reviewerName} atsisakė recenzuoti {$round} etape pateikimą {$submissionId}.</message>
+    <message key="log.review.reviewAccepted">{$reviewerName} buvo priimtas {$round} etapo pateikimo {$submissionId} recenzavimui.</message>
+    <message key="log.review.reviewDeclinedByProxy">{$userName} atsisakė recenzuoti pateikimą {$submissionId} {$round} etape {$reviewerName} vardu.</message>
+    <message key="log.review.reviewAcceptedByProxy">{$userName} sutiko recenzuoti pateikimą {$submissionId} {$round} etape {$reviewerName} vardu.</message>
+    <message key="log.review.reviewFileByProxy">Redaktorius {$userName} nusiuntė pateikimo {$submissionId} {$round} etapo recenzavimo failą {$reviewerName} recenzento vardu.</message>
+    <message key="log.review.reviewerFile">Recenzento failas buvo nusiųstas.</message>
+    <message key="log.editor.decision">{$editorName} įrašė redaktoriaus sprendimą ({$decision}) straipsniui {$submissionId}.</message>
+    <message key="log.copyedit.initiate">{$copyeditorName} pradėjo pateikimo {$submissionId} rankraščio redagavimą.</message>
+    <message key="log.copyedit.copyeditFileSet">Numatytasis rankraščio failas buvo pasirinktas.</message>
+    <message key="log.copyedit.initialEditComplete">{$copyeditorName} baigė pradinį pateikimo {$submissionId} rankraščio redagavimą.</message>
+    <message key="log.copyedit.finalEditComplete">{$copyeditorName} baigė galutinį pateikimo {$submissionId} rankraščio redagavimą.</message>
+    <message key="log.copyedit.copyeditorAssigned">{$copyeditorName} buvo paskirtas prie pateikimo {$submissionId} rankraščio redagavimo.</message>
+    <message key="log.copyedit.copyeditorFile">Rankraščio redaktoriaus pateikimo failo versija buvo nusiųsta.</message>
+    <message key="log.copyedit.authorFile">Pateikimo failo versija, kurią redagavo autorius, buvo nusiųsta.</message>
+    <message key="log.layout.layoutEditorAssigned">{$editorName} buvo paskirtas maketuotoju pateikime {$submissionId}.</message>
+    <message key="log.layout.layoutEditorUnassigned">{$editorName} buvo išbrauktas iš maketuotoju pateikime {$submissionId}.</message>
+    <message key="log.layout.layoutEditComplete">{$editorName} užbaigė maketo redagavimą pateikime {$submissionId}.</message>
+    <message key="log.editor.metadataModified">{$editorName} modifikavo straipsnio metaduomenis.</message>
+    <message key="log.editor.editorFile">Pateikimo failo redaktoriaus versija buvo nusiųsta.</message>
+    <message key="log.editor.archived">Pateikimas {$submissionId} buvo suarchyvuotas.</message>
+    <message key="log.editor.restored">Pateikimas {$submissionId} buvo atkurtas į eilę.</message>
+    <message key="log.editor.editorAssigned">{$editorName} buvo paskirtas redaktoriumi pateikime {$submissionId}.</message>
+    <message key="log.proofread.assign">{$assignerName} paskyrė {$proofreaderName}, kad koreguotų pateikimą {$submissionId}.</message>
+    <message key="log.proofread.complete">{$proofreaderName} pateikė {$submissionId} planavimui.</message>
+    <message key="log.imported">{$userName} importavo straipsnį {$submissionId}.</message>
+    <message key="rt.admin.settings">Skaitymo įrankių parinktys</message>
+    <message key="rt.admin.settings.description">Skaitymo įrankiai pasirodys rėmelyje šalia išleistų straipsnių žurnalo skiltyse, kurios buvo paskirtos indeksavimui. Skaitymo įrankiai susideda iš pasirenkamų įrankių, susijusių su žemiau išleistu straipsniu ir iš įrankių, kurie suteikia prieigą prie susijusių elementų, kurie organizuojama pagal sritį ir discipliną.</message>
+    <message key="rt.admin.settings.enableReadingTools">Įgalinti skaitymo įrankius skirtus žurnalo skiltims.</message>
+    <message key="rt.admin.settings.relatedItems">Sritis</message>
+    <message key="rt.admin.settings.relatedItemsLink"><![CDATA[Žr. <a href="{$relatedItemsLink}" class="action">Bendrinami elementų rinkiniai</a>, kad peržiūrėtumėte, įtrauktumėte, pataisytumėte ir pašalintumėte bendrinamus elementus kiekvienai sričiai.]]></message>
+    <message key="rt.admin.options">Žurnalo elemento įrankiai</message>
+    <message key="rt.admin.relatedItems">Bendrinami elementų rinkiniai</message>
+    <message key="rt.admin.settings.addComment">Rašyti komentarą (vartotojams įgalina komentavimą, o žurnalo administratoriui galimybę juos šalinti).</message>
+    <message key="rt.admin.settings.addComment.authenticated">Vartotojai privalo būti užsiregistravę ir prisijungę norėdami komentuoti, su neleistinu anoniminiu komentavimu.</message>
+    <message key="rt.admin.settings.addComment.anonymous">Vartotojai privalo būti užsiregistravę ir prisijungę norėdami komentuoti, su leistinu anoniminiu komentavimu.</message>
+    <message key="rt.admin.settings.addComment.unauthenticated">Vartotojams nebūtina užsiregistruoti norint komentuoti, su leistinu anoniminiu komentavimu.</message>
+    <message key="rt.admin.validateUrls.description"><![CDATA[Galimai negaliojantys paieškos svetainių adresai rodomi žemiau.<br/>
+ūs turėtumėte rankiniu būdu patikrinti pažymėtus adresus kaip negaliojančius, nes šis patikrinimas nėra 100% tikslus.<br/>
+Patvirtinimas gali nepasisekti paieškos adresams, kurie reikalauja įvesti formos duomenis.]]></message>
+    <message key="rt.metadata.dublinCore.primaryAuthor">Kūrėjas</message>
+    <message key="rt.metadata.pkp.primaryAuthor">Autoriaus vardas, darbovietė, šalis</message>
+    <message key="rt.metadata.pkp.peerReviewed">Tarpusavyje recenzuotas straipsnis</message>
+    <message key="rt.beNotifiedWhen">Būti praneštam kai...</message>
+    <message key="rt.thisJournal">Ieškoti žurnale</message>
+    <message key="rt.context.authorTermsDescription">Elementams, turintiems daugiau nei vieną autorių, palikti visus pažymėtus vardus, kad ieškotumėte panašių autoriaus darbų, arba ieškotumėte vienu metu tikrinant tik vieną vardą. Norėdami sužinoti daugiau apie ieškotą išteklių, spustelėkite APIE. Šie ištekliai buvo pasirinkti dėl jų tinkamumo ir atvirosios prieigos visai ar daliai turinio.</message>
+    <message key="notification.mailListDescription">Įveskite savo el. pašto adresą, kad iš karto gautumėte svarbius šio žurnalo pranešimus.</message>
+    <message key="notification.notificationsPublicDescription"><![CDATA[Šis puslapis rodo svarbius atnaujinimus susijusius su šiuo žurnalu kaip nauji numeriai ar skelbimai. Galite prenumeruoti šiuos pranešimus per RSS srautus (spustelėdami dešinėje esančius paveiksliukus), arba   <a href="{$emailUrl}">per el. paštą.</a>]]></message>
+    <message key="notification.type.articleSubmitted">Pateiktas naujas straipsnis „{$title}“.</message>
+    <message key="notification.type.editing">Redagavimo įvykiai</message>
+    <message key="notification.type.submissionSubmitted">Pateiktas naujas straipsnis „{$title}“.</message>
+    <message key="notification.type.editorDecisionComment">Parašytas komentaras prie redaktoriaus sprendimo „{$title}“.</message>
+    <message key="notification.type.galleyModified">Modifikuotas „{$title}“ maketas.</message>
+    <message key="notification.type.issuePublished">Išleistas numeris.</message>
+    <message key="notification.type.newAnnouncement">Sukurtas naujas skelbimas.</message>
+    <message key="notification.type.reviewerFormComment">Pateikta recenzavimo formos recenzija straipsniui „{$title}“.</message>
+    <message key="notification.type.reviewing">Recenzavimo įvykiai</message>
+    <message key="notification.type.site">Svetainės įvykiai</message>
+    <message key="notification.type.submissionComment">Redaktorius parašė komentarą apie „{$title}“.</message>
+    <message key="notification.type.submissions">Pateikimo įvykiai</message>
+    <message key="notification.type.userComment">Skaitytojas parašė komentarą apie „{$title}“</message>
+    <message key="notification.savedIssueMetadata">Numerio publikavimo metaduomenys išrašyti.</message>
+    <message key="notification.type.editorAssignmentTask">Pateiktas naujas straipsnis, kuriam reikia priskirti redaktorių.</message>
+    <message key="notification.type.assignProductionUser">Paskirti vartotoją, kad sukurtų maketą naudojant nuorodą „Įtraukti“ dalyvių sąraše.</message>
+    <message key="notification.type.awaitingRepresentations">Laukiama maketų.</message>
+    <message key="user.authorization.copyeditorAssignmentMissing">Priėjimas atmestas! Nebuvote paskirtas kaip šio straipsnio rankraščio redaktorius.</message>
+    <message key="user.authorization.noContext">Nėra žurnalo kontekste!</message>
+    <message key="user.authorization.sectionAssignment">Mėginate pasiekti straipsnį, kuris nėra dalis jūsų skilties.</message>
+    <message key="user.authorization.invalidIssue">Paprašytas negaliojantis numeris!</message>
+    <message key="user.authorization.invalidCopyditorSubmission">Netinkamas rankraščio redaktoriaus pateikimas arba nėra paprašyta pateikimo!</message>
+    <message key="debug.notes.currencyListLoad">Įkeltas valiutų sąrašas „{$filename}“ iš XML</message>
+    <message key="grid.action.createContext">Kurti naują žurnalą</message>
+    <message key="editor.navigation.issues">Numeriai</message>
+    <message key="notification.type.approveSubmission">Šis pateikimas šiuo metu laukia patvirtinimo prieš rodant jį numeryje.</message>
+    <message key="notification.type.approveSubmissionTitle">Laukiama patvirtinimo.</message>
+    <message key="user.profile.form.showOtherContexts">Registruotis kituose žurnaluose</message>
+    <message key="user.profile.form.hideOtherContexts">Slėpti kitus žurnalus</message>
+    <message key="article.view.interstitial">Pasirinkite straipsnio failą, kurį atsisiųsite.</message>
+    <message key="grid.catalogEntry.availableRepresentation.approved">Patvirtintas</message>
+    <message key="grid.catalogEntry.availableRepresentation.notApproved">Laukiama patvirtinimo</message>
+    <message key="grid.catalogEntry.approvedRepresentation.title">Maketo patvirtinimas</message>
+    <message key="grid.catalogEntry.approvedRepresentation.message"><![CDATA[<p>Patvirtinti šį maketą publikavimui.</p>]]></message>
+    <message key="grid.catalogEntry.approvedRepresentation.removeMessage"><![CDATA[<p>Panaikinti šio maketo patvirtinimą.</p>]]></message>
+    <message key="search.cli.rebuildIndex.indexing">„{$journalName}“ indeksavimas</message>
+    <message key="search.cli.rebuildIndex.indexingByJournalNotSupported">Ši paieškos realizacija neleidžia indeksavimo pagal žurnalą.</message>
+    <message key="search.cli.rebuildIndex.unknownJournal">Nurodytas žurnalo kelias „{$journalPath}“ negali būti nustatytas į žurnalą.</message>
+    <message key="editor.issues.backIssues">Ankstesni numeriai</message>
+    <message key="editor.issues.futureIssues">Būsimi numeriai</message>
+</locale>

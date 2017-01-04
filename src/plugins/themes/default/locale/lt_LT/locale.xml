@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/themes/default/locale/lt_LT/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="plugins.themes.default.name">Numatytasis apipavidalinimas</message>
+    <message key="plugins.themes.default.description">Šis apipavidalinimas realizuoja numatytąjį apipavidalinimą.</message>
+    <message key="plugins.themes.default.option.typography.label">Tipografija</message>
+    <message key="plugins.themes.default.option.typography.description">Pasirinkite šriftų derinį, kuris tiktų žurnalui.</message>
+    <message key="plugins.themes.default.option.typography.notoSans">Noto Sans: skaitmenis šriftas, kurį sukūrė „Google“, plačiam kalbų palaikymui.</message>
+    <message key="plugins.themes.default.option.typography.notoSerif">Noto Serif: „serif“ šrifto variantas, kurį sukūrė „Google“.</message>
+    <message key="plugins.themes.default.option.typography.notoSerif_notoSans">Noto Serif/Noto Sans: papildomas rinkinys su „serif“ antraštėmis ir „sans-serif“ tekstu.</message>
+    <message key="plugins.themes.default.option.typography.notoSans_notoSerif">Noto Sans/Noto Serif: papildomas rinkinys su „sans-serif“ antraštėmis ir „serif“ tekstu.</message>
+    <message key="plugins.themes.default.option.typography.lato">Lato: populiarus šiuolaikinis „sans-serif“ šriftas.</message>
+    <message key="plugins.themes.default.option.typography.lora">Lora: platus „serif“ šrifto rinkinys geram teksto skaitymui internete.</message>
+    <message key="plugins.themes.default.option.typography.lora_openSans">Lora/Open Sans: papildomas rinkinys su „serif“ antraštėmis ir „sans-serif“ tekstu.</message>
+    <message key="plugins.themes.default.option.colour.label">Spalva</message>
+    <message key="plugins.themes.default.option.colour.description">Pasirinkite antraštės spalvą.</message>
+</locale>

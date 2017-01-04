@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/importexport/medra/locale/lt_LT/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="plugins.importexport.medra.displayName">mEDRA eksportavimo/registracijos įskiepis</message>
+    <message key="plugins.importexport.medra.description">Įskiepis eksportuoja numerio, straipsnio ir maketo metaduomenis Onix DOI formatu (O4DOI) ir užregistruoja DOI mEDRA registracijos agentūroje.</message>
+    <message key="plugins.importexport.medra.intro"><![CDATA[
+        Jei norite registruoti DOI su mEDRA, sekite nurodymus
+        <a href="http://www.medra.org/en/guide.htm" target="_blank">mEDRA svetainėje</a>,
+        kad gautumėte vartotojo vardą ir slaptažodį. Jei neturite savo vartotojo vardo
+        ir slaptažodžio, vis tiek galite eksportuoti mEDRA XML formatu (Onix DOI), tačiau
+        negalėsite užregistruoti DOI mEDRA agentūroje per OJS.
+        Atkreipkite dėmesį į tai, kad slaptažodis bus išsaugotas grynuoju tekstu
+        t.y. nešifruotas, dėl mEDRA registracijos tarnybos reikalavimų.
+    ]]></message>
+    <message key="plugins.importexport.medra.settings.form.description">Sukonfigūruokite mEDRA eksportavimo įskiepį:</message>
+    <message key="plugins.importexport.medra.settings.form.username">Vartotojo vardas</message>
+    <message key="plugins.importexport.medra.settings.form.usernameRequired">Įveskite savo mEDRA vartotojo vardą, kuris negali turėti dvitaškių.</message>
+    <message key="plugins.importexport.medra.settings.form.registrantName">Institucijos užregistruotos mEDRA agentūroje vardas</message>
+    <message key="plugins.importexport.medra.settings.form.registrantNameRequired">Įveskite institucijos vardą, kuri buvo užregistruota mEDRA agentūroje.</message>
+    <message key="plugins.importexport.medra.settings.form.fromFields">Kontaktinis asmuo su kuriuo susisieks mEDRA dėl techninių pasiteiravimų:</message>
+    <message key="plugins.importexport.medra.settings.form.fromCompany">Institucija</message>
+    <message key="plugins.importexport.medra.settings.form.fromCompanyRequired">Įveskite instituciją, kuri yra techniškai atsakinga už DOI eksportavimą (pvz. institucija, kurioje talpinamas WEB serveris).</message>
+    <message key="plugins.importexport.medra.settings.form.fromName">Kontaktinis asmuo</message>
+    <message key="plugins.importexport.medra.settings.form.fromNameRequired">Įveskite kontaktinį asmenį techniniams klausimams.</message>
+    <message key="plugins.importexport.medra.settings.form.fromEmail">El. pašto adresas</message>
+    <message key="plugins.importexport.medra.settings.form.fromEmailRequired">Įveskite galiojantį techninio kontakto el. pašto adresą.</message>
+    <message key="plugins.importexport.medra.settings.form.publicationCountry">Pasirinkite šalį, kuri informuojama kaip 'išleidimo šalis' į mEDRA.</message>
+    <message key="plugins.importexport.medra.settings.form.exportIssuesAs"><![CDATA[Pasirinkite ar norite eksportuoti numerius kaip <a href="http://www.medra.org/en/metadata_td.htm" target="_blank">'darbus' ar 'apraiškas'</a>.]]></message>
+    <message key="plugins.importexport.medra.settings.form.work">darbas</message>
+    <message key="plugins.importexport.medra.settings.form.manifestation">apraiška</message>
+    <message key="plugins.importexport.medra.settings.form.exportIssuesAs.label">Eksportuoti numerius kaip</message>
+    <message key="plugins.importexport.medra.settings.form.automaticRegistration.description"><![CDATA[OJS automatiškai užregistruos paskirtus DOI į mEDRA. will register assigned DOIs automatically to mEDRA.  Atkreipkite dėmesį į tai, kad šį procesas gali šiek tiek užtrukti po išleidimo. Bet kuriuo metu galite peržiūrėti visus neužregistruotus DOI.>]]></message>
+    <message key="plugins.importexport.medra.settings.form.testMode.description">Naudokite mEDRA testavimo API (testavimo aplinka) DOI registravimui. Neužmirškite pašalinti šią parinktį gamybai.</message>
+    <message key="plugins.importexport.medra.workOrProduct"><![CDATA[Pastaba: straipsniams priskirti DOI bus ekportuoti į mEDRA kaip <a href="http://www.medra.org/en/metadata_td.htm" target="_blank">'darbai'</a>. Maketams paskirti DOI bus eksportuoti kaip <a href="http://www.medra.org/en/metadata_td.htm" target="_blank">'apraiškos'</a>.]]></message>
+    <message key="plugins.importexport.medra.senderTask.name">mEDRA automatinio registravimo užduotis</message>
+    <message key="plugins.importexport.medra.cliUsage">Naudojimas:
+{$scriptName} {$pluginName} export xmlFileName journal_path {issues|articles|galleys} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register journal_path {issues|articles|galleys} objectId1 [objectId2] ...
+</message>
+</locale>

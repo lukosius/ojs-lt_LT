@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * lib/pkp/locale/lt_LT/user.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="user.accountInformation">Paskyros informacija</message>
+    <message key="user.affiliation">Darbovietė</message>
+    <message key="user.affiliation.description">(Jūsų įstaiga, pvz. "Šiaulių universitetas")</message>
+    <message key="user.affiliations">Darbovietės</message>
+    <message key="user.authorization.accessDenied">Prieiga nesuteikta.</message>
+    <message key="user.authorization.processAuthenticationTokenRequired">Trūksta arba neteisingas proceso atpažinimo prieigos raktas.</message>
+    <message key="user.authorization.contextRequired">Jūs negalite atlikti šios operacijos be konteksto (spauda, žurnalas, konferencija ir t.t.).</message>
+    <message key="user.authorization.loginRequired">Reikalingas prisijungimas.</message>
+    <message key="user.authorization.privateOperation">Operacija, kurią mėginote atlikti yra privati arba neegzistuoja.</message>
+    <message key="user.authorization.restrictedSiteAccess">Prieiga nebuvo suteikta. Ji šiuo metu prie šios svetainės yra ribota.</message>
+    <message key="user.authorization.roleBasedAccessDenied">Dabartinis vaidmuo neturi prieigos prie šios operacijos.</message>
+    <message key="user.authorization.userGroupRequired">Turite nustatyti tinkamą vartotojų grupę norėdami pasiekti šią operaciją.</message>
+    <message key="user.authorization.managerRequired">Prieš tęsiant privalote paskirti vartotoją į etapą su tvarkytojo vaidmeniu (pvz. gamybos redaktorius).</message>
+    <message key="user.authorization.accessibleWorkflowStage">Neturite prieigos prie šio darbo eigos etapo.</message>
+    <message key="user.authorization.workflowStageRequired">Nebuvo nurodytas darbo eigos etapas.</message>
+    <message key="user.authorization.pluginRequired">Nebuvo nurodytas įskiepis, kuris yra privalomas.</message>
+    <message key="user.biography">Biografija (pvz. padalinys ir mokslinis laipsnis)</message>
+    <message key="user.changeMyPassword">Keisti slaptažodį</message>
+    <message key="user.changePassword">Keisti slaptažodį</message>
+    <message key="user.dateLastLogin">Paskutinis prisijungimas</message>
+    <message key="user.dateRegistered">Registracijos data</message>
+    <message key="user.editMyProfile">Keisti profilį</message>
+    <message key="user.email">El. paštas</message>
+    <message key="user.feminine">M</message>
+    <message key="user.firstName">Vardas</message>
+    <message key="user.gender">Lytis</message>
+    <message key="user.initialsExample">Jonas Antanas = JA</message>
+    <message key="user.initials">Inicialai</message>
+    <message key="user.interests">Recenzavimo sritys</message>
+    <message key="user.interests.description">(Atskirkite dominamas sritis spustelėdami Enter arba kableliu)</message>
+    <message key="user.gossip">Privatūs užrašai</message>
+    <message key="user.group">Vartotojo grupė</message>
+    <message key="user.lastName">Pavardė</message>
+    <message key="user.profile.form.profileImageInvalid">Netinkamas profilio paveiksliuko formatas arba paveiksliukas yra per didelis. Galimi formatai yra .gif, .jpg, arba .png, ir paveiksliukas negali būti didesnis nei 150x150.</message>
+    <message key="user.login.accountDisabledWithReason">Jūsų paskyra buvo išjungta dėl šios priežasties: {$reason}</message>
+    <message key="user.login.accountDisabled">Jūsų paskyra buvo išjungta. Prašome susisiekti su administratoriumi dėl platesnės informacijos.</message>
+    <message key="user.login.accountNotValidated">Išsiuntėme jums patvirtinimo el. laišką į „{$email}“. Įvykdykite laiške nurodytas instrukcijas. Jei negavote el. laiško, patikrinkite ar jis nebuvo įdėtas šlamšto aplanką.</message>
+    <message key="user.login.activate">Aktyvinti paskyrą</message>
+    <message key="user.login.activated">Dėkojame už paskyros suaktyvinimą. Dabar galite prisijungti naudodami duomenis, kuriuos pateikėte kurdami savo paskyrą.</message>
+    <message key="user.login.changePasswordInstructions"><![CDATA[Privalote pasirinkti naują slaptažodį prieš prisijungdami į šią svetainę.<br /><br />Žemiau įveskite savo vartotojo vardą, dabartinį ir naują slaptažodžius, kad pakeistumėte slaptažodį.]]></message>
+    <message key="user.login.forgotPassword">Pamiršote slaptažodį?</message>
+    <message key="user.login.loginError">Netinkamas vartotojo vardas arba slaptažodis. Pamėginkite iš naujo.</message>
+    <message key="user.login">Prisijungimas</message>
+    <message key="user.login.lostPassword.confirmationSent">Patvirtinimas buvo išsiųstas į jūsų el. pašto adresą. Prašome vykdyti nurodymus pateiktus el. laiške, kad atkurtumėte savo slaptažodį.</message>
+    <message key="user.login.lostPassword.invalidHash">Atsiprašome, nuorodai, kurią jūs spustelėjote, baigėsi galiojimo laikas arba yra netinkama. Pamėginkite atkurti slaptažodį iš naujo.</message>
+    <message key="user.login.lostPassword.invalidUser">Vartotojas su nurodytu el. pašto adresu neegzistuoja.</message>
+    <message key="user.login.lostPassword.passwordSent">Naujas slaptažodis buvo išsiųstas jūsų el. pašto adresu. Dabar galite mėginti prisijungti prie svetainės su naujuoju slaptažodžiu.</message>
+    <message key="user.login.registeredEmail">Registruotas vartotojo el. paštas</message>
+    <message key="user.login.registrationComplete">Registracija baigta</message>
+    <message key="user.login.registrationComplete.instructions">Ačiū kad užsiregistravote! Ką norėtumėte daryti toliau?</message>
+    <message key="user.login.registrationComplete.manageSubmissions">Peržiūrėti pateikimus</message>
+    <message key="user.login.registrationComplete.newSubmission">Kurti naują pateikimą</message>
+    <message key="user.login.registrationComplete.continueBrowsing">Naršyti toliau</message>
+    <message key="user.login.registrationPendingValidation">Registracija laukia patikrinimo</message>
+    <message key="user.login.rememberUsernameAndPassword">Prisiminti vartotojo vardą ir slaptažodį</message>
+    <message key="user.login.resetPassword">Atkurti slaptažodį</message>
+    <message key="user.logOut">Baigti seansą</message>
+    <message key="user.logOutAs">Atsijungti kaip</message>
+    <message key="user.hello">Sveiki, </message>
+    <message key="user.mailingAddress">Pašto adresas</message>
+    <message key="user.masculine">V</message>
+    <message key="user.middleName">Antrasis vardas</message>
+    <message key="user.myAccount">Mano paskyra</message>
+    <message key="user.name">Vardas</message>
+    <message key="user.other">Kita</message>
+    <message key="user.password">Slaptažodis</message>
+    <message key="user.repeatPassword">Kartoti slaptažodį</message>
+    <message key="user.phone">Telefonas</message>
+    <message key="user.profile.changePasswordInstructions">Žemiau įveskite dabartinį ir naują slaptažodžius, kad pakeistumėte paskyros slaptažodį.</message>
+    <message key="user.profile.editProfile">Keisti profilį</message>
+    <message key="user.profile.form.countryRequired">Šalis yra privaloma.</message>
+    <message key="user.profile.form.emailRequired">El. pašto adresas turi būti galiojantis.</message>
+    <message key="user.profile.form.affiliationRequired">Darbovietė yra privaloma.</message>
+    <message key="user.profile.form.firstNameRequired">Vardas yra privalomas.</message>
+    <message key="user.profile.form.lastNameRequired">Pavardė yra privaloma.</message>
+    <message key="user.profile.form.mailingAddressRequired">Pašto adresas yra privalomas.</message>
+    <message key="user.profile.form.newPasswordRequired">Privalote įvesti naują slaptažodį.</message>
+    <message key="user.profile.form.oldPasswordInvalid">Neteisingai įvedėte dabartinį slaptažodį.</message>
+    <message key="user.profile.form.openAccessNotifications">Skelbti atvirosios prieigos el. pašto pranešimus</message>
+    <message key="user.profile.form.passwordRequired">Slaptažodis yra privalomas.</message>
+    <message key="user.profile.form.passwordSameAsOld">Naujas slaptažodis yra toks pat kaip ir senasis.</message>
+    <message key="user.profile.form.profileImage">Profilio paveiksliukas</message>
+    <message key="user.profile.form.publishedNotifications">Naujo numerio publikavimas el. pašto pranešimuose</message>
+    <message key="user.profile.form.urlInvalid">Nurodytas URL nėra galiojantis. Prašome dar kartą patikrinti URL ir mėginkite iš naujo. (Patarimas: pridėkite http:// adreso pradžioje)</message>
+    <message key="user.profile.form.usergroupRequired">Vartotojo grupė yra privaloma.</message>
+    <message key="user.profile.form.usernameRequired">Vartotojo vardas yra privalomas.</message>
+    <message key="user.profile.leavePasswordBlank">Palikite slaptažodžio laukus tuščius jei norite palikti dabartinį slaptažodį.</message>
+    <message key="user.profile.newPassword">Naujas slaptažodis</message>
+    <message key="user.profile.oldPassword">Dabartinis slaptažodis</message>
+    <message key="user.profile">Profilis</message>
+    <message key="user.profile.publicProfile">Vartotojo profilis</message>
+    <message key="user.profile.repeatNewPassword">Pakartokite naują slaptažodį</message>
+    <message key="user.login.registerNewAccount">Registruotis</message>
+    <message key="user.login.resetPasswordInstructions">Žemiau įveskite paskyros el. pašto adresą, į kurį išsiųsime instrukcijas kaip atkurti slaptažodį.</message>
+    <message key="user.register.form.emailExists">Pasirinktas el. pašto adresas yra užimtas.</message>
+    <message key="user.register.form.passwordsDoNotMatch">Nesutampa slaptažodžiai.</message>
+    <message key="user.register.form.emailsDoNotMatch">El. pašto adreso laukai nesutampa.</message>
+    <message key="user.register.form.usernameAlphaNumeric">Vartotojo vardas gali turėti tik tekstinius simbolius, pabraukimo brūkšnį, brūkšnelį, ir privalo prasidėti ir baigtis tekstiniu simboliu.</message>
+    <message key="user.register.form.userGroupRequired">Privalote pasirinkite bent vieną vaidmenį.</message>
+    <message key="user.register.form.usernameExists">Pasirinktas vartotojo vardas yra užimtas.</message>
+    <message key="user.register.form.passwordLengthRestriction">Slaptažodį turi sudaryti bent {$length} simboliai.</message>
+    <message key="user.register.registerAs">Registruotis žurnale „{$contextName}“ kaip...</message>
+    <message key="user.register">Registruotis</message>
+    <message key="user.register.usernameRestriction">Vartotojo vardas turi būti sudarytas tik iš mažųjų raidžių, skaičių ir brūkšnelio/pabraukimo brūkšnio.</message>
+    <message key="user.register.registrationCompleted"><![CDATA[Užsiregistravote sėkmingai. <a href="{$profileUrl}">Spustelėkite čia</a>, kad užpildytumėte vartotojo profilį.]]></message>
+    <message key="user.role.author">Autorius</message>
+    <message key="user.role.author_s">Autorius(-iai)</message>
+    <message key="user.role.authors">Autoriai</message>
+    <message key="user.role.editor">Redaktorius</message>
+    <message key="user.role.editors">Redaktoriai</message>
+    <message key="user.role.reader">Skaitytojas</message>
+    <message key="user.role.readers">Skaitytojai</message>
+    <message key="user.role.reviewer">Recenzentas</message>
+    <message key="user.role.reviewers">Recenzentai</message>
+    <message key="user.role.siteAdmin">Svetainės administratorius</message>
+    <message key="user.role.siteAdmins">Svetainės administratoriai</message>
+    <message key="user.role.copyeditor">Rankraščio redaktorius</message>
+    <message key="user.role.copyeditors">Rankraščio redaktoriai</message>
+    <message key="user.role.proofreader">Korektorius</message>
+    <message key="user.role.proofreaders">Korektoriai</message>
+    <message key="user.role.layoutEditor">Maketuotojas</message>
+    <message key="user.role.layoutEditors">Maketuotojai</message>
+    <message key="user.roles">Vaidmenys</message>
+    <message key="user.salutation">Pasisveikinimas</message>
+    <message key="user.sendPassword">Patvirtinimas</message>
+    <message key="user.sendPassword.description">Atsiųsti patvirtinimo el. laišką su mano vartotojo vardu ir slaptažodžiu</message>
+    <message key="user.signature">Prierašas</message>
+    <message key="user.suffix">Priesaga</message>
+    <message key="user.title">Pavadinimas</message>
+    <message key="user.url">URL</message>
+    <message key="user.userHome">Mano paskyra</message>
+    <message key="user.username">Vartotojo vardas</message>
+    <message key="user.workingLanguages">Darbinės kalbos</message>
+    <message key="user.orcid">ORCID iD</message>
+    <message key="user.orcid.orcidInvalid">Nurodėte negaliojantį ORCID iD. Įveskite pilną adresą (pvz. „http://orcid.org/0000-0002-1825-0097“)</message>
+    <message key="user.profile.identity">Tapatybė</message>
+    <message key="user.profile.contact">Kontaktai</message>
+    <message key="user.profile.public">Vieši duomenys</message>
+</locale>

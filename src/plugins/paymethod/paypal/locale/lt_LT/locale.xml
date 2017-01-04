@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/paymethod/paypal/locale/lt_LT/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="plugins.paymethod.paypal.displayName">Mokesčio mokėjimas su PayPal</message>
+    <message key="plugins.paymethod.paypal.settings.paypalenable">Įgalinti PayPal</message>
+    <message key="plugins.paymethod.paypal.settings.paypalurl">IPN adresas</message>
+    <message key="plugins.paymethod.paypal.settings.paypalurl.description"><![CDATA[Tai adresas į PayPal momentinės apmokėjimo pranešimo (IPN) tarnybą. Testavimui naudokite <code>https://www.sandbox.paypal.com/cgi-bin/webscr</code>; gamybai naudokite <code>https://www.paypal.com/cgi-bin/webscr</code>.]]></message>
+    <message key="plugins.paymethod.paypal.settings.selleraccount">Pardavėjo paskyra</message>
+    <message key="plugins.paymethod.paypal.settings.selleraccount.description">Tai yra PayPal pardavėjo paskyros vartotojo vardas, dažniausiai el. pašto adresas. Įsitikinkite, kad aktyvavote momentinius apmokėjimų pranešimus (IPN) paskyros profilyje.</message>
+    <message key="plugins.paymethod.paypal.settings.curlNotInstalled">Įspėjimas: neįdiegtas PHP CURL palaikymas. Mokėjimas su PayPal reikalauja CURL bibliotekos ir neveiks kol nebus įdiegta.</message>
+    <message key="plugins.paymethod.paypal.settings">PayPal nuostatos</message>
+    <message key="plugins.paymethod.paypal">Mokesčio mokėjimas su PayPal</message>
+    <message key="plugins.paymethod.paypal.description"><![CDATA[PayPal leidžia vartotojams, nesvarbu ar jie yra PayPal nariai, naudoti visas pagrindines kreditines korteles. Administratoriui reikės sukurti <a href="http://www.paypal.com" target="_new">PayPal verslo paskyrą</a>.]]></message>
+    <message key="plugins.paymethod.paypal.warning">Spustelėkite mygtuką „Tęsti“, kad pereitumėte į PayPal svetainę, kur panaudoję kreditinę kortelę apmokėsite mokestį (nebūtina prisijungti prie PayPal). Naudokite mygtuką „Grįžti pas pardavėją“ po atlikto mokėjimo, kad grįžtumėte į šią svetainę.</message>
+    <message key="plugins.paymethod.paypal.purchase.title">Pavadinimas</message>
+    <message key="plugins.paymethod.paypal.purchase.fee">Mokestis</message>
+    <message key="plugins.paymethod.paypal.purchase.description">Aprašymas</message>
+    <message key="plugins.paymethod.paypal.purchase.cancelled">Jūsų pirkimas buvo atšauktas..</message>
+    <message key="plugins.paymethod.paypal.purchase.cancelled.title">Pirkimas atšauktas</message>
+</locale>

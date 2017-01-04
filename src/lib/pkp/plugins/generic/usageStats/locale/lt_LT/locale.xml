@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../dtd/locale.dtd">
+
+<!--
+  * lib/pkp/plugins/generic/usageStats/locale/lt_LT/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="plugins.generic.usageStats.settings.logging">Prieigos žurnalo parinktys</message>
+    <message key="plugins.generic.usageStats.settings.createLogFiles">Kurti žurnalo failus</message>
+    <message key="plugins.generic.usageStats.settings.createLogFiles.description">Suaktyvinus šią parinktį, įskiepis sukurs prieigos žurnalo failus kataloge. Tie failai turėtų būti panaudojami išgauti naudojimo statistikos duomenis. Jei nenorite sukurti daugiau prieigos žurnalo failų, palikite šią parinktį išjungtą ir naudokite serverio prieigos žurnalą.</message>
+    <message key="plugins.generic.usageStats.settings.logParseRegex">Analizuoti žurnalo failų reguliarųjį reiškinį</message>
+    <message key="plugins.generic.usageStats.settings.logParseRegex.description">Numatytasis reguliarusis reiškinys gali išanalizuoti apache prieigos žurnalo failus bendru formatu ir taip pat įskiepio žurnalo failus. Jei jūsų prieigos žurnalo failai yra kitu formatu, reikės įterpti reguliarųjį reiškinį, galintį juos išanalizuoti ir grąžinti reikiamus rezultatus. Žr. UsageStatsLoader::_getDataFromLogEntry() dėl išsamesnės informacijos.</message>
+    <message key="plugins.generic.usageStats.settings.saved">Naudojimo statistikos įskiepio nuostatos išsaugotos</message>
+    <message key="plugins.generic.usageStats.settings.dataPrivacyOption">Duomenų privatumo parinktis</message>
+    <message key="plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath">Failo kelias „salt“ generavimui</message>
+    <message key="plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath.invalid">„salt“ failas yra neįrašytinas.</message>
+    <message key="plugins.generic.usageStats.settings.dataPrivacyOption.requirements">Norint užtikrinti duomenų privatumą, privalote nurodyti perskaitomą ir įrašytiną failą, kuris turės atsitiktinai sukurtą „salt“ reikšmę. Šiam failui neturėtų būti daroma atsarginė kopija, kad būtų užtikrinta privatumo apsauga. „salt“ yra sugeneruojamas atsitiktinai naudojant: funkciją mcrypt_create_iv, kuriai reikia PHP mcrypt; funkciją openssl_random_pseudo_bytes, kuriai reikia PHP openssl; failą /dev/urandom, kuris veikia tik *nix sistemose; arba funkciją mt_rand, kuri nėra kriptografiškai saugi. Todėl, jei naudojate Windows serverį, įsitikinkite, kad įdiegėte PHP mcrypt arba openssl, kad kriptografiškai saugiai būtų sugeneruojamas „salt“.</message>
+    <message key="plugins.generic.usageStats.settings.dataPrivacyOption.description">Įgalinkite šią parinktį, kad naudotumėte įskiepio versiją, kuri gerbia privatumo įstatymus, t.y. kurios įrašo į žurnalą užšifruotus IP adresus, informuoja vartotojus apie sekimą ir palieka atsisakymo galimybę vartotojams. Pastaba: naudojant šią parinktį negalėsite naudoti geografinių šio įskiepio funkcijų.</message>
+    <message key="plugins.generic.usageStats.settings.dataPrivacyOption.requiresSalt">Norint įgalinti duomenų privatumą privalomas „salt“ failas.</message>
+    <message key="plugins.generic.usageStats.settings.dataPrivacyOption.excludesCity">Įgalinus duomenų privatumą miestas nėra įtraukiamas kaip papildoma statistika.</message>
+    <message key="plugins.generic.usageStats.settings.dataPrivacyOption.excludesRegion">Įgalinus duomenų privatumą regionas nėra įtraukiamas kaip papildoma statistika.</message>
+    <message key="plugins.generic.usageStats.settings.dataPrivacyCheckbox">Gerbti duomenų privatumą</message>
+    <message key="plugins.generic.usageStats.settings.optionalColumns">Papildoma statistikos informacija</message>
+    <message key="plugins.generic.usageStats.settings.optionalColumns.description">Įgalinkite arba išjunkite šios papildomos informacijos rinkimą. Tai paveiks galimas statistikų ataskaitas, kurias galima gauti, ir taip pat įtakos duomenų bazės dydį. NEKEISKITE jei pilnai nesuprantate, ką darote.</message>
+    <message key="plugins.generic.usageStats.settings.optionalColumns.cityRequiresRegion">Papildomas stulpelis „Miestas“ reikalauja papildomo stulpelio „Regionas“.</message>
+    <message key="plugins.generic.usageStats.settings.archives">Archyvas</message>
+    <message key="plugins.generic.usageStats.settings.compressArchives.description">Įgalinkite šią parinktį, kad suglaudintumėte suarchyvuotus žurnalo failus naudojant gzip įrankį (jums reikės sukonfigūruoti gzip nuostatą faile config.inc.php). Jei svetainės srautas yra didelis, tai rekomenduojama įgalinti šią parinktį, kad išsaugotumėte papildomos disko vietos.</message>
+    <message key="plugins.generic.usageStats.settings.compressArchives">Glaudinti archyvus</message>
+    <message key="plugins.generic.usageStats.settings.statsDisplayOptions">Statistikos rodymo parinktys</message>
+    <message key="plugins.generic.usageStats.settings.statsDisplayOptions.display">Rodyti pateikimo statistikos grafiką skaitytojui</message>
+    <message key="plugins.generic.usageStats.settings.statsDisplayOptions.chartType">Pasirinkite grafiko tipą, kad būtų rodoma atsisiuntimo statistika</message>
+    <message key="plugins.generic.usageStats.settings.statsDisplayOptions.chartType.bar">Histograma</message>
+    <message key="plugins.generic.usageStats.settings.statsDisplayOptions.chartType.line">Linijinė diagrama</message>
+    <message key="plugins.generic.usageStats.settings.statsDisplayOptions.datasetMaxCount">Nurodykite didžiausią duomenų skaičių rodomą vienu metu kiekvienai x-ašies taškui. Didesnė reikšmė gali sugeneruoti sunkiai suprantamus grafikus. Reikšmė tarp 3 ir 5 yra rekomenduotina.</message>
+    <message key="plugins.generic.usageStats.usageStatsLoaderName">Naudojimo statistikos failo įkėlyklės užduotis</message>
+    <message key="plugins.generic.usageStats.openFileFailed">Failo {$file} nepavyko atverti ir buvo atmestas.</message>
+    <message key="plugins.generic.usageStats.invalidLogEntry">Eilutės numeris {$lineNumber} iš failo {$file} nėra galiojantis žurnalo įrašas ir failas buvo atmestas.</message>
+    <message key="plugins.generic.usageStats.removeUrlError">Eilutės numeris {$lineNumber} iš failo {$file} turi adresą, kurio sistema negali pašalinti pagrindinio adreso.</message>
+    <message key="plugins.generic.usageStats.loadDataError">Nepavyko įkelti ištrauktų duomenų iš failo {$file}. Failas buvo perkeltas į etapą dar kartą.</message>
+    <message key="plugins.generic.usageStats.pluginNotEnabled">Naudojimo statistikos įskiepis yra išjungtas. Žurnalo failai nėra apdorojami.</message>
+    <message key="plugins.generic.usageStats.processingPathNotEmpty">Katalogas {$directory} nėra tuščias. Tai gali reikšti anksčiau nepavykusį procesą, arba šiuo metu veikiantį procesą. Šis failas bus automatiškai išanalizuotas dar kartą jei naudojate scheduledTasksAutoStage.xml, kitu atveju reikės rankiniu būdu perkelti likusius failus vykdančiame kataloge atgal į etapo katalogą.</message>
+    <message key="plugins.generic.usageStats.noCounterBotList">COUNTER robotų sąrašas {$botlist} negali būti panaudotas, dėl kelių priežasčių. Patikrinkite ar sąrašo failas yra 'lib/pkp/plugins/generic/usageStats/lib/counter' aplanko viduje. Taip pat patikrinkite šio aplanko teises ir, kad ten yra tik vienas failas.</message>
+    <message key="plugins.generic.usageStats.displayName">Naudojimo statistika</message>
+    <message key="plugins.generic.usageStats.description">Įskiepis atvaizduoja duomenų objektų naudojimo statistiką. Gali naudoti serverio prieigos žurnalo failus statistikos ištraukimui.</message>
+    <message key="plugins.reports.usageStats.report.displayName">PKP naudojimo statistikos ataskaita</message>
+    <message key="plugins.reports.usageStats.report.description">PKP numatytoji naudojimo statistikos ataskaita (SKAITIKLIS paruoštas)</message>
+    <message key="plugins.reports.usageStats.optout.displayName">Naudojimo statistikos privatumo informacija</message>
+    <message key="plugins.reports.usageStats.optout.description">Naudojimo statistikos privatumo informacija</message>
+    <message key="plugins.generic.usageStats.optout.title">Naudojimo statistikos informacija</message>
+    <message key="plugins.generic.usageStats.optout.shortDesc"><![CDATA[Mes įrašome į žurnalą anoniminę naudojimo statistiką. Perskaitykite <a href="{$privacyInfo}">privatumo informaciją</a> dėl išsamesnės informacijos.]]></message>
+    <message key="plugins.reports.usageStats.metricType">PKP/SKAITIKLIS</message>
+    <message key="plugins.reports.usageStats.metricType.full">„Public Knowledge Project“ statistika (SKAITIKLIS paruoštas)</message>
+    <message key="plugins.generic.usageStats.statsSum">Sumuoti visus failo atsisiuntimus</message>
+    <message key="plugins.generic.usageStats.noStats">Duomenys atsisiuntimui dar nėra prieinami.</message>
+    <message key="plugins.generic.usageStats.monthInitials">Sau Vas Kov Bal Geg Bir Lie Rgp Rgs Spa Lap Gru</message>
+    <message key="plugins.generic.usageStats.downloads">Atsisiuntimai</message>
+</locale>

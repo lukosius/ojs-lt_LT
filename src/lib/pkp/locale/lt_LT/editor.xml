@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * lib/pkp/locale/lt_LT/editor.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="editor.submissionLibrary">Pateikimo biblioteka</message>
+    <message key="editor.review.notInitiated">Recenzavimo procesas dar nebuvo pradėtas.</message>
+    <message key="editor.submission.copyediting.personalMessageToUser">Žinutė vartotojui</message>
+    <message key="editor.submission.externalReviewDescription">Žemiau pasirinkite failus, kuriuos norite nusiųsti į recenzavimo etapą.</message>
+    <message key="editor.submission.fileAuditor.form.fileRequired">Privalote pažymėti bent vieną failą.</message>
+    <message key="editor.submission.fileAuditor.form.messageRequired">Privalote įtraukti asmeninę žinutę.</message>
+    <message key="editor.submission.fileAuditor.skipEmail">Nesiųsti el. laiško auditoriui</message>
+    <message key="editor.submission.fileAuditor.form.userRequired">Privalote pažymėti vartotoją.</message>
+    <message key="editor.submission.uploadSelectFiles">Nusiųsti/Pažymėti failus</message>
+    <message key="editor.submission.selectFiles">Pažymėti failus</message>
+    <message key="editor.submission.revisions">Pataisos</message>
+    <message key="editor.submission.review.reviewersDescription"><![CDATA[Naudokite <em>+Įtraukti recenzentą</em>, kad pakviestumėte skaitytojus recenzuoti pateikimo failus. Užrašų knygutės piktograma nurodo, kad recenzija buvo pateikta, kuri po to yra pažymima kaip <em>Pripažinta</em> kai ji būna aptarta. Kai recenzija vėluojama pateikti, atsiranda raudona voko piktograma recenzentų priminimui.]]></message>
+    <message key="editor.submission.addReviewer">Įtraukti recenzentą</message>
+    <message key="editor.submission.findAndSelectReviewer">Rasti recenzentą</message>
+    <message key="editor.submission.findAndSelectUser">Rasti vartotoją</message>
+    <message key="editor.submission.fileList.includeAllStages">Rodyti failus iš visų prieinamų darbo eigos etapą.</message>
+    <message key="editor.submission.review.currentFiles">Dabartiniai recenzijos failai „{$round}“ etapui.</message>
+    <message key="editor.submission.backToSearch">Grįžti į paiešką</message>
+    <message key="editor.review.createReviewer">Kurti naują recenzentą</message>
+    <message key="editor.review.enrollReviewer.short">Priskirti esamą vartotoją</message>
+    <message key="editor.review.unassignReviewer">Išbraukti recenzentą</message>
+    <message key="editor.submissionReview.reviewType">Recenzijos tipas</message>
+    <message key="editor.submissionReview.skipEmail">Nesiųsti el. laiško autoriui</message>
+    <message key="editor.submissionReview.open">Atviras</message>
+    <message key="editor.submissionReview.blind">Vienpusis aklasis</message>
+    <message key="editor.submissionReview.doubleBlind">Dvipusis aklasis</message>
+    <message key="editor.submissionReview.restrictFiles">Recenzuotini failai</message>
+    <message key="editor.submissionReview.restrictFiles.hide">Užverti failo pasirinkimą</message>
+    <message key="editor.submissionReview.editReview">Redaguoti recenziją</message>
+    <message key="editor.review.personalMessageToReviewer">Siunčiamo el. laiško recenzentui turinys</message>
+    <message key="editor.review.importantDates">Svarbios datos</message>
+    <message key="editor.review.uploadRevision">Nusiųsti pataisą</message>
+    <message key="editor.review.NotifyAuthorAccept">Informuoti autorius, kad jų pateikimas buvo priimtas.</message>
+    <message key="editor.review.NotifyAuthorDecline">Informuoti autorius, kad jų pateikimas buvo atmestas.</message>
+    <message key="editor.review.NotifyAuthorRevisions">Prašyti autorių pataisymų.</message>
+    <message key="editor.review.NotifyAuthorResubmit">Prašyti autorių pataisymų, kurie bus taikomi papildomai peržiūrai.</message>
+    <message key="editor.review.NotifyAuthorExternal">Informuoti sprendimo autorių, kad pradėtų išorinį recenzavimą.</message>
+    <message key="editor.review.personalMessageToAuthor">Siunčiamo el. laiško autoriui turinys</message>
+    <message key="editor.review.dateAccepted">Peržiūrėti priėmimo datą</message>
+    <message key="editor.review.noReviews">Nėra importuotinų recenzijų</message>
+    <message key="editor.review.reminder">Peržiūrėti priminimą</message>
+    <message key="editor.review.thankReviewer">Dėkoti recenzentui</message>
+    <message key="editor.review.reminderError">Įvyko klaida siunčiant priminimą apie recenzavimą</message>
+    <message key="editor.review.thankReviewerError">Įvyko klaida siunčiant padėką recenzentui</message>
+    <message key="editor.review.skipEmail">Nesiųsti el. laiško recenzentui.</message>
+    <message key="editor.review.sendReminder">Siųsti priminimą</message>
+    <message key="editor.review.readReview">Skaityti recenziją</message>
+    <message key="editor.review.readNewReview">Skaityti naują recenziją</message>
+    <message key="editor.review.responseDue">Atsako pabaigos data: {$date}</message>
+    <message key="editor.review.requestSent">Prašymas išsiųstas</message>
+    <message key="editor.review.requestAccepted">Prašymas priimtas</message>
+    <message key="editor.review.revertDecision">Grąžinti sprendimą</message>
+    <message key="editor.review.reviewDue">Recenzavimo pabaigos data: {$date}</message>
+    <message key="editor.review.reviewDueDate">Recenzavimo pabaigos data</message>
+    <message key="editor.review.reviewCompleted">Recenzija baigta</message>
+    <message key="editor.review.reviewConfirmed">Recenzija patvirtinta</message>
+    <message key="editor.review.reviewSubmitted">Recenzija pateikta</message>
+    <message key="editor.review.reviewerComments">Recenzento komentarai</message>
+    <message key="editor.review.days">Dienų vidurkis</message>
+    <message key="editor.review.mustSelect">Privalote pasirinkti recenzentą</message>
+    <message key="editor.review.errorAddingReviewer">Įvyko klaida įtraukiant recenzentą. Mėginkite iš naujo.</message>
+    <message key="editor.review.errorDeletingReviewer">Įvyko klaida šalinant recenzentą. Mėginkite iš naujo.</message>
+    <message key="editor.review.userGroupSelect">Priskirti vartotoją šiai recenzentų grupei</message>
+    <message key="editor.review.unconsiderReviewText">Ar tikrai norite pažymėti šią recenziją kaip neapsvarstytą?  Recenzavimo istorija bus išsaugota.</message>
+    <message key="editor.review.unconsiderReview">Neapsvarstyti šios recenzijos</message>
+    <message key="editor.review.readConfirmation">Kai ši recenzija bus perskaityta, spustelėkite „Patvirtinti“, kad nurodytumėte, kad recenzavimo procesas gali tęstis. Jei recenzentas pateikė recenziją kitur, žemiau galite nusiųsti failą ir tuomet spustelėti „Patvirtinti“.</message>
+    <message key="editor.submission.selectCopyedingFiles">Pataisyti failai</message>
+    <message key="editor.submission.selectReviewer">Pasirinkite recenzentą</message>
+    <message key="editor.submission.taskDueDate">Užduoties pabaigos data</message>
+    <message key="editor.submission.taskSchedule">Užduoties grafikas</message>
+    <message key="editor.review.enrollReviewer">Priskirti esamą vartotoją kaip recenzentą</message>
+    <message key="editor.submission.noAuditRequested">Nėra šiam failui užklausta audito</message>
+    <message key="editor.submission.personalMessageToUser">Siunčiamo el. laiško vartotojui turinys</message>
+    <message key="editor.submission.proof.reminder">Pataisymo priminimas</message>
+    <message key="editor.submission.editorial.approveCopyeditDescription">Pataisytas failas turi būti patvirtintas prieš siunčiant jį į gamybos etapą. Ar norite patvirtinti šį failą?</message>
+    <message key="editor.submission.editorial.disapproveCopyeditDescription">Nepatvirtinto pataisyto failo nebus galima siųsti į gamybos procesą. Ar norite nepatvirtinti šio failo?</message>
+    <message key="editor.submission.addAuditor">Paskirti auditorių</message>
+    <message key="editor.submission.copyedit.manageCopyeditFilesDescription">Bet kurie failai, kurie jau buvo nusiųsti į bet kurį pateikimo etapą, gali būti įtraukti į pataisytų failų sąrašą žemiau pažymėjus žymimąjį langelį ir spustelėjus paieška: bus parodyti visi prieinami failai ir galimi pasirinkti įtraukimui. Papildomi failai, kurie nėra nusiųsti į etapą gali būti įtraukti į sąrašą spustelėjus nuorodą „Nusiųsti failą“.</message>
+    <message key="editor.review">Recenzija</message>
+    <message key="editor.review.reviewDetails">Recenzijos išsami informacija</message>
+    <message key="editor.review.noReviewFilesUploaded">Nenusiųsta failų</message>
+    <message key="editor.review.noReviewFilesUploaded.details">Nenusiuntėte jokių recenzavimo failų.</message>
+    <message key="editor.review.emailReviewer">Siųsti el. laišką recenzentą</message>
+    <message key="editor.submission.production.productionReadyFiles">Gamybai paruošti failai</message>
+    <message key="editor.submission.newRound">Naujas recenzavimo etapas</message>
+    <message key="editor.submissionReview.recordDecision">Įrašyti redakcijos sprendimą</message>
+    <message key="editor.submission.newRoundDescription">Šiam pateikimui ketinate sukurti naują recenzavimo etapą.  Failai, kurie nebuvo panaudoti kituose recenzavimo etapuose išvardyti žemiau.</message>
+    <message key="editor.submission.createNewRound">Kurti naują recenzavimo etapą</message>
+    <message key="editor.article.reviewForms">Recenzavimo formos</message>
+    <message key="editor.article.selectReviewForm">Pasirinkite recenzavimo formą</message>
+    <message key="editor.article.clearReviewForm">Išvalyti recenzavimo formą</message>
+    <message key="editor.article.confirmChangeReviewForm">Įspėjimas: pakeitus recenzavimo formą bus paveikti recenzentų atsakymai. Ar tikrai norite tęsti?</message>
+    <message key="editor.submission.noReviewerFilesSelected">Nepasirinkta failų</message>
+    <message key="editor.submission.noReviewerFilesSelected.details">Nepasirinkote failų, kuriuos recenzentas turėtų recenzuoti.</message>
+    <message key="submission.queries.subjectRequired">Diskusijos tema yra privaloma.</message>
+    <message key="submission.queries.messageRequired">Diskusijos žinutė yra privaloma.</message>
+    <message key="submission.queries.attachedFiles">Priedai</message>
+    <message key="grid.action.editQuery">Redaguoti diskusiją</message>
+    <message key="editor.submission.query.manageQueryNoteFilesDescription">Failai gali būti prisegti šioje diskusijoje iš žemiau esančio sąrašo.</message>
+    <message key="editor.submission.selectedReviewer">Pasirinktas recenzentas</message>
+    <message key="editor.submission.proofreading.approveProof">Patvirtinti korekciją</message>
+    <message key="editor.submission.proofreading.revokeProofApproval">Panaikinti korekcijos patvirtinimą</message>
+    <message key="editor.submission.proofreading.confirmCompletion">Patvirtinkite šį taisymą, kad nurodytumėte, kad korektūra baigta ir failas yra paruoštas išleidimui.</message>
+    <message key="editor.submission.proofreading.confirmRemoveCompletion">Panaikinkite pataisymo patvirtinimą, kad nurodytumėte, kad korektūra yra neužbaigta ir failas nėra paruoštas išleidimui.</message>
+    <message key="editor.publicIdentificationExistsForTheSameType">Viešasis identifikatorius '{$publicIdentifier}' jau egzistuoja kitam tokio pat tipo objektui. Prašome pasirinkti unikalius identifikatorius tokio pat tipo objektams žurnale.</message>
+    <message key="editor.publicIdentificationNumericNotAllowed">Viešasis identifikatorius '{$publicIdentifier}' negali būti skaičius.</message>
+    <message key="editor.publicIdentificationPatternNotAllowed">Šablonas „{$pattern}“ yra neleidžiamas viešajam identifikatoriui.</message>
+</locale>

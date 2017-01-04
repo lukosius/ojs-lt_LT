@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * lib/pkp/locale/lt_LT/admin.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="admin.systemInfo.settingName">Nuostatos pavadinimas</message>
+    <message key="admin.systemInfo.settingValue">Nuostatos reikšmė</message>
+    <message key="admin.adminFunctions">Administratoriaus funkcijos</message>
+    <message key="admin.auth.confirmDelete">Ar tikrai norite visam laikui pašalinti šį tapatybės nustatymo šaltinį?</message>
+    <message key="admin.auth.create">Kurti tapatybės nustatymo šaltinį</message>
+    <message key="admin.auth.noneCreated">Nėra nustatytų tapatybės nustatymo šaltinių.</message>
+    <message key="admin.authSources">Tapatybės nustatymo šaltiniai</message>
+    <message key="admin.clearDataCache">Išvalyti duomenų podėlį</message>
+    <message key="admin.clearTemplateCache">Išvalyti šablonų podėlį</message>
+    <message key="admin.configFileUpdatedInstructions"><![CDATA[Konfigūracijos failas buvo sėkmingai atnaujintas. Atkreipkite dėmesį į tai, kad jei po pakeitimų svetainė veiks netinkamai reikės rankiniu būdu koreguoti failą <tt>config.inc.php</tt>.]]></message>
+    <message key="admin.confirmClearTemplateCache">Ar tikrai norite išvalyti sukompiliuotų šablonų podėlį?</message>
+    <message key="admin.confirmExpireSessions">Ar tikrai norite nutraukti visus vartotojų seansus? Visi vartotojai, kurie šiuo metu yra prisijungę prie sistemos (įskaitant ir Jus), turės prisijungti iš naujo.</message>
+    <message key="admin.contentsOfConfigFile">Konfigūracijos failo turinys</message>
+    <message key="admin.currentVersion">Dabartinė versija</message>
+    <message key="admin.dateInstalled">Įdiegimo data</message>
+    <message key="admin.displayConfigFileInstructions"><![CDATA[Žemiau yra pateikta atnaujintos konfigūracijos turinys. Norėdami įrašyti šiuos pakeitimus, atverkite <tt>config.inc.php</tt> su bet kuriuo teksto redaktoriumi ir pakeiskite failo turinį su žemiau pateiktu laukelio tekstu.]]></message>
+    <message key="admin.displayNewSystemConfig">Rodyti naują konfigūraciją</message>
+    <message key="admin.expireSessions">Nutraukti vartotojų seansus</message>
+    <message key="admin.languages.download">Atsisiųsti lokalę</message>
+    <message key="admin.languages.downloadLocales">Atsisiųsti lokales</message>
+    <message key="admin.languages.download.cannotOpen">Nepavyko atverti kalbos aprašo iš „PKP“ svetainės.</message>
+    <message key="admin.languages.download.cannotModifyRegistry">Nepavyko įtraukti lokalės į registro failą, paprastai „registry/locales.xml“.</message>
+    <message key="admin.languages.cantDisable">Ši lokalė yra pagrindinė svetainės kalba. Negalite jos išjungti kol nenustatėte kitos pagrindinės lokalės.</message>
+    <message key="admin.languages.confirmReload">Ar tikrai norite įkelti šią lokalę iš naujo? Tai pašalins visus duomenis susijusius su lokale kaip standartiniai el. laiškų šablonai.</message>
+    <message key="admin.languages.installedLocales">Įdiegtos lokalės</message>
+    <message key="admin.languages.installLanguages">Tvarkyti lokales</message>
+    <message key="admin.languages.availableLocales">Prieinamos lokalės</message>
+    <message key="admin.languages.installLocale">Įdiegti lokalę</message>
+    <message key="admin.languages.installLocales">Įdiegti</message>
+    <message key="admin.languages.installNewLocales">Įdiegti naujas lokales</message>
+    <message key="admin.languages.languageSettings">Kalbos nuostatos</message>
+    <message key="admin.languages.noLocalesAvailable">Nėra papildomų lokalių, kurias būtų galima įdiegti.</message>
+    <message key="admin.languages.reload">Įkelti iš naujo</message>
+    <message key="admin.languages.uninstall">Pašalinti lokalę</message>
+    <message key="admin.phpInfo">Išplėstinė PHP informacija</message>
+    <message key="admin.scheduledTask">Suplanuotos užduotys</message>
+    <message key="admin.scheduledTask.startTime">Prasidėjo užduoties procesas.</message>
+    <message key="admin.scheduledTask.stopTime">Baigėsi užduoties procesas.</message>
+    <message key="admin.scheduledTask.noLog">Užduotis nepateikė žurnalo.</message>
+    <message key="admin.scheduledTask.downloadLog">Jūsų „{$softwareName}“ diegimas automatiškai įvykdė ir baigė šią užduotį. Galite atsisiųsti žurnalo failą čia: {$url}</message>
+    <message key="admin.scheduledTask.confirmClearLogs">Ar tikrai norite pašalinti visus suplanuotų užduočių vykdymo žurnalus?</message>
+    <message key="admin.scheduledTask.clearLogs">Išvalyti suplanuotų užduočių vykdymo žurnalus</message>
+    <message key="admin.scheduledTask.reviewReminder">Recenzavimo priminimas</message>
+    <message key="admin.scheduledTask.subscriptionExpiryReminder">Prenumeratos galiojimo pabaigos priminimas</message>
+    <message key="admin.server.apacheVersion">„Apache“ versija</message>
+    <message key="admin.server.dbDriver">Duomenų bazės tvarkyklė</message>
+    <message key="admin.server.dbVersion">Duomenų bazės serverio versija</message>
+    <message key="admin.serverInformation">Serverio informacija</message>
+    <message key="admin.server.phpVersion">„PHP“ versija</message>
+    <message key="admin.server.platform">OS platforma</message>
+    <message key="admin.settings">Nuostatos</message>
+    <message key="admin.settings.aboutDescription">„Apie svetainę“ aprašymas</message>
+    <message key="admin.settings.contactEmail">Pagr. kontakto el. paštas</message>
+    <message key="admin.settings.contactName">Pagr. kontakto vardas</message>
+    <message key="admin.settings.form.contactEmailRequired">Pagr. kontakto el. pašto adresas yra privalomas.</message>
+    <message key="admin.settings.form.contactNameRequired">Pagr. kontakto vardas yra privalomas.</message>
+    <message key="admin.settings.form.minPasswordLengthRequired">Mažiausias slaptažodžio ilgi turi būti ne mažesnis nei 4 simboliai.</message>
+    <message key="admin.settings.form.titleRequired">Pavadinimas yra privalomas.</message>
+    <message key="admin.settings.defaultMetricDescription">
+        Jūsų OJS diegimas yra sukonfigūruotas įrašyti daugiau nei vieną naudojimo metriką. Naudojimo statistika bus rodoma keliuose kontekstuose.
+        Yra atvejų, kur privaloma naudoti bent vieną naudojimo statistiką, pvz. rodyti surikiuotą daugiausiai naudojamų straipsnių sąrašą arba
+        paieškos rezultatus. Pasirinkite vieną iš sukonfigūruotų metrikų kaip numatytąją.
+    </message>
+    <message key="admin.settings.homeHeaderImage.altText">Svetainės logotipas</message>
+    <message key="admin.settings.homeHeaderImageInvalid">Netinkamas svetainės logotipo formatas. Leistini formatai yra .gif, .jpg, ar .png.</message>
+    <message key="admin.settings.introduction">Įvadas</message>
+    <message key="admin.settings.minPasswordLength">Mažiausias slaptažodžio ilgis (rašmenys)</message>
+    <message key="admin.settings.oaiRegistration">Svetainės registravimas indeksavimui (Metaduomenų rinkimas)</message>
+    <message key="admin.settings.siteLanguage">Svetainės kalba</message>
+    <message key="admin.settings.siteStyleSheetInvalid">Netinkamas svetainės pakopinio stiliaus formatas. Leistinas formatas yra .css.</message>
+    <message key="admin.settings.siteStyleSheet">Svetainės pakopinis stilius</message>
+    <message key="admin.settings.siteLogo">Svetainės logotipas</message>
+    <message key="admin.settings.siteTitle">Svetainės pavadinimas</message>
+    <message key="admin.settings.siteTheme">Svetainės apipavidalinimas</message>
+    <message key="admin.siteAdmin">Svetainės administravimas</message>
+    <message key="admin.siteManagement">Svetainės tvarkymas</message>
+    <message key="admin.siteSettings">Svetainės nuostatos</message>
+    <message key="admin.siteSetup">Svetainės parinktys</message>
+    <message key="admin.systemConfigFileReadError"><![CDATA[Konfigūracijos failas <tt>config.inc.php</tt> neegzistuoja, yra neperskaitomas arba yra sugadintas.]]></message>
+    <message key="admin.systemInformation">Sistemos informacija</message>
+    <message key="admin.versionBuild">Darinys</message>
+    <message key="admin.version.checkForUpdates">Tikrinti, ar yra naujinių</message>
+    <message key="admin.version.downloadPackage">Atsisiųsti</message>
+    <message key="admin.version.downloadPatch">Atsisiųsti pataisymą</message>
+    <message key="admin.versionHistory">Versijų istorija</message>
+    <message key="admin.version.latest">Paskutinė versija</message>
+    <message key="admin.versionMajor">Pagrindinė versija</message>
+    <message key="admin.versionMinor">Antrinė versija</message>
+    <message key="admin.version.moreInfo">Daugiau informacijos</message>
+    <message key="admin.versionRevision">Pataisa</message>
+    <message key="admin.version.updateAvailable">Prieinama nauja versija</message>
+    <message key="admin.version.upToDate">Jūsų sistema yra naujausia!</message>
+    <message key="admin.version">Versija</message>
+    <message key="admin.fileLoader.wrongBasePathLocation">Bazinis kelias „{$path}“ privalo būti viešųjų failų kataloge.</message>
+    <message key="admin.fileLoader.pathNotAccessible">Aplankas „{$path}“ nėra katalogas arba yra neperskaitomas.</message>
+    <message key="admin.fileLoader.moveFileFailed">Failas „{$filename}“ negali būti perkeltas iš „{$currentFilePath}“ į „{$destinationPath}“</message>
+    <message key="admin.fileLoader.fileProcessed">Failas „{$filename}“ buvo apdorotas ir suarchyvuotas.</message>
+    <message key="admin.fileLoader.emailSubject">Failo paleidyklė</message>
+    <message key="admin.copyAccessLogFileTool.usage">Nukopijuokite pateiktą „apache“ prieigos žurnalo failą(-us), filtruojant įrašus susijusius su šiuo diegimu,
+į dabartinių failų katalogą, viduje „UsageStatsPlugin“ darbiniame kataloge. Privaloma paleisti vartotojo su teisėmis, kurių užtektų perskaityti „apache“ žurnalo failus.
+
+Šis įrankis tik nukopijuos failus, kurie nėra „usageStats“ failų paleidyklės kataloguose („stage“, „processing“, „archive“, „reject“).
+
+Naudojimas: {$scriptName} kelias/iki/apache/žurnalo/failo.log
+Naudojimas (apdorojant visus katalogo failus): {$scriptName} kelias/iki/apache/katalogo
+    </message>
+    <message key="admin.copyAccessLogFileTool.error.creatingFolder">Klaida: nepavyko sukurti laikinojo aplanko „{$tmpDir}“</message>
+    <message key="admin.copyAccessLogFileTool.error.acessingFile">Klaida: failas „{$filePath}“ neegzistuoja arba yra neprieinamas.</message>
+    <message key="admin.copyAccessLogFileTool.error.copyingFile">Klaida: nepavyko nukopijuoti failo iš „{$filePath}“ į „{$tmpFilePath}“</message>
+    <message key="admin.copyAccessLogFileTool.error.deletingFile">Klaida: nepavyko pašalinti failo „{$tmpFilePath}“</message>
+    <message key="admin.copyAccessLogFileTool.warning.fileAlreadyExists">Įspėjimas: failas „{$filePath}“ jau egzistuoja naudojimo statistikos kataloge.</message>
+    <message key="admin.copyAccessLogFileTool.success">Pavyko: „{$filePath}“ į „{$destinationPath}“</message>
+    <message key="admin.error.utilExecutionProblem">„{$utilPath}“ programos vykdymas grąžino šią klaidą: {$output}</message>
+    <message key="admin.error.executingUtil">Klaida: nepavyko vykdyti „{$utilPath}“. Patikrinkite savo „{$utilVar}“ nuostatą config.inc.php faile.</message>
+    <message key="admin.languages.noLocalesToDownload">Nėra prieinamų lokalių atsisiuntimui.</message>
+</locale>

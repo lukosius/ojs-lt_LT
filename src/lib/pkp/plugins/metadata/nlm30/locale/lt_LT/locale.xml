@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../dtd/locale.dtd">
+
+<!--
+  * lib/pkp/plugins/metadata/nlm30/locale/lt_LT/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="plugins.metadata.nlm30.displayName">„NLM 3.0“ metaduomenys</message>
+    <message key="plugins.metadata.nlm30.description">Įskiepis prideda „NLM 3.0“ schemas ir programos adapterius.</message>
+    <message key="plugins.metadata.nlm30.citationAdapter.displayName">„NLM 3.0“ citavimo adapteris</message>
+    <message key="plugins.metadata.nlm30.citationAdapter.description">Ištraukia/įdeda metaduomenis iš/į citatas.</message>
+    <message key="plugins.metadata.nlm30.citationParsers.displayName">Citavimo ištraukimo tarnybos</message>
+    <message key="plugins.metadata.nlm30.citationParsers.description">Konvertuoja grynojo teksto citatas į „NLM 3.0“ elementų citatų žymėjimą.</message>
+    <message key="plugins.metadata.nlm30.citationLookup.displayName">Citavimo duomenų bazių tarnybos</message>
+    <message key="plugins.metadata.nlm30.citationLookup.description">Pagerina NLM 3.0 elementų citatų žymėjimą, pvz. peržiūrint citatas išorinėse duomenų bazėse.</message>
+    <message key="plugins.metadata.nlm30.citationOutput.displayName">Citatų išvesties tarnybos</message>
+    <message key="plugins.metadata.nlm30.citationOutput.description">Konvertuoja „NLM 3.0“ elementų citatų žymėjimą į grynojo teksto citatų išvesties standartą.</message>
+    <message key="plugins.metadata.nlm30Xml.citationOutput.displayName">Citatų išvesties tarnybos (XML)</message>
+    <message key="plugins.metadata.nlm30Xml.citationOutput.description">Konvertuoja „NLM 3.0“ elementų citatų žymėjimą į XML citatų išvesties standartą.</message>
+    <message key="plugins.metadata.nlm30.nlm30XmlOutput.displayName">„NLM 3.0“ žurnalo išleidimo išvestis</message>
+    <message key="plugins.metadata.nlm30.nlm30XmlOutput.description">Kovertuoja pateikimą į „NLM 3.0“.</message>
+    <message key="plugins.metadata.nlm30.nlm23XmlOutput.displayName">„NLM 2.3“ žurnalo išleidimo išvestis</message>
+    <message key="plugins.metadata.nlm30.nlm23XmlOutput.description">Konvertuoja pateikimą į „NLM 2.3“.</message>
+    <message key="plugins.metadata.nlm30.nlm30ToNlm23Xml.displayName">„NLM 3.0“ į 2.3 žurnalo išleidimo sendinimas</message>
+    <message key="plugins.metadata.nlm30.nlm30ToNlm23Xml.description">Sendinti „NLM 3.0“ į „NLM 2.3“.</message>
+    <message key="plugins.metadata.nlm30.refList.displayName">Grynojo teksto nuorodų sąrašo generavimas</message>
+    <message key="plugins.metadata.nlm30.refList.description">Sugeneruoja suformatuotą grynojo teksto nuorodų sąrašą iš OJS/OCS/OMP pateikimo nuorodų</message>
+</locale>

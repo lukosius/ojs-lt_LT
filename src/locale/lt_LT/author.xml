@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/lt_LT/author.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="author.submit">Naujas pateikimas</message>
+    <message key="author.track">Aktyvūs pateikimai</message>
+    <message key="author.competingInterests"><![CDATA[Interesų&nbsp;konfliktų <a target="_new" class="action" href="{$competingInterestGuidelinesUrl}">IK&nbsp;Politika</a>]]></message>
+    <message key="author.submit.submitArticle">Pateikti straipsnį</message>
+    <message key="author.submit.stepsToSubmit">Penki pateikimo žingsniai</message>
+    <message key="author.submit.startHereTitle">Pradėti naują pateikimą</message>
+    <message key="author.submit.startHereLink"><![CDATA[<a href="{$submitUrl}" class="action">Spustelėkite čia</a>, kad pereitumėte į vieną iš penkių žingsnių pateikimo procese.]]></message>
+    <message key="author.submit.step1">1 žingsnis. Pateikimo pradžia</message>
+    <message key="author.submit.step2">2 žingsnis. Pateikimo nusiuntimas</message>
+    <message key="author.submit.step3">3 žingsnis. Pateikimo metaduomenų įvedimas</message>
+    <message key="author.submit.step4">4 žingsnis. Papildomų failų nusiuntimas</message>
+    <message key="author.submit.step4a">4a žingsnis. Papildomo failo pridėjimas</message>
+    <message key="author.submit.step5">5 žingsnis. Pateikimo patvirtinimas</message>
+    <message key="author.submit.start">Pradžia</message>
+    <message key="author.submit.upload">Pateikimo nusiuntimas</message>
+    <message key="author.submit.metadata">Metaduomenų įvedimas</message>
+    <message key="author.submit.supplementaryFiles">Papildomų failų nusiuntimas</message>
+    <message key="author.submit.confirmation">Patvirtinimas</message>
+    <message key="author.submit.nextSteps">Kiti žingsniai</message>
+    <message key="author.submit.cancelSubmission">Šį pateikimą galite užbaigti vėliau pasirinkę „Aktyvūs pateikimai“.</message>
+    <message key="author.submit.notAccepting">Šiuo metu žurnalas nepriima pateikimų.</message>
+    <message key="author.submit.requestWaiver">Prašau atleisti nuo mokesčio</message>
+    <message key="author.submit.qualifyForWaiver">Prašau atleisti nuo straipsnio pateikimo mokesčio</message>
+    <message key="author.submit.addReasonsForWaiver">Žemiau įveskite komentarą, kodėl turėtumėte būti atleistas nuo mokesčių.</message>
+    <message key="author.submit.mustEnterWaiverReason">Privalote įvesti priežastį, jei prašote atleidimo nuo mokesčio.</message>
+    <message key="author.submissions.queuedReviewSubsequent">Recenzavimo etape {$round}</message>
+    <message key="author.submissions.queuedReviewRevisions">Recenzuojama: reikalingi pataisymai</message>
+    <message key="author.submissions.queuedEditingCopyedit">Redaguojama: prašoma redaguoti rankraštį</message>
+    <message key="author.submissions.queuedEditingProofread">Redaguojama: prašoma koreguoti</message>
+    <message key="author.submissions.uploadCopyeditedVersion">Nusiųsti redaguotą rankraščio versiją</message>
+    <message key="author.submissions.proofreadingCorrections">Korektūros pataisymai</message>
+    <message key="author.submissions.confirmDelete">Ar tikrai norite pašalinti šį pateikimą?</message>
+    <message key="author.submissions.viewStatus">Žiūrėti būseną</message>
+    <message key="author.submissions.noSubmissions">Nėra pateikimų.</message>
+    <message key="author.submit.journalSection">Žurnalo skiltis</message>
+    <message key="author.submit.journalSectionDescription">Parinkite tinkamą žurnalo skiltį šiam pateikimui.</message>
+    <message key="author.submit.submissionLocale">Pateikimo kalba</message>
+    <message key="author.submit.submissionLocaleDescription">Šis žurnalas priima pateikimus keliomis kalbomis. Pasirinkite šio pateikimo pagrindinę kalbą.</message>
+    <message key="author.submit.verifyChecklist">Norėdami tęsti jūs turite įsitikinti, kad visi elementai pateikimo kontroliniame sąraše yra įvykdyti.</message>
+    <message key="author.submit.copyrightNoticeAgree">Autoriai sutinka su sąlygomis išdėstytomis Autorinėse teisėse, kurios taikomos šiam pateikimui kai jis bus išleistas šiame žurnale (žemiau galite įtraukti komentarus redaktoriui).</message>
+    <message key="author.submit.copyrightNoticeAgreeRequired">Norėdami tęsti, jūs privalote sutikti su sąlygomis išdėstytomis Autorinėse teisėse.</message>
+    <message key="submission.submit.coverNote">Komentarai redaktoriui</message>
+    <message key="author.submit.comments">Įveskite tekstą (nebūtina)</message>
+    <message key="author.submit.form.sectionRequired">Prašome šiam pateikimui parinkti atitinkamą žurnalo skiltį.</message>
+    <message key="author.submit.form.localeRequired">Prašome pasirinkti pateikimo kalbą.</message>
+    <message key="submission.submit.privacyStatement">Žurnalo privatumo politika</message>
+    <message key="author.submit.reorderInstructions">Pakeisti autorių tvarką, kuri bus rodoma po paskelbimo.</message>
+    <message key="author.submit.reorder">Pertvarkyti autorių vardus</message>
+    <message key="author.submit.selectPrincipalContact">Pagrindinis kontaktas redagavimo klausimais.</message>
+    <message key="author.submit.addAuthor">Įtraukti autorių</message>
+    <message key="author.submit.deleteAuthor">Šalinti autorių</message>
+    <message key="author.submit.submissionIndexingDescription">Įveskite pagrindinius žodžius pateikimo indeksavimui; juos atskirkite su kabliataškiu (žodis1; žodis2; žodis3).</message>
+    <message key="author.submit.coverageInstructions">Nurodoma geografinė padėtis, chronologinė arba istorinė epocha ir/arba kitos nagrinėtų duomenų charakteristikos.</message>
+    <message key="author.submit.languageInstructions"><![CDATA[Anglų=en; Lietuvių=lt. <a href="http://www.loc.gov/standards/iso639-2/php/code_list.php" target="_blank">Papildomi kodai</a>.]]></message>
+    <message key="author.submit.form.authorRequired">Privalomas bent vienas autorius.</message>
+    <message key="author.submit.form.authorRequiredFields">Vardas, pavardė ir el. pašto adresas yra privalomi.</message>
+    <message key="author.submit.form.titleRequired">Prašome įvesti jūsų straipsnio pavadinimą.</message>
+    <message key="author.submit.form.abstractRequired">Įveskite straipsnio santrauką.</message>
+    <message key="author.submit.form.wordCountAlert">Santraukoje panaudojote per daug žodžių.</message>
+    <message key="author.submit.submissionFile">Pateikimo failas</message>
+    <message key="author.submit.uploadSubmissionFile">Nusiųsti pateikimo failą</message>
+    <message key="author.submit.replaceSubmissionFile">Pakeisti pateikimo failą</message>
+    <message key="author.submit.noSubmissionFile">Nenusiųstas joks pateikimo failas.</message>
+    <message key="author.submit.noSubmissionConfirm">Ar tikrai norite tęsti nenusiuntę pateikimo failo?</message>
+    <message key="author.submit.supplementaryFilesInstructions">Šis papildomas žingsnis leidžia įtraukti papildomus failus į pateikimą. Failai, kurie gali būti bet kuriuo formatu, gali įtraukti (a) tyrime naudotas priemonės, (b) duomenų rinkinius, (c) šaltinius, kurie kitaip nebūtų prieinami skaitytojams, (d) paveikslėlius ir lenteles, kurie negali būti integruoti pačiame tekste, ar kitą medžiagą, kuri įtraukia prisidėjimą prie darbo.</message>
+    <message key="author.submit.supplementaryFiles.saveToUpload">Spustelėkite Įrašyti ir nusiųsti failą (po kurių papildomi failai gali būti nusiųsti).</message>
+    <message key="author.submit.forgottenSubmitSuppFile">Ar tikrai norite tęsti neišsiuntus pasirinktų papildomų failų?</message>
+    <message key="author.submit.noSupplementaryFiles">Nebuvo įtraukti papildomi failai į šį pateikimą.</message>
+    <message key="author.submit.backToSupplementaryFiles">Grįžti į papildomus failus</message>
+    <message key="author.submit.confirmDeleteSuppFile">Ar tikrai norite pašalinti papildomą failą?</message>
+    <message key="author.submit.uploadSuppFile">Nusiųsti papildomą failą</message>
+    <message key="author.submit.addSupplementaryFile">Įtraukti papildomą failą</message>
+    <message key="author.submit.editSupplementaryFile">Redaguoti papildomą failą</message>
+    <message key="author.submit.supplementaryFileData">Papildomo failo metaduomenys</message>
+    <message key="author.submit.supplementaryFileDataDescription">Norėdami indeksuoti šią papildomą medžiagą, pateikite metaduomenis šiam nusiųstam papildomam failui.</message>
+    <message key="author.submit.supplementaryFileUpload">Papildomas failas</message>
+    <message key="author.submit.suppFile.createrOrOwner">Failo kūrėjas</message>
+    <message key="author.submit.suppFile.researchInstrument">Tyrimo priemonė</message>
+    <message key="author.submit.suppFile.researchMaterials">Tyrimo medžiaga</message>
+    <message key="author.submit.suppFile.researchResults">Tyrimo rezultatai</message>
+    <message key="author.submit.suppFile.transcripts">Nuorašai</message>
+    <message key="author.submit.suppFile.dataAnalysis">Duomenų analizė</message>
+    <message key="author.submit.suppFile.dataSet">Duomenų rinkinys</message>
+    <message key="author.submit.suppFile.sourceText">Šaltinio tekstas</message>
+    <message key="author.submit.suppFile.briefDescription">Trumpas aprašymas</message>
+    <message key="author.submit.suppFile.availableToPeers">Pateikti failą recenzentams (be metaduomenų); tai nepažeis anoniminio recenzavimo.</message>
+    <message key="author.submit.suppFile.publisherDescription">Naudoti tik su formaliai išleista medžiaga.</message>
+    <message key="author.submit.suppFile.dateDescription">Data kai duomenys buvo surinkti ar sukurta priemonė.</message>
+    <message key="author.submit.suppFile.sourceDescription">Studijos pavadinimas ar kita kilmės vieta.</message>
+    <message key="author.submit.suppFile.specifyOtherType">Nurodyti kitą</message>
+    <message key="author.submit.suppFile.noFile">Nenusiųstas failas.</message>
+    <message key="author.submit.suppFile.form.titleRequired">Prašome įvesti šio papildomo failo pavadinimą.</message>
+    <message key="author.submit.suppFile.form.subjectRequired">Prašome įvesti temą.</message>
+    <message key="author.submit.suppFile.form.descriptionRequired">Prašome įvesti aprašymą.</message>
+    <message key="author.suppFile.suppFilePublicIdentificationExists">Viešas papildomo failo identifikatorius jau egzistuoja.</message>
+    <message key="author.suppFile.publicSuppFileIdentifier">Viešas papildomo failo identifikatorius</message>
+    <message key="author.submit.confirmationDescription">Norėdami pateikti jūsų rankraštį į {$journalTitle}, spustelėkite Baigti pateikimą. Pateikimo pagrindinis kontaktas gaus patvirtinimą el. paštu ir galės peržiūrėti pateikimo progresą per redagavimo procesą kai prisijungs prie žurnalo svetainės. Ačiū jums, kad pateikėte straipsnį žurnalui {$journalTitle}.</message>
+    <message key="author.submit.noFiles">Nebuvo prisegti jokie failai šiam pateikimui.</message>
+    <message key="author.submit.filesSummary">Failo suvestinė</message>
+    <message key="author.submit.finishSubmission">Baigti pateikimą</message>
+    <message key="author.submit.submissionComplete">Pateikimas baigtas. Ačiū jums, kad pateikėte straipsnį žurnalui {$journalTitle}.</message>
+    <message key="author.article.uploadAuthorVersion">Nusiųsti autoriaus versiją</message>
+    <message key="author.article.copyeditedFile">Redaguotas rankraštis</message>
+    <message key="author.article.authorRevisedFile">Autoriaus failas</message>
+    <message key="author.submit.authorSubmitLoginMessage">Privaloma vartotojo paskyra norint pateikti straipsnį šiame žurnale. Tai leidžia mūsų redaktoriams sekti jūsų pateikimus ir susisiekti su jumis kai pasikeičia pateikimo būsena, arba jei reikalinga papildoma informacija iš jūsų.</message>
+</locale>

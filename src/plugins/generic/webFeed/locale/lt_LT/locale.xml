@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/webFeed/locale/lt_LT/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="plugins.generic.webfeed.displayName">WEB sklaidos kanalo įskiepis</message>
+    <message key="plugins.generic.webfeed.description">Įskiepis sukuria RSS/Atom WEB sklaidos kanalus dabartiniam numeriui.</message>
+    <message key="plugins.generic.webfeed.settings">Nuostatos</message>
+    <message key="plugins.generic.webfeed.settings.issue">Rodyti sklaidos kanalo nuorodas tik numerio puslapiuose.</message>
+    <message key="plugins.generic.webfeed.settings.homepage">Rodyti sklaidos kanalo nuorodas pradžios ir tik numerio puslapiuose.</message>
+    <message key="plugins.generic.webfeed.settings.all">Rodyti sklaidos kanalo nuorodas visuose žurnalo puslapiuose.</message>
+    <message key="plugins.generic.webfeed.settings.currentIssue">Rodyti elementus dabartiniam išleistam numeriui.</message>
+    <message key="plugins.generic.webfeed.settings.recent">Rodyti fiksuotą pačių naujausių elementų skaičių.</message>
+    <message key="plugins.generic.webfeed.settings.recentArticles">Rodomų elementų skaičius</message>
+    <message key="plugins.generic.webfeed.settings.recentItemsRequired">Įveskite teigiamą sveikąjį skaičių naujausiems išleistiems elementams.</message>
+    <message key="plugins.generic.webfeed.atom.altText">Atom logotipas</message>
+    <message key="plugins.generic.webfeed.rss1.altText">RSS1 logotipas</message>
+    <message key="plugins.generic.webfeed.rss2.altText">RSS2 logotipas</message>
+</locale>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * lib/pkp/locale/lt_LT/default.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="default.groups.name.siteAdmin">Svetainės administratorius</message>
+    <message key="default.groups.plural.siteAdmin">Svetainės administratoriai</message>
+    <message key="default.groups.name.productionEditor">Vyriausiasis redaktorius</message>
+    <message key="default.groups.plural.productionEditor">Vyriausieji redaktoriai</message>
+    <message key="default.groups.abbrev.productionEditor">Vyr. red.</message>
+    <message key="default.groups.name.copyeditor">Rankraščio redaktorius</message>
+    <message key="default.groups.plural.copyeditor">Rankraščio redaktoriai</message>
+    <message key="default.groups.abbrev.copyeditor">Rank.</message>
+    <message key="default.groups.name.proofreader">Korektorius</message>
+    <message key="default.groups.plural.proofreader">Korektoriai</message>
+    <message key="default.groups.abbrev.proofreader">Kor.</message>
+    <message key="default.groups.name.designer">Dizaineris</message>
+    <message key="default.groups.plural.designer">Dizaineriai</message>
+    <message key="default.groups.abbrev.designer">Diz.</message>
+    <message key="default.groups.name.internalReviewer">Vidinis recenzentas</message>
+    <message key="default.groups.plural.internalReviewer">Vidiniai recenzentai</message>
+    <message key="default.groups.abbrev.internalReviewer">Vid.</message>
+    <message key="default.groups.name.marketing">Rinkodaros ir pardavimų koordinatorius</message>
+    <message key="default.groups.plural.marketing">Rinkodaros ir pardavimų koordinatoriai</message>
+    <message key="default.groups.abbrev.marketing">Rink.</message>
+    <message key="default.groups.name.funding">Finansavimo koordinatorius</message>
+    <message key="default.groups.plural.funding">Finansavimo koordinatoriai</message>
+    <message key="default.groups.abbrev.funding">Fin.</message>
+    <message key="default.groups.name.indexer">Indeksuotojas</message>
+    <message key="default.groups.plural.indexer">Indeksuotojai</message>
+    <message key="default.groups.abbrev.indexer">Ind.</message>
+    <message key="default.groups.name.layoutEditor">Maketuotojas</message>
+    <message key="default.groups.plural.layoutEditor">Maketuotojai</message>
+    <message key="default.groups.abbrev.layoutEditor">Mak.</message>
+    <message key="default.groups.name.author">Autorius</message>
+    <message key="default.groups.plural.author">Autoriai</message>
+    <message key="default.groups.abbrev.author">Aut.</message>
+    <message key="default.groups.name.translator">Vertėjas</message>
+    <message key="default.groups.plural.translator">Vertėjai</message>
+    <message key="default.groups.abbrev.translator">Vert.</message>
+    <message key="default.groups.name.reader">Skaitytojas</message>
+    <message key="default.groups.plural.reader">Skaitytojai</message>
+    <message key="default.groups.abbrev.reader">Skait.</message>
+    <message key="default.genres.other">Kiti</message>
+    <message key="default.genres.multimedia">Įvairialypė informacija</message>
+    <message key="default.genres.image">Paveiksliukas</message>
+    <message key="default.genres.styleSheet">HTML pakopinis stilius</message>
+</locale>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/importexport/crossref/locale/lt_LT/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="plugins.importexport.crossref.displayName">CrossRef XML eksportavimo įskiepis</message>
+    <message key="plugins.importexport.crossref.description">Įskiepis eksportuoja straipsnio metaduomenis CrossRef XML formatu.</message>
+    <message key="plugins.importexport.crossref.requirements">Reikalavimai</message>
+    <message key="plugins.importexport.crossref.requirements.satisfied">Visi įskiepio reikalavimai yra įvykdyti.</message>
+    <message key="plugins.importexport.crossref.error.publisherNotConfigured"><![CDATA[Nenurodėte žurnalo leidėjo! Privalote įvesti leidėjo institucijos informaciją <a href="{$journalSettingsUrl}" target="_blank">konfigūracijos puslapyje</a>.]]></message>
+    <message key="plugins.importexport.crossref.error.issnNotConfigured"><![CDATA[Nenurodėte žurnalo ISSN! Privalote įvesti ISSN informaciją <a href="{$journalSettingsUrl}" target="_blank">konfigūracijos puslapyje</a>.]]></message>
+    <message key="plugins.importexport.crossref.error.noDOIContentObjects">Straipsniai nėra parinkti DOI užduočiai DOI viešojo identifikatoriaus įskiepyje, todėl nėra deponavimo ar eksportavimo galimybės šiame įskiepyje.</message>
+    <message key="plugins.importexport.crossref.settings.depositorIntro">Sėkmingam deponavimui į CrossRef privaloma įvesti šiuos duomenis:</message>
+    <message key="plugins.importexport.crossref.settings.form.depositorName">Deponento vardas</message>
+    <message key="plugins.importexport.crossref.settings.form.depositorEmail">Deponento el. paštas</message>
+    <message key="plugins.importexport.crossref.settings.form.depositorNameRequired">Įveskite deponento vardą.</message>
+    <message key="plugins.importexport.crossref.settings.form.depositorEmailRequired">Įveskite deponento el. pašto adresą.</message>
+    <message key="plugins.importexport.crossref.registrationIntro"><![CDATA[Jei norite naudoti šį įskiepį tiesiogiai užregistruojant „Digital Object Identifier“ (DOI) CrossRef organizacijoje, reikės nurodyti vartotojo vardą ir slaptažodį (prieinamą iš <a href="http://www.crossref.org" target="_blank">CrossRef</a>). Jei neturite savo paskyros, vis tiek galite eksportuoti į CrossRef XML formatą, tačiau negalėsite užregistruoti DOI CrossRef organizacijoje per OJS.]]></message>
+    <message key="plugins.importexport.crossref.settings.form.username">Vartotojo vardas</message>
+    <message key="plugins.importexport.crossref.settings.form.usernameRequired">Įveskite vartotojo vardą, kurį gavote iš CrossRef.</message>
+    <message key="plugins.importexport.crossref.settings.form.automaticRegistration.description">OJS automatiškai deponuos paskirtus DOI į CrossRef. Atkreipkite dėmesį į tai, kad šį procesas gali šiek tiek užtrukti po išleidimo. Bet kuriuo metu galite peržiūrėti visus neužregistruotus DOI.</message>
+    <message key="plugins.importexport.crossref.settings.form.testMode.description">Naudokite CrossRef testavimo API (testavimo aplinka) DOI deponavimui. Nepamirškite pašalinti šią parinktį gamybai.</message>
+    <message key="plugins.importexport.crossref.issues.description">Pastaba: tik numeriai (ir ne jų straipsnai) čia bus apsvarstomi eksportavimui/registracijai.</message>
+    <message key="plugins.importexport.crossref.status.submitted">Pateiktas</message>
+    <message key="plugins.importexport.crossref.status.completed">Deponuotas</message>
+    <message key="plugins.importexport.crossref.status.failed">Nepavyko</message>
+    <message key="plugins.importexport.crossref.status.registered">Aktyvus</message>
+    <message key="plugins.importexport.crossref.status.markedRegistered">Pažymėtas aktyviu</message>
+    <message key="plugins.importexport.crossref.statusLegend"><![CDATA[
+        <p>Deponavimo būsena:</p>
+        <p>
+        - Nedeponuotas: neatliktas šio DOI deponavimo bandymas.<br />
+        - Pateiktas: šis DOI buvo pateiktas deponavimui.<br />
+        - Deponuotas: DOI buvo deponuotas į CrossRef, bet dar gali būti neaktyvus.<br />
+        - Aktyvus: DOI buvo deponuotas ir nustatomas korektiškai.<br />
+        - Nepavyko: DOI deponavimoas nepavyko.<br />
+        - Pažymėtas aktyviu: DOI rankiniu būdu buvo pažymėtas aktyviu.
+        </p>
+        <p>Bus rodomas tik paskutinio deponavimo būsena.</p>
+        <p>Jei deponavimas nepavyko, išspręskite problemą ir pamėginkite užregistruoti DOI iš naujo.</p>]]></message>
+    <message key="plugins.importexport.crossref.action.export">Atsisiųsti XML</message>
+    <message key="plugins.importexport.crossref.action.markRegistered">Pažymėti aktyviu</message>
+    <message key="plugins.importexport.crossref.action.register">Pateikti</message>
+    <message key="plugins.importexport.crossref.action.checkStatus">Tikrinti būseną</message>
+    <message key="plugins.importexport.crossref.senderTask.name">CrossRef automatinio registravimo užduotis</message>
+    <message key="plugins.importexport.crossref.notification.failed"><![CDATA[Nepavyko užregistruoti DOI. Nueikite į Įrankiai > Importavimas/Eksportavimas > CrossRef XML eksportavimo įskiepis, kad peržiūrėtumėte nepavykusius deponavimus.]]></message>
+    <message key="plugins.importexport.crossref.cliUsage">Naudojimas:
+{$scriptName} {$pluginName} [xmlFileName] [journal_path] articles [articleId1] [articleId2] ...
+{$scriptName} {$pluginName} [xmlFileName] [journal_path] issue [issueId]
+</message>
+    <message key="plugins.importexport.crossref.cliError">KLAIDA:</message>
+    <message key="plugins.importexport.crossref.register.error.mdsError">Pateikimas nebuvo sėkmingai! DOI registracijos serveris grąžino klaidą: '{$param}'.</message>
+    <message key="plugins.importexport.crossref.register.success">Pateikimas sėkmingas!</message>
+    <message key="plugins.importexport.crossref.export.error.issueNotFound">Nėra numerio, kuris atitiktų nurodytą numerio ID „{$issueId}“.</message>
+    <message key="plugins.importexport.crossref.export.error.articleNotFound">Nėra straipsnio, kuris atitiktų nurodytą straipsnio ID „{$articleId}“.</message>
+</locale>

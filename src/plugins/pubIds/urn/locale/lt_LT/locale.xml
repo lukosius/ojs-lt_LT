@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/pubIds/urn/locale/lt_LT/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="plugins.pubIds.urn.displayName">URN</message>
+    <message key="plugins.pubIds.urn.description">Įskiepis įgalina nekintamų išteklių vardų priskyrimą numeriams, straipsniams ir maketams OJS sistemoje.</message>
+    <message key="plugins.pubIds.urn.manager.settings.description">Sukonfigūruokite URN įskiepį, kad galėtumėte tvarkyti ir naudoti URN sistemoje OJS:</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnObjects">Žurnalo turinys</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnObjectsRequired">Parinkite, kuriems objektams priskirsite URN.</message>
+    <message key="plugins.pubIds.urn.manager.settings.explainURNs">Pasirinkite objektus, kuriems norite priskirti URN:</message>
+    <message key="plugins.pubIds.urn.manager.settings.enableIssueURN">Numeriai</message>
+    <message key="plugins.pubIds.urn.manager.settings.enableSubmissionURN">Straipsniai</message>
+    <message key="plugins.pubIds.urn.manager.settings.enableRepresentationURN">Maketai</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnPrefix">URN priešdėlis</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnPrefix.description">URN priešdėlis yra nekintanti URN dalis (pvz. "urn:nbn:de:0000-").</message>
+    <message key="plugins.pubIds.urn.manager.settings.form.urnPrefixPattern"><![CDATA[URN priešdėlio šablonas privalo būti tokios formos "urn:"&lt;NID&gt;":"&lt;NSS&gt;.]]></message>
+    <message key="plugins.pubIds.urn.manager.settings.urnSuffix">URN priesaga</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnSuffix.description">URN priesaga gali būti laisvoje formoje, bet unikali tarp visų leidžiamų objektų su tuo pačiu URN priešdėliu:</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnSuffixPattern">Naudoti žemiau įvestą šabloną generuoti URN priesagoms. Naudokite %j žurnalo inicialams, %v tomo skaičiui, %i numerio skaičiui, %Y metams, %a OJS straipsnio ID, %g OJS maketo ID, %s OJS failo ID, %p puslapių numeriui ir %x tinkintiems identifikatoriams.</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnSuffixPattern.example">Pavyzdžiui, vol%viss%ipp%p gali sukurti URN priesagą tokią kaip „vol3iss2pp230“</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnSuffixPattern.issues">numeriams</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnSuffixPattern.submissions">straipsniams</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnSuffixPattern.representations">maketams</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnIssueSuffixPatternRequired">Įveskite URN priesagos šabloną numeriams.</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnSubmissionSuffixPatternRequired">Įveskite URN priesagos šabloną straipsniams.</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnRepresentationSuffixPatternRequired">Įveskite URN priesagos šabloną maketams.</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnSuffixDefault">Naudoti numatytuosius šablonus.</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnSuffixDefault.description"><![CDATA[%j.v%vi%i numeriams<br />%j.v%vi%i.%a straipsniams<br />%j.v%vi%i.%a.g%g maketams.]]></message>
+    <message key="plugins.pubIds.urn.manager.settings.urnSuffixCustomIdentifier">Įveskite individualią URN priesagą kiekvienam išleistam objektui. Papildomą URN tekstinį lauką rasite kiekvieno objekto metaduomenų puslapyje.</message>
+    <message key="plugins.pubIds.urn.manager.settings.checkNo">Tikrinimo skaičius</message>
+    <message key="plugins.pubIds.urn.manager.settings.checkNo.label">Tikrinimo skaičius bus automatiškai apskaičiuotas ir pridėtas pabaigoje, kaip paskutiniai URN skaičiai.</message>
+    <message key="plugins.pubIds.urn.manager.settings.namespace">Vardų sritis</message>
+    <message key="plugins.pubIds.urn.manager.settings.namespace.choose">Pasirinkite</message>
+    <message key="plugins.pubIds.urn.manager.settings.namespace.description">Nuolatinė identifikatoriaus vardų sritis paprastai reikalinga registracijai (pvz. įstaigoje Deutsche Nationalbibliothek).</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnResolver">Sprendimo įtaiso adresas</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnResolver.description">(pvz. http://nbn-resolving.de/)</message>
+    <message key="plugins.pubIds.urn.manager.settings.form.urnResolverRequired">Įveskite sprendimo įtaiso adresą.</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnReassign">Priskirti URN iš naujo</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnReassign.description">Jei pakeisite URN konfigūraciją, jau priskirti URN nebus paveikti. Tik išsaugojus konfigūraciją, naudokite šį mygtuką egzistuojančių URN išvalymui tam, kad įsigaliotų naujos nuostatos esamiems objektams.</message>
+    <message key="plugins.pubIds.urn.manager.settings.urnReassign.confirm">Ar tikrai norite pašalinti visus esamus URN?</message>
+    <message key="plugins.pubIds.urn.editor.urn">URN</message>
+    <message key="plugins.pubIds.urn.editor.urnObjectTypeIssue">numeris</message>
+    <message key="plugins.pubIds.urn.editor.urnObjectTypeSubmission">straipsnis</message>
+    <message key="plugins.pubIds.urn.editor.urnObjectTypeRepresentation">maketas</message>
+    <message key="plugins.pubIds.urn.editor.customSuffixMissing">Nepavyko priskirti URN, nes trūksta tinkintos priesagos.</message>
+    <message key="plugins.pubIds.urn.editor.patternNotResolved">Nepavyko priskirti URN, nes turi nesuprantamą šabloną.</message>
+    <message key="plugins.pubIds.urn.editor.canBeAssigned">Tai ką matote yra tik URN peržiūra. Pažymėkite žymimąjį langelį ir išsaugokite formą, kad priskirtumėte URN.</message>
+    <message key="plugins.pubIds.urn.editor.assigned">URN yra priskirtas į {$pubObjectType}.</message>
+    <message key="plugins.pubIds.urn.editor.urnSuffixCustomIdentifierNotUnique">Nurodytą URN priesagą jau naudoja kitas išleistas elementas. Įveskite unikalią URN priesagą kiekvienam elementui.</message>
+    <message key="plugins.pubIds.urn.editor.clearObjectsURN">Išvalyti URN</message>
+    <message key="plugins.pubIds.urn.editor.clearObjectsURN.confirm">Ar tikrai norite pašalinti esamą URN?</message>
+    <message key="plugins.pubIds.urn.editor.clearIssueObjectsURN">Išvalyti numerio objektų URN</message>
+    <message key="plugins.pubIds.urn.editor.clearIssueObjectsURN.confirm">Ar tikrai norite pašalinti esamo numerio objektų URN?</message>
+    <message key="plugins.pubIds.urn.editor.clearIssueObjectsURN.description">Naudokite šią parinktį tam, kad išvalytumėte visų objektų (straipsniai ir maketai) URN, kurie šiuo metu yra suplanuoti šiam numeriui.</message>
+    <message key="plugins.pubIds.urn.editor.addCheckNo">Pridėti tikrinimo skaičių</message>
+    <message key="plugins.pubIds.urn.editor.assignURN">Priskirti URN {$pubId} į {$pubObjectType}</message>
+    <message key="plugins.pubIds.urn.editor.assignURN.emptySuffix">Nepavyko priskirti URN, nes trūksta tinkintos priesagos.</message>
+    <message key="plugins.pubIds.urn.editor.assignURN.pattern">Nepavyko priskirti URN {$pubId}, nes turi nesuprantamą šabloną.</message>
+    <message key="plugins.pubIds.urn.editor.assignURN.assigned">URN {$pubId} buvo priskirtas.</message>
+    <message key="plugins.pubIds.urn.form.checkNoRequired">Trūksta tikrinimo skaičiaus.</message>
+</locale>

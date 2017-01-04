@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/gateways/resolver/locale/lt_LT/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="plugins.gateways.resolver.displayName">„Resolver“ įskiepis</message>
+    <message key="plugins.gateways.resolver.description">Įskiepis nustato numerius ir straipsnius remiantis citatos informacija.</message>
+    <message key="plugins.gateways.resolver.errors.errorMessage">Nepavyko nustatyti vienos esybės naudojant nurodytą citatos informaciją. Įsitikinkite, kad citatos informacija yra išsami ir kreipiasi į esybę šiame OJS diegime.</message>
+    <message key="plugins.gateways.resolver.exportHoldings">Eksportuoti išteklius</message>
+</locale>

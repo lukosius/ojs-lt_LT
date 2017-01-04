@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/tinymce/locale/lt_LT/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="plugins.generic.tinymce.name">TinyMCE įskiepis</message>
+    <message key="plugins.generic.tinymce.description"><![CDATA[Įskiepis įgalina WYSIWYG tekstinių laukų redagavimą su <a href="http://tinymce.moxiecode.com" target="_blank">TinyMCE</a> turinio redaktoriumi.]]></message>
+    <message key="plugins.generic.tinymce.settings">Nuostatos</message>
+    <message key="plugins.generic.tinymce.pkpTags.listTags">Pasirinkite gairę</message>
+    <message key="plugins.generic.tinymce.pkpTags.noneAvailable">Nėra gairių prieinamų šiam laukeliui.</message>
+    <message key="plugins.generic.tinymce.pkpTags.description">Galite įterpti bet kurias iš šių gairių:</message>
+    <message key="plugins.generic.tinymce.variables.principalContactName">Pagrindinio kontakto vardas („{$value}“)</message>
+    <message key="plugins.generic.tinymce.variables.principalContactEmail">Pagrindinio kontakto el. paštas („{$value}“)</message>
+    <message key="plugins.generic.tinymce.variables.supportContactName">Pagalbos kontakto vardas („{$value}“)</message>
+    <message key="plugins.generic.tinymce.variables.supportContactEmail">Pagalbos kontakto el. paštas („{$value}“)</message>
+    <message key="plugins.generic.tinymce.variables.supportContactPhone">Pagalbos kontakto telefonas („{$value}“)</message>
+</locale>

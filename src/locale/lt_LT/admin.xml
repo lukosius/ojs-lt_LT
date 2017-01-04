@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/lt_LT/admin.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * Localization strings for the lt_LT (Lietuvių) locale.
+  * Please contact gedas@lukosius.me with any questions regarding this translation.
+  *
+  * This file was automatically generated.
+  -->
+
+<locale name="lt_LT" full_name="Lietuvių">
+    <message key="admin.hostedJournals">Žurnalai</message>
+    <message key="admin.settings.journalRedirect">Žurnalo peradresavimas</message>
+    <message key="admin.settings.options">Parinktys</message>
+    <message key="admin.settings.usePaging">Svetainėms su daug žurnalų, atskirti žurnalų sąrašą į kelis puslapius.</message>
+    <message key="admin.settings.journalRedirectInstructions">Užklausos į pagrindinę svetainę bus peradresuotos į pasirinktą žurnalą. Tai gali būti naudinga, jei svetainėje yra tik vienas žurnalas.</message>
+    <message key="admin.settings.noJournalRedirect">Neperadresuoti</message>
+    <message key="admin.settings.journalsList">Žurnalo elementai</message>
+    <message key="admin.settings.journalsList.description">Pasirinkite elementus, kurie bus rodomi pagrindiniame puslapyje prie kiekvieno žurnalo.</message>
+    <message key="admin.settings.journalsList.showThumbnail">Žurnalo miniatiūra</message>
+    <message key="admin.settings.journalsList.showTitle">Žurnalo pavadinimas</message>
+    <message key="admin.settings.journalsList.showDescription">Žurnalo aprašymas</message>
+    <message key="admin.settings.defaultMetricDescription">
+        Jūsų OJS diegimas yra sukonfigūruotas įrašyti daugiau nei vieną naudojimo metriką. Naudojimo statistika bus rodoma keliuose kontekstuose.
+        Yra atvejų, kur privaloma naudoti bent vieną naudojimo statistiką, pvz. rodyti surikiuotą daugiausiai naudojamų straipsnių sąrašą arba
+        paieškos rezultatus. Pasirinkite vieną iš sukonfigūruotų metrikų kaip numatytąją.
+    </message>
+    <message key="admin.languages.confirmDisable">Ar tikrai norite išjungti šią lokalę? Tai gali paveikti žurnalus, kurie naudoja šią lokalę.</message>
+    <message key="admin.languages.downloadUnavailable"><![CDATA[<p>Šiuo metu nepavyko atsisiųsti kalbos paketų iš „Public Knowledge Project“ serverio dėl to, kad:</p>
+    <ul>
+        <li>Jūsų serveris neturi ar neleidžia „GNU tar“ įrankio vykdymo.</li>
+        <li>OJS negali modifikuoti lokalės registro failo, paprastai „registry/locales.xml“.</li>
+    </ul>
+<p>Kalbos paketai gali būti atsisiųsti rankiniu būdu iš <a href="http://pkp.sfu.ca">PKP svetainės</a>.</p>]]></message>
+    <message key="admin.languages.primaryLocaleInstructions">Šios svetainės ir žurnalų numatytoji kalba.</message>
+    <message key="admin.languages.supportedLocalesInstructions">Pasirinkite lokales, kurios bus palaikomos šioje svetainėje. Jos bus prieinamos naudojimui visuose žurnaluose ir bus rodomos kalbos pasirinkimo meniu kiekviename puslapyje (tai gali būti pakeista konkrečiuose žurnaluose). Jei pasirinkta tik viena lokalė, kalbos pasirinkimo meniu nebus rodomas kaip ir išplėstinės kalbos nustatymai nebus prieinami žurnaluose.</message>
+    <message key="admin.locale.maybeIncomplete">Pažymėtos lokalės gali būti neišverstos iki galo.</message>
+    <message key="admin.languages.confirmUninstall">Ar tikrai norite pašalinti šią lokalę? Tai gali paveikti žurnalus, kurie naudoja šią lokalę.</message>
+    <message key="admin.languages.installNewLocalesInstructions">Pasirinkite papildomas lokales, kurias norite įdiegti į šią sistemą. Norint jas naudoti žurnaluose, pirmiausia jos turi būti įdiegtos. Peržiūrėkite OJS dokumentaciją dėl platesnės informacijos apie naujų kalbų palaikymo įtraukimą.</message>
+    <message key="admin.languages.downloadFailed">Nepavyko lokalės atsisiuntimas. Žemiau pateiktas klaidos pranešimas.</message>
+    <message key="admin.languages.localeInstalled">Lokalė „{$locale}“ buvo įdiegta.</message>
+    <message key="admin.languages.download">Atsisiųsti lokalę</message>
+    <message key="admin.languages.download.cannotOpen">Nepavyko atverti kalbos aprašo iš „PKP“ svetainės.</message>
+    <message key="admin.languages.download.cannotModifyRegistry">Nepavyko įtraukti lokalės į registro failą, paprastai „registry/locales.xml“.</message>
+    <message key="admin.auth.ojs">OJS vartotojų duomenų bazė</message>
+    <message key="admin.auth.enableSyncProfiles">Įgalinti vartotojo profilio sinchronizaciją (jei tai palaiko tapatybės nustatymo įskiepis). Kai vartotojas prisijungia jo profilio informacija bus automatiškai atnaujinta iš nuotolinio šaltinio, o profilio pakeitimai (įtraukiant slaptažodžio pakeitimą) atlikti su OJS bus automatiškai atnaujinti nuotoliniame šaltinyje. Jei ši parinktis nebus įgalinta OJS profilio informacija bus saugoma atskirai nuo nuotolinio šaltinio profilio informacijos.</message>
+    <message key="admin.auth.enableSyncPasswords">Įgalinti vartotojo slaptažodžio keitimą (jei tai palaiko tapatybės nustatymo įskiepis). Įgalinus šią parinktį vartotojai galės modifikuoti savo OJS slaptažodį ir naudoti „pamiršto slaptažodžio“ funkciją, kad atkurtų pamirštą slaptažodį. Jei ši parinktis neįgalinta, šios funkcijos bus neprieinamos vartotojams su šiuo tapatybės nustatymo šaltiniu.</message>
+    <message key="admin.auth.enableCreateUsers">Įgalinti vartotojų kūrimą (jei tai palaiko tapatybės nustatymo įskiepis). Vartotojai sukurti per OJS su šiuo tapatybės nustatymo šaltiniu bus automatiškai įtraukti į nuotolinį tapatybės nustatymo šaltinį, jei jie neegzistuoja. Papildomai, jei šis šaltinis yra numatytasis, OJS paskyros sukurtos per vartotojų registraciją bus taip pat įtrauktos į nuotolinį tapatybės nustatymo šaltinį.</message>
+    <message key="admin.systemVersion">OJS versija</message>
+    <message key="admin.systemConfiguration">OJS konfigūracija</message>
+    <message key="admin.systemConfigurationDescription"><![CDATA[OJS konfigūracijos nustatymai iš <tt>config.inc.php</tt>.]]></message>
+    <message key="admin.journals.createInstructions">Būsite automatiškai paskirtas kaip šio žurnalo administratorius. Po naujo žurnalo sukūrimo būsite perkelti į žurnalo nuostatų vediklį kur užbaigsite pradinę žurnalo konfigūraciją.</message>
+    <message key="admin.journals.journalSettings">Žurnalo nuostatos</message>
+    <message key="admin.journals.noneCreated">Nėra sukurtų žurnalų.</message>
+    <message key="admin.contexts.confirmDelete">Ar tikrai norite pašalinti šį žurnalą su visu jo turiniu?</message>
+    <message key="admin.contexts.create">Kurti žurnalą</message>
+    <message key="admin.journals.urlWillBe">Tai turėtų būti trumpas žodis ar akronimas, kuris identifikuoja žurnalą. Žurnalo kelias bus „{$sampleUrl}“</message>
+    <message key="admin.contexts.form.titleRequired">Pavadinimas yra privalomas.</message>
+    <message key="admin.contexts.form.pathRequired">Žurnalo kelias yra privalomas.</message>
+    <message key="admin.contexts.form.pathAlphaNumeric">Žurnalo kelią gali sudaryti tik tekstiniai simboliai, pabraukimo brūkšnys, brūkšnelis ir privalo prasidėti ir baigtis tekstiniu simboliu.</message>
+    <message key="admin.contexts.form.pathExists">Pasirinktą kelią jau naudoja kitas žurnalas.</message>
+    <message key="admin.journals.enableJournalInstructions">Rodyti žurnalą viešai</message>
+    <message key="admin.journals.journalDescription">Žurnalo aprašymas</message>
+    <message key="admin.journal.pathImportInstructions">Esamas arba naujas žurnalo kelias (pvz., OJS).</message>
+    <message key="admin.journals.importSubscriptions">Importuoti prenumeratas</message>
+    <message key="admin.journals.transcode">Perkoduoti straipsnio metaduomenis iš ISO8859-1</message>
+    <message key="admin.journals.redirect">Kurti kodą, kuris atvaizduoja „OJS 1 URL“ į „OJS 2 URL“</message>
+    <message key="admin.journals.form.importPathRequired">Importavimo kelias yra privalomas.</message>
+    <message key="admin.journals.importErrors">Nepavyko importavimas</message>
+    <message key="admin.mergeUsers">Sulieti vartotojus</message>
+    <message key="admin.mergeUsers.mergeUser">Sulieti vartotoją</message>
+    <message key="admin.mergeUsers.into.description">Pasirinkite vartotoją, kuriam bus perleistos buvusio vartotojo autorystės, redagavimo užduotys ir t.t.</message>
+    <message key="admin.mergeUsers.from.description">Pasirinkite vartotoją (ar kelis), kuriuos suliesite su kita vartotojo paskyra (pvz., kai kas nors turi kelias paskyras). Pirmoji paskyra bus pašalinta, o pateikimai, užduotys ir t.t. bus perleisti antrajai paskyrai.</message>
+    <message key="admin.mergeUsers.allUsers">Visi paskirti vartotojai</message>
+    <message key="admin.mergeUsers.confirm">Ar tikrai norite sulieti pasirinktą(-as) {$oldAccountCount} paskyrą(-as) į paskyrą su vartotojo vardu „{$newUsername}“? Po šio veiksmo pasirinkta(-os) {$oldAccountCount} paskyra(-os) bus pašalinta(-os). Šis veiksmas yra negrįžtantis.</message>
+    <message key="admin.mergeUsers.noneEnrolled">Nėra paskirtų vartotojų.</message>
+    <message key="admin.categories">Kategorijos</message>
+    <message key="admin.categories.enable.description">Čia svetainės administratorius gali nustatyti kategorijų sąrašą, kuris padės suorganizuoti didelį žurnalų skaičių. Tuomet žurnalo administratoriai gali pasirinkti keletą šių kategorijų kiekvienam žurnalui, o skaitytojai galės naršyti žurnalų rinkinius pagal kategoriją.</message>
+    <message key="admin.categories.disableCategories">Neorganizuoti žurnalus į kategorijas.</message>
+    <message key="admin.categories.enableCategories">Leisti žurnalų administratoriams skirstyti žurnalus į kategorijas.</message>
+    <message key="admin.categories.editTitle">Redaguoti kategoriją</message>
+    <message key="admin.categories.createTitle">Kurti kategoriją</message>
+    <message key="admin.categories.create">Kurti naują kategoriją</message>
+    <message key="admin.categories.noneCreated">Nėra sukurtų kategorijų.</message>
+    <message key="admin.categories.confirmDelete">Ar tikrai norite pašalinti šią kategoriją?</message>
+    <message key="admin.categories.name">Pavadinimas</message>
+    <message key="admin.categories.nameRequired">Kategorijos pavadinimas yra privalomas.</message>
+    <message key="admin.presses.createInstructions">Būsite automatiškai paskirtas kaip šio žurnalo administratorius. Po naujo žurnalo sukūrimo būsite perkeltas į žurnalo nuostatų vediklį, kad užbaigtumėte pradinę žurnalo konfigūraciją.</message>
+    <message key="admin.scheduledTask.subscriptionExpiryReminder">Prenumeratos galiojimo pabaigos priminimas</message>
+    <message key="admin.scheduledTask.openAccessNotification">Atvirosios prieigos pranešimas</message>
+    <message key="admin.scheduledTask.reviewReminder">Recenzavimo priminimas</message>
+</locale>
