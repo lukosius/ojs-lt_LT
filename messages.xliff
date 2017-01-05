@@ -5571,6 +5571,13 @@
         <target>Atsisiųsti</target>
       </segment>
     </unit>
+    <unit id="common.downloadPdf">
+      <segment>
+        <source>Download PDF</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
     <unit id="common.edit">
       <segment>
         <source>Edit</source>
@@ -7171,6 +7178,27 @@
       <segment>
         <source>Site Map</source>
         <target>Svetainės struktūra</target>
+      </segment>
+    </unit>
+    <unit id="navigation.skip.main">
+      <segment>
+        <source>Skip to main content</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="navigation.skip.nav">
+      <segment>
+        <source>Skip to main navigation menu</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="navigation.skip.footer">
+      <segment>
+        <source>Skip to site footer</source>
+        <target></target>
+        <!--NEW-->
       </segment>
     </unit>
     <unit id="navigation.stepNumber">
@@ -10447,8 +10475,11 @@
     </unit>
     <unit id="user.register.form.usernameAlphaNumeric">
       <segment>
-        <source>The username can contain only alphanumeric characters, underscores, and hyphens, and must begin and end with an alphanumeric character.</source>
-        <target>Vartotojo vardas gali turėti tik tekstinius simbolius, pabraukimo brūkšnį, brūkšnelį, ir privalo prasidėti ir baigtis tekstiniu simboliu.</target>
+        <source>The username can contain only lower-case alphanumeric characters, underscores, and hyphens, and must begin and end with an alphanumeric character.</source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "The username can contain only alphanumeric characters, underscores, and hyphens, and must begin and end with an alphanumeric character.".-->
+        <!--Old translation: "Vartotojo vardas gali turėti tik tekstinius simbolius, pabraukimo brūkšnį, brūkšnelį, ir privalo prasidėti ir baigtis tekstiniu simboliu.".-->
       </segment>
     </unit>
     <unit id="user.register.form.userGroupRequired">
@@ -11941,15 +11972,22 @@
     <unit id="manager.statistics.defaultMetricDescription">
       <segment>
         <source>
-		Your {$contextObjectName} is configured to record more than one usage metric. Usage statistics will be displayed in severeral contexts.
+		Your {$contextObjectName} is configured to record more than one usage metric. Usage statistics will be displayed in several contexts.
 		There are cases where a single usage statistic must be used, e.g. to display an ordered list of most-used submissions or to rank
 		search results. Please select one of the configured metrics as a default.
 	</source>
-        <target>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "
+		Your {$contextObjectName} is configured to record more than one usage metric. Usage statistics will be displayed in severeral contexts.
+		There are cases where a single usage statistic must be used, e.g. to display an ordered list of most-used submissions or to rank
+		search results. Please select one of the configured metrics as a default.
+	".-->
+        <!--Old translation: "
         „{$contextObjectName}“ yra sukonfigūruotas įrašyti daugiau nei vieną naudojimo metriką. Naudojimo statistika bus rodoma keliuose kontekstuose.
         Yra atvejų, kur privaloma naudoti bent vieną naudojimo statistiką, pvz. rodyti surikiuotą daugiausiai naudojamų straipsnių sąrašą arba
         paieškos rezultatus. Pasirinkite vieną iš sukonfigūruotų metrikų kaip numatytąją.
-    </target>
+    ".-->
       </segment>
     </unit>
     <unit id="manager.statistics.city">
@@ -12123,8 +12161,11 @@
     </unit>
     <unit id="manager.statistics.reports.reportUrl.label">
       <segment>
-        <source>The following url can be used to generate the report with this current form settings. Just copy it, paste into your browser and enter. You can use your favorites to store your custom report url generator.</source>
-        <target>Šis adresas gali būti panaudotas sugeneruoti ataskaitai su dabartinės formos nustatymais. Tiesiog įdėkite ją į naršyklę ir spustelėkite įvesties klavišą. Taip pat adresą galite įtraukti į žymes, kad išsaugotumėte tinkintos ataskaitos generuoklę.</target>
+        <source>The following url can be used to generate the report with the current form settings. Just copy it and open it in your browser. You can also store it as your custom report url generator in your bookmarks.</source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "The following url can be used to generate the report with this current form settings. Just copy it, paste into your browser and enter. You can use your favorites to store your custom report url generator.".-->
+        <!--Old translation: "Šis adresas gali būti panaudotas sugeneruoti ataskaitai su dabartinės formos nustatymais. Tiesiog įdėkite ją į naršyklę ir spustelėkite įvesties klavišą. Taip pat adresą galite įtraukti į žymes, kad išsaugotumėte tinkintos ataskaitos generuoklę.".-->
       </segment>
     </unit>
     <unit id="manager.statistics.reports.filters.byContext">
@@ -12493,10 +12534,11 @@
         <target>Šoninio meniu tvarkymas</target>
       </segment>
     </unit>
-    <unit id="manager.setup.layout.leftSidebar">
+    <unit id="manager.setup.layout.sidebar">
       <segment>
         <source>Sidebar</source>
-        <target>Šoninis meniu</target>
+        <target></target>
+        <!--NEW-->
       </segment>
     </unit>
     <unit id="manager.setup.layout.unselected">
@@ -12527,12 +12569,6 @@
       <segment>
         <source>Notification of Author Submission</source>
         <target>Pranešimas apie autoriaus pateikimą</target>
-      </segment>
-    </unit>
-    <unit id="manager.setup.notifications.copyPrimaryContact">
-      <segment>
-        <source>Send a copy to the primary contact, identified in Setup Step 1.</source>
-        <target>Išsiųsti kopiją pagrindiniam kontaktui nurodytam konfigūracijos 1 žingsnyje.</target>
       </segment>
     </unit>
     <unit id="manager.setup.notifications.copySpecifiedAddress">
@@ -13813,6 +13849,48 @@
         <target>Tikrinimo klaidos:</target>
       </segment>
     </unit>
+    <unit id="plugins.importexport.common.errorsOccured">
+      <segment>
+        <source>Errors occured:</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="plugins.importexport.common.error.unknownElement">
+      <segment>
+        <source>Unknown element {$param}</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="plugins.importexport.common.error.unknownGenre">
+      <segment>
+        <source>Unknown genre {$param}</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="plugins.importexport.common.error.unknownEncoding">
+      <segment>
+        <source>Unknown encoding {$param}</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="plugins.importexport.common.error.unknownUserGroup">
+      <segment>
+        <source>Unknown user group {$param}</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="plugins.importexport.common.error.unknownUploader">
+      <segment>
+        <source>Unknown uploader {$param}</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
   </file>
   <file id="aa13d0df74cd683db932946443e7dd73" original="lib/pkp/locale/lt_LT/admin.xml">
     <unit id="admin.systemInfo.settingName">
@@ -14166,15 +14244,22 @@
     <unit id="admin.settings.defaultMetricDescription">
       <segment>
         <source>
-		Your installation is configured to record more than one usage metric. Usage statistics will be displayed in severeral contexts.
+		Your installation is configured to record more than one usage metric. Usage statistics will be displayed in several contexts.
 		There are cases where a single usage statistic must be used, e.g. to display an orderd list of most-used submissions or to rank
 		search results. Please select one of the configured metrics as a default.
 	</source>
-        <target>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "
+		Your installation is configured to record more than one usage metric. Usage statistics will be displayed in severeral contexts.
+		There are cases where a single usage statistic must be used, e.g. to display an orderd list of most-used submissions or to rank
+		search results. Please select one of the configured metrics as a default.
+	".-->
+        <!--Old translation: "
         Jūsų OJS diegimas yra sukonfigūruotas įrašyti daugiau nei vieną naudojimo metriką. Naudojimo statistika bus rodoma keliuose kontekstuose.
         Yra atvejų, kur privaloma naudoti bent vieną naudojimo statistiką, pvz. rodyti surikiuotą daugiausiai naudojamų straipsnių sąrašą arba
         paieškos rezultatus. Pasirinkite vieną iš sukonfigūruotų metrikų kaip numatytąją.
-    </target>
+    ".-->
       </segment>
     </unit>
     <unit id="admin.settings.homeHeaderImage.altText">
@@ -14577,10 +14662,11 @@ Naudojimas (apdorojant visus katalogo failus): {$scriptName} kelias/iki/apache/k
         <target>Kiti žingsniai</target>
       </segment>
     </unit>
-    <unit id="author.submit.cancelSubmission">
+    <unit id="submission.submit.cancelSubmission">
       <segment>
         <source>You can complete this submission at a later date by selecting Active Submissions from the Author home.</source>
-        <target>Šį pateikimą galite užbaigti vėliau pasirinkę „Aktyvūs pateikimai“.</target>
+        <target></target>
+        <!--NEW-->
       </segment>
     </unit>
     <unit id="author.submit.notAccepting">
@@ -17869,8 +17955,11 @@ Aktyvios yra recenzijų skaičius, kurios šiuo metu yra svarstomos arba yra vyk
     </unit>
     <unit id="article.pluginMissing">
       <segment>
-        <source><![CDATA[<p>The PDF file you selected should load here if your Web browser has a PDF reader plug-in installed (for example, a recent version of <a href="https://get.adobe.com/reader/">Adobe Acrobat Reader</a>).</p>]]></source>
-        <target><![CDATA[<p>Pasirinktas PDF failas turėtų būti įkeltas čia, jei jūsų naršyklė turi įdiegtą PDF skaityklės įskiepį (pavyzdžiui, naujausia <a href="https://get.adobe.com/reader/">Adobe Acrobat Reader</a> versija).</p>]]></target>
+        <source><![CDATA[<p>The PDF file you selected should load here if your Web browser has a PDF reader plugin installed (for example, a recent version of <a href="https://get.adobe.com/reader/">Adobe Acrobat Reader</a>).</p>]]></source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "<p>The PDF file you selected should load here if your Web browser has a PDF reader plug-in installed (for example, a recent version of <a href="https://get.adobe.com/reader/">Adobe Acrobat Reader</a>).</p>".-->
+        <!--Old translation: "<p>Pasirinktas PDF failas turėtų būti įkeltas čia, jei jūsų naršyklė turi įdiegtą PDF skaityklės įskiepį (pavyzdžiui, naujausia <a href="https://get.adobe.com/reader/">Adobe Acrobat Reader</a> versija).</p>".-->
       </segment>
     </unit>
     <unit id="article.nonpdf.title">
@@ -21628,7 +21717,7 @@ ________________________________________________________________________<br/>
     <unit id="manager.language.ui">
       <segment>
         <source>UI</source>
-        <target>Sąsaja</target>
+        <target>UI</target>
       </segment>
     </unit>
     <unit id="manager.language.submissions">
@@ -23536,14 +23625,21 @@ ________________________________________________________________________<br/>
     <unit id="manager.statistics.defaultMetricDescription">
       <segment>
         <source>
-		Your journal is configured to record more than one usage metric. Usage statistics will be displayed in severeral contexts.
+		Your journal is configured to record more than one usage metric. Usage statistics will be displayed in several contexts.
 		There are cases where a single usage statistic must be used, e.g. to display an orderd list of most-used articles or to rank
 		search results. Please select one of the configured metrics as a default.
 	</source>
-        <target>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "
+		Your journal is configured to record more than one usage metric. Usage statistics will be displayed in severeral contexts.
+		There are cases where a single usage statistic must be used, e.g. to display an orderd list of most-used articles or to rank
+		search results. Please select one of the configured metrics as a default.
+	".-->
+        <!--Old translation: "
         Jūsų žurnalas yra sukonfigūruotas įrašyti daugiau nei vieną naudojimo metriką. Naudojimo statistika bus rodoma keliuose kontekstuose.
         Yra atvejų, kur privaloma naudoti bent vieną naudojimo statistiką, pvz. rodyti surikiuotą daugiausiai naudojamų straipsnių sąrašą arba
-        paieškos rezultatus. Pasirinkite vieną iš sukonfigūruotų metrikų kaip numatytąją.</target>
+        paieškos rezultatus. Pasirinkite vieną iš sukonfigūruotų metrikų kaip numatytąją.".-->
       </segment>
     </unit>
     <unit id="manager.statistics.statistics">
@@ -25055,6 +25151,34 @@ ________________________________________________________________________<br/>
         <target>Nerastas DOI priešdėlis žurnalui su keliu {$path}.</target>
       </segment>
     </unit>
+    <unit id="plugins.importexport.common.cliError">
+      <segment>
+        <source>ERROR:</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="plugins.importexport.common.error.unknownJournal">
+      <segment>
+        <source>The specified journal path, "{$journalPath}", does not exist.</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="plugins.importexport.common.error.unknownObjects">
+      <segment>
+        <source>The specified objects could not be found.</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="manager.setup.notifications.copyPrimaryContact">
+      <segment>
+        <source>Send a copy to the primary contact, identified in the Journal Settings.</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
   </file>
   <file id="be508d02e80a4555a2bac8a666167efe" original="locale/lt_LT/admin.xml">
     <unit id="admin.hostedJournals">
@@ -25227,20 +25351,29 @@ ________________________________________________________________________<br/>
     </unit>
     <unit id="admin.auth.enableSyncProfiles">
       <segment>
-        <source>Enable user profile synchronization (if supported by this authentication plug-in). User profile information will be automatically updated from the remote source when a user logs in, and profile changes (including password changes) made within OJS will be automatically updated on the remote source. If this option is not enabled OJS profile information will be kept separate from remote source profile information.</source>
-        <target>Įgalinti vartotojo profilio sinchronizaciją (jei tai palaiko tapatybės nustatymo įskiepis). Kai vartotojas prisijungia jo profilio informacija bus automatiškai atnaujinta iš nuotolinio šaltinio, o profilio pakeitimai (įtraukiant slaptažodžio pakeitimą) atlikti su OJS bus automatiškai atnaujinti nuotoliniame šaltinyje. Jei ši parinktis nebus įgalinta OJS profilio informacija bus saugoma atskirai nuo nuotolinio šaltinio profilio informacijos.</target>
+        <source>Enable user profile synchronization (if supported by this authentication plugin). User profile information will be automatically updated from the remote source when a user logs in, and profile changes (including password changes) made within OJS will be automatically updated on the remote source. If this option is not enabled OJS profile information will be kept separate from remote source profile information.</source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "Enable user profile synchronization (if supported by this authentication plug-in). User profile information will be automatically updated from the remote source when a user logs in, and profile changes (including password changes) made within OJS will be automatically updated on the remote source. If this option is not enabled OJS profile information will be kept separate from remote source profile information.".-->
+        <!--Old translation: "Įgalinti vartotojo profilio sinchronizaciją (jei tai palaiko tapatybės nustatymo įskiepis). Kai vartotojas prisijungia jo profilio informacija bus automatiškai atnaujinta iš nuotolinio šaltinio, o profilio pakeitimai (įtraukiant slaptažodžio pakeitimą) atlikti su OJS bus automatiškai atnaujinti nuotoliniame šaltinyje. Jei ši parinktis nebus įgalinta OJS profilio informacija bus saugoma atskirai nuo nuotolinio šaltinio profilio informacijos.".-->
       </segment>
     </unit>
     <unit id="admin.auth.enableSyncPasswords">
       <segment>
-        <source>Enable user password modification (if supported by this authentication plug-in). Enabling this option allows users to modify their password from within OJS and to use the OJS "lost password" feature to reset a forgotten password. These functions will be unavailable to users with this authentication source if this option is not enabled.</source>
-        <target>Įgalinti vartotojo slaptažodžio keitimą (jei tai palaiko tapatybės nustatymo įskiepis). Įgalinus šią parinktį vartotojai galės modifikuoti savo OJS slaptažodį ir naudoti „pamiršto slaptažodžio“ funkciją, kad atkurtų pamirštą slaptažodį. Jei ši parinktis neįgalinta, šios funkcijos bus neprieinamos vartotojams su šiuo tapatybės nustatymo šaltiniu.</target>
+        <source>Enable user password modification (if supported by this authentication plugin). Enabling this option allows users to modify their password from within OJS and to use the OJS "lost password" feature to reset a forgotten password. These functions will be unavailable to users with this authentication source if this option is not enabled.</source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "Enable user password modification (if supported by this authentication plug-in). Enabling this option allows users to modify their password from within OJS and to use the OJS "lost password" feature to reset a forgotten password. These functions will be unavailable to users with this authentication source if this option is not enabled.".-->
+        <!--Old translation: "Įgalinti vartotojo slaptažodžio keitimą (jei tai palaiko tapatybės nustatymo įskiepis). Įgalinus šią parinktį vartotojai galės modifikuoti savo OJS slaptažodį ir naudoti „pamiršto slaptažodžio“ funkciją, kad atkurtų pamirštą slaptažodį. Jei ši parinktis neįgalinta, šios funkcijos bus neprieinamos vartotojams su šiuo tapatybės nustatymo šaltiniu.".-->
       </segment>
     </unit>
     <unit id="admin.auth.enableCreateUsers">
       <segment>
-        <source>Enable user creation (if supported by this authentication plug-in). Users created within OJS with this authentication source will be automatically added to the remote authentication source if they do not already exist. Additionally, if this source is the default authentication source, OJS accounts created through user registration will also be added to the remote authentication source.</source>
-        <target>Įgalinti vartotojų kūrimą (jei tai palaiko tapatybės nustatymo įskiepis). Vartotojai sukurti per OJS su šiuo tapatybės nustatymo šaltiniu bus automatiškai įtraukti į nuotolinį tapatybės nustatymo šaltinį, jei jie neegzistuoja. Papildomai, jei šis šaltinis yra numatytasis, OJS paskyros sukurtos per vartotojų registraciją bus taip pat įtrauktos į nuotolinį tapatybės nustatymo šaltinį.</target>
+        <source>Enable user creation (if supported by this authentication plugin). Users created within OJS with this authentication source will be automatically added to the remote authentication source if they do not already exist. Additionally, if this source is the default authentication source, OJS accounts created through user registration will also be added to the remote authentication source.</source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "Enable user creation (if supported by this authentication plug-in). Users created within OJS with this authentication source will be automatically added to the remote authentication source if they do not already exist. Additionally, if this source is the default authentication source, OJS accounts created through user registration will also be added to the remote authentication source.".-->
+        <!--Old translation: "Įgalinti vartotojų kūrimą (jei tai palaiko tapatybės nustatymo įskiepis). Vartotojai sukurti per OJS su šiuo tapatybės nustatymo šaltiniu bus automatiškai įtraukti į nuotolinį tapatybės nustatymo šaltinį, jei jie neegzistuoja. Papildomai, jei šis šaltinis yra numatytasis, OJS paskyros sukurtos per vartotojų registraciją bus taip pat įtrauktos į nuotolinį tapatybės nustatymo šaltinį.".-->
       </segment>
     </unit>
     <unit id="admin.systemVersion">
@@ -26376,8 +26509,11 @@ ________________________________________________________________________<br/>
     </unit>
     <unit id="plugins.generic.recommendByAuthor.noMetric">
       <segment>
-        <source>Obs.: This plugin requires at least one statistics/report plug-in to be enabled. If your statistics plugins provide more than one metric then please also select a main metric on the admin's site settings page and/or on the journal manager's settings pages.</source>
-        <target>Pastaba: įskiepis reikalauja bent vieno įgalinto statistikos/ataskaitos įskiepio. Jei statistikos įskiepis pateikia daugiau nei vieną metriką, tuomet pasirinkite pagrindinę svetainės administravimo nuostatų puslapyje ir/arba žurnalo administratoriaus nuostatų puslapiuose.</target>
+        <source>Obs.: This plugin requires at least one statistics/report plugin to be enabled. If your statistics plugins provide more than one metric then please also select a main metric on the admin's site settings page and/or on the journal manager's settings pages.</source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "Obs.: This plugin requires at least one statistics/report plug-in to be enabled. If your statistics plugins provide more than one metric then please also select a main metric on the admin's site settings page and/or on the journal manager's settings pages.".-->
+        <!--Old translation: "Pastaba: įskiepis reikalauja bent vieno įgalinto statistikos/ataskaitos įskiepio. Jei statistikos įskiepis pateikia daugiau nei vieną metriką, tuomet pasirinkite pagrindinę svetainės administravimo nuostatų puslapyje ir/arba žurnalo administratoriaus nuostatų puslapiuose.".-->
       </segment>
     </unit>
   </file>
@@ -26751,380 +26887,6 @@ ________________________________________________________________________<br/>
       </segment>
     </unit>
   </file>
-  <file id="f76e405c7dbaef7bd44e985a53f8917a" original="plugins/generic/translator/locale/lt_LT/locale.xml">
-    <unit id="plugins.generic.translator.name">
-      <segment>
-        <source>Translator Plugin</source>
-        <target>Vertyklės įskiepis</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.description">
-      <segment>
-        <source>This plugin allows web-based maintenance of translation files.</source>
-        <target>Įskiepis leidžia prižiūrėti vertimo failus WEB aplinkoje.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.longdescription">
-      <segment>
-        <source>This area allows the Site Administrator to build, modify and check translations. This is site-wide and should not be used to customize a single press/journal. If you correct or create a translation, please consider submitting it to the Public Knowledge Project for distribution with future releases.</source>
-        <target>Šis plotas leidžia svetainės administratoriui kurti, modifikuoti ir tikrinti vertimus. Tai yra visai svetainei skirtas ir neturėtų būti naudojamas derinti vienam žurnalui. Jei esate tikri ar kuriate vertimą, apsvarstykite pateikti jį į „Public Knowledge Project“ platinimui su būsimomis laidomis.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeDescription">
-      <segment>
-        <source>This page lists the components of a translation of the software and permits the translator to modify each. A complete translation must include all of these components.</source>
-        <target>Šis puslapis išvardija programinės įrangos komponentų vertimą ir leidžia vertyklei kiekvieną modifikuoti. Pilnas vertimas privalo įtraukti visus šiuos komponentus.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeFileContents">
-      <segment>
-        <source>Locale File Contents</source>
-        <target>Rasti failo turinius</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeName">
-      <segment>
-        <source>Locale Name</source>
-        <target>Lokalės pavadinimas</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeKey">
-      <segment>
-        <source>Key</source>
-        <target>Raktas</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeKey.description">
-      <segment>
-        <source>Enter an entire locale key to search for.</source>
-        <target>Įveskite visą ieškomos lokalės raktą.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeKeyValue">
-      <segment>
-        <source>Value</source>
-        <target>Reiškmė</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.translate">
-      <segment>
-        <source>Translate</source>
-        <target>Vertyklė</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.availableLocales">
-      <segment>
-        <source>Available Locales</source>
-        <target>Prieinamos lokalės</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.check">
-      <segment>
-        <source>Check</source>
-        <target>Tikrinti</target>
-      </segment>
-    </unit>
-    <unit id="grid.action.checkLocale">
-      <segment>
-        <source>Check Locale</source>
-        <target>Tikrinti lokalę</target>
-      </segment>
-    </unit>
-    <unit id="grid.action.download">
-      <segment>
-        <source>Download</source>
-        <target>Atsisiųsti</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeFile.complete">
-      <segment>
-        <source>Complete ({$reference})</source>
-        <target>Baigta ({$reference})</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeFile.incompleteCount">
-      <segment>
-        <source>{$complete} / {$reference} ({$percent}%)</source>
-        <target>{$complete} / {$reference} ({$percent}%)</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeFile.doesNotExist">
-      <segment>
-        <source>Missing ({$reference})</source>
-        <target>Trūksta ({$reference})</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.miscFile.complete">
-      <segment>
-        <source>Complete</source>
-        <target>Užbaigta</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.miscFile.doesNotExist">
-      <segment>
-        <source>Missing</source>
-        <target>Trūksta</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.email.complete">
-      <segment>
-        <source>Complete</source>
-        <target>Užbaigta</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.email.doesNotExist">
-      <segment>
-        <source>Missing</source>
-        <target>Trūksta</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors">
-      <segment>
-        <source>Locale Errors</source>
-        <target>Lokalės klaidos</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.title">
-      <segment>
-        <source>Missing Keys</source>
-        <target>Trūkstami raktai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.title">
-      <segment>
-        <source>Extra Keys</source>
-        <target>Papildomi raktai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.title">
-      <segment>
-        <source>Differing Parameter Lists</source>
-        <target>Skirtingų parametrų sąrašai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.title">
-      <segment>
-        <source>Missing Locale Files</source>
-        <target>Trūkstami lokalės failai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.title">
-      <segment>
-        <source>Missing Emails</source>
-        <target>Trūkstami el. laiškai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.title">
-      <segment>
-        <source>Extra Emails</source>
-        <target>Papildomi el. laiškai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.title">
-      <segment>
-        <source>Differing Email Parameter Lists</source>
-        <target>Skirtingų el. laiškų parametrų sąrašai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.message">
-      <segment>
-        <source>The key "{$key}" is missing from "{$filename}". The English version has been provided as a default.</source>
-        <target>Trūksta rakto „{$key}“ iš „{$filename}“. Angliška versija buvo pateikta kaip numatytoji.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.message">
-      <segment>
-        <source>The key "{$key}" is no longer used and can be removed from "{$filename}".</source>
-        <target>Raktas „{$key}“ daugiau nebenaudojamas ir gali būti pašalintas iš „{$filename}“.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.message">
-      <segment>
-        <source>The locale key "{$key}" in "{$filename}" differs from the reference locale in its use of parameters. Please double-check that it contains all relevant parameters. The mismatching parameter(s) are:</source>
-        <target>Lokalės raktas „{$key}“ faile „{$filename}“ skiriasi nuo šaltinio lokalės parametrais. Dar kartą patikrinkite ar panaudoti visi reikalingi parametrai. Nesutampantys parametrai yra:</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.message">
-      <segment>
-        <source>The locale file "{$filename}" is missing or unreadable.</source>
-        <target>Lokalės failas „{$filename}“ yra trūkstamas arba neperskaitomas.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.message">
-      <segment>
-        <source>The email message "{$key}" is missing from the translation.</source>
-        <target>Vertime trūksta el. laiško žinutės „{$key}“.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.message">
-      <segment>
-        <source>The email message "{$key}" is no longer used and can be removed.</source>
-        <target>El. laiško žinutė „{$key}“ daugiau nebenaudojama ir gali būti pašalinta.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.message">
-      <segment>
-        <source>The email message "{$key}" differs from the reference locale in its use of parameters. Please double-check that it contains all relevant parameters. The mismatching parameter(s) are:</source>
-        <target>El. laiško žinutė „{$key}“ skiriasi nuo šaltinio lokalės parametrais. Dar kartą patikrinkite ar panaudoti visi reikalingi parametrai. Nesutampantys parametrai yra:</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.jumpTo">
-      <segment>
-        <source>Jump To...</source>
-        <target>Pereiti į...</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.locale">
-      <segment>
-        <source>{$locale} Locale</source>
-        <target>{$locale} lokalė</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeFiles">
-      <segment>
-        <source>Locale Files</source>
-        <target>Lokalės failai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.miscFiles">
-      <segment>
-        <source>Miscellaneous Files</source>
-        <target>Kiti failai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.emails">
-      <segment>
-        <source>Email Templates</source>
-        <target>El. laiškų šablonai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.file.filename">
-      <segment>
-        <source>Filename</source>
-        <target>Failo vardas</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.file.edit">
-      <segment>
-        <source>Editing {$filename}</source>
-        <target>{$filename} redagavimas</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.email.edit">
-      <segment>
-        <source>Editing {$emailKey}</source>
-        <target>{$emailKey} redagavimas</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.file.reference">
-      <segment>
-        <source>Reference Version</source>
-        <target>Šaltinio versija</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.file.translation">
-      <segment>
-        <source>Translation</source>
-        <target>Vertimas</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.email.reference">
-      <segment>
-        <source>Reference Version</source>
-        <target>Šaltinio versija</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.email.translation">
-      <segment>
-        <source>Translation</source>
-        <target>Vertimas</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.file.reset">
-      <segment>
-        <source>Reset</source>
-        <target>Atkurti</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.file.resetToReference">
-      <segment>
-        <source>Reset To Reference</source>
-        <target>Atkurti į šaltinį</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.email.reset">
-      <segment>
-        <source>Reset</source>
-        <target>Atkurti</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.email.resetToReference">
-      <segment>
-        <source>Reset To Reference</source>
-        <target>Atkurti į šaltinį</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.file.resetConfirm">
-      <segment>
-        <source>Are you sure you wish to reset the file contents?</source>
-        <target>Ar tikrai norite atkurti failo turinį?</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.email.resetConfirm">
-      <segment>
-        <source>Are you sure you wish to reset the email contents?</source>
-        <target>Ar tikrai norite atkurti el. laiško turinį?</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.file.doesNotExistNote">
-      <segment>
-        <source>* This file has not yet been translated.</source>
-        <target>* Failas dar nėra išverstas.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.email.description">
-      <segment>
-        <source>In the following fields, translate the email template's Title, Body, and Description. The Description is for the Manager's reference only.</source>
-        <target>Sekančiuose laukeliuose, išveskite el. laiško šablono pavadinimą, turinį ir aprašymą. Aprašymas skirtas tik kaip rodyklė administratoriams.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.confirmDelete">
-      <segment>
-        <source>Are you sure you wish to delete this item? This action cannot be undone.</source>
-        <target>Ar tikrai norite pašalinti šį elementą? Šis veiksmas negali būti atšauktas.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.deleteKey">
-      <segment>
-        <source>Delete this key</source>
-        <target>Šalinti raktą</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.deleteEmail">
-      <segment>
-        <source>Delete this email</source>
-        <target>Šalinti el. laišką</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.saveBeforeContinuing">
-      <segment>
-        <source>Be sure to save any changes made on this page before continuing or they will be lost. Do you wish to continue? If so, any unsaved changes will be lost.</source>
-        <target>Irašykite visus pakeitimus atliktus šiame puslapyje prieš tęsdami, priešingai jie bus prarasti. Ar tikrai norite tęsti? Jei taip, visi neįrašyti pakeitimai bus prarasti.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.couldNotWriteFile">
-      <segment>
-        <source>Could not write the file "{$filename}". Double-check that file permissions are set correctly.</source>
-        <target>Nepavyko perrašyti failo „{$filename}“. Dar kartą patikrinkite, ar failo teisės buvo nustatytos tinkamai.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errorEditingFile">
-      <segment>
-        <source>There was a problem editing the file "{$filename}". Double-check to ensure that it follows the expected format.</source>
-        <target>Įvyko klaida redaguojant failą „{$filename}“. Dar kartą patikrinkite, ar failas yra numanomo formato.</target>
-      </segment>
-    </unit>
-  </file>
   <file id="2a58b12438cd2ec36536d76effa9d0f6" original="plugins/importexport/crossref/locale/lt_LT/locale.xml">
     <unit id="plugins.importexport.crossref.displayName">
       <segment>
@@ -27330,20 +27092,20 @@ ________________________________________________________________________<br/>
     </unit>
     <unit id="plugins.importexport.crossref.cliUsage">
       <segment>
-        <source>Usage: 
-{$scriptName} {$pluginName} [xmlFileName] [journal_path] articles [articleId1] [articleId2] ...
-{$scriptName} {$pluginName} [xmlFileName] [journal_path] issue [issueId]
+        <source>Usage:
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...
 </source>
-        <target>Naudojimas:
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "Usage: 
 {$scriptName} {$pluginName} [xmlFileName] [journal_path] articles [articleId1] [articleId2] ...
 {$scriptName} {$pluginName} [xmlFileName] [journal_path] issue [issueId]
-</target>
-      </segment>
-    </unit>
-    <unit id="plugins.importexport.crossref.cliError">
-      <segment>
-        <source>ERROR:</source>
-        <target>KLAIDA:</target>
+".-->
+        <!--Old translation: "Naudojimas:
+{$scriptName} {$pluginName} [xmlFileName] [journal_path] articles [articleId1] [articleId2] ...
+{$scriptName} {$pluginName} [xmlFileName] [journal_path] issue [issueId]
+".-->
       </segment>
     </unit>
     <unit id="plugins.importexport.crossref.register.error.mdsError">
@@ -27449,13 +27211,19 @@ ________________________________________________________________________<br/>
     <unit id="plugins.importexport.datacite.cliUsage">
       <segment>
         <source>Usage: 
-{$scriptName} {$pluginName} export xmlFileName journal_path {issues|articles|galleys|suppfiles} objectId1 [objectId2] ...
-{$scriptName} {$pluginName} register journal_path {issues|articles|galleys|suppfiles} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} export [outputFileName] [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
 </source>
-        <target>Naudojimas:
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "Usage: 
 {$scriptName} {$pluginName} export xmlFileName journal_path {issues|articles|galleys|suppfiles} objectId1 [objectId2] ...
 {$scriptName} {$pluginName} register journal_path {issues|articles|galleys|suppfiles} objectId1 [objectId2] ...
-</target>
+".-->
+        <!--Old translation: "Naudojimas:
+{$scriptName} {$pluginName} export xmlFileName journal_path {issues|articles|galleys|suppfiles} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register journal_path {issues|articles|galleys|suppfiles} objectId1 [objectId2] ...
+".-->
       </segment>
     </unit>
   </file>
@@ -27476,6 +27244,15 @@ ________________________________________________________________________<br/>
       <segment>
         <source>Contact DOAJ for inclusion</source>
         <target>Susisiekite su DOAJ dėl įtraukimo</target>
+      </segment>
+    </unit>
+    <unit id="plugins.importexport.doaj.cliUsage">
+      <segment>
+        <source>Usage:
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
+</source>
+        <target></target>
+        <!--NEW-->
       </segment>
     </unit>
   </file>
@@ -27516,8 +27293,11 @@ ________________________________________________________________________<br/>
     </unit>
     <unit id="plugins.importexport.medra.settings.form.description">
       <segment>
-        <source>Please configure the mEDRA export plug-in:</source>
-        <target>Sukonfigūruokite mEDRA eksportavimo įskiepį:</target>
+        <source>Please configure the mEDRA export plugin:</source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "Please configure the mEDRA export plug-in:".-->
+        <!--Old translation: "Sukonfigūruokite mEDRA eksportavimo įskiepį:".-->
       </segment>
     </unit>
     <unit id="plugins.importexport.medra.settings.form.username">
@@ -27643,13 +27423,19 @@ ________________________________________________________________________<br/>
     <unit id="plugins.importexport.medra.cliUsage">
       <segment>
         <source>Usage: 
-{$scriptName} {$pluginName} export xmlFileName journal_path {issues|articles|galleys} objectId1 [objectId2] ...
-{$scriptName} {$pluginName} register journal_path {issues|articles|galleys} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
 </source>
-        <target>Naudojimas:
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "Usage: 
 {$scriptName} {$pluginName} export xmlFileName journal_path {issues|articles|galleys} objectId1 [objectId2] ...
 {$scriptName} {$pluginName} register journal_path {issues|articles|galleys} objectId1 [objectId2] ...
-</target>
+".-->
+        <!--Old translation: "Naudojimas:
+{$scriptName} {$pluginName} export xmlFileName journal_path {issues|articles|galleys} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register journal_path {issues|articles|galleys} objectId1 [objectId2] ...
+".-->
       </segment>
     </unit>
   </file>
@@ -27758,10 +27544,11 @@ Priimtini šie formatai:
 ]]></target>
       </segment>
     </unit>
-    <unit id="plugins.importexport.native.cliError">
+    <unit id="plugins.importexport.native.error.unknownSection">
       <segment>
-        <source>ERROR:</source>
-        <target>KLAIDA:</target>
+        <source>Unknown section {$param}</source>
+        <target></target>
+        <!--NEW-->
       </segment>
     </unit>
     <unit id="plugins.importexport.native.error.unknownUser">
@@ -27770,16 +27557,46 @@ Priimtini šie formatai:
         <target>Nurodytas vartotojas „{$userName}“ neegzistuoja.</target>
       </segment>
     </unit>
-    <unit id="plugins.importexport.native.error.unknownJournal">
+    <unit id="plugins.importexport.native.import.error.sectionTitleMismatch">
       <segment>
-        <source>The specified journal path, "{$journalPath}", does not exist.</source>
-        <target>Nurodytas žurnalo kelias „{$journalPath}“ neegzistuoja.</target>
+        <source>The section title "{$section1Title}" and the section title "{$section2Title}" in the "{$issueTitle}" issue matched the different existing journal sections.</source>
+        <target></target>
+        <!--NEW-->
       </segment>
     </unit>
-    <unit id="plugins.importexport.native.export.error.couldNotWrite">
+    <unit id="plugins.importexport.native.import.error.sectionTitleMatch">
       <segment>
-        <source>Could not write to the file "{$fileName}".</source>
-        <target>Nepavyko įrašyti į failą „{$fileName}“.</target>
+        <source>The section title "{$sectionTitle}" in the "{$issueTitle}" issue matched an existing journal section, but another title of this section doesn't match with another title of the existing journal section.</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="plugins.importexport.native.import.error.sectionAbbrevMismatch">
+      <segment>
+        <source>The section abbreviation "{$section1Abbrev}" and the section abbreviation "{$section2Abbrev}" of the "{$issueTitle}" issue matched the different existing journal sections.</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="plugins.importexport.native.import.error.sectionAbbrevMatch">
+      <segment>
+        <source>The section abbreviation "{$sectionAbbrev}" in the "{$issueTitle}" issue matched an existing journal section, but another abbreviation of this section doesn't match with another abbreviation of the existing journal section.</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="plugins.importexport.native.import.error.issueIdentificationMatch">
+      <segment>
+        <source>None or more than one issue matches the given issue identification "{$issueIdentification}".</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="plugins.importexport.native.import.error.issueIdentificationMissing">
+      <segment>
+        <source>The issue identification element is missing for the article "{$articleTitle}"".</source>
+        <target></target>
+        <!--NEW-->
       </segment>
     </unit>
   </file>
@@ -28042,6 +27859,14 @@ Komandos:
       <segment>
         <source>Usage: {$scriptName} {$pluginName} [command] ...
 Commands:
+	import [xmlFileName] [journal_path]
+	export [xmlFileName] [journal_path]
+	export [xmlFileName] [journal_path] [userId1] [userId2] ...
+</source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "Usage: {$scriptName} {$pluginName} [command] ...
+Commands:
 	import [xmlFileName] [press_path] [optional flags]
 	export [xmlFileName] [press_path]
 	export [xmlFileName] [press_path] [role_path1] [role_path2] ...
@@ -28061,8 +27886,8 @@ Examples:
 
 	Export all users registered as reviewers, along with their reviewer roles only:
 	{$scriptName} {$pluginName} export myExportFile.xml myPress reviewer
-</source>
-        <target>Naudojimas: {$scriptName} {$pluginName} [command] ...
+".-->
+        <!--Old translation: "Naudojimas: {$scriptName} {$pluginName} [command] ...
 Komandos:
     import [xmlFileName] [press_path] [optional flags]
     export [xmlFileName] [press_path]
@@ -28083,7 +27908,24 @@ Pavyzdžiai:
 
     Eksportuoja visus registruotus recenzentus, kartu tik su jų vaidmeniu:
     {$scriptName} {$pluginName} export myExportFile.xml myPress reviewer
-</target>
+".-->
+      </segment>
+    </unit>
+    <unit id="plugins.importexport.users.cliUsage.examples">
+      <segment>
+        <source>
+Examples:
+	Import users into myJournal from myImportFile.xml:
+	{$scriptName} {$pluginName} import myImportFile.xml myJournal
+
+	Export all users from myJournal:
+	{$scriptName} {$pluginName} export myExportFile.xml myJournal
+
+	Export users specified by their ID:
+	{$scriptName} {$pluginName} export myExportFile.xml myJournal 1 2
+</source>
+        <target></target>
+        <!--NEW-->
       </segment>
     </unit>
     <unit id="plugins.importexport.users.import.importUsers">
@@ -28462,8 +28304,11 @@ Pavyzdžiai:
     </unit>
     <unit id="plugins.pubIds.doi.manager.settings.description">
       <segment>
-        <source>Please configure the DOI plug-in to be able to manage and use DOIs in OJS:</source>
-        <target>Sukonfigūruokite DOI įskiepį norėdami tvarkyti ir naudoti DOI šioje OJS:</target>
+        <source>Please configure the DOI plugin to be able to manage and use DOIs in OJS:</source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "Please configure the DOI plug-in to be able to manage and use DOIs in OJS:".-->
+        <!--Old translation: "Sukonfigūruokite DOI įskiepį norėdami tvarkyti ir naudoti DOI šioje OJS:".-->
       </segment>
     </unit>
     <unit id="plugins.pubIds.doi.manager.settings.doiObjects">
@@ -28740,8 +28585,11 @@ Pavyzdžiai:
     </unit>
     <unit id="plugins.pubIds.urn.manager.settings.description">
       <segment>
-        <source>Please configure the URN plug-in to be able to manage and use URNs in OJS:</source>
-        <target>Sukonfigūruokite URN įskiepį, kad galėtumėte tvarkyti ir naudoti URN sistemoje OJS:</target>
+        <source>Please configure the URN plugin to be able to manage and use URNs in OJS:</source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "Please configure the URN plug-in to be able to manage and use URNs in OJS:".-->
+        <!--Old translation: "Sukonfigūruokite URN įskiepį, kad galėtumėte tvarkyti ir naudoti URN sistemoje OJS:".-->
       </segment>
     </unit>
     <unit id="plugins.pubIds.urn.manager.settings.urnObjects">
@@ -29390,8 +29238,11 @@ Pavyzdžiai:
     </unit>
     <unit id="plugins.generic.acron.description">
       <segment>
-        <source>This plugin attempts to reduce the dependance of OCS on periodic scheduling tools such as 'cron.'</source>
-        <target>Įskiepis bando sumažinti OCS priklausomybę nuo periodinių planavimo įrankių tokių kaip 'cron'.</target>
+        <source>This plugin attempts to reduce the dependance of the application on periodic scheduling tools such as 'cron.'</source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "This plugin attempts to reduce the dependance of OCS on periodic scheduling tools such as 'cron.'".-->
+        <!--Old translation: "Įskiepis bando sumažinti OCS priklausomybę nuo periodinių planavimo įrankių tokių kaip 'cron'.".-->
       </segment>
     </unit>
     <unit id="plugins.generic.acron.enabled">
