@@ -181,10 +181,10 @@
     <message key="manager.roles">Vaidmuo</message>
     <message key="manager.statistics"><![CDATA[Statistika &amp; Ataskaitos]]></message>
     <message key="manager.statistics.defaultMetricDescription">
-        „{$contextObjectName}“ yra sukonfigūruotas įrašyti daugiau nei vieną naudojimo metriką. Naudojimo statistika bus rodoma keliuose kontekstuose.
-        Yra atvejų, kur privaloma naudoti bent vieną naudojimo statistiką, pvz. rodyti surikiuotą daugiausiai naudojamų straipsnių sąrašą arba
-        paieškos rezultatus. Pasirinkite vieną iš sukonfigūruotų metrikų kaip numatytąją.
-    </message>
+    „{$contextObjectName}“ yra sukonfigūruotas įrašyti daugiau nei vieną naudojimo metriką. Naudojimo statistika bus rodoma keliuose kontekstuose.
+    Yra atvejų, kur privaloma naudoti bent vieną naudojimo statistiką, pvz. rodyti surikiuotą daugiausiai naudojamų straipsnių sąrašą arba
+    paieškos rezultatus. Pasirinkite vieną iš sukonfigūruotų metrikų kaip numatytąją.
+        </message>
     <message key="manager.statistics.city">Miestas</message>
     <message key="manager.statistics.region">Regionas</message>
     <message key="manager.statistics.reports">Ataskaitų generuoklė</message>
@@ -214,7 +214,7 @@
     <message key="manager.statistics.reports.cities.label">Vienas ar daugiau miestų pavadinimų atskirtų kableliais (pvz. Vilnius,Ryga)</message>
     <message key="manager.statistics.reports.form.columnsRequired">Privalote pasirinkti bent vieną stulpelį, kad sugeneruotumėte ataskaitą.</message>
     <message key="manager.statistics.reports.reportUrl">Ataskaitos adresas</message>
-    <message key="manager.statistics.reports.reportUrl.label">Šis adresas gali būti panaudotas sugeneruoti ataskaitai su dabartinės formos nustatymais. Tiesiog įdėkite ją į naršyklę ir spustelėkite įvesties klavišą. Taip pat adresą galite įtraukti į žymes, kad išsaugotumėte tinkintos ataskaitos generuoklę.</message>
+    <message key="manager.statistics.reports.reportUrl.label">Šis adresas gali būti panaudotas sugeneruoti ataskaitai su dabartinės formos nustatymais. Tiesiog įdėkite ją į naršyklę. Taip pat adresą galite įtraukti į žymes, kad išsaugotumėte tinkintos ataskaitos generuoklę.</message>
     <message key="manager.statistics.reports.filters.byContext">Pagal kontekstą</message>
     <message key="manager.statistics.reports.filters.byObject">Pagal objekto tipą ir/ar objekto ID</message>
     <message key="manager.statistics.reports.filters.byTime">Pasirinkite ataskaitos rėžį</message>
@@ -282,13 +282,12 @@
     <message key="manager.setup.layout.theme">Apipavidalinimas</message>
     <message key="manager.setup.layout.themeDescription">Nauji apipavidalinimai gali būti įdiegti per įskiepių kortelę šiame puslapyje.</message>
     <message key="manager.setup.layout.blockManagement">Šoninio meniu tvarkymas</message>
-    <message key="manager.setup.layout.leftSidebar">Šoninis meniu</message>
+    <message key="manager.setup.layout.sidebar">Šoninė juosta</message>
     <message key="manager.setup.layout.unselected">Nepasirinktas</message>
     <message key="manager.setup.loggingAndAuditing">Įvykių registracija ir auditas</message>
     <message key="manager.setup.logo">Logotipas</message>
     <message key="manager.setup.metaCitationsDescription">Pažymėkite žymimąjį langelį, kad įgalintumėte citatų ir nuorodų redagavimą. Tai autoriams leis įtraukti neapdorotas citatas su pateikimais. Redaktoriai taip pat turės priėjimą prie citatų ženklinimo pagelbiklio, kuris patikrins neapdorotas citatas su išorinėmis duomenų bazėmis, kaip WorldCat, ISBNdb, PubMed ir kt. Patvirtintos citatos gali būti eksportuojamos į galutinį maketo failą.</message>
     <message key="manager.setup.notifications">Pranešimas apie autoriaus pateikimą</message>
-    <message key="manager.setup.notifications.copyPrimaryContact">Išsiųsti kopiją pagrindiniam kontaktui nurodytam konfigūracijos 1 žingsnyje.</message>
     <message key="manager.setup.notifications.copySpecifiedAddress">Išsiųsti kopiją šiuo el. pašto adresu</message>
     <message key="manager.setup.notifications.description">Autoriams automatiškai yra išsiunčiamas el. laiškas apie pateikimo patvirtinimą. Galite išsiųsti šio laiško kopijas į:</message>
     <message key="manager.setup.openAccessPolicy">Atvirosios prieigos politika</message>
@@ -502,4 +501,10 @@
     <message key="manager.setup.licenseURLDescription">Adresas į internetinį puslapį aprašantį licenciją (jei prieinama).</message>
     <message key="manager.setup.metadata.submission">Pateikimo forma</message>
     <message key="plugins.importexport.common.validationErrors">Tikrinimo klaidos:</message>
+    <message key="plugins.importexport.common.errorsOccured">Įvyko klaidos:</message>
+    <message key="plugins.importexport.common.error.unknownElement">Nežinomas elementas {$param}</message>
+    <message key="plugins.importexport.common.error.unknownGenre">Nežinomas žanras {$param}</message>
+    <message key="plugins.importexport.common.error.unknownEncoding">Nežinoma koduotė {$param}</message>
+    <message key="plugins.importexport.common.error.unknownUserGroup">Nežinoma vartotojų grupė {$param}</message>
+    <message key="plugins.importexport.common.error.unknownUploader">Nežinoma nusiuntyklė {$param}</message>
 </locale>

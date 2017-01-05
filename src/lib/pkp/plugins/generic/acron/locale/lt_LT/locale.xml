@@ -16,7 +16,7 @@
 
 <locale name="lt_LT" full_name="Lietuvių">
     <message key="plugins.generic.acron.name">„Acron“ įskiepis</message>
-    <message key="plugins.generic.acron.description">Įskiepis bando sumažinti OCS priklausomybę nuo periodinių planavimo įrankių tokių kaip 'cron'.</message>
+    <message key="plugins.generic.acron.description">Įskiepis bando sumažinti priklausomybę nuo periodinių planavimo įrankių tokių kaip 'cron'.</message>
     <message key="plugins.generic.acron.enabled">„Acron“ įskiepis buvo įgalintas.</message>
     <message key="plugins.generic.acron.disabled">„Acron“ įskiepis buvo išjungtas.</message>
     <message key="plugins.generic.acron.reloadedCronTab">„Crontab“ sėkmingai įkeltas iš naujo.</message>

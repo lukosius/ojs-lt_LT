@@ -2,7 +2,7 @@
 <!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
 
 <!--
-  * plugins/importexport/doaj/locale/lt_LT/locale.xml
+  * plugins/generic/googleScholar/locale/lt_LT/locale.xml
   *
   * Copyright (c) 2013-2016 Simon Fraser University Library
   * Copyright (c) 2003-2016 John Willinsky
@@ -15,10 +15,6 @@
   -->
 
 <locale name="lt_LT" full_name="Lietuvių">
-    <message key="plugins.importexport.doaj.displayName">DOAJ eksportavimo įskiepis Plugin</message>
-    <message key="plugins.importexport.doaj.description">Įskiepis eksportuoja žurnalą į DOAJ.</message>
-    <message key="plugins.importexport.doaj.export.contact">Susisiekite su DOAJ dėl įtraukimo</message>
-    <message key="plugins.importexport.doaj.cliUsage">Naudojimas:
-{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
-</message>
+    <message key="plugins.generic.googleScholar.name">„Google Scholar“ indeksavimo įskiepis</message>
+    <message key="plugins.generic.googleScholar.description">Įskieps įgalina išleisto turinio indeksavimo „Google Scholar“ tarnyboje.</message>
 </locale>

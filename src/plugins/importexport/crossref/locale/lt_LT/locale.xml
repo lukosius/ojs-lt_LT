@@ -57,10 +57,9 @@
     <message key="plugins.importexport.crossref.senderTask.name">CrossRef automatinio registravimo užduotis</message>
     <message key="plugins.importexport.crossref.notification.failed"><![CDATA[Nepavyko užregistruoti DOI. Nueikite į Įrankiai > Importavimas/Eksportavimas > CrossRef XML eksportavimo įskiepis, kad peržiūrėtumėte nepavykusius deponavimus.]]></message>
     <message key="plugins.importexport.crossref.cliUsage">Naudojimas:
-{$scriptName} {$pluginName} [xmlFileName] [journal_path] articles [articleId1] [articleId2] ...
-{$scriptName} {$pluginName} [xmlFileName] [journal_path] issue [issueId]
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...
 </message>
-    <message key="plugins.importexport.crossref.cliError">KLAIDA:</message>
     <message key="plugins.importexport.crossref.register.error.mdsError">Pateikimas nebuvo sėkmingai! DOI registracijos serveris grąžino klaidą: '{$param}'.</message>
     <message key="plugins.importexport.crossref.register.success">Pateikimas sėkmingas!</message>
     <message key="plugins.importexport.crossref.export.error.issueNotFound">Nėra numerio, kuris atitiktų nurodytą numerio ID „{$issueId}“.</message>

@@ -112,7 +112,7 @@
     <message key="user.register.form.emailExists">Pasirinktas el. pašto adresas yra užimtas.</message>
     <message key="user.register.form.passwordsDoNotMatch">Nesutampa slaptažodžiai.</message>
     <message key="user.register.form.emailsDoNotMatch">El. pašto adreso laukai nesutampa.</message>
-    <message key="user.register.form.usernameAlphaNumeric">Vartotojo vardas gali turėti tik tekstinius simbolius, pabraukimo brūkšnį, brūkšnelį, ir privalo prasidėti ir baigtis tekstiniu simboliu.</message>
+    <message key="user.register.form.usernameAlphaNumeric">Vartotojo vardą gali sudaryti tik mažososios tekstinės raidės, pabraukimo brūkšnys, brūkšnelis, ir privalo prasidėti ir baigtis tekstiniu simboliu.</message>
     <message key="user.register.form.userGroupRequired">Privalote pasirinkite bent vieną vaidmenį.</message>
     <message key="user.register.form.usernameExists">Pasirinktas vartotojo vardas yra užimtas.</message>
     <message key="user.register.form.passwordLengthRestriction">Slaptažodį turi sudaryti bent {$length} simboliai.</message>

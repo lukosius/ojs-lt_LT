@@ -19,25 +19,20 @@
     <message key="plugins.importexport.users.description">Vartotojų importavimas ir eksportavimas</message>
     <message key="plugins.importexport.users.cliUsage">Naudojimas: {$scriptName} {$pluginName} [command] ...
 Komandos:
-    import [xmlFileName] [press_path] [optional flags]
-    export [xmlFileName] [press_path]
-    export [xmlFileName] [press_path] [role_path1] [role_path2] ...
-
-Papildomos vėliavėlės:
-    continue_on_error: nurodžius nesustabdo vartotojų importavimo įvykus klaidai
-
-    send_notify: nurodžius, išsiunčia pranešimų el. laiškus su importuojamų
-        vartotojų vardais ir slaptažodžiais
-
+  import [xmlFileName] [journal_path]
+  export [xmlFileName] [journal_path]
+  export [xmlFileName] [journal_path] [userId1] [userId2] ...
+</message>
+    <message key="plugins.importexport.users.cliUsage.examples">
 Pavyzdžiai:
-    Importuoja vartotojus į myPress iš myImportFile.xml, tęsiant įvykus klaidai:
-    {$scriptName} {$pluginName} import myImportFile.xml myPress continue_on_error
+  Importuoja vartotojų į myJournal iš myImportFile.xml:
+  {$scriptName} {$pluginName} import myImportFile.xml myJournal
 
-    Eksportuoja visus vartotojus iš myPress:
-    {$scriptName} {$pluginName} export myExportFile.xml myPress
+  Eksportuoja visus vartotojus iš myJournal:
+  {$scriptName} {$pluginName} export myExportFile.xml myJournal
 
-    Eksportuoja visus registruotus recenzentus, kartu tik su jų vaidmeniu:
-    {$scriptName} {$pluginName} export myExportFile.xml myPress reviewer
+  Eksportuoja vartotojus nurodytus pagal jų ID:
+  {$scriptName} {$pluginName} export myExportFile.xml myJournal 1 2
 </message>
     <message key="plugins.importexport.users.import.importUsers">Importuoti vartotojus</message>
     <message key="plugins.importexport.users.import.instructions"><![CDATA[Pasirinkite XML duomenų failą turintį visą vartotojų informaciją, kurią importuosite į žurnalą. Peržiūrėkite žinyną dėl išsamesnės informacijos apie šio failo formatą.<br /><br />Atkreipkite dėmesį į tai, kad jei importuotinas failas turi vartotojų ar el. pašto adresų, kurie jau yra sistemoje, tų vartotojų duomenys nebus importuoti, o nauji vaidmenys pas paskirti esamiems vartotojams.]]></message>

@@ -47,8 +47,12 @@ Priimtini šie formatai:
 {$scriptName} {$pluginName} import [xmlFileName] [journal_path]
 	issue_id [issueId] section_abbrev [abbrev]
 ]]></message>
-    <message key="plugins.importexport.native.cliError">KLAIDA:</message>
+    <message key="plugins.importexport.native.error.unknownSection">Nežinoma skiltis {$param}</message>
     <message key="plugins.importexport.native.error.unknownUser">Nurodytas vartotojas „{$userName}“ neegzistuoja.</message>
-    <message key="plugins.importexport.native.error.unknownJournal">Nurodytas žurnalo kelias „{$journalPath}“ neegzistuoja.</message>
-    <message key="plugins.importexport.native.export.error.couldNotWrite">Nepavyko įrašyti į failą „{$fileName}“.</message>
+    <message key="plugins.importexport.native.import.error.sectionTitleMismatch">Skilties pavadinimas „{$section1Title}“ ir skilties pavadinimas „{$section2Title}“ numeryje „{$issueTitle}“ atitiko skirtingas esamas žurnalo skiltis.</message>
+    <message key="plugins.importexport.native.import.error.sectionTitleMatch">Skilties pavadinimas „{$sectionTitle}“ numeryje „{$issueTitle}“ atitiko esamą žurnalo skiltį, tačiau kitas šios skilties pavadinimas neatitiko kito esamo žurnalo skilties pavadinimo.</message>
+    <message key="plugins.importexport.native.import.error.sectionAbbrevMismatch">Skilties santrumpa „{$section1Abbrev}“ ir skilties santrumpa „{$section2Abbrev}“ numeryje „{$issueTitle}“ atitiko skirtingas esamas žurnalo skiltis.</message>
+    <message key="plugins.importexport.native.import.error.sectionAbbrevMatch">Skilties santrumpa „{$sectionAbbrev}“ numeryje „{$issueTitle}“ atitiko esamą žurnalo skiltį, tačiau kita šios skilties santrumpa neatitiko kitos esamo žurnalo skilties santrumpos.</message>
+    <message key="plugins.importexport.native.import.error.issueIdentificationMatch">Nei vienas arba daugiau nei vienas numeris atitiko nurodytą numerio identifikavimą „{$issueIdentification}“.</message>
+    <message key="plugins.importexport.native.import.error.issueIdentificationMissing">Trūksta numerio identifikavimo elemento straipsniui „{$articleTitle}“.</message>
 </locale>

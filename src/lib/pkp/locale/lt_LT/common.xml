@@ -131,8 +131,9 @@
     <message key="common.disable">Išjungti</message>
     <message key="common.disabled">Išjungtas</message>
     <message key="common.discipline">Disciplina</message>
-    <message key="common.done">Atliktas</message>
+    <message key="common.done">Atlikta</message>
     <message key="common.download">Atsisiųsti</message>
+    <message key="common.downloadPdf">Atsisiųsti PDF</message>
     <message key="common.edit">Redaguoti</message>
     <message key="common.enable">Įjungti</message>
     <message key="common.enabled">Įjungtas</message>
@@ -400,6 +401,9 @@
     <message key="navigation.settings">Nuostatos</message>
     <message key="navigation.setup">Konfigūracija</message>
     <message key="navigation.sitemap">Svetainės struktūra</message>
+    <message key="navigation.skip.main">Pereiti prie turinio</message>
+    <message key="navigation.skip.nav">Pereiti prie naršymo meniu</message>
+    <message key="navigation.skip.footer">Pereiti prie svetainės poraštės</message>
     <message key="navigation.stepNumber">Žingsnis {$step}</message>
     <message key="navigation.submissions">Pateikimai</message>
     <message key="navigation.system">Sistema</message>

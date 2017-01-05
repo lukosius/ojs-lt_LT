@@ -34,7 +34,7 @@
     <message key="author.submit.supplementaryFiles">Papildomų failų nusiuntimas</message>
     <message key="author.submit.confirmation">Patvirtinimas</message>
     <message key="author.submit.nextSteps">Kiti žingsniai</message>
-    <message key="author.submit.cancelSubmission">Šį pateikimą galite užbaigti vėliau pasirinkę „Aktyvūs pateikimai“.</message>
+    <message key="submission.submit.cancelSubmission">Galite šį pateikimą užbaigti vėliau pasirinkę „Aktyvūs pateikimai“ iš autoriaus pradžios puslapio.</message>
     <message key="author.submit.notAccepting">Šiuo metu žurnalas nepriima pateikimų.</message>
     <message key="author.submit.requestWaiver">Prašau atleisti nuo mokesčio</message>
     <message key="author.submit.qualifyForWaiver">Prašau atleisti nuo straipsnio pateikimo mokesčio</message>
