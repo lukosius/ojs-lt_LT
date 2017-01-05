@@ -16,5 +16,5 @@
 
 <locale name="lt_LT" full_name="Lietuvių">
     <message key="plugins.oaiMetadata.dc.displayName">DC metaduomenų formatas</message>
-    <message key="plugins.oaiMetadata.dc.description">Įskiepis išdėsto metaduomenis taip, kad būtų nuoseklūs Dublin Core formate.</message>
+    <message key="plugins.oaiMetadata.dc.description">Įskiepis išdėsto metaduomenis taip, kad būtų nuoseklūs „Dublin Core“ formate.</message>
 </locale>

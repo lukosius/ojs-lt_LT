@@ -24085,301 +24085,301 @@ ________________________________________________________________________<br/>
     <unit id="manager.subscriptions">
       <segment>
         <source>Subscriptions</source>
-        <target>Subscriptions</target>
+        <target>Prenumeratos</target>
       </segment>
     </unit>
     <unit id="manager.individualSubscriptions">
       <segment>
         <source>Individual Subscriptions</source>
-        <target>Individual Subscriptions</target>
+        <target>Individualios prenumeratos</target>
       </segment>
     </unit>
     <unit id="manager.institutionalSubscriptions">
       <segment>
         <source>Institutional Subscriptions</source>
-        <target>Institutional Subscriptions</target>
+        <target>Institucinės prenumeratos</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.confirmDelete">
       <segment>
         <source>Are you sure you want to delete this subscription?</source>
-        <target>Are you sure you want to delete this subscription?</target>
+        <target>Ar tikrai norite pašalinti šią prenumeratą?</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.summary">
       <segment>
         <source>Subscriptions Summary</source>
-        <target>Subscriptions Summary</target>
+        <target>Prenumeratų suvestinė</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.create">
       <segment>
         <source>Create New Subscription</source>
-        <target>Create New Subscription</target>
+        <target>Kurti naują prenumeratą</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.createTitle">
       <segment>
         <source>Create</source>
-        <target>Create</target>
+        <target>Kurti</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.renew">
       <segment>
         <source>Renew</source>
-        <target>Renew</target>
+        <target>Pratęsti</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.dateEnd">
       <segment>
         <source>End</source>
-        <target>End</target>
+        <target>Pabaiga</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.dateEndSearch">
       <segment>
         <source>End Date</source>
-        <target>End Date</target>
+        <target>Pabaigos data</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.dateStart">
       <segment>
         <source>Start</source>
-        <target>Start</target>
+        <target>Pradžia</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.dateStartSearch">
       <segment>
         <source>Start Date</source>
-        <target>Start Date</target>
+        <target>Pradžios data</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.domain">
       <segment>
         <source>Domain</source>
-        <target>Domain</target>
+        <target>Domenas</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.edit">
       <segment>
         <source>Edit Subscription</source>
-        <target>Edit Subscription</target>
+        <target>Redaguoti prenumeratą</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.editTitle">
       <segment>
         <source>Edit</source>
-        <target>Edit</target>
+        <target>Redaguoti</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.withStatus">
       <segment>
         <source>With Status</source>
-        <target>With Status</target>
+        <target>Su būsena</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.allStatus">
       <segment>
         <source>All</source>
-        <target>All</target>
+        <target>Visos</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.status">
       <segment>
         <source>Status</source>
-        <target>Status</target>
+        <target>Būsena</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.statusRequired">
       <segment>
         <source>A subscription status is required.</source>
-        <target>A subscription status is required.</target>
+        <target>Prenumeratos būsena yra privaloma.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.statusValid">
       <segment>
         <source>Please select a valid subscription status.</source>
-        <target>Please select a valid subscription status.</target>
+        <target>Pasirinkite galiojančią prenumeratos būseną.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.typeId">
       <segment>
         <source>Subscription type</source>
-        <target>Subscription type</target>
+        <target>Prenumeratos tipas</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.typeIdRequired">
       <segment>
         <source>A subscription type is required.</source>
-        <target>A subscription type is required.</target>
+        <target>Prenumeratos tipas yra privalomas.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.typeIdValid">
       <segment>
         <source>Please select a valid subscription type.</source>
-        <target>Please select a valid subscription type.</target>
+        <target>Pasirinkite galiojantį prenumeratos tipą.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.dateStart">
       <segment>
         <source>Start date</source>
-        <target>Start date</target>
+        <target>Pradžios data</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.dateStartRequired">
       <segment>
         <source>A subscription start date is required.</source>
-        <target>A subscription start date is required.</target>
+        <target>Prenumeratos pradžios data yra privaloma.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.dateStartValid">
       <segment>
         <source>Please select a valid subscription start date.</source>
-        <target>Please select a valid subscription start date.</target>
+        <target>Pasirinkite galiojančią prenumeratos pradžios datą.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.dateEnd">
       <segment>
         <source>End date</source>
-        <target>End date</target>
+        <target>Pabaigos data</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.dateEndRequired">
       <segment>
         <source>A subscription end date is required.</source>
-        <target>A subscription end date is required.</target>
+        <target>Prenumeratos pabaigos data yra privaloma.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.dateEndValid">
       <segment>
         <source>Please select a valid subscription end date.</source>
-        <target>Please select a valid subscription end date.</target>
+        <target>Pasirinkite galiojančią prenumeratos pabaigos datą.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.userProfileInstructions">
       <segment>
         <source>Note: All changes below are to user's system-wide profile.</source>
-        <target>Note: All changes below are to user's system-wide profile.</target>
+        <target>Pastaba: visi pakeitimai žemiau yra vartotojo visos sistemos profiliui.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.userId">
       <segment>
         <source>User</source>
-        <target>User</target>
+        <target>Vartotojas</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.userContact">
       <segment>
         <source>Contact</source>
-        <target>Contact</target>
+        <target>Kontaktas</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.userIdRequired">
       <segment>
         <source>A user is required.</source>
-        <target>A user is required.</target>
+        <target>Vartotojas yra privalomas.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.userIdValid">
       <segment>
         <source>Please select a valid user.</source>
-        <target>Please select a valid user.</target>
+        <target>Pasirinkite galiojantį vartotoją.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.userCountryValid">
       <segment>
         <source>Please select a valid country.</source>
-        <target>Please select a valid country.</target>
+        <target>Pasirinkite galiojančią šalį.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.notifyEmail">
       <segment>
         <source>Send the user an email with their username and subscription details.</source>
-        <target>Send the user an email with their username and subscription details.</target>
+        <target>Siųsti vartotojui el. laišką su vartotojo vardu ir prenumeratos informacija.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.notifyEmailValid">
       <segment>
         <source>Please use the checkbox provided.</source>
-        <target>Please use the checkbox provided.</target>
+        <target>Naudokite pateiktą žymimąjį langelį.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.membership">
       <segment>
         <source>Membership</source>
-        <target>Membership</target>
+        <target>Narystė</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.referenceNumber">
       <segment>
         <source>Reference Number</source>
-        <target>Reference Number</target>
+        <target>Nuorodos numeris</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.membershipInstructions">
       <segment>
         <source>Enter membership information if the subscription type requires that subscribers belong to an association or organization.</source>
-        <target>Enter membership information if the subscription type requires that subscribers belong to an association or organization.</target>
+        <target>Įveskite narystės informaciją jei prenumeratos tipas reikalauja, kad prenumeratoriai priklauso asociacijai ar organizacijai.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.membershipRequired">
       <segment>
         <source>The selected subscription type requires membership information.</source>
-        <target>The selected subscription type requires membership information.</target>
+        <target>Pasirinktas prenumeratos tipas reikalauja narystės informacijos.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.notes">
       <segment>
         <source>Notes</source>
-        <target>Notes</target>
+        <target>Pastabos</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.domain">
       <segment>
         <source>Domain</source>
-        <target>Domain</target>
+        <target>Domenas</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.institutionName">
       <segment>
         <source>Institution name</source>
-        <target>Institution name</target>
+        <target>Institucijos vardas</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.institutionNameRequired">
       <segment>
         <source>An institution name is required.</source>
-        <target>An institution name is required.</target>
+        <target>Institucijos vardas yra privalomas.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.institutionMailingAddress">
       <segment>
         <source>Mailing address</source>
-        <target>Mailing address</target>
+        <target>Pašto adresas</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.domainInstructions">
       <segment>
         <source><![CDATA[If a domain is entered here, IP ranges are optional.<br />Valid values are domain names (e.g. lib.sfu.ca).]]></source>
-        <target><![CDATA[If a domain is entered here, IP ranges are optional.<br />Valid values are domain names (e.g. lib.sfu.ca).]]></target>
+        <target><![CDATA[Jei čia įvestas domenas, IP diapazonas nėra būtinas.<br />Galiojančios reikšmės yra domenų vardai (pvz. lib.sfu.ca).]]></target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.domainIPRangeRequired">
       <segment>
         <source>The selected subscription type requires a domain and/or an IP range for subscription authentication.</source>
-        <target>The selected subscription type requires a domain and/or an IP range for subscription authentication.</target>
+        <target>Pasirinktas prenumeratos tipas reikalauja domeno ir/arba IP diapazono prenumeratos tapatybės nustatymui.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.domainValid">
       <segment>
         <source>Please enter a valid domain.</source>
-        <target>Please enter a valid domain.</target>
+        <target>Įveskite galiojantį domeną.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.ipRange">
       <segment>
         <source>IP ranges</source>
-        <target>IP ranges</target>
+        <target>IP diapazonas</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.ipRangeItem">
@@ -24391,409 +24391,409 @@ ________________________________________________________________________<br/>
     <unit id="manager.subscriptions.form.ipRangeInstructions">
       <segment>
         <source><![CDATA[If IP ranges are entered here, the domain is optional.<br />Valid values include an IP address (e.g. 142.58.103.1), IP range (e.g. 142.58.103.1 - 142.58.103.4), IP range with wildcard '*' (e.g. 142.58.*.*), and an IP range with CIDR (e.g. 142.58.100.0/24).]]></source>
-        <target><![CDATA[If IP ranges are entered here, the domain is optional.<br />Valid values include an IP address (e.g. 142.58.103.1), IP range (e.g. 142.58.103.1 - 142.58.103.4), IP range with wildcard '*' (e.g. 142.58.*.*), and an IP range with CIDR (e.g. 142.58.100.0/24).]]></target>
+        <target><![CDATA[Jei čia įvestas IP diapazonas, domenas nėra būtinas.<br />Galiojančios reikšmės apima IP adresus (pvz. 142.58.103.1), IP diapazoną (pvz. 142.58.103.1 - 142.58.103.4), IP diapazonas su pakaitos simboliu '*' (pvz. 142.58.*.*), ir IP diapazonas su CIDR (pvz. 142.58.100.0/24).]]></target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.ipRangeValid">
       <segment>
         <source>Please enter a valid IP range.</source>
-        <target>Please enter a valid IP range.</target>
+        <target>Įveskite galiojantį IP diapazoną.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.deleteIpRange">
       <segment>
         <source>Delete</source>
-        <target>Delete</target>
+        <target>Šalinti</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.addIpRange">
       <segment>
         <source>Add</source>
-        <target>Add</target>
+        <target>Pridėti</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.saveAndCreateAnother">
       <segment>
         <source>Save and Create Another</source>
-        <target>Save and Create Another</target>
+        <target>Įrašyti ir kurti kitą</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.subscriptionContactRequired">
       <segment>
         <source>In order to send the user a notification email, the subscription contact name and email address must be specified in the journal Setup.</source>
-        <target>In order to send the user a notification email, the subscription contact name and email address must be specified in the journal Setup.</target>
+        <target>Norint išsiųsti vartotojui pranešimo el. laišką, žurnalo konfigūracijoje privalo būti nurodytas prenumeratos kontakto vardas ir el. pašto adresas.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.subscriptionExists">
       <segment>
         <source>This user already has a subscription for this journal.</source>
-        <target>This user already has a subscription for this journal.</target>
+        <target>Šis vartotojas jau yra užsiprenumeravęs.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.form.typeRequired">
       <segment>
         <source>A subscription type must be created before new subscriptions can be made.</source>
-        <target>A subscription type must be created before new subscriptions can be made.</target>
+        <target>Prenumeratos tipas privalo būti sukurtas prieš darant naujas prenumeratas.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.ipRange">
       <segment>
         <source>IP Range</source>
-        <target>IP Range</target>
+        <target>IP diapazonas</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.membership">
       <segment>
         <source>Membership</source>
-        <target>Membership</target>
+        <target>Narystė</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.referenceNumber">
       <segment>
         <source>Reference Number</source>
-        <target>Reference Number</target>
+        <target>Nuorodos numeris</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.notes">
       <segment>
         <source>Notes</source>
-        <target>Notes</target>
+        <target>Pastabos</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.noneCreated">
       <segment>
         <source>No subscriptions</source>
-        <target>No subscriptions</target>
+        <target>Prenumeratų nėra</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.selectContact">
       <segment>
         <source>Select Subscription Contact</source>
-        <target>Select Subscription Contact</target>
+        <target>Pasirinkite prenumeratos kontaktą</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.selectUser">
       <segment>
         <source>Select User</source>
-        <target>Select User</target>
+        <target>Pasirinkite vartotoją</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.selectSubscriber.desc">
       <segment>
         <source>Subscription access privileges are automatically granted to the journal's Journal Managers, Editors, Section Editors, Layout Editors, Copyeditors, and Proofreaders.</source>
-        <target>Subscription access privileges are automatically granted to the journal's Journal Managers, Editors, Section Editors, Layout Editors, Copyeditors, and Proofreaders.</target>
+        <target>Prenumeratos teisės yra automatiškai suteikiamos žurnalo administratoriams, redaktoriams, skilties redaktoriams, maketuotojams, rankraščio redaktoriams ir korektoriams.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.select">
       <segment>
         <source>Select</source>
-        <target>Select</target>
+        <target>Pasirinkite</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.subscriptionCreatedSuccessfully">
       <segment>
         <source>Subscription created successfully.</source>
-        <target>Subscription created successfully.</target>
+        <target>Prenumerata sukurta sėkmingai.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.subscriptionType">
       <segment>
         <source>Subscription Type</source>
-        <target>Subscription Type</target>
+        <target>Prenumeratos tipas</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.user">
       <segment>
         <source>User</source>
-        <target>User</target>
+        <target>Vartotojas</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.contact">
       <segment>
         <source>Contact Name</source>
-        <target>Contact Name</target>
+        <target>Kontakto vardas</target>
       </segment>
     </unit>
     <unit id="manager.subscriptions.institutionName">
       <segment>
         <source>Institution Name</source>
-        <target>Institution Name</target>
+        <target>Institucijos vardas</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes">
       <segment>
         <source>Subscription Types</source>
-        <target>Subscription Types</target>
+        <target>Prenumeratos tipai</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.confirmDelete">
       <segment>
         <source>Warning! All subscriptions with this subscription type will also be deleted. Are you sure you want to continue and delete this subscription type?</source>
-        <target>Warning! All subscriptions with this subscription type will also be deleted. Are you sure you want to continue and delete this subscription type?</target>
+        <target>Įspėjimas! Visos prenumeratos su šiuo prenumeratos tipu bus pašalinta. Ar tikrai norite tęsti ir pašalinti šį prenumeratos tipą?</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.cost">
       <segment>
         <source>Cost</source>
-        <target>Cost</target>
+        <target>Kaina</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.subscriptions">
       <segment>
         <source>Subscriptions</source>
-        <target>Subscriptions</target>
+        <target>Prenumeratos</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.individual">
       <segment>
         <source>Individual</source>
-        <target>Individual</target>
+        <target>Individuali</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.institutional">
       <segment>
         <source>Institutional</source>
-        <target>Institutional</target>
+        <target>Institucinė</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.create">
       <segment>
         <source>Create New Subscription Type</source>
-        <target>Create New Subscription Type</target>
+        <target>Kurti naują prenumeratos tipą</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.createTitle">
       <segment>
         <source>Create</source>
-        <target>Create</target>
+        <target>Kurti</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.duration">
       <segment>
         <source>Duration</source>
-        <target>Duration</target>
+        <target>Laikotarpis</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.edit">
       <segment>
         <source>Edit Subscription Type</source>
-        <target>Edit Subscription Type</target>
+        <target>Redaguoti prenumeratos tipą</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.editTitle">
       <segment>
         <source>Edit</source>
-        <target>Edit</target>
+        <target>Redaguoti</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.cost">
       <segment>
         <source>Cost</source>
-        <target>Cost</target>
+        <target>Kaina</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.costInstructions">
       <segment>
         <source>Enter a numeric value (e.g. 40 or 40.00) without symbol (e.g., $).</source>
-        <target>Enter a numeric value (e.g. 40 or 40.00) without symbol (e.g., $).</target>
+        <target>Įveskite skaitinę reikšmę (pvz. 40 or 40.00) be simbolio (pvz., $).</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.costNumeric">
       <segment>
         <source>The cost must be a positive, numeric value.</source>
-        <target>The cost must be a positive, numeric value.</target>
+        <target>Kaina turi būti teigiama skaitinė reikšmė.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.costRequired">
       <segment>
         <source>A cost is required.</source>
-        <target>A cost is required.</target>
+        <target>Kaina yra privaloma.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.currency">
       <segment>
         <source>Currency</source>
-        <target>Currency</target>
+        <target>Valiuta</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.currencyRequired">
       <segment>
         <source>A currency is required.</source>
-        <target>A currency is required.</target>
+        <target>Valiuta yra privaloma.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.currencyValid">
       <segment>
         <source>Please select a valid currency.</source>
-        <target>Please select a valid currency.</target>
+        <target>Pasirinkite galiojančią valiutą.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.description">
       <segment>
         <source>Description</source>
-        <target>Description</target>
+        <target>Aprašymas</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.nonExpiring.expiresAfter">
       <segment>
         <source>Expires after</source>
-        <target>Expires after</target>
+        <target>Baigiasi už</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.nonExpiring.months">
       <segment>
         <source>months (e.g. 12)</source>
-        <target>months (e.g. 12)</target>
+        <target>mėn. (pvz. 12)</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.nonExpiring.neverExpires">
       <segment>
         <source>Never expires</source>
-        <target>Never expires</target>
+        <target>Nesibaigia</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.nonExpiringValid">
       <segment>
         <source>Please use the provided options.</source>
-        <target>Please use the provided options.</target>
+        <target>Naudokite pateiktas parinktis.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.duration">
       <segment>
         <source>Duration</source>
-        <target>Duration</target>
+        <target>Laikotarpis</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.durationInstructions">
       <segment>
         <source>The number of months the subscription lasts (e.g. 12).</source>
-        <target>The number of months the subscription lasts (e.g. 12).</target>
+        <target>Mėnesių skaičius prenumeratos trukmei (pvz. 12).</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.durationNumeric">
       <segment>
         <source>The duration must be a positive, numeric value.</source>
-        <target>The duration must be a positive, numeric value.</target>
+        <target>Laikotarpis turi būti teigiama skaitinė reikšmė.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.durationRequired">
       <segment>
         <source>A duration is required.</source>
-        <target>A duration is required.</target>
+        <target>Laikotarpis yra privalomas.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.format">
       <segment>
         <source>Format</source>
-        <target>Format</target>
+        <target>Formatas</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.formatRequired">
       <segment>
         <source>A subscription type format is required.</source>
-        <target>A subscription type format is required.</target>
+        <target>Prenumeratos tipo formatas yra privalomas.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.formatValid">
       <segment>
         <source>Please select a valid subscription type format.</source>
-        <target>Please select a valid subscription type format.</target>
+        <target>Pasirinkite galiojantį prenumeratos tipo formatą.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.subscriptions">
       <segment>
         <source>Subscriptions</source>
-        <target>Subscriptions</target>
+        <target>Prenumeratos</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.individual">
       <segment>
         <source>Individual (users are validated via login)</source>
-        <target>Individual (users are validated via login)</target>
+        <target>Individuali (vartotojai patvirtinami per prisijungimą)</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.institutional">
       <segment>
         <source>Institutional (users are validated via domain or IP address)</source>
-        <target>Institutional (users are validated via domain or IP address)</target>
+        <target>Institucinė (vartotojai patvirtinami per domeną ar IP adresą)</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.institutionalValid">
       <segment>
         <source>Please use the provided options.</source>
-        <target>Please use the provided options.</target>
+        <target>Naudokite pateiktas parinktis.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.membership">
       <segment>
         <source><![CDATA[Subscriptions require membership information<br />(e.g. of an association, organization, consortium, etc.)]]></source>
-        <target><![CDATA[Subscriptions require membership information<br />(e.g. of an association, organization, consortium, etc.)]]></target>
+        <target><![CDATA[Prenumeratos reikalauja narystės informacijos<br />(pvz. bendrovė, organizacija, konsorciumas ir pan.)]]></target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.membershipValid">
       <segment>
         <source>Please use the checkbox provided.</source>
-        <target>Please use the checkbox provided.</target>
+        <target>Naudokite pateiktą žymimąjį langelį.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.options">
       <segment>
         <source>Options</source>
-        <target>Options</target>
+        <target>Parinktys</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.public">
       <segment>
         <source><![CDATA[Do not make this subscription type publicly available or visible<br />(e.g. under Subscriptions in About the Journal).]]></source>
-        <target><![CDATA[Do not make this subscription type publicly available or visible<br />(e.g. under Subscriptions in About the Journal).]]></target>
+        <target><![CDATA[Nedaryti šio prenumeratos tipo prieinamo viešai<br />(pvz. sky under Subscriptions in About the Journal).]]></target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.publicValid">
       <segment>
         <source>Please use the checkbox provided.</source>
-        <target>Please use the checkbox provided.</target>
+        <target>Naudokite pateiktą žymimąjį langelį.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.saveAndCreateAnotherType">
       <segment>
         <source>Save and Create Another</source>
-        <target>Save and Create Another</target>
+        <target>Įrašyti ir kurti kitą</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.typeName">
       <segment>
         <source>Name of Type</source>
-        <target>Name of Type</target>
+        <target>Tipo pavadinimas</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.typeNameExists">
       <segment>
         <source>A subscription type with this name already exists.</source>
-        <target>A subscription type with this name already exists.</target>
+        <target>Toks prenumeratos tipo pavadinimas jau egzistuoja.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.form.typeNameRequired">
       <segment>
         <source>A subscription type name is required.</source>
-        <target>A subscription type name is required.</target>
+        <target>Prenumeratos tipo pavadinimas yra privalomas.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.name">
       <segment>
         <source>Subscription type</source>
-        <target>Subscription type</target>
+        <target>Prenumeratos tipas</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.noneCreated">
       <segment>
         <source>No subscription types have been created.</source>
-        <target>No subscription types have been created.</target>
+        <target>Nėra sukurtų prenumeratos tipų.</target>
       </segment>
     </unit>
     <unit id="manager.subscriptionTypes.subscriptionTypeCreatedSuccessfully">
       <segment>
         <source>Subscription type created successfully.</source>
-        <target>Subscription type created successfully.</target>
+        <target>Prenumeratos tipas sukurtas sėkmingai.</target>
       </segment>
     </unit>
     <unit id="manager.distribution.access">
@@ -30000,7 +30000,7 @@ Pavyzdžiai:
     <unit id="plugins.oaiMetadata.dc.description">
       <segment>
         <source>Structures metadata in a way that is consistent with the Dublin Core format.</source>
-        <target>Įskiepis išdėsto metaduomenis taip, kad būtų nuoseklūs Dublin Core formate.</target>
+        <target>Įskiepis išdėsto metaduomenis taip, kad būtų nuoseklūs „Dublin Core“ formate.</target>
       </segment>
     </unit>
   </file>
