@@ -19916,7 +19916,7 @@ An initial review of &quot;{$submissionTitle}&quot; has made it clear that this 
 {$editorialContactSignature}]]></source>
         <target><![CDATA[##email-dear-author##
 <br />
-Po pradinės „{$articleTitle}“ straipsnio peržiūros įsitikinome, kad pateikimas neatitinka žurnalo {$contextName} tematikos ir srities. Rekomenduoju perskaityti žurnalo aprašymą puslapyje „Apie“, taip pat peržiūrėti dabartinį turinį, kad sužinotumėte, kokius darbus mes leidžiame. Taip pat pagalvokite šį rankraštį pateikti į kitą, labiau tinkamą žurnalą.<br />
+Po pradinės „{$submissionTitle}“ straipsnio peržiūros įsitikinome, kad pateikimas neatitinka žurnalo {$contextName} tematikos ir srities. Rekomenduoju perskaityti žurnalo aprašymą puslapyje „Apie“, taip pat peržiūrėti dabartinį turinį, kad sužinotumėte, kokius darbus mes leidžiame. Taip pat pagalvokite šį rankraštį pateikti į kitą, labiau tinkamą žurnalą.<br />
 <br />
 {$editorialContactSignature}]]></target>
       </body>
