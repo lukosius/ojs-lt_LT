@@ -15,22 +15,22 @@
   -->
 
 <email_texts locale="lt_LT">
-    <email_text key="ORCID_COLLECT_AUTHOR_ID">
-        <subject>Submission ORCID</subject>
-        <body>Dear {$authorName},
+	<email_text key="ORCID_COLLECT_AUTHOR_ID">
+		<subject>Pateikimo ORCID</subject>
+		<body>Gerb. {$authorName},
 
-You have been listed as a co-author on the manuscript submission "{$articleTitle}" to {$journalName}.
+Buvote įtrauktas į bendraautorių sąrašą pateikime „{$articleTitle}“ į {$journalName}.
 
-To confirm your authorship, please add your ORCID id to this submission by visiting the link provided below.
+Norėdami patvirtinti autorystę, nurodykite savo ORCID id šiame pateikime aplankę žemiau nurodytą nuorodą.
 
 {$authorOrcidUrl}
 
-If you have any questions, please contact me.
+Jei turite klausimų, susisiekite su manimi.
 
 {$editorialContactSignature}
 
 
 </body>
-        <description>This email template is used to collect the ORCID id's from co-authors.</description>
-    </email_text>
+		<description>El. laiško šablonas naudojamas surinkti ORCID id iš bendraautorių.</description>
+	</email_text>
 </email_texts>

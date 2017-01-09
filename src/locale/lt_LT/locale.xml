@@ -190,7 +190,7 @@
     <message key="subscriptions.status.active">Aktyvi</message>
     <message key="subscriptions.status.needsInformation">Reikia informacijos</message>
     <message key="subscriptions.status.needsApproval">Reikia patvirtinimo</message>
-    <message key="subscriptions.status.awaitingManualPayment">Laukiama apmokėjimo</message>
+    <message key="subscriptions.status.awaitingManualPayment">Laukiama rankinio apmokėjimo</message>
     <message key="subscriptions.status.awaitingOnlinePayment">Laukiama internetinio apmokėjimo</message>
     <message key="subscriptions.status.other">Kita, žr. pastabas</message>
     <message key="subscriptions.individualDescription">Prenumeratoriai privalo prisijungti, kad pasiektų šį turinį.</message>
@@ -483,7 +483,7 @@ Aktyvios yra recenzijų skaičius, kurios šiuo metu yra svarstomos arba yra vyk
     <message key="user.subscriptions.statusDescription">Aprašymas</message>
     <message key="user.subscriptions.status.needsInformationDescription">Reikia papildomos informacijos, kad prenumerata būtų aktyvuota</message>
     <message key="user.subscriptions.status.needsApprovalDescription">Reikia peržiūrėti prenumeratą, kad ji būtų aktyvuota</message>
-    <message key="user.subscriptions.status.awaitingManualPaymentDescription">Mokėjimas pradėtas, bet dar negautas</message>
+    <message key="user.subscriptions.status.awaitingManualPaymentDescription">Rankinis mokėjimas pradėtas, bet dar negautas</message>
     <message key="user.subscriptions.status.awaitingOnlinePaymentDescription">Mokėjimas internetu pradėtas, bet atšauktas arba nebaigtas</message>
     <message key="user.subscriptions.individualSubscriptions">Individuali prenumerata</message>
     <message key="user.subscriptions.institutionalSubscriptions">Institucinė prenumerata</message>

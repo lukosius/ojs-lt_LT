@@ -16202,7 +16202,7 @@ Naudojimas (apdorojant visus katalogo failus): {$scriptName} kelias/iki/apache/k
     <unit id="subscriptions.status.awaitingManualPayment">
       <segment>
         <source>Awaiting Manual Payment</source>
-        <target>Laukiama apmokėjimo</target>
+        <target>Laukiama rankinio apmokėjimo</target>
       </segment>
     </unit>
     <unit id="subscriptions.status.awaitingOnlinePayment">
@@ -17660,7 +17660,7 @@ Aktyvios yra recenzijų skaičius, kurios šiuo metu yra svarstomos arba yra vyk
     <unit id="user.subscriptions.status.awaitingManualPaymentDescription">
       <segment>
         <source>Manual payment has been initiated but not yet received</source>
-        <target>Mokėjimas pradėtas, bet dar negautas</target>
+        <target>Rankinis mokėjimas pradėtas, bet dar negautas</target>
       </segment>
     </unit>
     <unit id="user.subscriptions.status.awaitingOnlinePaymentDescription">
@@ -19550,15 +19550,13 @@ Nuoroda: {$url}<br />
       </body>
       <description>
         <source>The email is sent to registered users that have selected to have this type of notification emailed to them.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas siunčiamas registruotiems vartotojams, kurie pasirinko gauti šio tipo pranešimą.</target>
       </description>
     </email>
     <email id="NOTIFICATION_MAILLIST">
       <subject>
         <source>New notification from {$siteTitle}</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Naujas pranešimas iš {$siteTitle}</target>
       </subject>
       <body>
         <source><![CDATA[You have a new notification from {$siteTitle}:<br />
@@ -19571,20 +19569,26 @@ Link: {$url}<br />
 If you wish to stop receiving notification emails, please go to {$unsubscribeLink}.<br />
 <br />
 {$principalContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[Turite naują pranešimą iš {$siteTitle}:<br />
+--<br />
+{$notificationContents}<br />
+<br />
+Nuoroda: {$url}<br />
+--<br />
+<br />
+Jei norite nebegauti pranešimų el. paštu, eikite į {$unsubscribeLink}.<br />
+<br />
+{$principalContactSignature}]]></target>
       </body>
       <description>
         <source>This email is sent to unregistered users on the notification mailing list.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas siunčiamas neregistruotiems vartotojams, kurie yra pranešimų el. pašto grupėje.</target>
       </description>
     </email>
     <email id="NOTIFICATION_MAILLIST_WELCOME">
       <subject>
         <source>Welcome to the the {$siteTitle} mailing list!</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Sveiki prisijungę prie „{$siteTitle}“ el. pašto grupės!</target>
       </subject>
       <body>
         <source><![CDATA[You have signed up to receive notifications from {$siteTitle}.<br />
@@ -19594,20 +19598,23 @@ Please click on this link to confirm your request and add your email address to 
 If you wish to stop receiving notification emails, please go to {$unsubscribeLink}.<br />
 <br />
 {$principalContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[Užsiregistravote gauti pranešimus iš {$siteTitle}.<br />
+<br />
+Spustelėkite šią nuorodą, kad patvirtintumėte užklausą ir įtrauktumėte savo el. pašto adresą į grupę: {$confirmLink}<br />
+<br />
+Jei norite nebegauti pranešimų el. paštu, eikite į {$unsubscribeLink}.<br />
+<br />
+{$principalContactSignature}]]></target>
       </body>
       <description>
         <source>This email is sent to an unregistered user who just registered with the notification mailing list.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas siunčiamas neregistruotiems vartotojams, kurie neseniai įtraukė save į pranešimų el. pašto grupę.</target>
       </description>
     </email>
     <email id="PASSWORD_RESET_CONFIRM">
       <subject>
         <source>Password Reset Confirmation</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Slaptažodžio atkūrimo patvirtinimas</target>
       </subject>
       <body>
         <source><![CDATA[We have received a request to reset your password for the {$siteTitle} web site.<br />
@@ -19617,28 +19624,23 @@ If you did not make this request, please ignore this email and your password wil
 Reset my password: <a href="{$url}">{$url}</a><br />
 <br />
 {$principalContactSignature}]]></source>
-        <target></target>
-        <!--EDITED SUBJECT-->
-        <!--Old source: "We have received a request to reset your password for the {$siteTitle} web site.<br />
+        <target><![CDATA[Gavome prašymą atkurti jūsų slaptažodį svetainėje {$siteTitle}.<br />
 <br />
-If you did not make this request, please ignore this email and your password will not be changed. If you wish to reset your password, click on the below URL.<br />
+Jei ne jūs atlikote šį prašymą, tiesiog ignoruokite šį el. laišką ir jūsų slaptažodis nebus pakeistas. Jei norite atkurti savo slaptažodį, spustelėkite žemiau esančią nuorodą.<br />
 <br />
-Reset my password: {$url}<br />
+Atkurti mano slaptažodį: <a href="{$url}">{$url}</a><br />
 <br />
-{$principalContactSignature}".-->
-        <!--Old translation: "".-->
+{$principalContactSignature}]]></target>
       </body>
       <description>
         <source>This email is sent to a registered user when they indicate that they have forgotten their password or are unable to login. It provides a URL they can follow to reset their password.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas siunčiamas registruojam vartotojui, kuris nurodė, kad pamiršo slaptažodį arba negali prisijungti. Laiške pateikiama nuoroda, kurią spustelėjus vartotojas galės atkurti slaptažodį.</target>
       </description>
     </email>
     <email id="PASSWORD_RESET">
       <subject>
         <source>Password Reset</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Slaptažodžio atkūrimas</target>
       </subject>
       <body>
         <source><![CDATA[Your password has been successfully reset for use with the {$siteTitle} web site. Please retain this username and password, as it is necessary for all work with the journal.<br />
@@ -19647,26 +19649,22 @@ Your username: {$username}<br />
 Password: {$password}<br />
 <br />
 {$principalContactSignature}]]></source>
-        <target></target>
-        <!--EDITED SUBJECT-->
-        <!--Old source: "Your password has been successfully reset for use with the {$siteTitle} web site. Please retain this username and password, as it is necessary for all work with the journal.<br />
+        <target><![CDATA[Jūsų slaptažodis buvo sėkmingai atkurtas svetainėje {$siteTitle}. Įsiminkite šį vartotojo vardą ir slaptažodį, kurie yra privalomi darbui žurnale.<br />
 <br />
-Your username: {$username}<br />
+##email-user##
+##email-pass##
 <br />
-{$principalContactSignature}".-->
-        <!--Old translation: "".-->
+{$principalContactSignature}]]></target>
       </body>
       <description>
         <source>This email is sent to a registered user when they have successfully reset their password following the process described in the PASSWORD_RESET_CONFIRM email.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas yra siunčiamas registruotam vartotojui, kuris sėkmingai atkūrė savo slaptažodį sekdamas nurodymus el. laiške PASSWORD_RESET_CONFIRM.</target>
       </description>
     </email>
     <email id="USER_REGISTER">
       <subject>
         <source>Journal Registration</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Registracija žurnale</target>
       </subject>
       <body>
         <source><![CDATA[{$userFullName}<br />
@@ -19678,20 +19676,25 @@ Password: {$password}<br />
 <br />
 Thank you,<br />
 {$principalContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-user##
+<br />
+Buvote užregistruotas kaip vartotojas žurnale {$contextName}. Šiame laiške yra įtraukti jūsų vartotojo vardas ir slaptažodis, kurie yra reikalingi darbui žurnale. Bet kuriuo metu galite paprašyti būti pašalinti iš žurnalo vartotojų sąrašo.<br />
+<br />
+##email-user##
+##email-pass##
+<br />
+##email-thanks##
+{$principalContactSignature}]]></target>
       </body>
       <description>
         <source>This email is sent to a newly registered user to welcome them to the system and provide them with a record of their username and password.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas siunčiamas naujai registruotam vartotojui kaip pasveikinimo žinutė ir pateikia vartotojo vardą ir slaptažodį.</target>
       </description>
     </email>
     <email id="USER_VALIDATE">
       <subject>
         <source>Validate Your Account</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Paskyros patvirtinimas</target>
       </subject>
       <body>
         <source><![CDATA[{$userFullName}<br />
@@ -19702,20 +19705,24 @@ You have created an account with {$contextName}, but before you can start using 
 <br />
 Thank you,<br />
 {$principalContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-user##
+<br />
+Sukūrėte paskyrą žurnale {$contextName}, tačiau prieš galėdami juo naudotis privalote patvirtinti el. pašto paskyrą. Norėdami tai atlikti, paprasčiausiai žemiau spustelėkite nuorodą:<br />
+<br />
+<a href="{$activateUrl}">{$activateUrl}</a><br />
+<br />
+##email-thanks##
+{$principalContactSignature}]]></target>
       </body>
       <description>
         <source>This email is sent to a newly registered user to welcome them to the system and provide them with a record of their username and password.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas siunčiamas naujai registruotam vartotojui, kad patvirtintų el. pašto paskyrą.</target>
       </description>
     </email>
     <email id="REVIEWER_REGISTER">
       <subject>
         <source>Registration as Reviewer with {$contextName}</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Recenzento registracija žurnale {$contextName}</target>
       </subject>
       <body>
         <source><![CDATA[In light of your expertise, we have taken the liberty of registering your name in the reviewer database for {$contextName}. This does not entail any form of commitment on your part, but simply enables us to approach you with a submission to possibly review. On being invited to review, you will have an opportunity to see the title and abstract of the paper in question, and you'll always be in a position to accept or decline the invitation. You can also ask at any point to have your name removed from this reviewer list.<br />
@@ -19727,20 +19734,25 @@ Password: {$password}<br />
 <br />
 Thank you,<br />
 {$principalContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[Atsižvelgdami į jūsų patirtį užregistravome jus žurnalo {$contextName} recenzentų duomenų bazėje. Tai jums nesudaro jokių įsipareigojimų, tačiau tai mums leidžia kreiptis į jus su straipsnio pateikimu, kurį reikėtų recenzuoti. Turėsite galimybę peržiūrėti straipsnio pavadinimą ir santrauką, ir visada būsite tokioje padėtyje, kur galėsite tiek priimti, tiek atmesti kvietimą recenzuoti. Taip pat bet kuriuo metu galite paprašyti pašalinti jus iš recenzentų sąrašo.<br />
+<br />
+Žemiau pateikiame jūsų vartotojo vardą ir slaptažodį, kurie yra naudojami darbui žurnalo svetainėje.<br />
+<br />
+##email-user##
+##email-pass##
+<br />
+##email-thanks##
+{$principalContactSignature}]]></target>
       </body>
       <description>
         <source>This email is sent to a newly registered reviewer to welcome them to the system and provide them with a record of their username and password.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas siunčiamas naujai užregistruotam recenzentui kaip pasveikinimo žinutė su vartotojo vardu ir slaptažodžiu.</target>
       </description>
     </email>
     <email id="PUBLISH_NOTIFY">
       <subject>
         <source>New Issue Published</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Išleistas naujas numeris</target>
       </subject>
       <body>
         <source><![CDATA[Readers:<br />
@@ -19749,20 +19761,22 @@ Thank you,<br />
 <br />
 Thanks for the continuing interest in our work,<br />
 {$editorialContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[Skaitytojams:<br />
+<br />
+{$contextName} neseniai išleido numerį, kurį pasieksite adresu <a href="{$contextUrl}">{$contextUrl}</a>. Kviečiame čia peržiūrėti turinį ir apsilankyti mūsų svetainėje, kad perskaitytumėte dominančius straipsnius.<br />
+<br />
+##email-thanks##
+{$editorialContactSignature}]]></target>
       </body>
       <description>
         <source>This email is sent to registered readers via the "Notify Users" link in the Editor's User Home. It notifies readers of a new issue and invites them to visit the journal at a supplied URL.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas siunčiamas registruotiems skaitytojams per „Informuoti vartotojus“ nuorodą. Ji informuoja skaitytojus apie naują numerį ir kviečia juos apsilankyti nurodytu adresu.</target>
       </description>
     </email>
     <email id="LOCKSS_EXISTING_ARCHIVE">
       <subject>
         <source>Archiving Request for {$contextName}</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Prašymas archyvuoti {$contextName}</target>
       </subject>
       <body>
         <source><![CDATA[Dear [University Librarian]<br />
@@ -19777,20 +19791,28 @@ We understand that you are already participating in LOCKSS. If we can provide an
 <br />
 Thank you,<br />
 {$principalContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-lockss-hello##
+<br />
+##email-lockss-first##
+<br />
+[Trumpas žurnalo aprašymas]<br />
+<br />
+Nuoroda į LOCKSS leidėjo manifestą šiam žurnalui yra: <a href="{$contextUrl}">{$contextUrl}</a>/gateway/lockss<br />
+<br />
+Suprantame, kad jūs jau dalyvaujate LOCKSS. Jei galime pateikti bet kokių papildomų metaduomenų mūsų žurnalo užregistravimo tikslais su jūsų LOCKSS versija, mielai juos pateiksime.<br />
+<br />
+##email-thanks##
+{$principalContactSignature}]]></target>
       </body>
       <description>
         <source>This email requests the keeper of a LOCKSS archive to consider including this journal in their archive. It provides the URL to the journal's LOCKSS Publisher Manifest.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas prašo LOCKSS archyvo turėtojo apsvarstyti šio žurnalo įtraukimą į jų archyvą. Laiške nurodama nuorodą į žurnalo LOCKSS leidėjo manifestą.</target>
       </description>
     </email>
     <email id="LOCKSS_NEW_ARCHIVE">
       <subject>
         <source>Archiving Request for {$contextName}</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Prašymas archyvuoti {$contextName}</target>
       </subject>
       <body>
         <source><![CDATA[Dear [University Librarian]<br />
@@ -19805,20 +19827,28 @@ To assist in the archiving of our journal, we invite you to become a member of t
 <br />
 Thank you,<br />
 {$principalContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-lockss-hello##
+<br />
+##email-lockss-first##
+<br />
+[Trumpas žurnalo aprašymas]<br />
+<br />
+LOCKSS programa &amp;lt;http://lockss.org/&amp;gt;, tarptautinė bibliotekų/leidėjų iniciatyva, yra veikiantis paskirstyto saugojimo ir archyvavimo saugyklos pavyzdys. Papildoma informacija pateikta žemiau. Programinė įranga, kuri veikia įprastuose asmeniniuose kompiuteriuose yra nemokama; sistemą galima įsigyti nemokamai internetu; reikia labai mažai priežiūros.<br />
+<br />
+Norėdami padėti mūsų žurnalo archyvavime, kviečiame jus tapti LOCKSS bendruomenės nariu, kad padėtumėte rinkti ir saugoti jūsų fakulteto išleistus pavadinimus ir kitų mokslininkų visame pasaulyje. Norėdami tai padaryti, vienam iš savo darbuotojų paveskite aplankyti LOCKSS svetainę dėl išsamesnės informacijos apie tai, kaip veikia sistema. Nekantriai laukiu jūsų atsakymo apie galimybę teikti archyvavimo palaikymą šiam žurnalui.<br />
+<br />
+##email-thanks##
+{$principalContactSignature}]]></target>
       </body>
       <description>
         <source>This email encourages the recipient to participate in the LOCKSS initiative and include this journal in the archive. It provides information about the LOCKSS initiative and ways to become involved.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas ragina gavėją dalyvauti LOCKSS iniciatyvoje ir įtraukti šį žurnalą į archyvą. Laiške pateikiama informacija apie LOCKSS iniciatyvą ir būdus kaip prisidėti.</target>
       </description>
     </email>
     <email id="SUBMISSION_ACK">
       <subject>
         <source>Submission Acknowledgement</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Pateikimo patvirtinimas</target>
       </subject>
       <body>
         <source><![CDATA[{$authorName}:<br />
@@ -19831,20 +19861,26 @@ Username: {$authorUsername}<br />
 If you have any questions, please contact me. Thank you for considering this journal as a venue for your work.<br />
 <br />
 {$editorialContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-author##
+<br />
+Ačiū, kad pateikėte rankraštį „{$submissionTitle}“ į {$contextName}. Su mūsų naudojama internetine žurnalo tvarkymo sistema, galėsite sekti redakcijos procesą prisijungę prie žurnalo svetainės:<br />
+<br />
+##email-submission-url##
+##email-author##
+<br />
+##email-have-questions## Ačiū, kad pateikėte savo darbą mūsų žurnale.<br />
+<br />
+{$editorialContactSignature}]]></target>
       </body>
       <description>
         <source>This email, when enabled, is automatically sent to an author when he or she completes the process of submitting a manuscript to the journal. It provides information about tracking the submission through the process and thanks the author for the submission.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas, kai įgalintas, yra automatiškai siunčiamas autoriui kai jis baigia straipsnio pateikimo procesą. Laiške pateikiama informacija apie pateikimo proceso sekimą ir dėkojama autoriui už pateikimą.</target>
       </description>
     </email>
     <email id="SUBMISSION_ACK_NOT_USER">
       <subject>
         <source>Submission Acknowledgement</source>
-        <target></target>
-        <!--NEW-->
+        <target>Pateikimo patvirtinimas</target>
       </subject>
       <body>
         <source><![CDATA[Hello,<br />
@@ -19854,20 +19890,23 @@ If you have any questions, please contact me. Thank you for considering this jou
 If you have any questions, please contact me. Thank you for considering this press as a venue for your work.<br />
 <br />
 {$editorialContactSignature}]]></source>
-        <target></target>
-        <!--NEW-->
+        <target><![CDATA[Sveiki,<br />
+<br />
+{$submitterName} pateikė rankraštį „{$submissionTitle}“ į {$contextName}. <br />
+<br />
+##email-have-questions## Ačiū, kad pateikėte savo darbą mūsų žurnale.<br />
+<br />
+{$editorialContactSignature}]]></target>
       </body>
       <description>
         <source>This email, when enabled, is automatically sent to the other authors who are not users within OMP specified during the submission process.</source>
-        <target></target>
-        <!--NEW-->
+        <target>El. laiškas, kai įgalintas, yra automatiškai siunčiamas kitiems autoriams, kurie nėra registruoti vartotojai nurodyti pateikimo procese.</target>
       </description>
     </email>
     <email id="SUBMISSION_UNSUITABLE">
       <subject>
         <source>Unsuitable Submission</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Pateikimas netinkamas</target>
       </subject>
       <body>
         <source><![CDATA[{$authorName}:<br />
@@ -19875,20 +19914,21 @@ If you have any questions, please contact me. Thank you for considering this pre
 An initial review of &quot;{$submissionTitle}&quot; has made it clear that this submission does not fit within the scope and focus of {$contextName}. I recommend that you consult the description of this journal under About, as well as its current contents, to learn more about the work that we publish. You might also consider submitting this manuscript to another, more suitable journal.<br />
 <br />
 {$editorialContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-author##
+<br />
+Po pradinės „{$articleTitle}“ straipsnio peržiūros įsitikinome, kad pateikimas neatitinka žurnalo {$contextName} tematikos ir srities. Rekomenduoju perskaityti žurnalo aprašymą puslapyje „Apie“, taip pat peržiūrėti dabartinį turinį, kad sužinotumėte, kokius darbus mes leidžiame. Taip pat pagalvokite šį rankraštį pateikti į kitą, labiau tinkamą žurnalą.<br />
+<br />
+{$editorialContactSignature}]]></target>
       </body>
       <description>
         <source></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas siunčiamas autoriui jei jo pateiktas rankraštis neatitinka žurnalo tematikos po pradinės peržiūros.</target>
       </description>
     </email>
     <email id="EDITOR_ASSIGN">
       <subject>
         <source>Editorial Assignment</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Redakcinė užduotis</target>
       </subject>
       <body>
         <source><![CDATA[{$editorialContactName}:<br />
@@ -19900,20 +19940,25 @@ Username: {$editorUsername}<br />
 <br />
 Thank you,<br />
 {$editorialContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-editorial##
+<br />
+Pateikimas „{$submissionTitle}“ žurnale {$contextName} buvo priskirtas jums skilties redaktoriui.<br />
+<br />
+##email-submission-url##
+##email-editor##
+<br />
+##email-thanks##
+{$editorialContactSignature}]]></target>
       </body>
       <description>
         <source>This email notifies a Section Editor that the Editor has assigned them the task of overseeing a submission through the editing process. It provides information about the submission and how to access the journal site.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas informuoja skilties redaktorių, kad redaktorius jam priskyrė pateikimą. Laiške pateikiama informacija apie pateikimą ir kaip žurnalo svetainę.</target>
       </description>
     </email>
     <email id="REVIEW_REQUEST">
       <subject>
         <source>Article Review Request</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-review-request##</target>
       </subject>
       <body>
         <source><![CDATA[{$reviewerName}:<br />
@@ -19935,20 +19980,35 @@ Thank you for considering this request.<br />
 &quot;{$submissionTitle}&quot;<br />
 <br />
 {$submissionAbstract}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-reviewer##
+<br />
+##email-review-intro##
+<br />
+##email-review-response-due## Svetainės adresas yra <a href="{$contextUrl}">{$contextUrl}</a><br />
+<br />
+##email-review-due##
+<br />
+##email-review-password##
+<br />
+##email-review-url##
+<br />
+##email-review-thanks##
+<br />
+{$editorialContactSignature}<br />
+<br />
+„{$submissionTitle}“<br />
+<br />
+{$submissionAbstract}]]></target>
       </body>
       <description>
-        <source><![CDATA[This email from the Section Editor to a Reviewer requests that the reviewer accept or decline the task of reviewing a submission. It provides information about the submission such as the title and abstract, a review due date, and how to access the submission itself. This message is used when the Standard Review Process is selected in Management > Settings > Workflow > Review. (Otherwise see REVIEW_REQUEST_ATTACHED.)]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <source>This email from the Section Editor to a Reviewer requests that the reviewer accept or decline the task of reviewing a submission. It provides information about the submission such as the title and abstract, a review due date, and how to access the submission itself. This message is used when the Standard Review Process is selected in Management &gt; Settings &gt; Workflow &gt; Review. (Otherwise see REVIEW_REQUEST_ATTACHED.)</source>
+        <target>##email-review-section-rev## ##email-review-sec-rev-inf## Ši žinutė naudojama standartiniame recenzavimo procese, kuri parenkama puslapyje Administravimas &gt; Nuostatos &gt; Darbo eiga &gt; Recenzavimas. (Kitu atveju žr. REVIEW_REQUEST_ATTACHED.)</target>
       </description>
     </email>
     <email id="REVIEW_REQUEST_REMIND_AUTO">
       <subject>
         <source>Article Review Request</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-review-request##</target>
       </subject>
       <body>
         <source><![CDATA[{$reviewerName}:<br />
@@ -19971,20 +20031,34 @@ Thank you for considering this request.<br />
 &quot;{$submissionTitle}&quot;<br />
 <br />
 {$submissionAbstract}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-reviewer##
+##email-review-reminder##
+<br />
+##email-review-response-due## Svetainės adresas yra <a href="{$contextUrl}">{$contextUrl}</a><br />
+<br />
+##email-review-due##
+<br />
+##email-review-password##
+<br />
+##email-review-url##
+<br />
+##email-review-thanks##
+<br />
+{$editorialContactSignature}<br />
+<br />
+„{$submissionTitle}“<br />
+<br />
+{$submissionAbstract}]]></target>
       </body>
       <description>
-        <source><![CDATA[This email is automatically sent when a reviewer's confirmation due date elapses (see Review Options under Settings > Workflow > Review) and one-click reviewer access is disabled. Scheduled tasks must be enabled and configured (see the site configuration file).]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <source>This email is automatically sent when a reviewer's confirmation due date elapses (see Review Options under Settings &gt; Workflow &gt; Review) and one-click reviewer access is disabled. Scheduled tasks must be enabled and configured (see the site configuration file).</source>
+        <target>El. laiškas yra automatiškai išsiunčiamas kai recenzentas pavėlavo pateikti savo atsakymą dėl recenzavimo užduoties (žr. Recenzavimo parinktis puslapyje Nuostatos &gt; Darbo eiga &gt; Recenzavimas) ir kai vieno spustelėjimo recenzento prieiga yra išjungta. ##email-review-desc-scheduled##</target>
       </description>
     </email>
     <email id="REVIEW_REQUEST_ONECLICK">
       <subject>
         <source>Article Review Request</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-review-request##</target>
       </subject>
       <body>
         <source><![CDATA[{$reviewerName}:<br />
@@ -20004,20 +20078,33 @@ Thank you for considering this request.<br />
 &quot;{$submissionTitle}&quot;<br />
 <br />
 {$submissionAbstract}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-reviewer##
+<br />
+##email-review-intro##
+<br />
+##email-review-response-due##<br />
+<br />
+##email-review-due##
+<br />
+##email-review-url##
+<br />
+##email-review-thanks##
+<br />
+{$editorialContactSignature}<br />
+<br />
+„{$submissionTitle}“<br />
+<br />
+{$submissionAbstract}]]></target>
       </body>
       <description>
-        <source><![CDATA[This email from the Section Editor to a Reviewer requests that the reviewer accept or decline the task of reviewing a submission. It provides information about the submission such as the title and abstract, a review due date, and how to access the submission itself. This message is used when the Standard Review Process is selected in Management > Settings > Workflow > Review, and one-click reviewer access is enabled.]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <source>This email from the Section Editor to a Reviewer requests that the reviewer accept or decline the task of reviewing a submission. It provides information about the submission such as the title and abstract, a review due date, and how to access the submission itself. This message is used when the Standard Review Process is selected in Management &gt; Settings &gt; Workflow &gt; Review, and one-click reviewer access is enabled.</source>
+        <target>##email-review-section-rev## ##email-review-sec-rev-inf## Ši žinutė naudojama standartiniame recenzavimo procese, kuri parenkama puslapyje Administravimas &gt; Nuostatos &gt; Darbo eiga &gt; Recenzavimas ir kai įgalinta vieno spustelėjimo recenzento prieiga.</target>
       </description>
     </email>
     <email id="REVIEW_REQUEST_REMIND_AUTO_ONECLICK">
       <subject>
         <source>Article Review Request</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-review-request##</target>
       </subject>
       <body>
         <source><![CDATA[{$reviewerName}:<br />
@@ -20038,36 +20125,32 @@ Thank you for considering this request.<br />
 &quot;{$submissionTitle}&quot;<br />
 <br />
 {$submissionAbstract}]]></source>
-        <target><![CDATA[{$reviewerName}:<br />
-Just a gentle reminder of our request for your review of the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We were hoping to have your response by {$responseDueDate}, and this email has been automatically generated and sent with the passing of that date.
+        <target><![CDATA[##email-dear-reviewer##
+##email-review-reminder##
 <br />
-I believe that you would serve as an excellent reviewer of the manuscript. The submission's abstract is inserted below, and I hope that you will consider undertaking this important task for us.<br />
+##email-review-response-due##<br />
 <br />
-Please log into the journal web site to indicate whether you will undertake the review or not, as well as to access the submission and to record your review and recommendation.<br />
+##email-review-due##
 <br />
-The review itself is due {$reviewDueDate}.<br />
+##email-review-url##
 <br />
-Submission URL: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br />
-<br />
-Thank you for considering this request.<br />
+##email-review-thanks##
 <br />
 {$editorialContactSignature}<br />
 <br />
-&quot;{$submissionTitle}&quot;<br />
+„{$submissionTitle}“<br />
 <br />
 {$submissionAbstract}]]></target>
       </body>
       <description>
-        <source><![CDATA[This email is automatically sent when a reviewer's confirmation due date elapses (see Review Options under Settings > Workflow > Review) and one-click reviewer access is enabled. Scheduled tasks must be enabled and configured (see the site configuration file).]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <source>This email is automatically sent when a reviewer's confirmation due date elapses (see Review Options under Settings &gt; Workflow &gt; Review) and one-click reviewer access is enabled. Scheduled tasks must be enabled and configured (see the site configuration file).</source>
+        <target>El. laiškas yra automatiškai išsiunčiamas kai recenzentas pavėlavo pateikti savo atsakymą dėl recenzavimo užduoties (žr. Recenzavimo parinktis puslapyje Nuostatos &gt; Darbo eiga &gt; Recenzavimas) ir kai vieno spustelėjimo recenzento prieiga yra įjungta. ##email-review-desc-scheduled##</target>
       </description>
     </email>
     <email id="REVIEW_REQUEST_ATTACHED">
       <subject>
         <source>Article Review Request</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-review-request##</target>
       </subject>
       <body>
         <source><![CDATA[{$reviewerName}:<br />
@@ -20085,20 +20168,31 @@ Review Guidelines<br />
 <br />
 {$reviewGuidelines}<br />
 ]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-reviewer##
+<br />
+##email-review-email##
+<br />
+##email-review-email2##
+<br />
+##email-review-thanks##
+<br />
+{$editorialContactSignature}<br />
+<br />
+<br />
+Nurodymai recenzavimui<br />
+<br />
+{$reviewGuidelines}<br />
+]]></target>
       </body>
       <description>
-        <source><![CDATA[This email is sent by the Section Editor to a Reviewer to request that they accept or decline the task of reviewing a submission. It includes the submission as an attachment. This message is used when the Email-Attachment Review Process is selected in Management > Settings > Workflow > Review. (Otherwise see REVIEW_REQUEST.)]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <source>This email is sent by the Section Editor to a Reviewer to request that they accept or decline the task of reviewing a submission. It includes the submission as an attachment. This message is used when the Email-Attachment Review Process is selected in Management &gt; Settings &gt; Workflow &gt; Review. (Otherwise see REVIEW_REQUEST.)</source>
+        <target>##email-review-section-rev## Jame prikabintas pateikimas. Ši žinutė naudojama, kai įgalintas recenzavimas el. paštu puslapyje Administravimas &gt; Nuostatos &gt; Darbo eiga &gt; Recenzavimas. (Kitu atveju žr. REVIEW_REQUEST.)</target>
       </description>
     </email>
     <email id="REVIEW_REQUEST_SUBSEQUENT">
       <subject>
         <source>Article Review Request</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-review-request##</target>
       </subject>
       <body>
         <source><![CDATA[{$reviewerName}:<br />
@@ -20122,20 +20216,37 @@ Thank you for considering this request.<br />
 &quot;{$submissionTitle}&quot;<br />
 <br />
 {$submissionAbstract}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-reviewer##
+<br />
+##email-review-subsequent##
+<br />
+##email-review-subsequent2##
+<br />
+##email-review-response-due## Svetainės adresas yra <a href="{$contextUrl}">{$contextUrl}</a><br />
+<br />
+##email-review-due##
+<br />
+##email-review-password##
+<br />
+##email-review-url##
+<br />
+##email-review-thanks##
+<br />
+{$editorialContactSignature}<br />
+<br />
+„{$submissionTitle}“<br />
+<br />
+{$submissionAbstract}]]></target>
       </body>
       <description>
-        <source><![CDATA[This email from the Section Editor to a Reviewer requests that the reviewer accept or decline the task of reviewing a submission for a second or greater round of review. It provides information about the submission such as the title and abstract, a review due date, and how to access the submission itself. This message is used when the Standard Review Process is selected in Management > Settings > Workflow > Review. (Otherwise see REVIEW_REQUEST_ATTACHED_SUBSEQUENT.)]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <source>This email from the Section Editor to a Reviewer requests that the reviewer accept or decline the task of reviewing a submission for a second or greater round of review. It provides information about the submission such as the title and abstract, a review due date, and how to access the submission itself. This message is used when the Standard Review Process is selected in Management &gt; Settings &gt; Workflow &gt; Review. (Otherwise see REVIEW_REQUEST_ATTACHED_SUBSEQUENT.)</source>
+        <target>##email-review-subdesc## ##email-review-sec-rev-inf## Ši žinutė naudojama standartiniame recenzavimo procese, kuri parenkama puslapyje Administravimas &gt; Nuostatos &gt; Darbo eiga &gt; Recenzavimas. (Kitu atveju žr. REVIEW_REQUEST_ATTACHED_SUBSEQUENT.)</target>
       </description>
     </email>
     <email id="REVIEW_REQUEST_ONECLICK_SUBSEQUENT">
       <subject>
         <source>Article Review Request</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-review-request##</target>
       </subject>
       <body>
         <source><![CDATA[{$reviewerName}:<br />
@@ -20157,20 +20268,35 @@ Thank you for considering this request.<br />
 &quot;{$submissionTitle}&quot;<br />
 <br />
 {$submissionAbstract}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-reviewer##
+<br />
+##email-review-subsequent##
+<br />
+##email-review-subsequent2##
+<br />
+##email-review-response-due##<br />
+<br />
+##email-review-due##
+<br />
+##email-review-url##
+<br />
+##email-review-thanks##
+<br />
+{$editorialContactSignature}<br />
+<br />
+„{$submissionTitle}“<br />
+<br />
+{$submissionAbstract}]]></target>
       </body>
       <description>
-        <source><![CDATA[This email from the Section Editor to a Reviewer requests that the reviewer accept or decline the task of reviewing a submission for a second or greater round of review. It provides information about the submission such as the title and abstract, a review due date, and how to access the submission itself. This message is used when the Standard Review Process is selected in Management > Settings > Workflow > Review, and one-click reviewer access is enabled.]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <source>This email from the Section Editor to a Reviewer requests that the reviewer accept or decline the task of reviewing a submission for a second or greater round of review. It provides information about the submission such as the title and abstract, a review due date, and how to access the submission itself. This message is used when the Standard Review Process is selected in Management &gt; Settings &gt; Workflow &gt; Review, and one-click reviewer access is enabled.</source>
+        <target>##email-review-subdesc## ##email-review-sec-rev-inf## Ši žinutė naudojama standartiniame recenzavimo procese, kuri parenkama puslapyje Administravimas &gt; Nuostatos &gt; Darbo eiga &gt; Recenzavimas ir kai įgalinta vieno spustelėjimo recenzento prieiga.</target>
       </description>
     </email>
     <email id="REVIEW_REQUEST_ATTACHED_SUBSEQUENT">
       <subject>
         <source>Article Review Request</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-review-request##</target>
       </subject>
       <body>
         <source><![CDATA[{$reviewerName}:<br />
@@ -20192,20 +20318,35 @@ Review Guidelines<br />
 <br />
 {$reviewGuidelines}<br />
 ]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-reviewer##
+<br />
+##email-review-subsequent##
+<br />
+##email-review-subsequent2##
+<br />
+##email-review-email##
+<br />
+##email-review-email2##
+<br />
+##email-review-thanks##
+<br />
+{$editorialContactSignature}<br />
+<br />
+<br />
+Nurodymai recenzavimui<br />
+<br />
+{$reviewGuidelines}<br />
+]]></target>
       </body>
       <description>
-        <source><![CDATA[This email is sent by the Section Editor to a Reviewer to request that they accept or decline the task of reviewing a submission for a second or greater round of review. It includes the submission as an attachment. This message is used when the Email-Attachment Review Process is selected in Management > Settings > Workflow > Review. (Otherwise see REVIEW_REQUEST_SUBSEQUENT.)]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <source>This email is sent by the Section Editor to a Reviewer to request that they accept or decline the task of reviewing a submission for a second or greater round of review. It includes the submission as an attachment. This message is used when the Email-Attachment Review Process is selected in Management &gt; Settings &gt; Workflow &gt; Review. (Otherwise see REVIEW_REQUEST_SUBSEQUENT.)</source>
+        <target>##email-review-subdesc## Jame prikabintas pateikimas. Ši žinutė naudojama, kai įgalintas recenzavimas el. paštu puslapyje Administravimas &gt; Nuostatos &gt; Darbo eiga &gt; Recenzavimas. (Kitu atveju žr. REVIEW_REQUEST_SUBSEQUENT.)</target>
       </description>
     </email>
     <email id="REVIEW_CANCEL">
       <subject>
         <source>Request for Review Cancelled</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Prašymas recenzuoti atšauktas</target>
       </subject>
       <body>
         <source><![CDATA[{$reviewerName}:<br />
@@ -20215,20 +20356,23 @@ We have decided at this point to cancel our request for you to review the submis
 If you have any questions, please contact me.<br />
 <br />
 {$editorialContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-reviewer##
+<br />
+Nusprendėme atšaukti mūsų prašymą recenzuoti pateikimą „{$submissionTitle}“ žurnalui {$contextName}. Atsiprašome už galimai sukeltus nepatogumus ir tikimės bendradarbiavimo ateityje.<br />
+<br />
+##email-have-questions##<br />
+<br />
+{$editorialContactSignature}]]></target>
       </body>
       <description>
         <source>This email is sent by the Section Editor to a Reviewer who has a submission review in progress to notify them that the review has been cancelled.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas siunčiamas nuo skilties redaktoriaus recenzentui, kuris šiuo metu recenzuoja pateikimą, kad informuotų apie atšauktą recenzavimą.</target>
       </description>
     </email>
     <email id="REVIEW_CONFIRM">
       <subject>
         <source>Able to Review</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Recenzuoti sutinku</target>
       </subject>
       <body>
         <source><![CDATA[Editors:<br />
@@ -20236,20 +20380,21 @@ If you have any questions, please contact me.<br />
 I am able and willing to review the submission, &quot;{$submissionTitle},&quot; for {$contextName}. Thank you for thinking of me, and I plan to have the review completed by its due date, {$reviewDueDate}, if not before.<br />
 <br />
 {$reviewerName}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[Gerb. redaktoriai:<br />
+<br />
+Galiu ir sutinku recenzuoti pateikimą „{$submissionTitle}“ žurnalui {$contextName}. Ačiū jums, kad pasirinkote mane ir planuoju baigti recenzuoti iki nurodyto termino {$reviewDueDate}.<br />
+<br />
+{$reviewerName}]]></target>
       </body>
       <description>
         <source>This email is sent by a Reviewer to the Section Editor in response to a review request to notify the Section Editor that the review request has been accepted and will be completed by the specified date.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. paštas siunčiamas nuo recenzento skilties redaktoriui atsakui į recenzavimo prašymą, kuris informuoja skilties redaktorių, kad sutinkama recenzuoti ir nurodoma užbaigimo data.</target>
       </description>
     </email>
     <email id="REVIEW_DECLINE">
       <subject>
         <source>Unable to Review</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Recenzuoti negaliu</target>
       </subject>
       <body>
         <source><![CDATA[Editors:<br />
@@ -20257,20 +20402,21 @@ I am able and willing to review the submission, &quot;{$submissionTitle},&quot; 
 I am afraid that at this time I am unable to review the submission, &quot;{$submissionTitle},&quot; for {$contextName}. Thank you for thinking of me, and another time feel free to call on me.<br />
 <br />
 {$reviewerName}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[Gerb. redaktoriai:<br />
+<br />
+Atsiprašau, tačiau šiuo metu negaliu recenzuoti pateikimo „{$submissionTitle}“ žurnalui {$contextName}. Ačiū, kad pasirinkote mane, o kitu laikotarpiu nedvejodami susisiekite su manimi.<br />
+<br />
+{$reviewerName}]]></target>
       </body>
       <description>
         <source>This email is sent by a Reviewer to the Section Editor in response to a review request to notify the Section Editor that the review request has been declined.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. paštas siunčiamas nuo recenzento skilties redaktoriui atsakui į recenzavimo prašymą, kuris informuoja skilties redaktorių, kad recenzuoti nesutikta.</target>
       </description>
     </email>
     <email id="REVIEW_ACK">
       <subject>
         <source>Article Review Acknowledgement</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Straipsnio recenzavimo patvirtinimas</target>
       </subject>
       <body>
         <source><![CDATA[{$reviewerName}:<br />
@@ -20278,20 +20424,21 @@ I am afraid that at this time I am unable to review the submission, &quot;{$subm
 Thank you for completing the review of the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We appreciate your contribution to the quality of the work that we publish.<br />
 <br />
 {$editorialContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-reviewer##
+<br />
+Ačiū, kad baigėte recenzuoti pateikimą „{$submissionTitle}“ žurnalui {$contextName}. Vertiname mūsų bendradarbiavimą prie leidžiamų darbų kokybės.<br />
+<br />
+{$editorialContactSignature}]]></target>
       </body>
       <description>
         <source>This email is sent by a Section Editor to confirm receipt of a completed review and thank the reviewer for their contributions.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas siunčiamas nuo skilties redaktoriaus apie baigtos recenzijos patvirtinimą ir dėkoja už bendradarbiavimą.</target>
       </description>
     </email>
     <email id="REVIEW_REMIND">
       <subject>
         <source>Submission Review Reminder</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-review-remind##</target>
       </subject>
       <body>
         <source><![CDATA[{$reviewerName}:<br />
@@ -20305,20 +20452,27 @@ Submission URL: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br /
 Please confirm your ability to complete this vital contribution to the work of the journal. I look forward to hearing from you.<br />
 <br />
 {$editorialContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-reviewer##
+<br />
+##email-review-gentle## ##email-review-remind-hope##
+<br />
+##email-review-password##
+<br />
+##email-review-url##
+<br />
+##email-review-remind-last##
+<br />
+{$editorialContactSignature}]]></target>
       </body>
       <description>
         <source>This email is sent by a Section Editor to remind a reviewer that their review is due.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-review-remind-desc-due##</target>
       </description>
     </email>
     <email id="REVIEW_REMIND_ONECLICK">
       <subject>
         <source>Submission Review Reminder</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-review-remind##</target>
       </subject>
       <body>
         <source><![CDATA[{$reviewerName}:<br />
@@ -20330,20 +20484,25 @@ Submission URL: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br /
 Please confirm your ability to complete this vital contribution to the work of the journal. I look forward to hearing from you.<br />
 <br />
 {$editorialContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-reviewer##
+<br />
+##email-review-gentle## ##email-review-remind-hope##
+<br />
+##email-review-url##
+<br />
+##email-review-remind-last##
+<br />
+{$editorialContactSignature}]]></target>
       </body>
       <description>
         <source>This email is sent by a Section Editor to remind a reviewer that their review is due.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-review-remind-desc-due##</target>
       </description>
     </email>
     <email id="REVIEW_REMIND_AUTO">
       <subject>
         <source>Automated Submission Review Reminder</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-review-auto-remind##</target>
       </subject>
       <body>
         <source><![CDATA[{$reviewerName}:<br />
@@ -20357,20 +20516,27 @@ Submission URL: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br /
 Please confirm your ability to complete this vital contribution to the work of the journal. I look forward to hearing from you.<br />
 <br />
 {$editorialContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-reviewer##
+<br />
+##email-review-gentle## ##email-review-auto-rem-hope##<br />
+<br />
+##email-review-password##
+<br />
+##email-review-url##
+<br />
+##email-review-remind-last##
+<br />
+{$editorialContactSignature}]]></target>
       </body>
       <description>
-        <source><![CDATA[This email is automatically sent when a reviewer's due date elapses (see Review Options under Settings > Workflow > Review) and one-click reviewer access is disabled. Scheduled tasks must be enabled and configured (see the site configuration file).]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <source>This email is automatically sent when a reviewer's due date elapses (see Review Options under Settings &gt; Workflow &gt; Review) and one-click reviewer access is disabled. Scheduled tasks must be enabled and configured (see the site configuration file).</source>
+        <target>El. laiškas siunčiamas automatiškai kai recenzentas vėluoja pateikti recenziją (žr. Recenzavimo parinktis puslapyje Nuostatos &gt; Darbo eiga &gt; Recenzavimas) ir kai išjungta vieno spustelėjimo recenzento prieiga. ##email-review-desc-scheduled##</target>
       </description>
     </email>
     <email id="REVIEW_REMIND_AUTO_ONECLICK">
       <subject>
         <source>Automated Submission Review Reminder</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-review-auto-remind##</target>
       </subject>
       <body>
         <source><![CDATA[{$reviewerName}:<br />
@@ -20382,20 +20548,25 @@ Submission URL: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br /
 Please confirm your ability to complete this vital contribution to the work of the journal. I look forward to hearing from you.<br />
 <br />
 {$editorialContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-reviewer##
+<br />
+##email-review-gentle## ##email-review-auto-rem-hope##<br />
+<br />
+##email-review-url##
+<br />
+##email-review-remind-last##
+<br />
+{$editorialContactSignature}]]></target>
       </body>
       <description>
-        <source><![CDATA[This email is automatically sent when a reviewer's due date elapses (see Review Options under Settings > Workflow > Review) and one-click reviewer access is enabled. Scheduled tasks must be enabled and configured (see the site configuration file).]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <source>This email is automatically sent when a reviewer's due date elapses (see Review Options under Settings &gt; Workflow &gt; Review) and one-click reviewer access is enabled. Scheduled tasks must be enabled and configured (see the site configuration file).</source>
+        <target>El. laiškas siunčiamas automatiškai kai recenzentas vėluoja pateikti recenziją (žr. Recenzavimo parinktis puslapyje Nuostatos &gt; Darbo eiga &gt; Recenzavimas) ir kai įjungta vieno spustelėjimo recenzento prieiga. ##email-review-desc-scheduled##</target>
       </description>
     </email>
     <email id="EDITOR_DECISION_ACCEPT">
       <subject>
         <source>Editor Decision</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-editor-decision##</target>
       </subject>
       <body>
         <source><![CDATA[{$authorName}:<br />
@@ -20406,20 +20577,24 @@ Our decision is to: Accept Submission<br />
 <br />
 {$editorialContactSignature}<br />
 ]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-author##
+<br />
+##email-editor-reached##.<br />
+<br />
+##email-editor-our-decision##: Priimti pateikimą<br />
+<br />
+{$editorialContactSignature}<br />
+]]></target>
       </body>
       <description>
         <source>This email from the Editor or Section Editor to an Author notifies them of a final "accept submission" decision regarding their submission.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-editor-desc##, kuris informuoja jį apie priimtą sprendimą „Priimti pateikimą“.</target>
       </description>
     </email>
     <email id="EDITOR_DECISION_SEND_TO_EXTERNAL">
       <subject>
         <source>Editor Decision</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-editor-decision##</target>
       </subject>
       <body>
         <source><![CDATA[{$authorName}:<br />
@@ -20432,20 +20607,26 @@ Submission URL: {$submissionUrl}<br />
 <br />
 {$editorialContactSignature}<br />
 ]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-author##
+<br />
+##email-editor-reached##.<br />
+<br />
+##email-editor-our-decision##: Siųsti recenzavimui<br />
+<br />
+##email-submission-url##
+<br />
+{$editorialContactSignature}<br />
+]]></target>
       </body>
       <description>
         <source>This email from the Editor or Section Editor to an Author notifies them that their submission is being sent to an external review.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-editor-desc##, kuris informuoja jį, kad pateikimas siunčiamas išoriniam recenzavimui.</target>
       </description>
     </email>
     <email id="EDITOR_DECISION_SEND_TO_PRODUCTION">
       <subject>
         <source>Editor Decision</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-editor-decision##</target>
       </subject>
       <body>
         <source><![CDATA[{$authorName}:<br />
@@ -20456,20 +20637,24 @@ Submission URL: {$submissionUrl}<br />
 <br />
 {$editorialContactSignature}<br />
 ]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-author##
+<br />
+Pateikimo „{$submissionTitle}“ redagavimas baigtas. Siunčiame jį gamybai.<br />
+<br />
+##email-submission-url##
+<br />
+{$editorialContactSignature}<br />
+]]></target>
       </body>
       <description>
         <source>This email from the Editor or Section Editor to an Author notifies them that their submission is being sent to production.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-editor-desc##, kuris informuoja jį, kad pateikimas siunčiamas gamybai.</target>
       </description>
     </email>
     <email id="EDITOR_DECISION_REVISIONS">
       <subject>
         <source>Editor Decision</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-editor-decision##</target>
       </subject>
       <body>
         <source><![CDATA[{$authorName}:<br />
@@ -20480,20 +20665,24 @@ Our decision is: Revisions Required<br />
 <br />
 {$editorialContactSignature}<br />
 ]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-author##
+<br />
+##email-editor-reached##.<br />
+<br />
+##email-editor-our-decision##: Reikalingi pataisymai<br />
+<br />
+{$editorialContactSignature}<br />
+]]></target>
       </body>
       <description>
         <source>This email from the Editor or Section Editor to an Author notifies them of a final "revisions required" decision regarding their submission.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-editor-desc##, kuris informuoja jį apie priimtą sprendimą „Reikalingi pataisymai“.</target>
       </description>
     </email>
     <email id="EDITOR_DECISION_RESUBMIT">
       <subject>
         <source>Editor Decision</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-editor-decision##</target>
       </subject>
       <body>
         <source><![CDATA[{$authorName}:<br />
@@ -20504,20 +20693,24 @@ Our decision is to: Resubmit for Review<br />
 <br />
 {$editorialContactSignature}<br />
 ]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-author##
+<br />
+##email-editor-reached##.<br />
+<br />
+##email-editor-our-decision##: Pateikti recenzavimui iš naujo<br />
+<br />
+{$editorialContactSignature}<br />
+]]></target>
       </body>
       <description>
         <source>This email from the Editor or Section Editor to an Author notifies them of a final "resubmit" decision regarding their submission.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-editor-desc##, kuris informuoja jį apie priimtą sprendimą „Pateikti recenzavimui iš naujo“.</target>
       </description>
     </email>
     <email id="EDITOR_DECISION_DECLINE">
       <subject>
         <source>Editor Decision</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-editor-decision##</target>
       </subject>
       <body>
         <source><![CDATA[{$authorName}:<br />
@@ -20528,20 +20721,24 @@ Our decision is to: Decline Submission<br />
 <br />
 {$editorialContactSignature}<br />
 ]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-author##
+<br />
+##email-editor-reached##.<br />
+<br />
+##email-editor-our-decision##: Atmesti pateikimą<br />
+<br />
+{$editorialContactSignature}<br />
+]]></target>
       </body>
       <description>
         <source>This email from the Editor or Section Editor to an Author notifies them of a final "decline" decision regarding their submission.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>##email-editor-desc##, kuris informuoja jį apie priimtą sprendimą „Atmesti pateikimą“.</target>
       </description>
     </email>
     <email id="COPYEDIT_REQUEST">
       <subject>
         <source>Copyediting Request</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Prašymas redaguoti rankraštį</target>
       </subject>
       <body>
         <source><![CDATA[{$participantName}:<br />
@@ -20557,20 +20754,30 @@ Submission URL: <a href="{$submissionUrl}">{$submissionUrl}</a><br />
 Username: {$participantUsername}<br />
 <br />
 {$editorialContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-participant##
+<br />
+Norėčiau, kad redaguotumėte rankraštį „{$submissionTitle}“ žurnale {$contextName} sekdami šiuos žingsnius:<br />
+<br/>
+1. Žemiau spustelėkite pateikimo nuorodą.<br />
+2. Atverkite failus prieinamus prie juodraščių ir atlikite rankraščio redagavimą, kartu pridedant redagavimo diskusijas kai reikia.<br />
+3. Įrašykite redaguotus failus ir nusiųskite redagavimo skydelyje.<br />
+4. Informuokite redaktorių, kad visi failai paruošti ir gali prasidėti gamybos procesas.<br />
+<br />
+##email-context-url##
+##email-submission-url##
+##email-participant##
+<br />
+{$editorialContactSignature}]]></target>
       </body>
       <description>
         <source>This email is sent by a Section Editor to a submission's Copyeditor to request that they begin the copyediting process. It provides information about the submission and how to access it.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas siunčiamas nuo skilties redaktoriaus pateikimo rankraščio redaktoriui prašant pradėti redagavimo procesą. Laiške pateikiama informacija apie pateikimą ir kaip jį pasiekti.</target>
       </description>
     </email>
     <email id="LAYOUT_REQUEST">
       <subject>
         <source>Request Galleys</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Prašymas maketuoti</target>
       </subject>
       <body>
         <source><![CDATA[{$participantName}:<br />
@@ -20588,20 +20795,32 @@ Username: {$participantUsername}<br />
 If you are unable to undertake this work at this time or have any questions, please contact me. Thank you for your contribution to this journal.<br />
 <br />
 {$editorialContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-participant##
+<br />
+Pateikimui „{$submissionTitle}“ žurnale {$contextName} jau reikia maketų. Sekite šiuos žingsnius:<br/>
+<br/>
+1. Žemiau spustelėkite pateikimo nuorodą.<br />
+2. Prisijunkite prie žurnalo ir naudokite gamybai paruoštus failus ir sukurkite maketus remiantis žurnalo standartais.<br />
+3. Nusiųskite maketus į maketų failų skiltį.<br />
+4. Informuokite autorių naudodami gamybos diskusijas, kad maketai yra nusiųsti ir paruošti.<br />
+<br />
+##email-context-url##
+Submission URL: <a href="{$submissionLayoutUrl}">{$submissionLayoutUrl}</a><br />
+##email-participant##
+<br />
+Jei šiuo metu negalite atlikti šios užduoties ar turite klausimų, susisiekite su manimi. Ačiū už bendradarbiavimą.<br />
+<br />
+{$editorialContactSignature}]]></target>
       </body>
       <description>
         <source>This email from the Section Editor to the Layout Editor notifies them that they have been assigned the task of performing layout editing on a submission. It provides information about the submission and how to access it.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas nuo skilties redaktoriui siunčiamas maketuotojui informuoja jį, kad buvo paskirtas atlikti pateikimo maketavimą. Laiške pateikiama informacija apie pateikimą ir kaip jį pasiekti.</target>
       </description>
     </email>
     <email id="LAYOUT_COMPLETE">
       <subject>
         <source>Galleys Complete</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Maketai paruošti</target>
       </subject>
       <body>
         <source><![CDATA[{$editorialContactName}:<br />
@@ -20611,37 +20830,37 @@ Galleys have now been prepared for the manuscript, &quot;{$submissionTitle},&quo
 If you have any questions, please contact me.<br />
 <br />
 {$participantName}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-editorial##
+<br />
+Pateikimo „{$submissionTitle}“ žurnale {$contextName} maketai buvo paruošti ir yra parengti koregavimui.<br />
+<br />
+##email-have-questions##<br />
+<br />
+{$participantName}]]></target>
       </body>
       <description>
         <source>This email from the Layout Editor to the Section Editor notifies them that the layout process has been completed.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas nuo maketuotojo skilties redaktoriui informuoja, kad maketavimo procesas buvo užbaigtas.</target>
       </description>
     </email>
     <email id="EMAIL_LINK">
       <subject>
         <source>Article of Possible Interest</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Įdomus straipsnis</target>
       </subject>
       <body>
         <source><![CDATA[Thought you might be interested in seeing &quot;{$submissionTitle}&quot; by {$authorName} published in Vol {$volume}, No {$number} ({$year}) of {$contextName} at &quot;<a href="{$articleUrl}">{$articleUrl}</a>&quot;.]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[Galbūt jus sudomins {$authorName} straipsnis „{$submissionTitle}“, kuris išleistas {$volume} tome, {$number} numeryje ({$year}) žurnale {$contextName} adresu „<a href="{$articleUrl}">{$articleUrl}</a>“.]]></target>
       </body>
       <description>
         <source>This email template provides a registered reader with the opportunity to send information about an article to somebody who may be interested. It is available via the Reading Tools and must be enabled by the Journal Manager in the Reading Tools Administration page.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Šis el. laiško šablonas suteikia galimybę registruotam skaitytojui nusiųsti informaciją apie straipsnį asmeniui, kurį tikriausiai domintų jis. Tai prieinama skaitytojo įrankiuose, o žurnalo administratorius privalo įgalinti jį skaitymo įrankių administravimo puslapyje.</target>
       </description>
     </email>
     <email id="SUBSCRIPTION_NOTIFY">
       <subject>
         <source>Subscription Notification</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Prenumeratos pranešimas</target>
       </subject>
       <body>
         <source><![CDATA[{$subscriberName}:<br />
@@ -20659,20 +20878,31 @@ Please note that if you have an institutional subscription, there is no need for
 If you have any questions, please feel free to contact me.<br />
 <br />
 {$subscriptionContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-sub##
+<br />
+Buvote užregistruotas kaip prenumeratorius mūsų internetinėje žurnalo tvarkymo sistemoje {$contextName}, kurios tipas:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Norėdami pasiekti prenumeruojamą turinį, paprasčiausiai prisijunkite prie sistemos su savo vartotojo vardu „{$username}“.<br />
+<br />
+Prisijungę prie sistemos galite pakeisti profilio informaciją ir slaptažodį.<br />
+<br />
+Atkreipkite dėmesį į tai, kad jei turite institucinę prenumeratą, jums nereikia institucijos vartotojų prisijungimui, nes visi prenumeruojamo turinio prašymai bus automatiškai prijungiami prie sistemos.<br />
+<br />
+##email-have-questions##.<br />
+<br />
+{$subscriptionContactSignature}]]></target>
       </body>
       <description>
         <source>This email notifies a registered reader that the Manager has created a subscription for them. It provides the journal's URL along with instructions for access.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas informuoja registruotą skaitytoją, kad administratorius sukūrė jam prenumeratą. ##email-sub-desc##.</target>
       </description>
     </email>
     <email id="OPEN_ACCESS_NOTIFY">
       <subject>
         <source>Issue Now Open Access</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Numeris tapo atvirosios prieigos</target>
       </subject>
       <body>
         <source><![CDATA[Readers:<br />
@@ -20681,20 +20911,22 @@ If you have any questions, please feel free to contact me.<br />
 <br />
 Thanks for the continuing interest in our work,<br />
 {$editorialContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[Gerb. skaitytojai,<br />
+<br />
+Žurnalas {$contextName} toliau nurodytam numeriui suteikė atvirąją prieigą. Kviečiame čia peržiūrėti turinį ir apsilankyti mūsų svetainėje (<a href="{$contextUrl}">{$contextUrl}</a>), kad perskaitytumėte dominančius straipsnius.<br />
+<br />
+##email-thanks##
+{$editorialContactSignature}]]></target>
       </body>
       <description>
         <source>This email is sent to registered readers who have requested to receive a notification email when an issue becomes open access.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas siunčiamas registruotiems skaitytojams, kurie pasirinko gauti pranešimus, kai numeris tapo atvirai prieinamas.</target>
       </description>
     </email>
     <email id="SUBSCRIPTION_BEFORE_EXPIRY">
       <subject>
         <source>Notice of Subscription Expiry</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Pranešimas apie prenumeratos terminą</target>
       </subject>
       <body>
         <source><![CDATA[{$subscriberName}:<br />
@@ -20709,20 +20941,28 @@ To ensure the continuity of your access to this journal, please go to the journa
 If you have any questions, please feel free to contact me.<br />
 <br />
 {$subscriptionContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-sub##
+<br />
+Jūsų „{$contextName}“ prenumerata baigiasi.<br />
+<br />
+{$subscriptionType}<br />
+##email-sub-expiry##
+<br />
+Norėdami užtikrinti prieigą prie šio žurnalo nueikite į žurnalo svetainę ir pratęskite prenumeratą. ##email-sub-login-user##.<br />
+<br />
+##email-have-questions##<br />
+<br />
+{$subscriptionContactSignature}]]></target>
       </body>
       <description>
         <source>This email notifies a subscriber that their subscription will soon expire. It provides the journal's URL along with instructions for access.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas informuoja prenumeratorių apie prenumeratos pabaigą. ##email-sub-desc##.</target>
       </description>
     </email>
     <email id="SUBSCRIPTION_AFTER_EXPIRY">
       <subject>
         <source>Subscription Expired</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Prenumerata baigėsi</target>
       </subject>
       <body>
         <source><![CDATA[{$subscriberName}:<br />
@@ -20737,20 +20977,28 @@ To renew your subscription, please go to the journal website. You are able to lo
 If you have any questions, please feel free to contact me.<br />
 <br />
 {$subscriptionContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-sub##
+<br />
+Jūsų „{$contextName}“ prenumerata baigėsi.<br />
+<br />
+{$subscriptionType}<br />
+##email-sub-expiry##
+<br />
+##email-sub-renew##
+<br />
+##email-have-questions##<br />
+<br />
+{$subscriptionContactSignature}]]></target>
       </body>
       <description>
         <source>This email notifies a subscriber that their subscription has expired. It provides the journal's URL along with instructions for access.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas informuoja prenumeratorių, kad prenumerata baigėsi. ##email-sub-desc##.</target>
       </description>
     </email>
     <email id="SUBSCRIPTION_AFTER_EXPIRY_LAST">
       <subject>
         <source>Subscription Expired - Final Reminder</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Prenumerata baigėsi - paskutinis priminimas</target>
       </subject>
       <body>
         <source><![CDATA[{$subscriberName}:<br />
@@ -20766,20 +21014,29 @@ To renew your subscription, please go to the journal website. You are able to lo
 If you have any questions, please feel free to contact me.<br />
 <br />
 {$subscriptionContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-sub##
+<br />
+Jūsų „{$contextName}“ prenumerata baigėsi.<br />
+Atkreipkite dėmesį į tai, kad tai yra paskutinis priminimas, kuris jums siunčiamas.<br />
+<br />
+{$subscriptionType}<br />
+##email-sub-expiry##
+<br />
+##email-sub-renew##
+<br />
+##email-have-questions##<br />
+<br />
+{$subscriptionContactSignature}]]></target>
       </body>
       <description>
         <source>This email notifies a subscriber that their subscription has expired. It provides the journal's URL along with instructions for access.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas informuoja prenumeratorių, kad prenumerata baigėsi. ##email-sub-desc##.</target>
       </description>
     </email>
     <email id="SUBSCRIPTION_PURCHASE_INDL">
       <subject>
         <source>Subscription Purchase: Individual</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Prenumeratos pirkimas: individuali</target>
       </subject>
       <body>
         <source><![CDATA[An individual subscription has been purchased online for {$contextName} with the following details.<br />
@@ -20797,20 +21054,31 @@ To view or edit this subscription, please use the following URL.<br />
 <br />
 Subscription URL: <a href="{$subscriptionUrl}">{$subscriptionUrl}</a><br />
 ]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[Buvo nupirkta individuali „{$contextName}“ prenumerata su šia informacija.<br />
+<br />
+Prenumeratos tipas:<br />
+{$subscriptionType}<br />
+<br />
+Vartotojas:<br />
+{$userDetails}<br />
+<br />
+Narystės informacija (jei reikia):<br />
+{$membership}<br />
+<br />
+##email-sub-edit##
+<br />
+##email-sub-url##
+]]></target>
       </body>
       <description>
         <source>This email notifies the Subscription Manager that an individual subscription has been purchased online. It provides summary information about the subscription and a quick access link to the purchased subscription.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas informuoja prenumeratos administratorių, kad buvo įsigyta individuali prenumerata. Laiške pateikiama informacijos apie prenumeratą suvestinė ir greita prieiga prie nupirktos prenumeratos.</target>
       </description>
     </email>
     <email id="SUBSCRIPTION_PURCHASE_INSTL">
       <subject>
         <source>Subscription Purchase: Institutional</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Prenumeratos pirkimas: institucinė</target>
       </subject>
       <body>
         <source><![CDATA[An institutional subscription has been purchased online for {$contextName} with the following details. To activate this subscription, please use the provided Subscription URL and set the subscription status to 'Active'.<br />
@@ -20838,20 +21106,41 @@ To view or edit this subscription, please use the following URL.<br />
 <br />
 Subscription URL: <a href="{$subscriptionUrl}">{$subscriptionUrl}</a><br />
 ]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[Buvo nupirkta institucinė „{$contextName}“ prenumerata su žemiau pateikta informacija. Norėdami aktyvinti šią prenumeratą, naudokite prenumeratos adresą ir nustatykite prenumeratos būseną į „Aktyvi“.<br />
+<br />
+Prenumeratos tipas:<br />
+{$subscriptionType}<br />
+<br />
+Institucija:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domenas (jei pateiktas):<br />
+{$domain}<br />
+<br />
+IP diapazonas (jei pateiktas):<br />
+{$ipRanges}<br />
+<br />
+Kontaktinis asmuo:<br />
+{$userDetails}<br />
+<br />
+Narystės informacija (jei pateikta):<br />
+{$membership}<br />
+<br />
+##email-sub-edit##
+<br />
+##email-sub-url##
+]]></target>
       </body>
       <description>
         <source>This email notifies the Subscription Manager that an institutional subscription has been purchased online. It provides summary information about the subscription and a quick access link to the purchased subscription.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas informuoja prenumeratos administratorių, kad buvo įsigyta institucinė prenumerata. Laiške pateikiama informacijos apie prenumeratą suvestinė ir greita prieiga prie nupirktos prenumeratos.</target>
       </description>
     </email>
     <email id="SUBSCRIPTION_RENEW_INDL">
       <subject>
         <source>Subscription Renewal: Individual</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Prenumeratos pratęsimas: individuali</target>
       </subject>
       <body>
         <source><![CDATA[An individual subscription has been renewed online for {$contextName} with the following details.<br />
@@ -20869,20 +21158,31 @@ To view or edit this subscription, please use the following URL.<br />
 <br />
 Subscription URL: <a href="{$subscriptionUrl}">{$subscriptionUrl}</a><br />
 ]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[Buvo pratęsta individuali „{$contextName}“ prenumerata su žemiau pateikta informacija.<br />
+<br />
+Prenumeratos tipas:<br />
+{$subscriptionType}<br />
+<br />
+Vartotojas:<br />
+{$userDetails}<br />
+<br />
+Membership Information (if provided):<br />
+{$membership}<br />
+<br />
+##email-sub-edit##
+<br />
+##email-sub-url##
+]]></target>
       </body>
       <description>
         <source>This email notifies the Subscription Manager that an individual subscription has been renewed online. It provides summary information about the subscription and a quick access link to the renewed subscription.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas informuoja prenumeratos administratorių, kad buvo pratęsta individuali prenumerata. Laiške pateikiama informacijos apie prenumeratą suvestinė ir greita prieiga prie pratęstos prenumeratos.</target>
       </description>
     </email>
     <email id="SUBSCRIPTION_RENEW_INSTL">
       <subject>
         <source>Subscription Renewal: Institutional</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Prenumeratos pratęsimas: institucinė</target>
       </subject>
       <body>
         <source><![CDATA[An institutional subscription has been renewed online for {$contextName} with the following details.<br />
@@ -20910,20 +21210,41 @@ To view or edit this subscription, please use the following URL.<br />
 <br />
 Subscription URL: <a href="{$subscriptionUrl}">{$subscriptionUrl}</a><br />
 ]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[Buvo pratęsta institucinė „{$contextName}“ prenumerata su žemiau pateikta informacija.<br />
+<br />
+Prenumeratos tipas:<br />
+{$subscriptionType}<br />
+<br />
+Institucija:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domenas (jei pateiktas):<br />
+{$domain}<br />
+<br />
+IP diapazonas (jei pateiktas):<br />
+{$ipRanges}<br />
+<br />
+Kontaktinis asmuo:<br />
+{$userDetails}<br />
+<br />
+Narystės informacija (jei pateikta):<br />
+{$membership}<br />
+<br />
+##email-sub-edit##
+<br />
+##email-sub-url##
+]]></target>
       </body>
       <description>
         <source>This email notifies the Subscription Manager that an institutional subscription has been renewed online. It provides summary information about the subscription and a quick access link to the renewed subscription.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas informuoja prenumeratos administratorių, kad buvo pratęsta institucinė prenumerata. Laiške pateikiama informacijos apie prenumeratą suvestinė ir greita prieiga prie pratęstos prenumeratos.</target>
       </description>
     </email>
     <email id="CITATION_EDITOR_AUTHOR_QUERY">
       <subject>
         <source>Citation Editing</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Citatos redagavimas</target>
       </subject>
       <body>
         <source><![CDATA[{$authorFirstName},<br />
@@ -20937,20 +21258,27 @@ Thanks!<br />
 {$userFirstName}<br />
 Copy-Editor, {$contextName}<br />
 ]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[Gerb. {$authorFirstName},<br />
+<br />
+Ar galėtumėte patikrinti ar pateikti tinkamą citatą jūsų straipsnio „{$submissionTitle}“ šaltiniui:<br />
+<br />
+{$rawCitation}<br />
+<br />
+Ačiū!<br />
+<br />
+{$userFirstName}<br />
+Rankraščio redaktorius, {$contextName}<br />
+]]></target>
       </body>
       <description>
         <source>This email allows copyeditors to request additional information about references from authors.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas leidžia rankraščio redaktoriams paprašyti autoriaus papildomos informacijos apie šaltinius.</target>
       </description>
     </email>
     <email id="GIFT_AVAILABLE">
       <subject>
         <source>{$giftNoteTitle}</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>„{$giftNoteTitle}“</target>
       </subject>
       <body>
         <source><![CDATA[Dear {$recipientFirstName},<br />
@@ -20969,20 +21297,32 @@ We hope that you enjoy your gift!<br />
 <br />
 {$giftContactSignature}<br />
 ]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[Gerb. {$recipientFirstName},<br />
+<br />
+{$buyerFullName} norėtų pasidalinti dovana žurnale {$giftJournalName}:<br />
+<br />
+{$giftDetails}<br />
+<br />
+<br />
+{$giftNote}<br />
+<br />
+<br />
+Netrukus gausite dar vieną el. laiške su prisijungimo duomenimis ir instrukcija kaip gauti dovaną.<br />
+<br />
+Tikimės, kad dovana jums patiks!<br />
+<br />
+{$giftContactSignature}<br />
+]]></target>
       </body>
       <description>
         <source>This email notifies a gift recipient that a gift has been purchased and is available for redemption.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas informuoja dovanos gavėją kuriam buvo nupirkta dovana ir prieinama pasiimti.</target>
       </description>
     </email>
     <email id="GIFT_USER_REGISTER">
       <subject>
         <source>Redeem Your Gift: Login Details</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Gaukite dovaną: prisijungimo informacija</target>
       </subject>
       <body>
         <source><![CDATA[Dear {$recipientFirstName},<br />
@@ -21003,20 +21343,34 @@ We hope that you enjoy your gift!<br />
 <br />
 {$giftContactSignature}<br />
 ]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[Gerb. {$recipientFirstName},<br />
+<br />
+{$buyerFullName} norėtų pasidalinti dovana žurnale {$giftJournalName}:<br />
+<br />
+{$giftDetails}<br />
+<br />
+<br />
+Norėdami pasiimti dovaną, prisijunkite prie žurnalo svetainės <a href="{$giftUrl}">{$giftUrl}</a><br />
+<br />
+##email-user##
+##email-pass##
+<br />
+Prisijungę galite pakeisti savo slaptažodį.<br />
+<br />
+Tikimės, kad dovana jums patiks!<br />
+<br />
+{$giftContactSignature}<br />
+]]></target>
       </body>
       <description>
         <source>This email notifies a gift recipient of their login details for a new account.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiške pateikiama dovanos gavėjo prisijungimo duomenys naujai paskyrai.</target>
       </description>
     </email>
     <email id="GIFT_USER_LOGIN">
       <subject>
         <source>Redeem Your Gift: Login Details</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Gaukite dovaną: prisijungimo informacija</target>
       </subject>
       <body>
         <source><![CDATA[Dear {$recipientFirstName},<br />
@@ -21034,20 +21388,31 @@ We hope that you enjoy your gift!<br />
 <br />
 {$giftContactSignature}<br />
 ]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[Gerb. {$recipientFirstName},<br />
+<br />
+{$buyerFullName} norėtų pasidalinti dovana žurnale {$giftJournalName}:<br />
+<br />
+{$giftDetails}<br />
+<br />
+<br />
+Norėdami pasiimti dovaną, prisijunkite prie žurnalo svetainės <a href="{$giftUrl}">{$giftUrl}</a><br />
+<br />
+##email-user##
+<br />
+Tikimės, kad dovana jums patiks!<br />
+<br />
+{$giftContactSignature}<br />
+]]></target>
       </body>
       <description>
         <source>This email notifies a gift recipient of their login details.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiške pateikiami dovanos gavėjo prisijungimo duomenys.</target>
       </description>
     </email>
     <email id="REVISED_VERSION_NOTIFY">
       <subject>
         <source>Revised Version Uploaded</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Nusiųsta koreguota versija</target>
       </subject>
       <body>
         <source><![CDATA[{$editorialContactName}:<br />
@@ -21057,30 +21422,31 @@ A revised version of &quot;{$submissionTitle}&quot; has been uploaded by the aut
 Submission URL: {$submissionUrl}<br />
 <br />
 {$editorialContactSignature}]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[##email-dear-editorial##
+<br />
+{$authorName} nusiuntė koreguotą pateikimo „{$submissionTitle}“ versiją.<br />
+<br />
+##email-submission-url##
+<br />
+{$editorialContactSignature}]]></target>
       </body>
       <description>
         <source>This email is automatically sent to the assigned editor when author uploads a revised version of an article.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiškas automatiškai siunčiamas paskirtam redaktoriui, kai autorius nusiunčia koreguotą straipsnio versiją.</target>
       </description>
     </email>
     <email id="NOTIFICATION_CENTER_DEFAULT">
       <subject>
         <source>A message regarding {$contextName}</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Pranešimas dėl {$contextName}</target>
       </subject>
       <body>
         <source>Please enter your message.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Įveskite savo žinutę.</target>
       </body>
       <description>
         <source>The default (blank) message used in the Notification Center Message Listbuilder.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Numatytojo (tuščia) žinutė naudojama pranešimų centro žinučių sąrašo daryklėje.</target>
       </description>
     </email>
   </file>
@@ -27958,8 +28324,7 @@ ________________________________________________________________________<br/>
     <email id="ORCID_COLLECT_AUTHOR_ID">
       <subject>
         <source>Submission ORCID</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Pateikimo ORCID</target>
       </subject>
       <body>
         <source>Dear {$authorName},
@@ -27976,15 +28341,15 @@ If you have any questions, please contact me.
 
 
 </source>
-        <target>Dear {$authorName},
+        <target>Gerb. {$authorName},
 
-You have been listed as a co-author on the manuscript submission "{$articleTitle}" to {$journalName}.
+Buvote įtrauktas į bendraautorių sąrašą pateikime „{$articleTitle}“ į {$journalName}.
 
-To confirm your authorship, please add your ORCID id to this submission by visiting the link provided below.
+Norėdami patvirtinti autorystę, nurodykite savo ORCID id šiame pateikime aplankę žemiau nurodytą nuorodą.
 
 {$authorOrcidUrl}
 
-If you have any questions, please contact me.
+##email-have-questions##
 
 {$editorialContactSignature}
 
@@ -27993,8 +28358,7 @@ If you have any questions, please contact me.
       </body>
       <description>
         <source>This email template is used to collect the ORCID id's from co-authors.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiško šablonas naudojamas surinkti ORCID id iš bendraautorių.</target>
       </description>
     </email>
   </file>
@@ -30024,8 +30388,7 @@ Pavyzdžiai:
     <email id="MANUAL_PAYMENT_NOTIFICATION">
       <subject>
         <source>Manual Payment Notification</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Mokėjimo rankiniu būdu pranešimas</target>
       </subject>
       <body>
         <source><![CDATA[A manual payment needs to be processed for the journal {$contextName} and the user {$userFullName} (username &quot;{$userName}&quot;).<br />
@@ -30034,13 +30397,16 @@ The item being paid for is &quot;{$itemName}&quot;.<br />
 The cost is {$itemCost} ({$itemCurrencyCode}).<br />
 <br />
 This email was generated by Open Journal Systems' Manual Payment plugin.]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[Rankinis mokėjimas turi būti apdorotas žurnale {$contextName} ir vartotojui {$userFullName} (vartotojo vardas „{$userName}“).<br />
+<br />
+Pirkinys: „{$itemName}“.<br />
+Kaina: {$itemCost} ({$itemCurrencyCode}).<br />
+<br />
+Šį el. laišką sugeneravo „Open Journals Systems“ mokėjimo rankiniu būdu įskiepis.]]></target>
       </body>
       <description>
         <source>This email template is used to notify a journal manager contact that a manual payment was requested.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiško šablonas naudojamas informuoti žurnalo administratorių, kad buvo atliktas rankinis mokėjimas.</target>
       </description>
     </email>
   </file>
@@ -30146,8 +30512,7 @@ This email was generated by Open Journal Systems' Manual Payment plugin.]]></sou
     <email id="PAYPAL_INVESTIGATE_PAYMENT">
       <subject>
         <source>Unusual PayPal Activity</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>Neįprasta PayPal veikla</target>
       </subject>
       <body>
         <source><![CDATA[Open Journal Systems has encountered unusual activity relating to PayPal payment support for the journal {$contextName}. This activity may need further investigation or manual intervention.<br />
@@ -30163,13 +30528,23 @@ Additional information (if supplied):<br />
 Server vars:<br />
 {$serverVars}<br />
 ]]></source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target><![CDATA[„Open Journal Systems“ susidūrė su neįprasta veikla susijusia su PayPal mokėjimų palaikymų žurnale {$contextName}. Šiai veiklai gali prireikti tolimesnio tyrimo ar įsikišimo ranka.<br />
+                       <br />
+El. laišką sugeneravo „Open Journal Systems“ PayPal įskiepis.<br />
+<br />
+Pilnas užklausos informacija:<br />
+{$postInfo}<br />
+<br />
+Papildoma informacija (jei nurodyta):<br />
+{$additionalInfo}<br />
+<br />
+Serverio kintamieji:<br />
+{$serverVars}<br />
+]]></target>
       </body>
       <description>
         <source>This email template is used to notify a journal's primary contact that suspicious activity or activity requiring manual intervention was encountered by the PayPal plugin.</source>
-        <target></target>
-        <!--TRANSLATE-->
+        <target>El. laiško šablonas naudojamas informuoti žurnalo pagr. kontaktą apie neįprastą veikslą ar veiklą reikalaujančią rankinio įsikišimo, kurią aptiko PayPal įskiepis.</target>
       </description>
     </email>
   </file>
