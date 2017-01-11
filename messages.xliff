@@ -3180,7 +3180,7 @@
     <unit id="submission.howToCite.citationFormats">
       <segment>
         <source>Citation Formats</source>
-        <target>Citatų formatai</target>
+        <target>Citavimo formatai</target>
       </segment>
     </unit>
     <unit id="submission.indexing">

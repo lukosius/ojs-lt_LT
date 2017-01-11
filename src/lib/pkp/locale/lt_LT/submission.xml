@@ -301,7 +301,7 @@
     <message key="submission.history.submissionNotes">Pateikimo pastabos</message>
     <message key="submission.history.viewLog">Peržiūrėti žurnalą</message>
     <message key="submission.howToCite">Kaip cituoti</message>
-    <message key="submission.howToCite.citationFormats">Citatų formatai</message>
+    <message key="submission.howToCite.citationFormats">Citavimo formatai</message>
     <message key="submission.indexing">Indeksavimas</message>
     <message key="submission.initiated">Pradėta</message>
     <message key="submission.identifiers">Identifikatoriai</message>
