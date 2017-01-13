@@ -63,7 +63,7 @@ return [
     // editor
     '##email-editor-decision##'         => 'Redaktoriaus sprendimas',
     '##email-editor-reached##'          => 'Priėmėme sprendimą dėl jūsų pateikimo „{$submissionTitle}“ žurnale {$contextName}',
-    '##email-editor-our-decision##'     => 'Mūsų sprendimas:',
+    '##email-editor-our-decision##'     => 'Mūsų sprendimas',
     '##email-editor-desc##'             => 'El. laiškas siunčiamas nuo redaktoriaus ar skilties redaktoriaus autoriui',
 
     // sub

@@ -475,7 +475,7 @@ Prašome patvirtinti ar galite užbaigti recenziją. Nekantriai laukiu žinių i
 <br />
 Priėmėme sprendimą dėl jūsų pateikimo „{$submissionTitle}“ žurnale {$contextName}.<br />
 <br />
-Mūsų sprendimas:: Priimti pateikimą<br />
+Mūsų sprendimas: Priimti pateikimą<br />
 <br />
 {$editorialContactSignature}<br />
 ]]></body>
@@ -487,7 +487,7 @@ Mūsų sprendimas:: Priimti pateikimą<br />
 <br />
 Priėmėme sprendimą dėl jūsų pateikimo „{$submissionTitle}“ žurnale {$contextName}.<br />
 <br />
-Mūsų sprendimas:: Siųsti recenzavimui<br />
+Mūsų sprendimas: Siųsti recenzavimui<br />
 <br />
 Pateikimo adresas: {$submissionUrl}<br />
 <br />
@@ -513,7 +513,7 @@ Pateikimo adresas: {$submissionUrl}<br />
 <br />
 Priėmėme sprendimą dėl jūsų pateikimo „{$submissionTitle}“ žurnale {$contextName}.<br />
 <br />
-Mūsų sprendimas:: Reikalingi pataisymai<br />
+Mūsų sprendimas: Reikalingi pataisymai<br />
 <br />
 {$editorialContactSignature}<br />
 ]]></body>
@@ -525,7 +525,7 @@ Mūsų sprendimas:: Reikalingi pataisymai<br />
 <br />
 Priėmėme sprendimą dėl jūsų pateikimo „{$submissionTitle}“ žurnale {$contextName}.<br />
 <br />
-Mūsų sprendimas:: Pateikti recenzavimui iš naujo<br />
+Mūsų sprendimas: Pateikti recenzavimui iš naujo<br />
 <br />
 {$editorialContactSignature}<br />
 ]]></body>
@@ -537,7 +537,7 @@ Mūsų sprendimas:: Pateikti recenzavimui iš naujo<br />
 <br />
 Priėmėme sprendimą dėl jūsų pateikimo „{$submissionTitle}“ žurnale {$contextName}.<br />
 <br />
-Mūsų sprendimas:: Atmesti pateikimą<br />
+Mūsų sprendimas: Atmesti pateikimą<br />
 <br />
 {$editorialContactSignature}<br />
 ]]></body>
