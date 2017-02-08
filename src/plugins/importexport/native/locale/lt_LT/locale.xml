@@ -54,5 +54,5 @@ Priimtini šie formatai:
     <message key="plugins.importexport.native.import.error.sectionAbbrevMismatch">Skilties santrumpa „{$section1Abbrev}“ ir skilties santrumpa „{$section2Abbrev}“ numeryje „{$issueTitle}“ atitiko skirtingas esamas žurnalo skiltis.</message>
     <message key="plugins.importexport.native.import.error.sectionAbbrevMatch">Skilties santrumpa „{$sectionAbbrev}“ numeryje „{$issueTitle}“ atitiko esamą žurnalo skiltį, tačiau kita šios skilties santrumpa neatitiko kitos esamo žurnalo skilties santrumpos.</message>
     <message key="plugins.importexport.native.import.error.issueIdentificationMatch">Nei vienas arba daugiau nei vienas numeris atitiko nurodytą numerio identifikavimą „{$issueIdentification}“.</message>
-    <message key="plugins.importexport.native.import.error.issueIdentificationMissing">Trūksta numerio identifikavimo elemento straipsniui „{$articleTitle}“.</message>
+    <message key="plugins.importexport.native.import.error.issueIdentificationMissing">The issue identification element is missing for the article "{$articleTitle}".</message>
 </locale>

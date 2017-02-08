@@ -65,7 +65,7 @@
     <message key="editor.issues.accessDate">Atvirosios prieigos data</message>
     <message key="editor.issues.enableOpenAccessDate">Įgalinti uždelstą atvirąją prieigą</message>
     <message key="editor.issues.coverPage">Viršelio paveikslėlis</message>
-    <message key="editor.issues.coverPageInstructions">(Leistini formatai: .gif, .jpg arba .png )</message>
+    <message key="editor.issues.coverPageInstructions">(Allowed formats: .gif, .jpg, or .png)</message>
     <message key="editor.issues.uploaded">Nusiųstas</message>
     <message key="editor.issues.remove">Pašalinti</message>
     <message key="editor.issues.proofed">Koreguotas</message>
@@ -176,10 +176,6 @@
     <message key="editor.article.assignEditor">Įtraukti redaktorių</message>
     <message key="editor.article.selectEditor">Pasirinkti {$roleName}</message>
     <message key="editor.article.selectDecision">Pasirinkti sprendimą</message>
-    <message key="editor.article.decision.accept">Priimti pateikimą</message>
-    <message key="editor.article.decision.pendingRevisions">Reikalingi pataisymai</message>
-    <message key="editor.article.decision.resubmit">Pateikti recenzavimui iš naujo</message>
-    <message key="editor.article.decision.decline">Atmesti pateikimą</message>
     <message key="editor.article.selectLayoutEditor">Pasirinkti maketuotoją</message>
     <message key="editor.article.replaceLayoutEditor">Pakeisti maketuotoją</message>
     <message key="editor.article.reviewSubmission">Recenzuoti pateikimą</message>

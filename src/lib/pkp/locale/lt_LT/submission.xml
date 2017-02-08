@@ -131,7 +131,9 @@
     <message key="common.queue.long.myAssigned">Paskirti man</message>
     <message key="common.queue.long.submissionsArchived">Pateikimai archyve</message>
     <message key="submission.authors">Autoriai</message>
+    <message key="submission.authorBiography">Author Biography</message>
     <message key="submission.authorBiographies">Autorių biografijos</message>
+    <message key="submission.authorWithAffiliation">{$name}, {$affiliation}</message>
     <message key="submission.shortAuthor">{$author}</message>
     <message key="submission.mySubmissions">Mano pateikimai</message>
     <message key="submission.addFile">Nusiųsti failą</message>
@@ -412,7 +414,7 @@
     <message key="submission.submit.metadataForm">Papildomi patobulinimai</message>
     <message key="submission.submit.metadataForm.tip">Įtraukite papildomą pateikimo informaciją.  Spustelėkite 'enter' po kiekvieno termino.</message>
     <message key="submission.submit.submissionLocale">Pateikimo kalba</message>
-    <message key="submission.submit.submissionLocaleDescription">Žurnalas priima pateikimus keliomis kalbomis. Pasirinkite pagrindinę pateikimo kalbą iš išskleidžiamojo sąrašo.</message>
+    <message key="submission.submit.submissionLocaleDescription">Submissions in several languages are accepted. Choose the primary language of the submission from the pulldown below.</message>
     <message key="submission.submit.submissionFiles">Pateikimo failai</message>
     <message key="submission.submit.dependentFiles">Priklausomi failai</message>
     <message key="submission.manageDependentFiles">Tvarkyti priklausomus failus</message>

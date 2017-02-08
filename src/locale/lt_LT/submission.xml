@@ -65,4 +65,5 @@
     <message key="submission.submit.form.contributorRoleRequired">Parinkite bendraautoriaus vaidmenį.</message>
     <message key="submission.citationFormat.notFound">Nepavyko nuskaityti prašyto citavimo formato.</message>
     <message key="submission.metadataDescription">Šios specifikacijos yra paremtos „Dublin Core“ metaduomenų rinkiniu, tarptautiniu standartu naudojamu aprašyti žurnalo turinį.</message>
+    <message key="section.any">Any Section</message>
 </locale>

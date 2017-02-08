@@ -51,8 +51,6 @@
     <message key="author.submissions.noSubmissions">Nėra pateikimų.</message>
     <message key="author.submit.journalSection">Žurnalo skiltis</message>
     <message key="author.submit.journalSectionDescription">Parinkite tinkamą žurnalo skiltį šiam pateikimui.</message>
-    <message key="author.submit.submissionLocale">Pateikimo kalba</message>
-    <message key="author.submit.submissionLocaleDescription">Šis žurnalas priima pateikimus keliomis kalbomis. Pasirinkite šio pateikimo pagrindinę kalbą.</message>
     <message key="author.submit.verifyChecklist">Norėdami tęsti jūs turite įsitikinti, kad visi elementai pateikimo kontroliniame sąraše yra įvykdyti.</message>
     <message key="author.submit.copyrightNoticeAgree">Autoriai sutinka su sąlygomis išdėstytomis Autorinėse teisėse, kurios taikomos šiam pateikimui kai jis bus išleistas šiame žurnale (žemiau galite įtraukti komentarus redaktoriui).</message>
     <message key="author.submit.copyrightNoticeAgreeRequired">Norėdami tęsti, jūs privalote sutikti su sąlygomis išdėstytomis Autorinėse teisėse.</message>

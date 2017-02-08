@@ -183,6 +183,13 @@
         <target>Tik redaktoriui</target>
       </segment>
     </unit>
+    <unit id="user.authorization.submissionReviewer">
+      <segment>
+        <source>The current user is not assigned as a reviewer for the requested document.</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
   </file>
   <file id="994a640374e4197416e2d8943c4ab5e3" original="lib/pkp/locale/lt_LT/reader.xml">
     <unit id="comments.anonymous">
@@ -2217,10 +2224,24 @@
         <target>Autoriai</target>
       </segment>
     </unit>
+    <unit id="submission.authorBiography">
+      <segment>
+        <source>Author Biography</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
     <unit id="submission.authorBiographies">
       <segment>
         <source>Author Biographies</source>
         <target>Autorių biografijos</target>
+      </segment>
+    </unit>
+    <unit id="submission.authorWithAffiliation">
+      <segment>
+        <source>{$name}, {$affiliation}</source>
+        <target></target>
+        <!--NEW-->
       </segment>
     </unit>
     <unit id="submission.shortAuthor">
@@ -3845,8 +3866,11 @@
     </unit>
     <unit id="submission.submit.submissionLocaleDescription">
       <segment>
-        <source>This press accepts submissions in several languages. Choose the primary language of the submission from the pulldown below.</source>
-        <target>Žurnalas priima pateikimus keliomis kalbomis. Pasirinkite pagrindinę pateikimo kalbą iš išskleidžiamojo sąrašo.</target>
+        <source>Submissions in several languages are accepted. Choose the primary language of the submission from the pulldown below.</source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "This press accepts submissions in several languages. Choose the primary language of the submission from the pulldown below.".-->
+        <!--Old translation: "Žurnalas priima pateikimus keliomis kalbomis. Pasirinkite pagrindinę pateikimo kalbą iš išskleidžiamojo sąrašo.".-->
       </segment>
     </unit>
     <unit id="submission.submit.submissionFiles">
@@ -9240,6 +9264,13 @@
         <target>Autorius; Pavadinimas</target>
       </segment>
     </unit>
+    <unit id="grid.submission.active.selectOrphaned">
+      <segment>
+        <source>Include incomplete submissions not submitted by an author.</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
   </file>
   <file id="ab7d37cf651041f4d934899ba4d133c1" original="lib/pkp/locale/lt_LT/editor.xml">
     <unit id="editor.submissionLibrary">
@@ -10213,8 +10244,11 @@
     </unit>
     <unit id="user.login.rememberUsernameAndPassword">
       <segment>
-        <source>Remember my username and password</source>
-        <target>Prisiminti vartotojo vardą ir slaptažodį</target>
+        <source>Keep me logged in</source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "Remember my username and password".-->
+        <!--Old translation: "Prisiminti vartotojo vardą ir slaptažodį".-->
       </segment>
     </unit>
     <unit id="user.login.resetPassword">
@@ -14221,14 +14255,21 @@
       <segment>
         <source>
 		Your installation is configured to record more than one usage metric. Usage statistics will be displayed in several contexts.
-		There are cases where a single usage statistic must be used, e.g. to display an orderd list of most-used submissions or to rank
+		There are cases where a single usage statistic must be used, e.g. to display an ordered list of most-used submissions or to rank
 		search results. Please select one of the configured metrics as a default.
 	</source>
-        <target>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "
+		Your installation is configured to record more than one usage metric. Usage statistics will be displayed in several contexts.
+		There are cases where a single usage statistic must be used, e.g. to display an orderd list of most-used submissions or to rank
+		search results. Please select one of the configured metrics as a default.
+	".-->
+        <!--Old translation: "
     Jūsų OJS diegimas yra sukonfigūruotas įrašyti daugiau nei vieną naudojimo metriką. Naudojimo statistika bus rodoma keliuose kontekstuose.
     Yra atvejų, kur privaloma naudoti bent vieną naudojimo statistiką, pvz. rodyti surikiuotą daugiausiai naudojamų straipsnių sąrašą arba
     paieškos rezultatus. Pasirinkite vieną iš sukonfigūruotų metrikų kaip numatytąją.
-  </target>
+  ".-->
       </segment>
     </unit>
     <unit id="admin.settings.homeHeaderImage.altText">
@@ -14253,12 +14294,6 @@
       <segment>
         <source>Minimum password length (characters)</source>
         <target>Mažiausias slaptažodžio ilgis (rašmenys)</target>
-      </segment>
-    </unit>
-    <unit id="admin.settings.oaiRegistration">
-      <segment>
-        <source>Register Site for Indexing (Metadata Harvesting)</source>
-        <target>Svetainės registravimas indeksavimui (Metaduomenų rinkimas)</target>
       </segment>
     </unit>
     <unit id="admin.settings.siteLanguage">
@@ -14731,18 +14766,6 @@ Naudojimas (apdorojant visus katalogo failus): {$scriptName} kelias/iki/apache/k
       <segment>
         <source>Articles must be submitted to one of the journal's sections.</source>
         <target>Parinkite tinkamą žurnalo skiltį šiam pateikimui.</target>
-      </segment>
-    </unit>
-    <unit id="author.submit.submissionLocale">
-      <segment>
-        <source>Submission Language</source>
-        <target>Pateikimo kalba</target>
-      </segment>
-    </unit>
-    <unit id="author.submit.submissionLocaleDescription">
-      <segment>
-        <source>This journal accepts submissions in several languages. Choose the primary language of the submission from the pulldown below.</source>
-        <target>Šis žurnalas priima pateikimus keliomis kalbomis. Pasirinkite šio pateikimo pagrindinę kalbą.</target>
       </segment>
     </unit>
     <unit id="author.submit.verifyChecklist">
@@ -16001,18 +16024,6 @@ Naudojimas (apdorojant visus katalogo failus): {$scriptName} kelias/iki/apache/k
         <target>Žurnalo asistentai</target>
       </segment>
     </unit>
-    <unit id="user.role.guestEditor">
-      <segment>
-        <source>Guest Editor</source>
-        <target>Kviestinis redaktorius</target>
-      </segment>
-    </unit>
-    <unit id="user.role.guestEditors">
-      <segment>
-        <source>Guest Editors</source>
-        <target>Kviestiniai redaktoriai</target>
-      </segment>
-    </unit>
     <unit id="issue.issue">
       <segment>
         <source>Issue</source>
@@ -16529,20 +16540,6 @@ Naudojimas (apdorojant visus katalogo failus): {$scriptName} kelias/iki/apache/k
         <target>panašūs dokumentai</target>
       </segment>
     </unit>
-    <unit id="admin.settings.oaiRegistrationDescription">
-      <segment>
-        <source><![CDATA[To have the contents of all journals hosted on this site indexed within a globally distributed system of research databases, <a href="http://pkp.sfu.ca/harvester/add.php" target="_blank">register</a> your site's URL with the Public Knowledge Project metadata <a href="http://pkp.sfu.ca/harvester/" target="_blank">harvester</a>. This tool collects the metadata from each indexed item in this journal, enabling accurate and collective searching among the research sites that adhere to the <a href="http://www.openarchives.org/OAI/openarchivesprotocol.htm#Introduction" target="_blank">Open Archives Initiative Protocol for Metadata Harvesting</a>.
-<br /><br />
-<a href="http://pkp.sfu.ca/harvester/add.php" target="_blank">Click here</a> and enter <span class="highlight">{$siteUrl}</span> under <strong>Site URL</strong>, and <span class="highlight">{$oaiUrl}</span> under <strong>Base URL for OAI Archive</strong>.
-<br /><br />
-Note that the OAI interface can be disabled for this site by editing the OJS system configuration. Future versions of OJS will allow the OAI interface to be enabled or disabled for individual journals within the site.]]></source>
-        <target><![CDATA[Tam, kad šios svetainės žurnalų turinys būtų indeksuojamas ir patektų į išorines mokslinių tyrimų duomenų bazes, <a href="http://pkp.sfu.ca/harvester/add.php" target="_blank">užregistruokite</a> šios svetainės adresą PKP metaduomenų <a href="http://pkp.sfu.ca/harvester/" target="_blank">surinkimo sistemoje</a>. Ji kaupia metaduomenis iš kiekvieno straipsnio, įgalina tikslią ir kolektyvinę paiešką mokslinių tyrimų leidinių svetainėse, kurios palaiko <a href="http://www.openarchives.org/OAI/openarchivesprotocol.htm#Introduction" target="_blank">Open Archives Initiative Protocol for Metadata Harvesting</a>.
-<br /><br />
-<a href="http://pkp.sfu.ca/harvester/add.php" target="_blank">Spustelėkite čia</a>, įveskite adresą <span class="highlight">{$siteUrl}</span> laukelyje <strong>Site URL</strong> ir <span class="highlight">{$oaiUrl}</span> laukelyje <strong>Base URL for OAI Archive</strong>.
-<br /><br />
-Pastaba: OAI sąsaja gali būti išjungta redaguojant OJS sistemos konfigūraciją. Naujesnės OJS versijos leis įgalinti ir išjungti OAI sąsajas kiekviename žurnale atskirai.]]></target>
-      </segment>
-    </unit>
     <unit id="admin.auth.defaultSourceDescription">
       <segment>
         <source><![CDATA[<p>Specifying a default authentication source other than OJS has the following effects:</p>
@@ -16557,10 +16554,14 @@ Pastaba: OAI sąsaja gali būti išjungta redaguojant OJS sistemos konfigūracij
     </unit>
     <unit id="admin.overwriteConfigFileInstructions">
       <segment>
-        <source><![CDATA[<h4>NOTE!</div>
+        <source><![CDATA[<h4>NOTE!</h4>
 <p>The system could not automatically overwrite the configuration file. To apply your configuration changes you must open <tt>config.inc.php</tt> in a suitable text editor and replace its contents with the contents of the text field below.</p>]]></source>
-        <target><![CDATA[<h4>PASTABA!</h4>
-<p>Sistemai nepavyko automatiškai perrašyti konfigūracijos failo. Norėdami įrašyti pakeitimus, su teksto redaktoriumi turite atverti <tt>config.inc.php</tt> failą ir pakeisti jo turinį su žemiau pateiktu laukelio turiniu.</p>]]></target>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "<h4>NOTE!</div>
+<p>The system could not automatically overwrite the configuration file. To apply your configuration changes you must open <tt>config.inc.php</tt> in a suitable text editor and replace its contents with the contents of the text field below.</p>".-->
+        <!--Old translation: "<h4>PASTABA!</h4>
+<p>Sistemai nepavyko automatiškai perrašyti konfigūracijos failo. Norėdami įrašyti pakeitimus, su teksto redaktoriumi turite atverti <tt>config.inc.php</tt> failą ir pakeisti jo turinį su žemiau pateiktu laukelio turiniu.</p>".-->
       </segment>
     </unit>
     <unit id="subscriptionManager.subscriptionManagement">
@@ -16648,14 +16649,32 @@ Authors who publish with this journal agree to the following terms:
 	<li>Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">The Effect of Open Access</a>).</li>
 </ol>
 
-<h4>Proposed Policy for Journals That Offer Delayed Open Access</h4>
+<h4>2. Proposed Policy for Journals That Offer Delayed Open Access</h4>
 Authors who publish with this journal agree to the following terms:
 <ol type="a">
 	<li>Authors retain copyright and grant the journal right of first publication, with the work [SPECIFY PERIOD OF TIME] after publication simultaneously licensed under a <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a> that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal.</li>
 	 <li>Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.</li>
 	 <li>Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html"> The Effect of Open Access</a>).</li>
 </ol>]]></source>
-        <target><![CDATA[<h3>„Creative Commons“ autorinių teisių pranešimai</h3>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "<h3>Proposed Creative Commons Copyright Notices</h3>
+<h4>1. Proposed Policy for Journals That Offer Open Access</h4>
+Authors who publish with this journal agree to the following terms:
+<ol type="a">
+	<li>Authors retain copyright and grant the journal right of first publication with the work simultaneously licensed under a <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a> that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal.</li>
+	<li>Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.</li>
+	<li>Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">The Effect of Open Access</a>).</li>
+</ol>
+
+<h4>Proposed Policy for Journals That Offer Delayed Open Access</h4>
+Authors who publish with this journal agree to the following terms:
+<ol type="a">
+	<li>Authors retain copyright and grant the journal right of first publication, with the work [SPECIFY PERIOD OF TIME] after publication simultaneously licensed under a <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a> that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal.</li>
+	 <li>Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.</li>
+	 <li>Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html"> The Effect of Open Access</a>).</li>
+</ol>".-->
+        <!--Old translation: "<h3>„Creative Commons“ autorinių teisių pranešimai</h3>
 <h4>1. Siūloma politika žurnalams su atvirąja prieiga</h4>
 Autoriai, kurie nori leisti straipsnius šiame žurnale, sutinka su šiomis sąlygomis:
 <ol type="a">
@@ -16670,7 +16689,7 @@ Autoriai, kurie nori leisti straipsnius šiame žurnale, sutinka su šiomis sąl
     <li>Autoriai pasilieka autorines teises ir žurnalui perleidžia teisę į pirmojo straipsnio paskelbimą. Praėjus [NURODYTI LAIKOTARPĮ] po straipsnio publikavimo, darbas tuo pačiu yra licencijuojamas pagal <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a>, kuri trečiosioms šalims leidžia dalintis darbu, nurodant straipsnio autorystę ir nuorodą į šį žurnalą kaip pradinio paskelbimo vietą.</li>
      <li>Autoriai gali sudaryti bet kokias, tačiau ne išimtines, sutartis, liečiančias žurnale patalpinto straipsnio platinimą ar kitokį panaudojimą (pvz. perduoti straipsnį į institucinę talpyklą ar publikuoti knygoje), pateikiant nuorodą į šį žurnalą kaip pradinio paskelbimo vietą.</li>
      <li>Autoriams leidžiama pateikti savo darbą internete (pvz. institucinėse talpyklose ar jų svetainėse), tiek prieš straipsnio pateikimą, tiek straipsnio pateikimo metu. Tokie veiksmai yra naudingi tuo, kad gali pagreitinti informacijos mainus, paankstinti ir padidinti publikuojamo darbo cituojamumą (žr. <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">The Effect of Open Access</a>).</li>
-</ol>]]></target>
+</ol>".-->
       </segment>
     </unit>
     <unit id="manager.setup.citations.enable">
@@ -19715,8 +19734,11 @@ Sukūrėte paskyrą žurnale {$contextName}, tačiau prieš galėdami juo naudot
 {$principalContactSignature}]]></target>
       </body>
       <description>
-        <source>This email is sent to a newly registered user to welcome them to the system and provide them with a record of their username and password.</source>
-        <target>El. laiškas siunčiamas naujai registruotam vartotojui, kad patvirtintų el. pašto paskyrą.</target>
+        <source>This email is sent to a newly registered user to validate their email account.</source>
+        <target></target>
+        <!--EDITED SUBJECT-->
+        <!--Old source: "This email is sent to a newly registered user to welcome them to the system and provide them with a record of their username and password.".-->
+        <!--Old translation: "El. laiškas siunčiamas naujai registruotam vartotojui, kad patvirtintų el. pašto paskyrą.".-->
       </description>
     </email>
     <email id="REVIEWER_REGISTER">
@@ -19887,20 +19909,32 @@ Ačiū, kad pateikėte rankraštį „{$submissionTitle}“ į {$contextName}. S
 <br />
 {$submitterName} has submitted the manuscript, &quot;{$submissionTitle}&quot; to {$contextName}. <br />
 <br />
-If you have any questions, please contact me. Thank you for considering this press as a venue for your work.<br />
+If you have any questions, please contact me. Thank you for considering this journal as a venue for your work.<br />
 <br />
 {$editorialContactSignature}]]></source>
-        <target><![CDATA[Sveiki,<br />
+        <target></target>
+        <!--EDITED SUBJECT-->
+        <!--Old source: "Hello,<br />
+<br />
+{$submitterName} has submitted the manuscript, &quot;{$submissionTitle}&quot; to {$contextName}. <br />
+<br />
+If you have any questions, please contact me. Thank you for considering this press as a venue for your work.<br />
+<br />
+{$editorialContactSignature}".-->
+        <!--Old translation: "Sveiki,<br />
 <br />
 {$submitterName} pateikė rankraštį „{$submissionTitle}“ į {$contextName}. <br />
 <br />
-##email-have-questions## Ačiū, kad pateikėte savo darbą mūsų žurnale.<br />
+Jei turite klausimų, susisiekite su manimi. Ačiū, kad pateikėte savo darbą mūsų žurnale.<br />
 <br />
-{$editorialContactSignature}]]></target>
+{$editorialContactSignature}".-->
       </body>
       <description>
-        <source>This email, when enabled, is automatically sent to the other authors who are not users within OMP specified during the submission process.</source>
-        <target>El. laiškas, kai įgalintas, yra automatiškai siunčiamas kitiems autoriams, kurie nėra registruoti vartotojai nurodyti pateikimo procese.</target>
+        <source>This email, when enabled, is automatically sent to the other authors who are not users within OJS specified during the submission process.</source>
+        <target></target>
+        <!--EDITED SUBJECT-->
+        <!--Old source: "This email, when enabled, is automatically sent to the other authors who are not users within OMP specified during the submission process.".-->
+        <!--Old translation: "El. laiškas, kai įgalintas, yra automatiškai siunčiamas kitiems autoriams, kurie nėra registruoti vartotojai nurodyti pateikimo procese.".-->
       </description>
     </email>
     <email id="SUBMISSION_UNSUITABLE">
@@ -20016,7 +20050,7 @@ Just a gentle reminder of our request for your review of the submission, &quot;{
 <br />
 I believe that you would serve as an excellent reviewer of the manuscript. The submission's abstract is inserted below, and I hope that you will consider undertaking this important task for us.<br />
 <br />
-Please log into the journal web site by to indicate whether you will undertake the review or not, as well as to access the submission and to record your review and recommendation. The web site is <a href="{$contextUrl}">{$contextUrl}</a><br />
+Please log into the journal web site to indicate whether you will undertake the review or not, as well as to access the submission and to record your review and recommendation. The web site is <a href="{$contextUrl}">{$contextUrl}</a><br />
 <br />
 The review itself is due {$reviewDueDate}.<br />
 <br />
@@ -20031,24 +20065,46 @@ Thank you for considering this request.<br />
 &quot;{$submissionTitle}&quot;<br />
 <br />
 {$submissionAbstract}]]></source>
-        <target><![CDATA[##email-dear-reviewer##
-##email-review-reminder##
+        <target></target>
+        <!--EDITED SUBJECT-->
+        <!--Old source: "{$reviewerName}:<br />
+Just a gentle reminder of our request for your review of the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We were hoping to have your response by {$responseDueDate}, and this email has been automatically generated and sent with the passing of that date.
 <br />
-##email-review-response-due## Svetainės adresas yra <a href="{$contextUrl}">{$contextUrl}</a><br />
+I believe that you would serve as an excellent reviewer of the manuscript. The submission's abstract is inserted below, and I hope that you will consider undertaking this important task for us.<br />
 <br />
-##email-review-due##
+Please log into the journal web site by to indicate whether you will undertake the review or not, as well as to access the submission and to record your review and recommendation. The web site is <a href="{$contextUrl}">{$contextUrl}</a><br />
 <br />
-##email-review-password##
+The review itself is due {$reviewDueDate}.<br />
 <br />
-##email-review-url##
+If you do not have your username and password for the journal's web site, you can use this link to reset your password (which will then be emailed to you along with your username). <a href="{$passwordResetUrl}">{$passwordResetUrl}</a><br />
 <br />
-##email-review-thanks##
+Submission URL: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br />
+<br />
+Thank you for considering this request.<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}".-->
+        <!--Old translation: "Gerb. {$reviewerName}:<br />
+Šis laiškas yra tiesiog priminimas apie mūsų prašymą recenzuoti „{$submissionTitle}“ žurnalui „{$contextName}“. Tikėjomės gauti atsakymą iš jūsų iki {$responseDueDate}, o šis laiškas yra automatiškai sugeneruotas ir išsiųstas jums praėjus nurodytą datą.
+<br />
+Prisijunkite prie žurnalo svetainės iki {$responseDueDate}, kad nurodytumėte ar sutinkate recenzuoti, ar nesutinkate. Taip pat prisijungę galėsite prieiti prie pateikimo, pateikti savo recenziją ir rekomendaciją. Svetainės adresas yra <a href="{$contextUrl}">{$contextUrl}</a><br />
+<br />
+Recenzavimo terminas: {$reviewDueDate}.<br />
+<br />
+Jei neturite savo vartotojo vardo ir slaptažodžio, panaudokite šią nuorodą, kad atkurtumėte savo slaptažodį (kuris bus išsiųstas el. paštu su vartotojo vardu). <a href="{$passwordResetUrl}">{$passwordResetUrl}</a><br />
+<br />
+Pateikimo adresas: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br />
+<br />
+Patyrę recenzentai itin svarbūs palaikant aukštos kokybės standartus, todėl norėčiau iš anksto padėkoti už bet kokią jūsų pagalbą.<br />
 <br />
 {$editorialContactSignature}<br />
 <br />
 „{$submissionTitle}“<br />
 <br />
-{$submissionAbstract}]]></target>
+{$submissionAbstract}".-->
       </body>
       <description>
         <source>This email is automatically sent when a reviewer's confirmation due date elapses (see Review Options under Settings &gt; Workflow &gt; Review) and one-click reviewer access is disabled. Scheduled tasks must be enabled and configured (see the site configuration file).</source>
@@ -21751,6 +21807,13 @@ Submission URL: {$submissionUrl}<br />
         <target>Šios specifikacijos yra paremtos „Dublin Core“ metaduomenų rinkiniu, tarptautiniu standartu naudojamu aprašyti žurnalo turinį.</target>
       </segment>
     </unit>
+    <unit id="section.any">
+      <segment>
+        <source>Any Section</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
   </file>
   <file id="6d9078ee62101971097bebadd0daaa5d" original="locale/lt_LT/pubprocesslarge.png" copy="1"/>
   <file id="3672291a16c03a83b0b708cd63df1437" original="locale/lt_LT/editor.xml">
@@ -22056,8 +22119,11 @@ Submission URL: {$submissionUrl}<br />
     </unit>
     <unit id="editor.issues.coverPageInstructions">
       <segment>
-        <source>(Allowed formats: .gif, .jpg, or .png )</source>
-        <target>(Leistini formatai: .gif, .jpg arba .png )</target>
+        <source>(Allowed formats: .gif, .jpg, or .png)</source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "(Allowed formats: .gif, .jpg, or .png )".-->
+        <!--Old translation: "(Leistini formatai: .gif, .jpg arba .png )".-->
       </segment>
     </unit>
     <unit id="editor.issues.uploaded">
@@ -22718,30 +22784,6 @@ Submission URL: {$submissionUrl}<br />
       <segment>
         <source>Select decision</source>
         <target>Pasirinkti sprendimą</target>
-      </segment>
-    </unit>
-    <unit id="editor.article.decision.accept">
-      <segment>
-        <source>Accept Submission</source>
-        <target>Priimti pateikimą</target>
-      </segment>
-    </unit>
-    <unit id="editor.article.decision.pendingRevisions">
-      <segment>
-        <source>Revisions Required</source>
-        <target>Reikalingi pataisymai</target>
-      </segment>
-    </unit>
-    <unit id="editor.article.decision.resubmit">
-      <segment>
-        <source>Resubmit for Review</source>
-        <target>Pateikti recenzavimui iš naujo</target>
-      </segment>
-    </unit>
-    <unit id="editor.article.decision.decline">
-      <segment>
-        <source>Decline Submission</source>
-        <target>Atmesti pateikimą</target>
       </segment>
     </unit>
     <unit id="editor.article.selectLayoutEditor">
@@ -24086,12 +24128,6 @@ ________________________________________________________________________<br/>
       <segment>
         <source>A title is required for the section.</source>
         <target>Skilties pavadinimas yra privalomas.</target>
-      </segment>
-    </unit>
-    <unit id="manager.sections.hideAbout">
-      <segment>
-        <source>Omit this section from About the Journal.</source>
-        <target>Nerodyti skilties puslapyje Apie žurnalą.</target>
       </segment>
     </unit>
     <unit id="manager.sections.hideTocAuthor">
@@ -25514,14 +25550,21 @@ ________________________________________________________________________<br/>
       <segment>
         <source>
 		Your journal is configured to record more than one usage metric. Usage statistics will be displayed in several contexts.
-		There are cases where a single usage statistic must be used, e.g. to display an orderd list of most-used articles or to rank
+		There are cases where a single usage statistic must be used, e.g. to display an ordered list of most-used articles or to rank
 		search results. Please select one of the configured metrics as a default.
 	</source>
-        <target>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "
+		Your journal is configured to record more than one usage metric. Usage statistics will be displayed in several contexts.
+		There are cases where a single usage statistic must be used, e.g. to display an orderd list of most-used articles or to rank
+		search results. Please select one of the configured metrics as a default.
+	".-->
+        <!--Old translation: "
     Jūsų žurnalas yra sukonfigūruotas įrašyti daugiau nei vieną naudojimo metriką. Naudojimo statistika bus rodoma keliuose kontekstuose.
     Yra atvejų, kur privaloma naudoti bent vieną naudojimo statistiką, pvz. rodyti surikiuotą daugiausiai naudojamų straipsnių sąrašą arba
     paieškos rezultatus. Pasirinkite vieną iš sukonfigūruotų metrikų kaip numatytąją.
-  </target>
+  ".-->
       </segment>
     </unit>
     <unit id="manager.statistics.statistics">
@@ -25670,8 +25713,11 @@ ________________________________________________________________________<br/>
     </unit>
     <unit id="manager.statistics.reports.defaultReport.articleAbstractAndDownloads">
       <segment>
-        <source>Article abstract and downloads</source>
-        <target>Straipsnio santrauka ir atsisiuntimai</target>
+        <source>Article abstract page views and downloads</source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "Article abstract and downloads".-->
+        <!--Old translation: "Straipsnio santrauka ir atsisiuntimai".-->
       </segment>
     </unit>
     <unit id="manager.statistics.reports.defaultReport.journalIndexPageViews">
@@ -27454,86 +27500,6 @@ ________________________________________________________________________<br/>
       </segment>
     </unit>
   </file>
-  <file id="f391f569eeb884ed58258f7bd2c1cbf6" original="plugins/themes/default/locale/lt_LT/locale.xml">
-    <unit id="plugins.themes.default.name">
-      <segment>
-        <source>Default Theme</source>
-        <target>Numatytasis apipavidalinimas</target>
-      </segment>
-    </unit>
-    <unit id="plugins.themes.default.description">
-      <segment>
-        <source>This theme implements the default theme.</source>
-        <target>Šis apipavidalinimas realizuoja numatytąjį apipavidalinimą.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.themes.default.option.typography.label">
-      <segment>
-        <source>Typography</source>
-        <target>Tipografija</target>
-      </segment>
-    </unit>
-    <unit id="plugins.themes.default.option.typography.description">
-      <segment>
-        <source>Choose a font combination that suits this journal.</source>
-        <target>Pasirinkite šriftų derinį, kuris tiktų žurnalui.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.themes.default.option.typography.notoSans">
-      <segment>
-        <source>Noto Sans: A digital-native font designed by Google for extensive language support.</source>
-        <target>Noto Sans: skaitmenis šriftas, kurį sukūrė „Google“, plačiam kalbų palaikymui.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.themes.default.option.typography.notoSerif">
-      <segment>
-        <source>Noto Serif: A serif variant of Google's digital-native font.</source>
-        <target>Noto Serif: „serif“ šrifto variantas, kurį sukūrė „Google“.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.themes.default.option.typography.notoSerif_notoSans">
-      <segment>
-        <source>Noto Serif/Noto Sans: A complementary pairing with serif headings and sans-serif body text.</source>
-        <target>Noto Serif/Noto Sans: papildomas rinkinys su „serif“ antraštėmis ir „sans-serif“ tekstu.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.themes.default.option.typography.notoSans_notoSerif">
-      <segment>
-        <source>Noto Sans/Noto Serif: A complementary pairing with sans-serif headings and serif body text.</source>
-        <target>Noto Sans/Noto Serif: papildomas rinkinys su „sans-serif“ antraštėmis ir „serif“ tekstu.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.themes.default.option.typography.lato">
-      <segment>
-        <source>Lato: A popular modern sans-serif font.</source>
-        <target>Lato: populiarus šiuolaikinis „sans-serif“ šriftas.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.themes.default.option.typography.lora">
-      <segment>
-        <source>Lora: A wide-set serif font good for reading online.</source>
-        <target>Lora: platus „serif“ šrifto rinkinys geram teksto skaitymui internete.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.themes.default.option.typography.lora_openSans">
-      <segment>
-        <source>Lora/Open Sans: A complimentary pairing with serif headings and sans-serif body text.</source>
-        <target>Lora/Open Sans: papildomas rinkinys su „serif“ antraštėmis ir „sans-serif“ tekstu.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.themes.default.option.colour.label">
-      <segment>
-        <source>Colour</source>
-        <target>Spalva</target>
-      </segment>
-    </unit>
-    <unit id="plugins.themes.default.option.colour.description">
-      <segment>
-        <source>Choose a colour for the header.</source>
-        <target>Pasirinkite antraštės spalvą.</target>
-      </segment>
-    </unit>
-  </file>
   <file id="9e5a4fcb3bb7817dcef96071f7d4a948" original="plugins/blocks/developedBy/locale/lt_LT/locale.xml">
     <unit id="plugins.block.developedBy.displayName">
       <segment>
@@ -27599,38 +27565,6 @@ ________________________________________________________________________<br/>
       <segment>
         <source>Make a Submission</source>
         <target>Pateikti straipsnį</target>
-      </segment>
-    </unit>
-  </file>
-  <file id="bccdd75fe06c5946c0dca0dda5c2e1ef" original="plugins/blocks/relatedItems/locale/lt_LT/locale.xml">
-    <unit id="plugins.block.relatedItems.displayName">
-      <segment>
-        <source>Related Items Block</source>
-        <target>Susijusių elementų blokas</target>
-      </segment>
-    </unit>
-    <unit id="plugins.block.relatedItems.description">
-      <segment>
-        <source>This plugin displays a block containing related items in the reading tools sidebar.</source>
-        <target>Įskiepis šoninėje juostoje atvaizduoja bloką turintį susijusius elementus skaitymo įrankiuose.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.block.relatedItems.title">
-      <segment>
-        <source>Related Items</source>
-        <target>Susiję elementai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.block.relatedItems.hide">
-      <segment>
-        <source>Hide</source>
-        <target>Slėpti</target>
-      </segment>
-    </unit>
-    <unit id="plugins.block.relatedItems.show">
-      <segment>
-        <source>Show all</source>
-        <target>Rodyti visus</target>
       </segment>
     </unit>
   </file>
@@ -27905,122 +27839,6 @@ ________________________________________________________________________<br/>
       <segment>
         <source>Export Holdings</source>
         <target>Eksportuoti išteklius</target>
-      </segment>
-    </unit>
-  </file>
-  <file id="c697571bf79acbba0f05b03496302788" original="plugins/generic/browse/locale/lt_LT/locale.xml">
-    <unit id="plugins.generic.browse.displayName">
-      <segment>
-        <source>Browse</source>
-        <target>Naršymas</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.browse.description">
-      <segment>
-        <source>This plugin enables the browsing by sections and/or their identify types.</source>
-        <target>Įskiepis įgalina naršymą pagal skiltis ir/arba jų identifikavimo tipus.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.browse.manager.settings">
-      <segment>
-        <source>Settings</source>
-        <target>Nuostatos</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.browse.manager.settings.description">
-      <segment>
-        <source>Please setup the following additional browsing possibilities:</source>
-        <target>Sukonfigūruokite šias papildomas naršymo galimybes:</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.browse.manager.settings.browseSettings">
-      <segment>
-        <source>Browse Settings</source>
-        <target>Naršymo nuostatos</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.browse.manager.settings.browse">
-      <segment>
-        <source>Browse</source>
-        <target>Naršyti</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.browse.manager.settings.browseByObjects">
-      <segment>
-        <source>Choose the objects that should be possible to browse by.</source>
-        <target>Pasirinkite objektus pagal kuriuos būtų galima naršyti.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.browse.manager.settings.enableBrowseBySections">
-      <segment>
-        <source>By Section</source>
-        <target>Pagal skiltį</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.browse.manager.settings.enableBrowseByIdentifyTypes">
-      <segment>
-        <source>By IdentifyType</source>
-        <target>Pagal identifikavimo tipą</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.browse.manager.settings.excludedSections">
-      <segment>
-        <source>Excluded Sections</source>
-        <target>Išskirtos skiltys</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.browse.manager.settings.excludedSections.description">
-      <segment>
-        <source>Choose the sections that shoudn't be considered.</source>
-        <target>Pasirinkite skiltis, kurios turėtų būti praleistos.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.browse.manager.settings.excludedIdentifyTypes">
-      <segment>
-        <source>Excluded Identify Types</source>
-        <target>Išskirtos identifikavimo tipus</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.browse.manager.settings.excludedIdentifyTypes.description">
-      <segment>
-        <source>Choose the identify types that shoudn't be considered.</source>
-        <target>Pasirinkite identifikavimo tipus, kurie turėtų būti praleisti.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.browse.search.sections">
-      <segment>
-        <source>By Sections</source>
-        <target>Pagal skiltis</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.browse.search.sectionIndex">
-      <segment>
-        <source>Browse Section Index</source>
-        <target>Naršyti skilties rodyklę</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.browse.search.sectionDetails">
-      <segment>
-        <source>Section Details</source>
-        <target>Skilties informacija</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.browse.search.identifyTypes">
-      <segment>
-        <source>By Identify Types</source>
-        <target>Pagal identifikavimo tipus</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.browse.search.identifyTypeIndex">
-      <segment>
-        <source>Browse Identify Type Index</source>
-        <target>Naršyti identifikavimo tipų rodyklę</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.browse.search.identifyTypeDetails">
-      <segment>
-        <source>Identify Type Details</source>
-        <target>Identifikavimo tipo informacija</target>
       </segment>
     </unit>
   </file>
@@ -28772,380 +28590,6 @@ Norėdami patvirtinti autorystę, nurodykite savo ORCID id šiame pateikime apla
       </segment>
     </unit>
   </file>
-  <file id="f76e405c7dbaef7bd44e985a53f8917a" original="plugins/generic/translator/locale/lt_LT/locale.xml">
-    <unit id="plugins.generic.translator.name">
-      <segment>
-        <source>Translator Plugin</source>
-        <target>Vertyklės įskiepis</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.description">
-      <segment>
-        <source>This plugin allows web-based maintenance of translation files.</source>
-        <target>Įskiepis leidžia prižiūrėti vertimo failus WEB aplinkoje.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.longdescription">
-      <segment>
-        <source>This area allows the Site Administrator to build, modify and check translations. This is site-wide and should not be used to customize a single press/journal. If you correct or create a translation, please consider submitting it to the Public Knowledge Project for distribution with future releases.</source>
-        <target>Šis plotas leidžia svetainės administratoriui kurti, modifikuoti ir tikrinti vertimus. Tai yra visai svetainei skirtas ir neturėtų būti naudojamas derinti vienam žurnalui. Jei esate tikri ar kuriate vertimą, apsvarstykite pateikti jį į „Public Knowledge Project“ platinimui su būsimomis laidomis.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeDescription">
-      <segment>
-        <source>This page lists the components of a translation of the software and permits the translator to modify each. A complete translation must include all of these components.</source>
-        <target>Šis puslapis išvardija programinės įrangos komponentų vertimą ir leidžia vertyklei kiekvieną modifikuoti. Pilnas vertimas privalo įtraukti visus šiuos komponentus.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeFileContents">
-      <segment>
-        <source>Locale File Contents</source>
-        <target>Rasti failo turinius</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeName">
-      <segment>
-        <source>Locale Name</source>
-        <target>Lokalės pavadinimas</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeKey">
-      <segment>
-        <source>Key</source>
-        <target>Raktas</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeKey.description">
-      <segment>
-        <source>Enter an entire locale key to search for.</source>
-        <target>Įveskite visą ieškomos lokalės raktą.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeKeyValue">
-      <segment>
-        <source>Value</source>
-        <target>Reiškmė</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.translate">
-      <segment>
-        <source>Translate</source>
-        <target>Vertyklė</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.availableLocales">
-      <segment>
-        <source>Available Locales</source>
-        <target>Prieinamos lokalės</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.check">
-      <segment>
-        <source>Check</source>
-        <target>Tikrinti</target>
-      </segment>
-    </unit>
-    <unit id="grid.action.checkLocale">
-      <segment>
-        <source>Check Locale</source>
-        <target>Tikrinti lokalę</target>
-      </segment>
-    </unit>
-    <unit id="grid.action.download">
-      <segment>
-        <source>Download</source>
-        <target>Atsisiųsti</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeFile.complete">
-      <segment>
-        <source>Complete ({$reference})</source>
-        <target>Baigta ({$reference})</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeFile.incompleteCount">
-      <segment>
-        <source>{$complete} / {$reference} ({$percent}%)</source>
-        <target>{$complete} / {$reference} ({$percent}%)</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeFile.doesNotExist">
-      <segment>
-        <source>Missing ({$reference})</source>
-        <target>Trūksta ({$reference})</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.miscFile.complete">
-      <segment>
-        <source>Complete</source>
-        <target>Užbaigta</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.miscFile.doesNotExist">
-      <segment>
-        <source>Missing</source>
-        <target>Trūksta</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.email.complete">
-      <segment>
-        <source>Complete</source>
-        <target>Užbaigta</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.email.doesNotExist">
-      <segment>
-        <source>Missing</source>
-        <target>Trūksta</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors">
-      <segment>
-        <source>Locale Errors</source>
-        <target>Lokalės klaidos</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.title">
-      <segment>
-        <source>Missing Keys</source>
-        <target>Trūkstami raktai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.title">
-      <segment>
-        <source>Extra Keys</source>
-        <target>Papildomi raktai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.title">
-      <segment>
-        <source>Differing Parameter Lists</source>
-        <target>Skirtingų parametrų sąrašai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.title">
-      <segment>
-        <source>Missing Locale Files</source>
-        <target>Trūkstami lokalės failai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.title">
-      <segment>
-        <source>Missing Emails</source>
-        <target>Trūkstami el. laiškai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.title">
-      <segment>
-        <source>Extra Emails</source>
-        <target>Papildomi el. laiškai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.title">
-      <segment>
-        <source>Differing Email Parameter Lists</source>
-        <target>Skirtingų el. laiškų parametrų sąrašai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.message">
-      <segment>
-        <source>The key "{$key}" is missing from "{$filename}". The English version has been provided as a default.</source>
-        <target>Trūksta rakto „{$key}“ iš „{$filename}“. Angliška versija buvo pateikta kaip numatytoji.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.message">
-      <segment>
-        <source>The key "{$key}" is no longer used and can be removed from "{$filename}".</source>
-        <target>Raktas „{$key}“ daugiau nebenaudojamas ir gali būti pašalintas iš „{$filename}“.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.message">
-      <segment>
-        <source>The locale key "{$key}" in "{$filename}" differs from the reference locale in its use of parameters. Please double-check that it contains all relevant parameters. The mismatching parameter(s) are:</source>
-        <target>Lokalės raktas „{$key}“ faile „{$filename}“ skiriasi nuo šaltinio lokalės parametrais. Dar kartą patikrinkite ar panaudoti visi reikalingi parametrai. Nesutampantys parametrai yra:</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.message">
-      <segment>
-        <source>The locale file "{$filename}" is missing or unreadable.</source>
-        <target>Lokalės failas „{$filename}“ yra trūkstamas arba neperskaitomas.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.message">
-      <segment>
-        <source>The email message "{$key}" is missing from the translation.</source>
-        <target>Vertime trūksta el. laiško žinutės „{$key}“.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.message">
-      <segment>
-        <source>The email message "{$key}" is no longer used and can be removed.</source>
-        <target>El. laiško žinutė „{$key}“ daugiau nebenaudojama ir gali būti pašalinta.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.message">
-      <segment>
-        <source>The email message "{$key}" differs from the reference locale in its use of parameters. Please double-check that it contains all relevant parameters. The mismatching parameter(s) are:</source>
-        <target>El. laiško žinutė „{$key}“ skiriasi nuo šaltinio lokalės parametrais. Dar kartą patikrinkite ar panaudoti visi reikalingi parametrai. Nesutampantys parametrai yra:</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.jumpTo">
-      <segment>
-        <source>Jump To...</source>
-        <target>Pereiti į...</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.locale">
-      <segment>
-        <source>{$locale} Locale</source>
-        <target>{$locale} lokalė</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.localeFiles">
-      <segment>
-        <source>Locale Files</source>
-        <target>Lokalės failai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.miscFiles">
-      <segment>
-        <source>Miscellaneous Files</source>
-        <target>Kiti failai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.emails">
-      <segment>
-        <source>Email Templates</source>
-        <target>El. laiškų šablonai</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.file.filename">
-      <segment>
-        <source>Filename</source>
-        <target>Failo vardas</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.file.edit">
-      <segment>
-        <source>Editing {$filename}</source>
-        <target>{$filename} redagavimas</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.email.edit">
-      <segment>
-        <source>Editing {$emailKey}</source>
-        <target>{$emailKey} redagavimas</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.file.reference">
-      <segment>
-        <source>Reference Version</source>
-        <target>Šaltinio versija</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.file.translation">
-      <segment>
-        <source>Translation</source>
-        <target>Vertimas</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.email.reference">
-      <segment>
-        <source>Reference Version</source>
-        <target>Šaltinio versija</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.email.translation">
-      <segment>
-        <source>Translation</source>
-        <target>Vertimas</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.file.reset">
-      <segment>
-        <source>Reset</source>
-        <target>Atkurti</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.file.resetToReference">
-      <segment>
-        <source>Reset To Reference</source>
-        <target>Atkurti į šaltinį</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.email.reset">
-      <segment>
-        <source>Reset</source>
-        <target>Atkurti</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.email.resetToReference">
-      <segment>
-        <source>Reset To Reference</source>
-        <target>Atkurti į šaltinį</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.file.resetConfirm">
-      <segment>
-        <source>Are you sure you wish to reset the file contents?</source>
-        <target>Ar tikrai norite atkurti failo turinį?</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.email.resetConfirm">
-      <segment>
-        <source>Are you sure you wish to reset the email contents?</source>
-        <target>Ar tikrai norite atkurti el. laiško turinį?</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.file.doesNotExistNote">
-      <segment>
-        <source>* This file has not yet been translated.</source>
-        <target>* Failas dar nėra išverstas.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.email.description">
-      <segment>
-        <source>In the following fields, translate the email template's Title, Body, and Description. The Description is for the Manager's reference only.</source>
-        <target>Sekančiuose laukeliuose, išveskite el. laiško šablono pavadinimą, turinį ir aprašymą. Aprašymas skirtas tik kaip rodyklė administratoriams.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.confirmDelete">
-      <segment>
-        <source>Are you sure you wish to delete this item? This action cannot be undone.</source>
-        <target>Ar tikrai norite pašalinti šį elementą? Šis veiksmas negali būti atšauktas.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.deleteKey">
-      <segment>
-        <source>Delete this key</source>
-        <target>Šalinti raktą</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.deleteEmail">
-      <segment>
-        <source>Delete this email</source>
-        <target>Šalinti el. laišką</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.saveBeforeContinuing">
-      <segment>
-        <source>Be sure to save any changes made on this page before continuing or they will be lost. Do you wish to continue? If so, any unsaved changes will be lost.</source>
-        <target>Irašykite visus pakeitimus atliktus šiame puslapyje prieš tęsdami, priešingai jie bus prarasti. Ar tikrai norite tęsti? Jei taip, visi neįrašyti pakeitimai bus prarasti.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.couldNotWriteFile">
-      <segment>
-        <source>Could not write the file "{$filename}". Double-check that file permissions are set correctly.</source>
-        <target>Nepavyko perrašyti failo „{$filename}“. Dar kartą patikrinkite, ar failo teisės buvo nustatytos tinkamai.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.generic.translator.errorEditingFile">
-      <segment>
-        <source>There was a problem editing the file "{$filename}". Double-check to ensure that it follows the expected format.</source>
-        <target>Įvyko klaida redaguojant failą „{$filename}“. Dar kartą patikrinkite, ar failas yra numanomo formato.</target>
-      </segment>
-    </unit>
-  </file>
   <file id="2a58b12438cd2ec36536d76effa9d0f6" original="plugins/importexport/crossref/locale/lt_LT/locale.xml">
     <unit id="plugins.importexport.crossref.displayName">
       <segment>
@@ -29493,6 +28937,48 @@ Norėdami patvirtinti autorystę, nurodykite savo ORCID id šiame pateikime apla
         <target>Susisiekite su DOAJ dėl įtraukimo</target>
       </segment>
     </unit>
+    <unit id="plugins.importexport.doaj.registrationIntro">
+      <segment>
+        <source>If you would like to register articles from within OJS, please enter your DOAJ API Key. Else, you'll still be able to export into the DOAJ XML format but you cannot register your articles with DOAJ from within OJS.</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="plugins.importexport.doaj.settings.form.apiKey">
+      <segment>
+        <source>DOAJ API Key</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="plugins.importexport.doaj.settings.form.apiKey.description">
+      <segment>
+        <source>You will find your API key on your DOAJ user page.</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="plugins.importexport.doaj.settings.form.automaticRegistration.description">
+      <segment>
+        <source>OJS will deposit articles automatically to DOAJ. Please note that this may take a short amount of time after publication to process. You can check for all unregistered articles.</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="plugins.importexport.doaj.settings.form.testMode.description">
+      <segment>
+        <source>Use the DOAJ test API (testing environment) for the registration. Please do not forget to remove this option for the production.</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="plugins.importexport.doaj.register.error.mdsError">
+      <segment>
+        <source>Deposit was not successful! The DOAJ API returned an error: '{$param}'.</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
     <unit id="plugins.importexport.doaj.cliUsage">
       <segment>
         <source>Usage:
@@ -29643,8 +29129,11 @@ Norėdami patvirtinti autorystę, nurodykite savo ORCID id šiame pateikime apla
     </unit>
     <unit id="plugins.importexport.medra.settings.form.automaticRegistration.description">
       <segment>
-        <source><![CDATA[OJS will register assigned DOIs automatically to mEDRA. Please note that this may take a short amount of time after publication to process. You can check for all unregistered DOIs.>]]></source>
-        <target><![CDATA[OJS automatiškai užregistruos paskirtus DOI į mEDRA. will register assigned DOIs automatically to mEDRA.  Atkreipkite dėmesį į tai, kad šį procesas gali šiek tiek užtrukti po išleidimo. Bet kuriuo metu galite peržiūrėti visus neužregistruotus DOI.>]]></target>
+        <source>OJS will register assigned DOIs automatically to mEDRA. Please note that this may take a short amount of time after publication to process. You can check for all unregistered DOIs.</source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "OJS will register assigned DOIs automatically to mEDRA. Please note that this may take a short amount of time after publication to process. You can check for all unregistered DOIs.>".-->
+        <!--Old translation: "OJS automatiškai užregistruos paskirtus DOI į mEDRA. will register assigned DOIs automatically to mEDRA.  Atkreipkite dėmesį į tai, kad šį procesas gali šiek tiek užtrukti po išleidimo. Bet kuriuo metu galite peržiūrėti visus neužregistruotus DOI.>".-->
       </segment>
     </unit>
     <unit id="plugins.importexport.medra.settings.form.testMode.description">
@@ -29827,8 +29316,11 @@ Priimtini šie formatai:
     </unit>
     <unit id="plugins.importexport.native.import.error.issueIdentificationMissing">
       <segment>
-        <source>The issue identification element is missing for the article "{$articleTitle}"".</source>
-        <target>Trūksta numerio identifikavimo elemento straipsniui „{$articleTitle}“.</target>
+        <source>The issue identification element is missing for the article "{$articleTitle}".</source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "The issue identification element is missing for the article "{$articleTitle}"".".-->
+        <!--Old translation: "Trūksta numerio identifikavimo elemento straipsniui „{$articleTitle}“.".-->
       </segment>
     </unit>
   </file>
@@ -29881,8 +29373,11 @@ Komandos:
     </unit>
     <unit id="plugins.importexport.pubIds.export.selectIssue.description">
       <segment>
-        <source>Please select issues, for whose objects you whish to export the public identifiers.</source>
-        <target>Pasirinkite numerius, kurių objektų viešuosius identifikatorius norite eksportuoti.</target>
+        <source>Please select issues, for whose objects you wish to export the public identifiers.</source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "Please select issues, for whose objects you whish to export the public identifiers.".-->
+        <!--Old translation: "Pasirinkite numerius, kurių objektų viešuosius identifikatorius norite eksportuoti.".-->
       </segment>
     </unit>
     <unit id="plugins.importexport.pubIds.import">
@@ -29977,8 +29472,11 @@ Komandos:
     </unit>
     <unit id="plugins.importexport.pubIds.import.error.unknownObject">
       <segment>
-        <source>The object "{$pubObjectType}" with ID = {$pubObjectId} specified in the element with the value "{$pubId}" deos not exist for this journal.</source>
-        <target>Nurodytas objektas „{$pubObjectType}“ su ID = {$pubObjectId} elemente, kurio reikšmė „{$pubId}“, neegzistuoja šiame žurnale.</target>
+        <source>The object "{$pubObjectType}" with ID = {$pubObjectId} specified in the element with the value "{$pubId}" does not exist for this journal.</source>
+        <target></target>
+        <!--EDITED-->
+        <!--Old source: "The object "{$pubObjectType}" with ID = {$pubObjectId} specified in the element with the value "{$pubId}" deos not exist for this journal.".-->
+        <!--Old translation: "Nurodytas objektas „{$pubObjectType}“ su ID = {$pubObjectId} elemente, kurio reikšmė „{$pubId}“, neegzistuoja šiame žurnale.".-->
       </segment>
     </unit>
     <unit id="plugins.importexport.pubIds.import.error.pubIdExists">
@@ -29997,80 +29495,6 @@ Komandos:
       <segment>
         <source>Your import file contains a public identifier type "{$pubIdType}" that no pubId plugin can handle. Please install and/or activate the corresponding pubId plugin before trying to import this dataset.</source>
         <target>Importavimo failas turi viešąjį identifikatoriaus tipą „{$pubIdType}“, kurio šis įskiepis nepalaiko. Įdiekite ir/arba aktyvuokite atitinkamą pubId įskiepį prieš mėgindami importuoti šį duomenų rinkinį.</target>
-      </segment>
-    </unit>
-  </file>
-  <file id="5934ffe6dcc4df7f150d9d9f6efabc6f" original="plugins/importexport/pubmed/locale/lt_LT/locale.xml">
-    <unit id="plugins.importexport.pubmed.displayName">
-      <segment>
-        <source>PubMed XML Export Plugin</source>
-        <target>PubMed XML eksportavimo įskiepis</target>
-      </segment>
-    </unit>
-    <unit id="plugins.importexport.pubmed.description">
-      <segment>
-        <source>Export article metadata in PubMed XML format for indexing in MEDLINE.</source>
-        <target>Įskiepis eksportuoja straipsnių metaduomenis PubMed XML formatu indeksavimui į MEDLINE.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.importexport.pubmed.export">
-      <segment>
-        <source>Export Data</source>
-        <target>Eksportuoti duomenis</target>
-      </segment>
-    </unit>
-    <unit id="plugins.importexport.pubmed.export.issues">
-      <segment>
-        <source>Export Issues</source>
-        <target>Eksportuoti numerius</target>
-      </segment>
-    </unit>
-    <unit id="plugins.importexport.pubmed.export.selectIssue">
-      <segment>
-        <source>Select an Issue to export.</source>
-        <target>Pasirinkite eksportuojamą numerį.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.importexport.pubmed.export.articles">
-      <segment>
-        <source>Export Articles</source>
-        <target>Eksportuoti straipsnius</target>
-      </segment>
-    </unit>
-    <unit id="plugins.importexport.pubmed.export.selectArticle">
-      <segment>
-        <source>Select Articles to export.</source>
-        <target>Pasirinkite eksportuojamus straipsnius.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.importexport.pubmed.cliUsage">
-      <segment>
-        <source>Usage: 
-{$scriptName} {$pluginName} [xmlFileName] [journal_path] articles [articleId1] [articleId2] ...
-{$scriptName} {$pluginName} [xmlFileName] [journal_path] issue [issueId]
-</source>
-        <target>Naudojimas:
-{$scriptName} {$pluginName} [xmlFileName] [journal_path] articles [articleId1] [articleId2] ...
-{$scriptName} {$pluginName} [xmlFileName] [journal_path] issue [issueId]
-</target>
-      </segment>
-    </unit>
-    <unit id="plugins.importexport.pubmed.cliError">
-      <segment>
-        <source>ERROR:</source>
-        <target>KLAIDA:</target>
-      </segment>
-    </unit>
-    <unit id="plugins.importexport.pubmed.export.error.issueNotFound">
-      <segment>
-        <source>No issue matched the specified issue ID "{$issueId}".</source>
-        <target>Nėra numerio su nurodytu ID „{$issueId}“.</target>
-      </segment>
-    </unit>
-    <unit id="plugins.importexport.pubmed.export.error.articleNotFound">
-      <segment>
-        <source>No article matched the specified article ID "{$articleId}".</source>
-        <target>Nėra straipsnio su nurodytu ID „{$articleId}“.</target>
       </segment>
     </unit>
   </file>
@@ -31190,65 +30614,96 @@ Serverio kintamieji:<br />
       </segment>
     </unit>
   </file>
-  <file id="9ef2a272b2d4bf0d55380478c6e6ffdb" original="plugins/reports/reviews/locale/lt_LT/locale.xml">
+  <file id="dae59ecc39d91d59ef8815e1d9a3578f" original="plugins/reports/reviewReport/locale/lt_LT/locale.xml">
     <unit id="plugins.reports.reviews.displayName">
       <segment>
         <source>Review Report</source>
-        <target>Recenzavimo ataskaita</target>
+        <target></target>
+        <!--NEW-->
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.description">
       <segment>
         <source>This plugin implements a CSV report containing a list of review assignments for a journal.</source>
-        <target>Įskiepis realizuoja CSV ataskaitą turinčią recenzavimo užduočių sąrašą.</target>
+        <target></target>
+        <!--NEW-->
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.round">
       <segment>
         <source>Round</source>
-        <target>Etapas</target>
+        <target></target>
+        <!--NEW-->
       </segment>
     </unit>
-    <unit id="plugins.reports.reviews.reviewerId">
+    <unit id="plugins.reports.reviews.submissionTitle">
       <segment>
-        <source>Reviewer ID</source>
-        <target>Recenzento ID</target>
+        <source>Submission Title</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="plugins.reports.reviews.submissionId">
+      <segment>
+        <source>Submission ID</source>
+        <target></target>
+        <!--NEW-->
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.reviewer">
       <segment>
         <source>Reviewer</source>
-        <target>Recenzentas</target>
+        <target></target>
+        <!--NEW-->
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.dateAssigned">
       <segment>
         <source>Date Assigned</source>
-        <target>Paskyrimo data</target>
+        <target></target>
+        <!--NEW-->
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.dateNotified">
       <segment>
         <source>Date Notified</source>
-        <target>Informavimo data</target>
+        <target></target>
+        <!--NEW-->
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.dateConfirmed">
       <segment>
         <source>Date Confirmed</source>
-        <target>Patvirtinimo data</target>
+        <target></target>
+        <!--NEW-->
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.dateCompleted">
       <segment>
         <source>Date Completed</source>
-        <target>Baigimo data</target>
+        <target></target>
+        <!--NEW-->
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.dateReminded">
       <segment>
         <source>Date Reminded</source>
-        <target>Priminimo data</target>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="plugins.reports.reviews.recommendation">
+      <segment>
+        <source>Recommendation</source>
+        <target></target>
+        <!--NEW-->
+      </segment>
+    </unit>
+    <unit id="plugins.reports.reviews.comments">
+      <segment>
+        <source>Comments On Submission</source>
+        <target></target>
+        <!--NEW-->
       </segment>
     </unit>
   </file>
@@ -31293,6 +30748,86 @@ Serverio kintamieji:<br />
       <segment>
         <source>Total Galley Views</source>
         <target>Maketo peržiūros</target>
+      </segment>
+    </unit>
+  </file>
+  <file id="f391f569eeb884ed58258f7bd2c1cbf6" original="plugins/themes/default/locale/lt_LT/locale.xml">
+    <unit id="plugins.themes.default.name">
+      <segment>
+        <source>Default Theme</source>
+        <target>Numatytasis apipavidalinimas</target>
+      </segment>
+    </unit>
+    <unit id="plugins.themes.default.description">
+      <segment>
+        <source>This theme implements the default theme.</source>
+        <target>Šis apipavidalinimas realizuoja numatytąjį apipavidalinimą.</target>
+      </segment>
+    </unit>
+    <unit id="plugins.themes.default.option.typography.label">
+      <segment>
+        <source>Typography</source>
+        <target>Tipografija</target>
+      </segment>
+    </unit>
+    <unit id="plugins.themes.default.option.typography.description">
+      <segment>
+        <source>Choose a font combination that suits this journal.</source>
+        <target>Pasirinkite šriftų derinį, kuris tiktų žurnalui.</target>
+      </segment>
+    </unit>
+    <unit id="plugins.themes.default.option.typography.notoSans">
+      <segment>
+        <source>Noto Sans: A digital-native font designed by Google for extensive language support.</source>
+        <target>Noto Sans: skaitmenis šriftas, kurį sukūrė „Google“, plačiam kalbų palaikymui.</target>
+      </segment>
+    </unit>
+    <unit id="plugins.themes.default.option.typography.notoSerif">
+      <segment>
+        <source>Noto Serif: A serif variant of Google's digital-native font.</source>
+        <target>Noto Serif: „serif“ šrifto variantas, kurį sukūrė „Google“.</target>
+      </segment>
+    </unit>
+    <unit id="plugins.themes.default.option.typography.notoSerif_notoSans">
+      <segment>
+        <source>Noto Serif/Noto Sans: A complementary pairing with serif headings and sans-serif body text.</source>
+        <target>Noto Serif/Noto Sans: papildomas rinkinys su „serif“ antraštėmis ir „sans-serif“ tekstu.</target>
+      </segment>
+    </unit>
+    <unit id="plugins.themes.default.option.typography.notoSans_notoSerif">
+      <segment>
+        <source>Noto Sans/Noto Serif: A complementary pairing with sans-serif headings and serif body text.</source>
+        <target>Noto Sans/Noto Serif: papildomas rinkinys su „sans-serif“ antraštėmis ir „serif“ tekstu.</target>
+      </segment>
+    </unit>
+    <unit id="plugins.themes.default.option.typography.lato">
+      <segment>
+        <source>Lato: A popular modern sans-serif font.</source>
+        <target>Lato: populiarus šiuolaikinis „sans-serif“ šriftas.</target>
+      </segment>
+    </unit>
+    <unit id="plugins.themes.default.option.typography.lora">
+      <segment>
+        <source>Lora: A wide-set serif font good for reading online.</source>
+        <target>Lora: platus „serif“ šrifto rinkinys geram teksto skaitymui internete.</target>
+      </segment>
+    </unit>
+    <unit id="plugins.themes.default.option.typography.lora_openSans">
+      <segment>
+        <source>Lora/Open Sans: A complimentary pairing with serif headings and sans-serif body text.</source>
+        <target>Lora/Open Sans: papildomas rinkinys su „serif“ antraštėmis ir „sans-serif“ tekstu.</target>
+      </segment>
+    </unit>
+    <unit id="plugins.themes.default.option.colour.label">
+      <segment>
+        <source>Colour</source>
+        <target>Spalva</target>
+      </segment>
+    </unit>
+    <unit id="plugins.themes.default.option.colour.description">
+      <segment>
+        <source>Choose a colour for the header.</source>
+        <target>Pasirinkite antraštės spalvą.</target>
       </segment>
     </unit>
   </file>

@@ -95,7 +95,7 @@ Sukūrėte paskyrą žurnale {$contextName}, tačiau prieš galėdami juo naudot
 <br />
 Ačiū,<br />
 {$principalContactSignature}]]></body>
-		<description>El. laiškas siunčiamas naujai registruotam vartotojui, kad patvirtintų el. pašto paskyrą.</description>
+		<description>This email is sent to a newly registered user to validate their email account.</description>
 	</email_text>
 	<email_text key="REVIEWER_REGISTER">
 		<subject>Recenzento registracija žurnale {$contextName}</subject>
@@ -168,14 +168,14 @@ Jei turite klausimų, susisiekite su manimi. Ačiū, kad pateikėte savo darbą 
 	</email_text>
 	<email_text key="SUBMISSION_ACK_NOT_USER">
 		<subject>Pateikimo patvirtinimas</subject>
-		<body><![CDATA[Sveiki,<br />
+		<body><![CDATA[Hello,<br />
 <br />
-{$submitterName} pateikė rankraštį „{$submissionTitle}“ į {$contextName}. <br />
+{$submitterName} has submitted the manuscript, &quot;{$submissionTitle}&quot; to {$contextName}. <br />
 <br />
-Jei turite klausimų, susisiekite su manimi. Ačiū, kad pateikėte savo darbą mūsų žurnale.<br />
+If you have any questions, please contact me. Thank you for considering this journal as a venue for your work.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>El. laiškas, kai įgalintas, yra automatiškai siunčiamas kitiems autoriams, kurie nėra registruoti vartotojai nurodyti pateikimo procese.</description>
+		<description>This email, when enabled, is automatically sent to the other authors who are not users within OJS specified during the submission process.</description>
 	</email_text>
 	<email_text key="SUBMISSION_UNSUITABLE">
 		<subject>Pateikimas netinkamas</subject>
@@ -224,22 +224,24 @@ Patyrę recenzentai itin svarbūs palaikant aukštos kokybės standartus, todėl
 	</email_text>
 	<email_text key="REVIEW_REQUEST_REMIND_AUTO">
 		<subject>Prašymas recenzuoti straipsnį</subject>
-		<body><![CDATA[Gerb. {$reviewerName}:<br />
-Šis laiškas yra tiesiog priminimas apie mūsų prašymą recenzuoti „{$submissionTitle}“ žurnalui „{$contextName}“. Tikėjomės gauti atsakymą iš jūsų iki {$responseDueDate}, o šis laiškas yra automatiškai sugeneruotas ir išsiųstas jums praėjus nurodytą datą.
+		<body><![CDATA[{$reviewerName}:<br />
+Just a gentle reminder of our request for your review of the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We were hoping to have your response by {$responseDueDate}, and this email has been automatically generated and sent with the passing of that date.
 <br />
-Prisijunkite prie žurnalo svetainės iki {$responseDueDate}, kad nurodytumėte ar sutinkate recenzuoti, ar nesutinkate. Taip pat prisijungę galėsite prieiti prie pateikimo, pateikti savo recenziją ir rekomendaciją. Svetainės adresas yra <a href="{$contextUrl}">{$contextUrl}</a><br />
+I believe that you would serve as an excellent reviewer of the manuscript. The submission's abstract is inserted below, and I hope that you will consider undertaking this important task for us.<br />
 <br />
-Recenzavimo terminas: {$reviewDueDate}.<br />
+Please log into the journal web site to indicate whether you will undertake the review or not, as well as to access the submission and to record your review and recommendation. The web site is <a href="{$contextUrl}">{$contextUrl}</a><br />
 <br />
-Jei neturite savo vartotojo vardo ir slaptažodžio, panaudokite šią nuorodą, kad atkurtumėte savo slaptažodį (kuris bus išsiųstas el. paštu su vartotojo vardu). <a href="{$passwordResetUrl}">{$passwordResetUrl}</a><br />
+The review itself is due {$reviewDueDate}.<br />
 <br />
-Pateikimo adresas: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br />
+If you do not have your username and password for the journal's web site, you can use this link to reset your password (which will then be emailed to you along with your username). <a href="{$passwordResetUrl}">{$passwordResetUrl}</a><br />
 <br />
-Patyrę recenzentai itin svarbūs palaikant aukštos kokybės standartus, todėl norėčiau iš anksto padėkoti už bet kokią jūsų pagalbą.<br />
+Submission URL: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br />
+<br />
+Thank you for considering this request.<br />
 <br />
 {$editorialContactSignature}<br />
 <br />
-„{$submissionTitle}“<br />
+&quot;{$submissionTitle}&quot;<br />
 <br />
 {$submissionAbstract}]]></body>
 		<description>El. laiškas yra automatiškai išsiunčiamas kai recenzentas pavėlavo pateikti savo atsakymą dėl recenzavimo užduoties (žr. Recenzavimo parinktis puslapyje Nuostatos &gt; Darbo eiga &gt; Recenzavimas) ir kai vieno spustelėjimo recenzento prieiga yra išjungta. Suplanuotos užduotys privalo būti įgalintos ir sukonfigūruotos (žr. svetainės konfigūracijos failą).</description>
