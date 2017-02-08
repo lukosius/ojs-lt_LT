@@ -69,7 +69,7 @@
     <message key="user.login.registrationComplete.newSubmission">Kurti naują pateikimą</message>
     <message key="user.login.registrationComplete.continueBrowsing">Naršyti toliau</message>
     <message key="user.login.registrationPendingValidation">Registracija laukia patikrinimo</message>
-    <message key="user.login.rememberUsernameAndPassword">Keep me logged in</message>
+    <message key="user.login.rememberUsernameAndPassword">Prisiminti mane</message>
     <message key="user.login.resetPassword">Atkurti slaptažodį</message>
     <message key="user.logOut">Baigti seansą</message>
     <message key="user.logOutAs">Atsijungti kaip</message>

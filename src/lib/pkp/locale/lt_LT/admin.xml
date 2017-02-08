@@ -74,10 +74,10 @@
     <message key="admin.settings.form.minPasswordLengthRequired">Mažiausias slaptažodžio ilgi turi būti ne mažesnis nei 4 simboliai.</message>
     <message key="admin.settings.form.titleRequired">Pavadinimas yra privalomas.</message>
     <message key="admin.settings.defaultMetricDescription">
-		Your installation is configured to record more than one usage metric. Usage statistics will be displayed in several contexts.
-		There are cases where a single usage statistic must be used, e.g. to display an ordered list of most-used submissions or to rank
-		search results. Please select one of the configured metrics as a default.
-	</message>
+    Jūsų OJS diegimas yra sukonfigūruotas įrašyti daugiau nei vieną naudojimo metriką. Naudojimo statistika bus rodoma keliuose kontekstuose.
+    Yra atvejų, kur privaloma naudoti bent vieną naudojimo statistiką, pvz. rodyti surikiuotą daugiausiai naudojamų straipsnių sąrašą arba
+    paieškos rezultatus. Pasirinkite vieną iš sukonfigūruotų metrikų kaip numatytąją.
+  </message>
     <message key="admin.settings.homeHeaderImage.altText">Svetainės logotipas</message>
     <message key="admin.settings.homeHeaderImageInvalid">Netinkamas svetainės logotipo formatas. Leistini formatai yra .gif, .jpg, ar .png.</message>
     <message key="admin.settings.introduction">Įvadas</message>

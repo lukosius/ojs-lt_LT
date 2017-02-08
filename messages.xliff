@@ -186,8 +186,7 @@
     <unit id="user.authorization.submissionReviewer">
       <segment>
         <source>The current user is not assigned as a reviewer for the requested document.</source>
-        <target></target>
-        <!--NEW-->
+        <target>Dabartinis vartotojas nėra paskirtas kaip prašyto dokumento recenzentas.</target>
       </segment>
     </unit>
   </file>
@@ -2227,8 +2226,7 @@
     <unit id="submission.authorBiography">
       <segment>
         <source>Author Biography</source>
-        <target></target>
-        <!--NEW-->
+        <target>Autoriaus biografija</target>
       </segment>
     </unit>
     <unit id="submission.authorBiographies">
@@ -2240,8 +2238,7 @@
     <unit id="submission.authorWithAffiliation">
       <segment>
         <source>{$name}, {$affiliation}</source>
-        <target></target>
-        <!--NEW-->
+        <target>{$name}, {$affiliation}</target>
       </segment>
     </unit>
     <unit id="submission.shortAuthor">
@@ -3867,10 +3864,7 @@
     <unit id="submission.submit.submissionLocaleDescription">
       <segment>
         <source>Submissions in several languages are accepted. Choose the primary language of the submission from the pulldown below.</source>
-        <target></target>
-        <!--EDITED-->
-        <!--Old source: "This press accepts submissions in several languages. Choose the primary language of the submission from the pulldown below.".-->
-        <!--Old translation: "Žurnalas priima pateikimus keliomis kalbomis. Pasirinkite pagrindinę pateikimo kalbą iš išskleidžiamojo sąrašo.".-->
+        <target>Priimami pateikimai keliomis kalbomis. Pasirinkite pagrindinę pateikimo kalbą iš išskleidžiamojo sąrašo.</target>
       </segment>
     </unit>
     <unit id="submission.submit.submissionFiles">
@@ -9267,8 +9261,7 @@
     <unit id="grid.submission.active.selectOrphaned">
       <segment>
         <source>Include incomplete submissions not submitted by an author.</source>
-        <target></target>
-        <!--NEW-->
+        <target>Įtraukti neužbaigtus pateikimus, kurių autorius nepateikė.</target>
       </segment>
     </unit>
   </file>
@@ -10245,10 +10238,7 @@
     <unit id="user.login.rememberUsernameAndPassword">
       <segment>
         <source>Keep me logged in</source>
-        <target></target>
-        <!--EDITED-->
-        <!--Old source: "Remember my username and password".-->
-        <!--Old translation: "Prisiminti vartotojo vardą ir slaptažodį".-->
+        <target>Prisiminti mane</target>
       </segment>
     </unit>
     <unit id="user.login.resetPassword">
@@ -14258,18 +14248,11 @@
 		There are cases where a single usage statistic must be used, e.g. to display an ordered list of most-used submissions or to rank
 		search results. Please select one of the configured metrics as a default.
 	</source>
-        <target></target>
-        <!--EDITED-->
-        <!--Old source: "
-		Your installation is configured to record more than one usage metric. Usage statistics will be displayed in several contexts.
-		There are cases where a single usage statistic must be used, e.g. to display an orderd list of most-used submissions or to rank
-		search results. Please select one of the configured metrics as a default.
-	".-->
-        <!--Old translation: "
+        <target>
     Jūsų OJS diegimas yra sukonfigūruotas įrašyti daugiau nei vieną naudojimo metriką. Naudojimo statistika bus rodoma keliuose kontekstuose.
     Yra atvejų, kur privaloma naudoti bent vieną naudojimo statistiką, pvz. rodyti surikiuotą daugiausiai naudojamų straipsnių sąrašą arba
     paieškos rezultatus. Pasirinkite vieną iš sukonfigūruotų metrikų kaip numatytąją.
-  ".-->
+  </target>
       </segment>
     </unit>
     <unit id="admin.settings.homeHeaderImage.altText">
@@ -16556,12 +16539,8 @@ Naudojimas (apdorojant visus katalogo failus): {$scriptName} kelias/iki/apache/k
       <segment>
         <source><![CDATA[<h4>NOTE!</h4>
 <p>The system could not automatically overwrite the configuration file. To apply your configuration changes you must open <tt>config.inc.php</tt> in a suitable text editor and replace its contents with the contents of the text field below.</p>]]></source>
-        <target></target>
-        <!--EDITED-->
-        <!--Old source: "<h4>NOTE!</div>
-<p>The system could not automatically overwrite the configuration file. To apply your configuration changes you must open <tt>config.inc.php</tt> in a suitable text editor and replace its contents with the contents of the text field below.</p>".-->
-        <!--Old translation: "<h4>PASTABA!</h4>
-<p>Sistemai nepavyko automatiškai perrašyti konfigūracijos failo. Norėdami įrašyti pakeitimus, su teksto redaktoriumi turite atverti <tt>config.inc.php</tt> failą ir pakeisti jo turinį su žemiau pateiktu laukelio turiniu.</p>".-->
+        <target><![CDATA[<h4>PASTABA!</h4>
+<p>Sistemai nepavyko automatiškai perrašyti konfigūracijos failo. Norėdami įrašyti pakeitimus, su teksto redaktoriumi turite atverti <tt>config.inc.php</tt> failą ir pakeisti jo turinį su žemiau pateiktu laukelio turiniu.</p>]]></target>
       </segment>
     </unit>
     <unit id="subscriptionManager.subscriptionManagement">
@@ -16656,25 +16635,7 @@ Authors who publish with this journal agree to the following terms:
 	 <li>Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.</li>
 	 <li>Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html"> The Effect of Open Access</a>).</li>
 </ol>]]></source>
-        <target></target>
-        <!--EDITED-->
-        <!--Old source: "<h3>Proposed Creative Commons Copyright Notices</h3>
-<h4>1. Proposed Policy for Journals That Offer Open Access</h4>
-Authors who publish with this journal agree to the following terms:
-<ol type="a">
-	<li>Authors retain copyright and grant the journal right of first publication with the work simultaneously licensed under a <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a> that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal.</li>
-	<li>Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.</li>
-	<li>Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">The Effect of Open Access</a>).</li>
-</ol>
-
-<h4>Proposed Policy for Journals That Offer Delayed Open Access</h4>
-Authors who publish with this journal agree to the following terms:
-<ol type="a">
-	<li>Authors retain copyright and grant the journal right of first publication, with the work [SPECIFY PERIOD OF TIME] after publication simultaneously licensed under a <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a> that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal.</li>
-	 <li>Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.</li>
-	 <li>Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html"> The Effect of Open Access</a>).</li>
-</ol>".-->
-        <!--Old translation: "<h3>„Creative Commons“ autorinių teisių pranešimai</h3>
+        <target><![CDATA[<h3>„Creative Commons“ autorinių teisių pranešimai</h3>
 <h4>1. Siūloma politika žurnalams su atvirąja prieiga</h4>
 Autoriai, kurie nori leisti straipsnius šiame žurnale, sutinka su šiomis sąlygomis:
 <ol type="a">
@@ -16683,13 +16644,13 @@ Autoriai, kurie nori leisti straipsnius šiame žurnale, sutinka su šiomis sąl
     <li>Autoriams leidžiama pateikti savo darbą internete (pvz. institucinėse talpyklose ar jų svetainėse), tiek prieš straipsnio pateikimą, tiek straipsnio pateikimo metu. Tokie veiksmai yra naudingi tuo, kad gali pagreitinti informacijos mainus, paankstinti ir padidinti publikuojamo darbo cituojamumą (žr. <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">The Effect of Open Access</a>).</li>
 </ol>
 
-<h4>Žurnalams su uždelsta atvirąja prieiga</h4>
+<h4>2. Žurnalams su uždelsta atvirąja prieiga</h4>
 Autoriai, kurie nori leisti straipsnius šiame žurnale, sutinka su šiomis sąlygomis:
 <ol type="a">
     <li>Autoriai pasilieka autorines teises ir žurnalui perleidžia teisę į pirmojo straipsnio paskelbimą. Praėjus [NURODYTI LAIKOTARPĮ] po straipsnio publikavimo, darbas tuo pačiu yra licencijuojamas pagal <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a>, kuri trečiosioms šalims leidžia dalintis darbu, nurodant straipsnio autorystę ir nuorodą į šį žurnalą kaip pradinio paskelbimo vietą.</li>
      <li>Autoriai gali sudaryti bet kokias, tačiau ne išimtines, sutartis, liečiančias žurnale patalpinto straipsnio platinimą ar kitokį panaudojimą (pvz. perduoti straipsnį į institucinę talpyklą ar publikuoti knygoje), pateikiant nuorodą į šį žurnalą kaip pradinio paskelbimo vietą.</li>
      <li>Autoriams leidžiama pateikti savo darbą internete (pvz. institucinėse talpyklose ar jų svetainėse), tiek prieš straipsnio pateikimą, tiek straipsnio pateikimo metu. Tokie veiksmai yra naudingi tuo, kad gali pagreitinti informacijos mainus, paankstinti ir padidinti publikuojamo darbo cituojamumą (žr. <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">The Effect of Open Access</a>).</li>
-</ol>".-->
+</ol>]]></target>
       </segment>
     </unit>
     <unit id="manager.setup.citations.enable">
@@ -19735,10 +19696,7 @@ Sukūrėte paskyrą žurnale {$contextName}, tačiau prieš galėdami juo naudot
       </body>
       <description>
         <source>This email is sent to a newly registered user to validate their email account.</source>
-        <target></target>
-        <!--EDITED SUBJECT-->
-        <!--Old source: "This email is sent to a newly registered user to welcome them to the system and provide them with a record of their username and password.".-->
-        <!--Old translation: "El. laiškas siunčiamas naujai registruotam vartotojui, kad patvirtintų el. pašto paskyrą.".-->
+        <target>El. laiškas siunčiamas naujai registruotam vartotojui, kad patvirtintų el. pašto paskyrą.</target>
       </description>
     </email>
     <email id="REVIEWER_REGISTER">
@@ -19912,29 +19870,17 @@ Ačiū, kad pateikėte rankraštį „{$submissionTitle}“ į {$contextName}. S
 If you have any questions, please contact me. Thank you for considering this journal as a venue for your work.<br />
 <br />
 {$editorialContactSignature}]]></source>
-        <target></target>
-        <!--EDITED SUBJECT-->
-        <!--Old source: "Hello,<br />
-<br />
-{$submitterName} has submitted the manuscript, &quot;{$submissionTitle}&quot; to {$contextName}. <br />
-<br />
-If you have any questions, please contact me. Thank you for considering this press as a venue for your work.<br />
-<br />
-{$editorialContactSignature}".-->
-        <!--Old translation: "Sveiki,<br />
+        <target><![CDATA[Sveiki,<br />
 <br />
 {$submitterName} pateikė rankraštį „{$submissionTitle}“ į {$contextName}. <br />
 <br />
-Jei turite klausimų, susisiekite su manimi. Ačiū, kad pateikėte savo darbą mūsų žurnale.<br />
+##email-have-questions## Ačiū, kad pateikėte savo darbą mūsų žurnale.<br />
 <br />
-{$editorialContactSignature}".-->
+{$editorialContactSignature}]]></target>
       </body>
       <description>
         <source>This email, when enabled, is automatically sent to the other authors who are not users within OJS specified during the submission process.</source>
-        <target></target>
-        <!--EDITED SUBJECT-->
-        <!--Old source: "This email, when enabled, is automatically sent to the other authors who are not users within OMP specified during the submission process.".-->
-        <!--Old translation: "El. laiškas, kai įgalintas, yra automatiškai siunčiamas kitiems autoriams, kurie nėra registruoti vartotojai nurodyti pateikimo procese.".-->
+        <target>El. laiškas, kai įgalintas, yra automatiškai siunčiamas kitiems autoriams, kurie nėra registruoti vartotojai nurodyti pateikimo procese.</target>
       </description>
     </email>
     <email id="SUBMISSION_UNSUITABLE">
@@ -20065,46 +20011,24 @@ Thank you for considering this request.<br />
 &quot;{$submissionTitle}&quot;<br />
 <br />
 {$submissionAbstract}]]></source>
-        <target></target>
-        <!--EDITED SUBJECT-->
-        <!--Old source: "{$reviewerName}:<br />
-Just a gentle reminder of our request for your review of the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We were hoping to have your response by {$responseDueDate}, and this email has been automatically generated and sent with the passing of that date.
+        <target><![CDATA[##email-dear-reviewer##
+##email-review-reminder##
 <br />
-I believe that you would serve as an excellent reviewer of the manuscript. The submission's abstract is inserted below, and I hope that you will consider undertaking this important task for us.<br />
+##email-review-response-due## Svetainės adresas yra <a href="{$contextUrl}">{$contextUrl}</a><br />
 <br />
-Please log into the journal web site by to indicate whether you will undertake the review or not, as well as to access the submission and to record your review and recommendation. The web site is <a href="{$contextUrl}">{$contextUrl}</a><br />
+##email-review-due##
 <br />
-The review itself is due {$reviewDueDate}.<br />
+##email-review-password##
 <br />
-If you do not have your username and password for the journal's web site, you can use this link to reset your password (which will then be emailed to you along with your username). <a href="{$passwordResetUrl}">{$passwordResetUrl}</a><br />
+##email-review-url##
 <br />
-Submission URL: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br />
-<br />
-Thank you for considering this request.<br />
-<br />
-{$editorialContactSignature}<br />
-<br />
-&quot;{$submissionTitle}&quot;<br />
-<br />
-{$submissionAbstract}".-->
-        <!--Old translation: "Gerb. {$reviewerName}:<br />
-Šis laiškas yra tiesiog priminimas apie mūsų prašymą recenzuoti „{$submissionTitle}“ žurnalui „{$contextName}“. Tikėjomės gauti atsakymą iš jūsų iki {$responseDueDate}, o šis laiškas yra automatiškai sugeneruotas ir išsiųstas jums praėjus nurodytą datą.
-<br />
-Prisijunkite prie žurnalo svetainės iki {$responseDueDate}, kad nurodytumėte ar sutinkate recenzuoti, ar nesutinkate. Taip pat prisijungę galėsite prieiti prie pateikimo, pateikti savo recenziją ir rekomendaciją. Svetainės adresas yra <a href="{$contextUrl}">{$contextUrl}</a><br />
-<br />
-Recenzavimo terminas: {$reviewDueDate}.<br />
-<br />
-Jei neturite savo vartotojo vardo ir slaptažodžio, panaudokite šią nuorodą, kad atkurtumėte savo slaptažodį (kuris bus išsiųstas el. paštu su vartotojo vardu). <a href="{$passwordResetUrl}">{$passwordResetUrl}</a><br />
-<br />
-Pateikimo adresas: <a href="{$submissionReviewUrl}">{$submissionReviewUrl}</a><br />
-<br />
-Patyrę recenzentai itin svarbūs palaikant aukštos kokybės standartus, todėl norėčiau iš anksto padėkoti už bet kokią jūsų pagalbą.<br />
+##email-review-thanks##
 <br />
 {$editorialContactSignature}<br />
 <br />
 „{$submissionTitle}“<br />
 <br />
-{$submissionAbstract}".-->
+{$submissionAbstract}]]></target>
       </body>
       <description>
         <source>This email is automatically sent when a reviewer's confirmation due date elapses (see Review Options under Settings &gt; Workflow &gt; Review) and one-click reviewer access is disabled. Scheduled tasks must be enabled and configured (see the site configuration file).</source>
@@ -21810,8 +21734,7 @@ Submission URL: {$submissionUrl}<br />
     <unit id="section.any">
       <segment>
         <source>Any Section</source>
-        <target></target>
-        <!--NEW-->
+        <target>Bet kuri skiltis</target>
       </segment>
     </unit>
   </file>
@@ -22120,10 +22043,7 @@ Submission URL: {$submissionUrl}<br />
     <unit id="editor.issues.coverPageInstructions">
       <segment>
         <source>(Allowed formats: .gif, .jpg, or .png)</source>
-        <target></target>
-        <!--EDITED-->
-        <!--Old source: "(Allowed formats: .gif, .jpg, or .png )".-->
-        <!--Old translation: "(Leistini formatai: .gif, .jpg arba .png )".-->
+        <target>(Leistini formatai: .gif, .jpg arba .png)</target>
       </segment>
     </unit>
     <unit id="editor.issues.uploaded">
@@ -25553,18 +25473,11 @@ ________________________________________________________________________<br/>
 		There are cases where a single usage statistic must be used, e.g. to display an ordered list of most-used articles or to rank
 		search results. Please select one of the configured metrics as a default.
 	</source>
-        <target></target>
-        <!--EDITED-->
-        <!--Old source: "
-		Your journal is configured to record more than one usage metric. Usage statistics will be displayed in several contexts.
-		There are cases where a single usage statistic must be used, e.g. to display an orderd list of most-used articles or to rank
-		search results. Please select one of the configured metrics as a default.
-	".-->
-        <!--Old translation: "
+        <target>
     Jūsų žurnalas yra sukonfigūruotas įrašyti daugiau nei vieną naudojimo metriką. Naudojimo statistika bus rodoma keliuose kontekstuose.
     Yra atvejų, kur privaloma naudoti bent vieną naudojimo statistiką, pvz. rodyti surikiuotą daugiausiai naudojamų straipsnių sąrašą arba
     paieškos rezultatus. Pasirinkite vieną iš sukonfigūruotų metrikų kaip numatytąją.
-  ".-->
+  </target>
       </segment>
     </unit>
     <unit id="manager.statistics.statistics">
@@ -25714,10 +25627,7 @@ ________________________________________________________________________<br/>
     <unit id="manager.statistics.reports.defaultReport.articleAbstractAndDownloads">
       <segment>
         <source>Article abstract page views and downloads</source>
-        <target></target>
-        <!--EDITED-->
-        <!--Old source: "Article abstract and downloads".-->
-        <!--Old translation: "Straipsnio santrauka ir atsisiuntimai".-->
+        <target>Straipsnio santraukos peržiūros ir atsisiuntimai</target>
       </segment>
     </unit>
     <unit id="manager.statistics.reports.defaultReport.journalIndexPageViews">
@@ -28940,43 +28850,37 @@ Norėdami patvirtinti autorystę, nurodykite savo ORCID id šiame pateikime apla
     <unit id="plugins.importexport.doaj.registrationIntro">
       <segment>
         <source>If you would like to register articles from within OJS, please enter your DOAJ API Key. Else, you'll still be able to export into the DOAJ XML format but you cannot register your articles with DOAJ from within OJS.</source>
-        <target></target>
-        <!--NEW-->
+        <target>Jei norite užregistruoti straipsnius per OJS, įveskite savo DOAJ API raktą. Priešingu atveju, vis tiek galite eksportuoti DOAJ XML formatu, tačiau negalėsite užregistruoti straipsnių per OJS.</target>
       </segment>
     </unit>
     <unit id="plugins.importexport.doaj.settings.form.apiKey">
       <segment>
         <source>DOAJ API Key</source>
-        <target></target>
-        <!--NEW-->
+        <target>DOAJ API raktas</target>
       </segment>
     </unit>
     <unit id="plugins.importexport.doaj.settings.form.apiKey.description">
       <segment>
         <source>You will find your API key on your DOAJ user page.</source>
-        <target></target>
-        <!--NEW-->
+        <target>Savo API raktą rasite DOAJ vartotojo puslapyje.</target>
       </segment>
     </unit>
     <unit id="plugins.importexport.doaj.settings.form.automaticRegistration.description">
       <segment>
         <source>OJS will deposit articles automatically to DOAJ. Please note that this may take a short amount of time after publication to process. You can check for all unregistered articles.</source>
-        <target></target>
-        <!--NEW-->
+        <target>OJS automatiškai deponuos straipsnius į DOAJ. Atkreipkite dėmesį į tai, kad šį procesas gali šiek tiek užtrukti po išleidimo. Bet kuriuo metu galite peržiūrėti visus neužregistruotus straipsnius.</target>
       </segment>
     </unit>
     <unit id="plugins.importexport.doaj.settings.form.testMode.description">
       <segment>
         <source>Use the DOAJ test API (testing environment) for the registration. Please do not forget to remove this option for the production.</source>
-        <target></target>
-        <!--NEW-->
+        <target>Naudokite DOAJ testavimo API (testavimo aplinka) registravimui. Neužmirškite pašalinti šią parinktį gamybai.</target>
       </segment>
     </unit>
     <unit id="plugins.importexport.doaj.register.error.mdsError">
       <segment>
         <source>Deposit was not successful! The DOAJ API returned an error: '{$param}'.</source>
-        <target></target>
-        <!--NEW-->
+        <target>Deponavimas nesėkmingas! DOAJ API grąžino klaidą: '{$param}'.</target>
       </segment>
     </unit>
     <unit id="plugins.importexport.doaj.cliUsage">
@@ -29130,10 +29034,7 @@ Norėdami patvirtinti autorystę, nurodykite savo ORCID id šiame pateikime apla
     <unit id="plugins.importexport.medra.settings.form.automaticRegistration.description">
       <segment>
         <source>OJS will register assigned DOIs automatically to mEDRA. Please note that this may take a short amount of time after publication to process. You can check for all unregistered DOIs.</source>
-        <target></target>
-        <!--EDITED-->
-        <!--Old source: "OJS will register assigned DOIs automatically to mEDRA. Please note that this may take a short amount of time after publication to process. You can check for all unregistered DOIs.>".-->
-        <!--Old translation: "OJS automatiškai užregistruos paskirtus DOI į mEDRA. will register assigned DOIs automatically to mEDRA.  Atkreipkite dėmesį į tai, kad šį procesas gali šiek tiek užtrukti po išleidimo. Bet kuriuo metu galite peržiūrėti visus neužregistruotus DOI.>".-->
+        <target>OJS automatiškai užregistruos paskirtus DOI į mEDRA. Atkreipkite dėmesį į tai, kad šį procesas gali šiek tiek užtrukti po išleidimo. Bet kuriuo metu galite peržiūrėti visus neužregistruotus DOI.</target>
       </segment>
     </unit>
     <unit id="plugins.importexport.medra.settings.form.testMode.description">
@@ -29317,10 +29218,7 @@ Priimtini šie formatai:
     <unit id="plugins.importexport.native.import.error.issueIdentificationMissing">
       <segment>
         <source>The issue identification element is missing for the article "{$articleTitle}".</source>
-        <target></target>
-        <!--EDITED-->
-        <!--Old source: "The issue identification element is missing for the article "{$articleTitle}"".".-->
-        <!--Old translation: "Trūksta numerio identifikavimo elemento straipsniui „{$articleTitle}“.".-->
+        <target>Trūksta numerio identifikavimo elemento straipsniui „{$articleTitle}“.</target>
       </segment>
     </unit>
   </file>
@@ -29374,10 +29272,7 @@ Komandos:
     <unit id="plugins.importexport.pubIds.export.selectIssue.description">
       <segment>
         <source>Please select issues, for whose objects you wish to export the public identifiers.</source>
-        <target></target>
-        <!--EDITED-->
-        <!--Old source: "Please select issues, for whose objects you whish to export the public identifiers.".-->
-        <!--Old translation: "Pasirinkite numerius, kurių objektų viešuosius identifikatorius norite eksportuoti.".-->
+        <target>Pasirinkite numerius, kurių objektų viešuosius identifikatorius norite eksportuoti.</target>
       </segment>
     </unit>
     <unit id="plugins.importexport.pubIds.import">
@@ -29473,10 +29368,7 @@ Komandos:
     <unit id="plugins.importexport.pubIds.import.error.unknownObject">
       <segment>
         <source>The object "{$pubObjectType}" with ID = {$pubObjectId} specified in the element with the value "{$pubId}" does not exist for this journal.</source>
-        <target></target>
-        <!--EDITED-->
-        <!--Old source: "The object "{$pubObjectType}" with ID = {$pubObjectId} specified in the element with the value "{$pubId}" deos not exist for this journal.".-->
-        <!--Old translation: "Nurodytas objektas „{$pubObjectType}“ su ID = {$pubObjectId} elemente, kurio reikšmė „{$pubId}“, neegzistuoja šiame žurnale.".-->
+        <target>Nurodytas objektas „{$pubObjectType}“ su ID = {$pubObjectId} elemente, kurio reikšmė „{$pubId}“, neegzistuoja šiame žurnale.</target>
       </segment>
     </unit>
     <unit id="plugins.importexport.pubIds.import.error.pubIdExists">
@@ -30618,92 +30510,79 @@ Serverio kintamieji:<br />
     <unit id="plugins.reports.reviews.displayName">
       <segment>
         <source>Review Report</source>
-        <target></target>
-        <!--NEW-->
+        <target>Recenzavimo ataskaita</target>
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.description">
       <segment>
         <source>This plugin implements a CSV report containing a list of review assignments for a journal.</source>
-        <target></target>
-        <!--NEW-->
+        <target>Įskiepis realizuoja CSV ataskaitą turinčią recenzavimo užduočių sąrašą.</target>
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.round">
       <segment>
         <source>Round</source>
-        <target></target>
-        <!--NEW-->
+        <target>Etapas</target>
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.submissionTitle">
       <segment>
         <source>Submission Title</source>
-        <target></target>
-        <!--NEW-->
+        <target>Pateikimo pavadinimas</target>
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.submissionId">
       <segment>
         <source>Submission ID</source>
-        <target></target>
-        <!--NEW-->
+        <target>Pateikimo ID</target>
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.reviewer">
       <segment>
         <source>Reviewer</source>
-        <target></target>
-        <!--NEW-->
+        <target>Recenzentas</target>
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.dateAssigned">
       <segment>
         <source>Date Assigned</source>
-        <target></target>
-        <!--NEW-->
+        <target>Paskyrimo data</target>
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.dateNotified">
       <segment>
         <source>Date Notified</source>
-        <target></target>
-        <!--NEW-->
+        <target>Informavimo data</target>
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.dateConfirmed">
       <segment>
         <source>Date Confirmed</source>
-        <target></target>
-        <!--NEW-->
+        <target>Patvirtinimo data</target>
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.dateCompleted">
       <segment>
         <source>Date Completed</source>
-        <target></target>
-        <!--NEW-->
+        <target>Užbaigimo data</target>
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.dateReminded">
       <segment>
         <source>Date Reminded</source>
-        <target></target>
-        <!--NEW-->
+        <target>Priminimo data</target>
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.recommendation">
       <segment>
         <source>Recommendation</source>
-        <target></target>
-        <!--NEW-->
+        <target>Rekomendacija</target>
       </segment>
     </unit>
     <unit id="plugins.reports.reviews.comments">
       <segment>
         <source>Comments On Submission</source>
-        <target></target>
-        <!--NEW-->
+        <target>Komentarai apie pateikimą</target>
       </segment>
     </unit>
   </file>

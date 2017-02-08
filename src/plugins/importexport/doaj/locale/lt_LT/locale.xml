@@ -18,12 +18,12 @@
     <message key="plugins.importexport.doaj.displayName">DOAJ eksportavimo įskiepis Plugin</message>
     <message key="plugins.importexport.doaj.description">Įskiepis eksportuoja žurnalą į DOAJ.</message>
     <message key="plugins.importexport.doaj.export.contact">Susisiekite su DOAJ dėl įtraukimo</message>
-    <message key="plugins.importexport.doaj.registrationIntro">If you would like to register articles from within OJS, please enter your DOAJ API Key. Else, you'll still be able to export into the DOAJ XML format but you cannot register your articles with DOAJ from within OJS.</message>
-    <message key="plugins.importexport.doaj.settings.form.apiKey">DOAJ API Key</message>
-    <message key="plugins.importexport.doaj.settings.form.apiKey.description">You will find your API key on your DOAJ user page.</message>
-    <message key="plugins.importexport.doaj.settings.form.automaticRegistration.description">OJS will deposit articles automatically to DOAJ. Please note that this may take a short amount of time after publication to process. You can check for all unregistered articles.</message>
-    <message key="plugins.importexport.doaj.settings.form.testMode.description">Use the DOAJ test API (testing environment) for the registration. Please do not forget to remove this option for the production.</message>
-    <message key="plugins.importexport.doaj.register.error.mdsError">Deposit was not successful! The DOAJ API returned an error: '{$param}'.</message>
+    <message key="plugins.importexport.doaj.registrationIntro">Jei norite užregistruoti straipsnius per OJS, įveskite savo DOAJ API raktą. Priešingu atveju, vis tiek galite eksportuoti DOAJ XML formatu, tačiau negalėsite užregistruoti straipsnių per OJS.</message>
+    <message key="plugins.importexport.doaj.settings.form.apiKey">DOAJ API raktas</message>
+    <message key="plugins.importexport.doaj.settings.form.apiKey.description">Savo API raktą rasite DOAJ vartotojo puslapyje.</message>
+    <message key="plugins.importexport.doaj.settings.form.automaticRegistration.description">OJS automatiškai deponuos straipsnius į DOAJ. Atkreipkite dėmesį į tai, kad šį procesas gali šiek tiek užtrukti po išleidimo. Bet kuriuo metu galite peržiūrėti visus neužregistruotus straipsnius.</message>
+    <message key="plugins.importexport.doaj.settings.form.testMode.description">Naudokite DOAJ testavimo API (testavimo aplinka) registravimui. Neužmirškite pašalinti šią parinktį gamybai.</message>
+    <message key="plugins.importexport.doaj.register.error.mdsError">Deponavimas nesėkmingas! DOAJ API grąžino klaidą: '{$param}'.</message>
     <message key="plugins.importexport.doaj.cliUsage">Naudojimas:
 {$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
 </message>

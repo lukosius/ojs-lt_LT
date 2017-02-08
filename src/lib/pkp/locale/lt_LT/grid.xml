@@ -229,5 +229,5 @@
     <message key="grid.userGroup.assignedStage">Vaidmuo „{$userGroupName}“ paskirtas į „{$stageName}“ etapą.</message>
     <message key="grid.userGroup.unassignedStage">Vaidmens „{$userGroupName}“ paskyrimas atšauktas iš „{$stageName}“ etapo.</message>
     <message key="grid.submission.itemTitle">Autorius; Pavadinimas</message>
-    <message key="grid.submission.active.selectOrphaned">Include incomplete submissions not submitted by an author.</message>
+    <message key="grid.submission.active.selectOrphaned">Įtraukti neužbaigtus pateikimus, kurių autorius nepateikė.</message>
 </locale>

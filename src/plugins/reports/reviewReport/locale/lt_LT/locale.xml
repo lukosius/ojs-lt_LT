@@ -15,17 +15,17 @@
   -->
 
 <locale name="lt_LT" full_name="Lietuvių">
-    <message key="plugins.reports.reviews.displayName">Review Report</message>
-    <message key="plugins.reports.reviews.description">This plugin implements a CSV report containing a list of review assignments for a journal.</message>
-    <message key="plugins.reports.reviews.round">Round</message>
-    <message key="plugins.reports.reviews.submissionTitle">Submission Title</message>
-    <message key="plugins.reports.reviews.submissionId">Submission ID</message>
-    <message key="plugins.reports.reviews.reviewer">Reviewer</message>
-    <message key="plugins.reports.reviews.dateAssigned">Date Assigned</message>
-    <message key="plugins.reports.reviews.dateNotified">Date Notified</message>
-    <message key="plugins.reports.reviews.dateConfirmed">Date Confirmed</message>
-    <message key="plugins.reports.reviews.dateCompleted">Date Completed</message>
-    <message key="plugins.reports.reviews.dateReminded">Date Reminded</message>
-    <message key="plugins.reports.reviews.recommendation">Recommendation</message>
-    <message key="plugins.reports.reviews.comments">Comments On Submission</message>
+    <message key="plugins.reports.reviews.displayName">Recenzavimo ataskaita</message>
+    <message key="plugins.reports.reviews.description">Įskiepis realizuoja CSV ataskaitą turinčią recenzavimo užduočių sąrašą.</message>
+    <message key="plugins.reports.reviews.round">Etapas</message>
+    <message key="plugins.reports.reviews.submissionTitle">Pateikimo pavadinimas</message>
+    <message key="plugins.reports.reviews.submissionId">Pateikimo ID</message>
+    <message key="plugins.reports.reviews.reviewer">Recenzentas</message>
+    <message key="plugins.reports.reviews.dateAssigned">Paskyrimo data</message>
+    <message key="plugins.reports.reviews.dateNotified">Informavimo data</message>
+    <message key="plugins.reports.reviews.dateConfirmed">Patvirtinimo data</message>
+    <message key="plugins.reports.reviews.dateCompleted">Užbaigimo data</message>
+    <message key="plugins.reports.reviews.dateReminded">Priminimo data</message>
+    <message key="plugins.reports.reviews.recommendation">Rekomendacija</message>
+    <message key="plugins.reports.reviews.comments">Komentarai apie pateikimą</message>
 </locale>

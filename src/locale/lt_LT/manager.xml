@@ -337,10 +337,10 @@
     <message key="manager.setup.userRegistration">Vartotojo registracija</message>
     <message key="manager.setup.useTextTitle">Pavadinimas</message>
     <message key="manager.statistics.defaultMetricDescription">
-		Your journal is configured to record more than one usage metric. Usage statistics will be displayed in several contexts.
-		There are cases where a single usage statistic must be used, e.g. to display an ordered list of most-used articles or to rank
-		search results. Please select one of the configured metrics as a default.
-	</message>
+    Jūsų žurnalas yra sukonfigūruotas įrašyti daugiau nei vieną naudojimo metriką. Naudojimo statistika bus rodoma keliuose kontekstuose.
+    Yra atvejų, kur privaloma naudoti bent vieną naudojimo statistiką, pvz. rodyti surikiuotą daugiausiai naudojamų straipsnių sąrašą arba
+    paieškos rezultatus. Pasirinkite vieną iš sukonfigūruotų metrikų kaip numatytąją.
+  </message>
     <message key="manager.statistics.statistics">Žurnalo statistika</message>
     <message key="manager.statistics.statistics.articleViews">Straipsnio peržiūrų skaičius (tik autoriams)</message>
     <message key="manager.statistics.statistics.count.accept">Priimta</message>
@@ -365,7 +365,7 @@
     <message key="manager.statistics.statistics.subscriptions">Prenumeratų</message>
     <message key="manager.statistics.reports.defaultReport.articleDownloads">Straipsnio failo atsisiuntimų</message>
     <message key="manager.statistics.reports.defaultReport.articleAbstract">Straipsnio santraukos puslapio peržiūros</message>
-    <message key="manager.statistics.reports.defaultReport.articleAbstractAndDownloads">Article abstract page views and downloads</message>
+    <message key="manager.statistics.reports.defaultReport.articleAbstractAndDownloads">Straipsnio santraukos peržiūros ir atsisiuntimai</message>
     <message key="manager.statistics.reports.defaultReport.journalIndexPageViews">Žurnalo pagrindinio puslapio peržiūros</message>
     <message key="manager.statistics.reports.defaultReport.issuePageViews">Numerio turinio peržiūros</message>
     <message key="manager.statistics.reports.filters.byContext.description">Susiaurinti rezultatus pagal kontekstą (numeriai ir/ar straipsnis).</message>

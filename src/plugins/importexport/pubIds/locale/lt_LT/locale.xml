@@ -26,7 +26,7 @@ Komandos:
     <message key="plugins.importexport.pubIds.export">Eksportuoti viešuosius identifikatorius</message>
     <message key="plugins.importexport.pubIds.export.forIssues">Eksportuoti viešuosius identifikatorius</message>
     <message key="plugins.importexport.pubIds.export.selectIssue">Pasirinkite numerį</message>
-    <message key="plugins.importexport.pubIds.export.selectIssue.description">Please select issues, for whose objects you wish to export the public identifiers.</message>
+    <message key="plugins.importexport.pubIds.export.selectIssue.description">Pasirinkite numerius, kurių objektų viešuosius identifikatorius norite eksportuoti.</message>
     <message key="plugins.importexport.pubIds.import">Importuoti viešuosius identifikatorius</message>
     <message key="plugins.importexport.pubIds.import.description">Įskiepis palaiko viešųjų identifikatorių importavimą paremtą „pubIds.dtd“ dokumento tipo apibrėžtimi.</message>
     <message key="plugins.importexport.pubIds.import.results">Importuoti rezultatus</message>
@@ -42,7 +42,7 @@ Komandos:
     <message key="plugins.importexport.pubIds.import.error.uploadFailed">Nusiuntimas nepavyko; įsitikinkite, kad nusiuntimai yra leidžiami serveryje ir, kad failas nėra per didelis PHP ir serverio konfigūracijai.</message>
     <message key="plugins.importexport.pubIds.import.error.unsupportedRoot">Įskiepis nepalaiko nurodyto šakninio mazgo „{$rootName}“. Įsitikinkite, kad failas yra korektiškai suformuotas ir mėginkite iš naujo.</message>
     <message key="plugins.importexport.pubIds.import.error.unknownObjectType">Buvo nurodytas nežinomas objekto tipas „{$pubObjectType}“ elemento požymyje „pubObjectType“, kurio reikšmė „{$pubId}“.</message>
-    <message key="plugins.importexport.pubIds.import.error.unknownObject">The object "{$pubObjectType}" with ID = {$pubObjectId} specified in the element with the value "{$pubId}" does not exist for this journal.</message>
+    <message key="plugins.importexport.pubIds.import.error.unknownObject">Nurodytas objektas „{$pubObjectType}“ su ID = {$pubObjectId} elemente, kurio reikšmė „{$pubId}“, neegzistuoja šiame žurnale.</message>
     <message key="plugins.importexport.pubIds.import.error.pubIdExists">Tipo „{$pubIdType}“ viešasis identifikatorius objektui {$pubObjectType} su ID = {$pubObjectId} jau egzistuoja.</message>
     <message key="plugins.importexport.pubIds.import.error.duplicatePubId">Viešasis identifikatorius „{$pubId}“ jau yra naudojamas kito objekto.</message>
     <message key="plugins.importexport.pubIds.import.error.unknownPubId">Importavimo failas turi viešąjį identifikatoriaus tipą „{$pubIdType}“, kurio šis įskiepis nepalaiko. Įdiekite ir/arba aktyvuokite atitinkamą pubId įskiepį prieš mėgindami importuoti šį duomenų rinkinį.</message>

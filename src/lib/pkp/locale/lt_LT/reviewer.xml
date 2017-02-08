@@ -45,5 +45,5 @@
     <message key="reviewer.aboutDueDates.text">Redaktorius prašo, kad priimtumėte ar atmestumėte recenzavimą iki „Atsako pabaigos data“ ir užbaigtumėte recenzavimą iki „Recenzavimo pabaigos data“.</message>
     <message key="submission.comments.canShareWithAuthor">Autoriui ir redaktoriui</message>
     <message key="submission.comments.cannotShareWithAuthor">Tik redaktoriui</message>
-    <message key="user.authorization.submissionReviewer">The current user is not assigned as a reviewer for the requested document.</message>
+    <message key="user.authorization.submissionReviewer">Dabartinis vartotojas nėra paskirtas kaip prašyto dokumento recenzentas.</message>
 </locale>

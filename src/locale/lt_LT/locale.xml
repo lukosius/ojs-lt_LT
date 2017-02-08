@@ -247,8 +247,8 @@
 <ul>
 	<li>Jei vartotojas bando užregistruoti naują paskyrą šioje svetainėje ir tapatybės nustatymo šaltinyje nurodytas vardas jau egzistuoja (bet ne OJS vartotojų duomenų bazėje), registracija bus patvirtinta tik tuo atveju jei nurodytas slaptažodis sutaps su išoriniame šaltinyje įrašytu slaptažodžiu.</li>
 </ul>]]></message>
-    <message key="admin.overwriteConfigFileInstructions"><![CDATA[<h4>NOTE!</h4>
-<p>The system could not automatically overwrite the configuration file. To apply your configuration changes you must open <tt>config.inc.php</tt> in a suitable text editor and replace its contents with the contents of the text field below.</p>]]></message>
+    <message key="admin.overwriteConfigFileInstructions"><![CDATA[<h4>PASTABA!</h4>
+<p>Sistemai nepavyko automatiškai perrašyti konfigūracijos failo. Norėdami įrašyti pakeitimus, su teksto redaktoriumi turite atverti <tt>config.inc.php</tt> failą ir pakeisti jo turinį su žemiau pateiktu laukelio turiniu.</p>]]></message>
     <message key="subscriptionManager.subscriptionManagement">Prenumeratos tvarkymas</message>
     <message key="subscriptionManager.individualSubscriptions">Individualios prenumeratos</message>
     <message key="subscriptionManager.institutionalSubscriptions">Institucijos prenumeratos</message>
@@ -264,21 +264,21 @@ LOCKSS palaikymo „Open Journal Systems“ konfigūravimo nereikėtų pradėti 
     <message key="manager.setup.clockssDescription"><![CDATA[„Open Journal Systems“ taip pat palaiko <a href="http://clockss.org/" target="_blank">CLOCKSS</a> (Controlled Lots of Copies Keep Stuff Safe) sistemą, kad užtikrintų saugų ir nuolatinį žurnalo archyvavimą. CLOCKSS yra paremta LOCKSS atvirojo kodo programine įranga sukurtą Stanfordo universiteto bibliotekos, kuri leidžia bibliotekoms išlaikyti pasirinktus internetinius žurnalus reguliariai peržiūrint žurnalo svetainę ir archyvuojant jų turinį. Kiekvienas archyvas yra nuolatos tikrinamas su kitais bibliotekų podėliais ir jei rasta turinys yra sugadintas ar prarastas, tuomet naudojami kiti podėliai ir žurnalas, kad atkurtų jį.
 <br /><br />
 CLOCKSS palaikymo „Open Journal Systems“ nereikėtų pradėti kol neprasidėjo aktyvi leidyba.]]></message>
-    <message key="manager.setup.authorCopyrightNotice.sample"><![CDATA[<h3>Proposed Creative Commons Copyright Notices</h3>
-<h4>1. Proposed Policy for Journals That Offer Open Access</h4>
-Authors who publish with this journal agree to the following terms:
+    <message key="manager.setup.authorCopyrightNotice.sample"><![CDATA[<h3>„Creative Commons“ autorinių teisių pranešimai</h3>
+<h4>1. Siūloma politika žurnalams su atvirąja prieiga</h4>
+Autoriai, kurie nori leisti straipsnius šiame žurnale, sutinka su šiomis sąlygomis:
 <ol type="a">
-	<li>Authors retain copyright and grant the journal right of first publication with the work simultaneously licensed under a <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a> that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal.</li>
-	<li>Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.</li>
-	<li>Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">The Effect of Open Access</a>).</li>
+    <li>Autoriai pasilieka autorines teises ir žurnalui perleidžia teisę į pirmojo straipsnio paskelbimą, o tuo pačiu darbas yra licencijuojamas pagal <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a>, kuri trečiosioms šalims leidžia dalintis darbu, nurodant straipsnio autorystę ir nuorodą į šį žurnalą kaip pradinio paskelbimo vietą.</li>
+    <li>Autoriai gali sudaryti bet kokias, tačiau ne išimtines, sutartis, liečiančias žurnale patalpinto straipsnio platinimą ar kitokį panaudojimą (pvz. perduoti straipsnį į institucinę talpyklą ar publikuoti knygoje), pateikiant nuorodą į šį žurnalą kaip pradinio paskelbimo vietą.</li>
+    <li>Autoriams leidžiama pateikti savo darbą internete (pvz. institucinėse talpyklose ar jų svetainėse), tiek prieš straipsnio pateikimą, tiek straipsnio pateikimo metu. Tokie veiksmai yra naudingi tuo, kad gali pagreitinti informacijos mainus, paankstinti ir padidinti publikuojamo darbo cituojamumą (žr. <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">The Effect of Open Access</a>).</li>
 </ol>
 
-<h4>2. Proposed Policy for Journals That Offer Delayed Open Access</h4>
-Authors who publish with this journal agree to the following terms:
+<h4>2. Žurnalams su uždelsta atvirąja prieiga</h4>
+Autoriai, kurie nori leisti straipsnius šiame žurnale, sutinka su šiomis sąlygomis:
 <ol type="a">
-	<li>Authors retain copyright and grant the journal right of first publication, with the work [SPECIFY PERIOD OF TIME] after publication simultaneously licensed under a <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a> that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal.</li>
-	 <li>Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.</li>
-	 <li>Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html"> The Effect of Open Access</a>).</li>
+    <li>Autoriai pasilieka autorines teises ir žurnalui perleidžia teisę į pirmojo straipsnio paskelbimą. Praėjus [NURODYTI LAIKOTARPĮ] po straipsnio publikavimo, darbas tuo pačiu yra licencijuojamas pagal <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a>, kuri trečiosioms šalims leidžia dalintis darbu, nurodant straipsnio autorystę ir nuorodą į šį žurnalą kaip pradinio paskelbimo vietą.</li>
+     <li>Autoriai gali sudaryti bet kokias, tačiau ne išimtines, sutartis, liečiančias žurnale patalpinto straipsnio platinimą ar kitokį panaudojimą (pvz. perduoti straipsnį į institucinę talpyklą ar publikuoti knygoje), pateikiant nuorodą į šį žurnalą kaip pradinio paskelbimo vietą.</li>
+     <li>Autoriams leidžiama pateikti savo darbą internete (pvz. institucinėse talpyklose ar jų svetainėse), tiek prieš straipsnio pateikimą, tiek straipsnio pateikimo metu. Tokie veiksmai yra naudingi tuo, kad gali pagreitinti informacijos mainus, paankstinti ir padidinti publikuojamo darbo cituojamumą (žr. <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">The Effect of Open Access</a>).</li>
 </ol>]]></message>
     <message key="manager.setup.citations.enable">Įgalinti citatų ženklinimo pagelbiklį</message>
     <message key="manager.setup.basicEditorialStepsDescription"><![CDATA[Žingsniai: Pateikimo eilė &gt; Pateikimo recenzavimas &gt; Pateikimo redagavimas &gt; Turinys.<br /><br />
