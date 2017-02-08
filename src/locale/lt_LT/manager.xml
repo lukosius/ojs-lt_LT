@@ -564,7 +564,7 @@
     <message key="plugins.importexport.common.export.issues">Numeriai</message>
     <message key="plugins.importexport.common.export.representations">Maketai</message>
     <message key="plugins.importexport.common.missingRequirements">Neatitikti įskiepio reikalavimai</message>
-    <message key="plugins.importexport.common.error.DOIsNotAvailable">Norint naudoti šį įskiepį, nueikite į „Viešieji identifikatoriai“ įskiepio grupę, įgalinti ir sukonfigūruokite DOI įskiepį ir nurodykite galiojantį DOI priešdėlį.</message>
+    <message key="plugins.importexport.common.error.DOIsNotAvailable">Norint naudoti šį įskiepį, nueikite į „Viešieji identifikatoriai“ įskiepio grupę, įgalinkite ir sukonfigūruokite DOI įskiepį ir nurodykite galiojantį DOI priešdėlį.</message>
     <message key="plugins.importexport.common.error.pluginNotConfigured">Įskiepis nėra visiškai sukonfigūruotas.</message>
     <message key="plugins.importexport.common.error.noDOIContentObjects">Nėra išleistų objektų parinktų DOI užduočiai DOI viešojo identifikatoriaus įskiepyje, todėl čia nėra deponavimo ar eksportavimo galimybės.</message>
     <message key="plugins.importexport.common.settings.form.password">Slaptažodis</message>
